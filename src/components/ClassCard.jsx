@@ -1,37 +1,73 @@
+import React, { useState } from 'react';
+import { db } from '../services/firebase';
+import { collection, addDoc, doc, updateDoc, getDoc } from 'firebase/firestore';
 
-import React from 'react';
-import { Calendar, Clock, User, Users } from 'lucide-react';
+// נניח שאתה מעביר את classInfo ואת המשתמש הנוכחי (employee)
+const ClassCard = ({ classInfo, employee }) => {
+  const [message, setMessage] = useState('');
 
-const ClassCard = ({ classInfo, isBooking }) => {
+    const handleBooking = async () => {
+      if (!employee) {
+        setMessage('❗ עליך להתחבר כדי להזמין מקום');
+        return;
+      }
+    
+      try {
+        const classRef = doc(db, 'classes', classInfo.id);
+        const classSnap = await getDoc(classRef);
+        const currentClass = classSnap.data();
+    
+        if (!currentClass || currentClass.spots <= 0) {
+          setMessage('❗ אין יותר מקומות פנויים');
+          return;
+        }
+    
+        // מוסיף את ההזמנה ל-Collection 'bookings'
+        await addDoc(collection(db, 'bookings'), {
+          userId: employee.phone,
+          classId: classInfo.id,
+          name: classInfo.name,
+          instructor: classInfo.instructor,
+          date: classInfo.date,
+          time: classInfo.time,
+          createdAt: new Date(),
+        });
+    
+        // מעדכן את כמות המקומות - מוריד מקום אחד
+        await updateDoc(classRef, {
+          spots: currentClass.spots - 1, // 👈 הקטנת הכמות ב-1
+        });
+    
+        setMessage('✔️ נרשמת בהצלחה!');
+    
+      } catch (error) {
+        console.error('❌ שגיאה ברישום לשיעור:', error);
+        setMessage('❌ שגיאה ברישום. נסה שוב');
+      }
+    };
+    
+
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-lg p-4 mb-4 shadow-md text-black dark:text-white">
-      <div className="flex justify-between items-center mb-2">
-        <h3 className="font-bold text-lg">{classInfo.name}</h3>
-        {!isBooking && (
-          <button className="bg-blue-500 text-white px-3 py-1 rounded-full text-sm hover:bg-blue-600">הזמן מקום</button>
-        )}
-      </div>
-      <div className="flex items-center mb-1">
-        <User size={16} className="ml-2" />
-        <span>{classInfo.instructor}</span>
-      </div>
-      <div className="flex items-center mb-1">
-        <Clock size={16} className="ml-2" />
-        <span>{classInfo.time}</span>
-      </div>
-      <div className="flex items-center">
-        <Calendar size={16} className="ml-2" />
-        <span>{classInfo.date}</span>
-      </div>
-      {!isBooking && (
-        <div className="flex items-center mt-2 text-gray-600 dark:text-gray-300">
-          <Users size={16} className="ml-2" />
-          <span>{classInfo.spots} מקומות פנויים</span>
-        </div>
-      )}
-      {isBooking && (
-        <button className="mt-2 text-red-500 text-sm hover:text-red-700">בטל הזמנה</button>
-      )}
+    <div className="bg-gray-800 text-white p-4 rounded shadow relative mb-4">
+      <h2 className="text-lg font-bold mb-2">{classInfo.name}</h2>
+      <p>מדריך: {classInfo.instructor}</p>
+      <p>תאריך: {classInfo.date}</p>
+      <p>שעה: {classInfo.time}</p>
+      <p>מקומות פנויים: {classInfo.spots}</p>
+
+      {message && <p className="text-green-400 mt-2">{message}</p>}
+
+      <button
+        onClick={handleBooking}
+        disabled={classInfo.spots <= 0}
+        className={`mt-3 px-4 py-2 rounded ${
+          classInfo.spots > 0
+            ? 'bg-blue-600 hover:bg-blue-700'
+            : 'bg-gray-400 cursor-not-allowed'
+        }`}
+      >
+        {classInfo.spots > 0 ? 'הזמן מקום' : 'אין מקומות'}
+      </button>
     </div>
   );
 };

@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import TopHeader from '../components/TopHeader';
-import ClassCard from '../components/ClassCard';
-import { db } from '../services/firebase';
-import { collection, getDocs } from 'firebase/firestore';
+import React, { useState, useEffect } from "react";
+import TopHeader from "../components/TopHeader";
+import ClassCard from "../components/ClassCard";
+import { db } from "../services/firebase";
+import { collection, getDocs } from "firebase/firestore";
 
 // ייבוא Framer Motion
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
-const HomePage = () => {
+const HomePage = ({employee}) => {
   // סטייט לשיעורים הקרובים
   const [upcomingClasses, setUpcomingClasses] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -16,16 +16,16 @@ const HomePage = () => {
   const fetchClasses = async () => {
     setLoading(true);
     try {
-      const querySnapshot = await getDocs(collection(db, 'classes'));
-      const classesData = querySnapshot.docs.map(doc => ({
+      const querySnapshot = await getDocs(collection(db, "classes"));
+      const classesData = querySnapshot.docs.map((doc) => ({
         id: doc.id,
-        ...doc.data()
+        ...doc.data(),
       }));
 
-      console.log('🎯 שיעורים נטענו ל-HomePage:', classesData);
+      console.log("🎯 שיעורים נטענו ל-HomePage:", classesData);
       setUpcomingClasses(classesData);
     } catch (error) {
-      console.error('❌ שגיאה בטעינת שיעורים:', error);
+      console.error("❌ שגיאה בטעינת שיעורים:", error);
     }
     setLoading(false);
   };
@@ -57,7 +57,8 @@ const HomePage = () => {
           {/* מציג את ההמלצה מהשיעור הראשון אם יש */}
           {upcomingClasses.length > 0 ? (
             <p>
-              שיעור {upcomingClasses[0].name} עם {upcomingClasses[0].instructor} ב-{upcomingClasses[0].time}! מומלץ במיוחד למתחילים.
+              שיעור {upcomingClasses[0].name} עם {upcomingClasses[0].instructor}{" "}
+              ב-{upcomingClasses[0].time}! מומלץ במיוחד למתחילים.
             </p>
           ) : (
             <p>אין שיעורים זמינים להמלצה כרגע.</p>
@@ -76,7 +77,12 @@ const HomePage = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1 }}
             >
-              <ClassCard classInfo={cls} isBooking={false} />
+              {/* תוסיף כאן את העברת ה־employee */}
+              <ClassCard
+                classInfo={cls}
+                employee={employee} // 👈 זה מה שחסר לך
+                isBooking={false} // אם אתה רוצה לשמור את זה או להסיר, תלוי בך
+              />
             </motion.div>
           ))
         )}
