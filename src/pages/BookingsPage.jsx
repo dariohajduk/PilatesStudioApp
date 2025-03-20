@@ -18,7 +18,8 @@ const BookingsPage = ({ employee }) => {
       const bookingsList = querySnapshot.docs.map((doc) => ({
         id: doc.id,
         ...doc.data(),
-      }));
+      })); 
+      
 
       setBookings(bookingsList);
     } catch (error) {
