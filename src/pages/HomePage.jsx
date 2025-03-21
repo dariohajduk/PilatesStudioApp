@@ -4,6 +4,7 @@ import ClassCard from "../components/ClassCard";
 import { db } from "../services/firebase";
 import { collection, getDocs, query, where } from "firebase/firestore";
 import { motion } from "framer-motion";
+import MainLayout from "../components/MainLayout";
 
 const HomePage = ({ employee }) => {
   const [upcomingClasses, setUpcomingClasses] = useState([]);
@@ -87,6 +88,7 @@ const HomePage = ({ employee }) => {
   }
 
   return (
+    <MainLayout employee={employee}>
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
@@ -133,6 +135,7 @@ const HomePage = ({ employee }) => {
         )}
       </div>
     </motion.div>
+    </MainLayout>
   );
 };
 

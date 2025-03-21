@@ -30,9 +30,11 @@ const App = () => {
   useEffect(() => {
     const storedPhone = localStorage.getItem("employeePhone");
     const storedRole = localStorage.getItem("employeeRole");
+    const storedName = localStorage.getItem("employeeName");
+
 
     if (storedPhone && storedRole) {
-      setEmployee({ phone: storedPhone, role: storedRole });
+      setEmployee({ phone: storedPhone, role: storedRole, name: storedName || '',});
     }
   }, []);
 
@@ -67,6 +69,8 @@ const App = () => {
         return <AdminDashboard employee={employee} />;
       case "adminClasses":
         return <AdminClassesPanel employee={employee} />;
+      case "mainLayout":
+        return <MainLayout employee={employee} />;
       default:
         return <HomePage employee={employee} />;
     }

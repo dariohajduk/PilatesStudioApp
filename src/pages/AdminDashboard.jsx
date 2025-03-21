@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import AdminUsersPanel from './AdminUsersPanel';
 import AdminInstructorsPanel from './AdminInstructorsPanel';
 import AdminClassesPanel from './AdminClassesPanel';
+import MainLayout from '../components/MainLayout'; // או הנתיב הנכון אצלך
+
 
 const AdminDashboard = ({ employee }) => {
   const [selectedPanel, setSelectedPanel] = useState('');
@@ -25,6 +27,7 @@ const AdminDashboard = ({ employee }) => {
         return <AdminClassesPanel employee={employee} />;
       default:
         return (
+            <MainLayout>
           <div className="grid gap-4">
             <h1 className="text-2xl font-bold mb-4">ניהול מערכת</h1>
 
@@ -48,7 +51,9 @@ const AdminDashboard = ({ employee }) => {
             >
               ניהול שיעורים
             </button>
-          </div>
+          </div>    
+          </MainLayout>
+
         );
     }
   };
