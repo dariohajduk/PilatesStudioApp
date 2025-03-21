@@ -1,21 +1,62 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { db } from '../services/firebase';
-import { collection, addDoc, doc, updateDoc, getDoc } from 'firebase/firestore';
+import {
+  addDoc,
+  deleteDoc,
+  doc,
+  getDoc,
+  updateDoc,
+  collection,
+  query,
+  where,
+  getDocs,
+} from 'firebase/firestore';
 
-const ClassCard = ({ classInfo, employee, isAlreadyBooked, refreshBookings, isPastClass, handleCancelBooking }) => {
+const ClassCard = ({
+  classInfo,
+  employee,
+  isAlreadyBooked,
+  refreshBookings,
+  isPastClass,
+}) => {
   const [message, setMessage] = useState('');
   const [loading, setLoading] = useState(false);
+  const [registeredCount, setRegisteredCount] = useState(0);
+  const [totalSpots, setTotalSpots] = useState(0);
+
+  useEffect(() => {
+    const calcRegistered = async () => {
+      try {
+        const bookingsRef = collection(db, 'bookings');
+        const q = query(bookingsRef, where('classId', '==', classInfo.id));
+        const querySnapshot = await getDocs(q);
+
+        const registered = querySnapshot.docs.length;
+        const spotsLeft = classInfo.spots;
+
+        setRegisteredCount(registered);
+        setTotalSpots(registered + spotsLeft);
+      } catch (error) {
+        console.error('❌ שגיאה בחישוב רשומים:', error);
+      }
+    };
+
+    calcRegistered();
+  }, [classInfo]);
 
   const handleBooking = async () => {
-    // אם אין עובד מחובר
     if (!employee) {
       setMessage('❗ עליך להתחבר כדי להזמין מקום');
       return;
     }
 
-    // אם כבר רשום
     if (isAlreadyBooked) {
       setMessage('❗ כבר נרשמת לשיעור הזה');
+      return;
+    }
+
+    if (isPastClass) {
+      setMessage('❗ לא ניתן להירשם לשיעור שהסתיים');
       return;
     }
 
@@ -23,7 +64,6 @@ const ClassCard = ({ classInfo, employee, isAlreadyBooked, refreshBookings, isPa
     setMessage('');
 
     try {
-      // בדיקת כמות מקומות בזמן אמת
       const classRef = doc(db, 'classes', classInfo.id);
       const classSnap = await getDoc(classRef);
       const currentClass = classSnap.data();
@@ -34,7 +74,6 @@ const ClassCard = ({ classInfo, employee, isAlreadyBooked, refreshBookings, isPa
         return;
       }
 
-      // הוספת הזמנה
       await addDoc(collection(db, 'bookings'), {
         userId: employee.phone,
         classId: classInfo.id,
@@ -45,62 +84,115 @@ const ClassCard = ({ classInfo, employee, isAlreadyBooked, refreshBookings, isPa
         createdAt: new Date(),
       });
 
-      // עדכון מקומות פנויים בשיעור
       await updateDoc(classRef, {
         spots: currentClass.spots - 1,
       });
 
       setMessage('✔️ נרשמת בהצלחה!');
-
-      // רענון ההזמנות במסך הראשי כדי לשקף שהמשתמש רשום
-      if (refreshBookings) {
-        await refreshBookings();
-      }
+      if (refreshBookings) await refreshBookings();
     } catch (error) {
-      console.error('❌ שגיאה ברישום לשיעור:', error);
-      setMessage('❌ שגיאה ברישום. נסה שוב');
+      console.error('❌ שגיאה בהרשמה:', error);
+      setMessage('❌ שגיאה בהרשמה. נסה שוב');
     }
 
     setLoading(false);
   };
 
-  const classDateTime = new Date(`${classInfo.date.split('/').reverse().join('-')}T${classInfo.time}`);
-  const now = new Date();
-  const hoursDifference = (classDateTime - now) / (1000 * 60 * 60);
+  const handleCancelBooking = async () => {
+    if (!employee) return;
+
+    setLoading(true);
+
+    try {
+      const bookingsRef = collection(db, 'bookings');
+      const q = query(
+        bookingsRef,
+        where('userId', '==', employee.phone),
+        where('classId', '==', classInfo.id)
+      );
+      const querySnapshot = await getDocs(q);
+
+      if (querySnapshot.empty) {
+        setMessage('❗ לא נמצאה שיעור לביטול');
+        setLoading(false);
+        return;
+      }
+
+      const bookingDoc = querySnapshot.docs[0];
+      await deleteDoc(doc(db, 'bookings', bookingDoc.id));
+
+      const classRef = doc(db, 'classes', classInfo.id);
+      const classSnap = await getDoc(classRef);
+      const currentClass = classSnap.data();
+
+      await updateDoc(classRef, {
+        spots: currentClass.spots + 1,
+      });
+
+      setMessage('✔️ השיעור בוטל בהצלחה');
+      if (refreshBookings) await refreshBookings();
+    } catch (error) {
+      console.error('❌ שגיאה בביטול השיעור:', error);
+      setMessage('❌ שגיאה בביטול השיעור');
+    }
+
+    setLoading(false);
+  };
 
   return (
-    <div className="bg-white shadow p-4 rounded relative">
+    <div className="bg-white p-4 rounded shadow relative mb-4">
       <h2 className="text-lg font-bold mb-2">{classInfo.name}</h2>
       <p>מדריך: {classInfo.instructor}</p>
       <p>תאריך: {classInfo.date}</p>
       <p>שעה: {classInfo.time}</p>
+      <p className="text-sm text-gray-600">
+        רשומים: {registeredCount} / {totalSpots}
+      </p>
 
-      {isPastClass ? (
-        <p className="text-red-500">השיעור עבר</p>
-      ) : (
-        <>
-          {isAlreadyBooked ? (
-            <>
-              {hoursDifference < 5 ? (
-                <p className="text-red-500">לא ניתן לבטל</p>
-              ) : (
-                <button
-                  onClick={() => handleCancelBooking(classInfo.id)}
-                  className="absolute top-4 left-4 bg-red-600 text-white px-3 py-1 rounded text-sm hover:bg-red-700"
-                >
-                  בטל הזמנה
-                </button>
-              )}
-            </>
-          ) : (
-            <button
-              onClick={() => handleBooking(classInfo.id)}
-              className="absolute top-4 left-4 px-3 py-1 rounded text-sm bg-blue-600 text-white hover:bg-blue-700"
-            >
-              הירשם
-            </button>
-          )}
-        </>
+      {message && (
+        <p
+          className={`mt-2 ${
+            message.includes('✔️') ? 'text-green-500' : 'text-red-500'
+          }`}
+        >
+          {message}
+        </p>
+      )}
+
+      {!employee && (
+        <p className="text-red-400 mt-2">🔒 התחברות נדרשת להירשום לשיעור</p>
+      )}
+
+      {employee && !isAlreadyBooked && !isPastClass && (
+        <button
+          onClick={handleBooking}
+          disabled={classInfo.spots <= 0 || loading}
+          className={`mt-3 px-4 py-2 rounded transition-all duration-200 w-full ${
+            classInfo.spots > 0
+              ? 'bg-blue-600 hover:bg-blue-700 text-white'
+              : 'bg-gray-400 cursor-not-allowed text-white'
+          } ${loading ? 'opacity-50' : ''}`}
+        >
+          {loading
+            ? 'שולח בקשה...'
+            : classInfo.spots > 0
+            ? 'הזמן מקום'
+            : 'אין מקומות פנויים'}
+        </button>
+      )}
+
+      {employee && isAlreadyBooked && (
+        <button
+          onClick={handleCancelBooking}
+          disabled={loading}
+          className="mt-3 px-4 py-2 rounded bg-red-600 hover:bg-red-700 text-white w-full"
+        >
+          {loading ? 'מבטל...' : 'בטל שיעור'}
+        </button>
+      )}
+
+      {isPastClass && (
+        <p className="text-gray-500 text-sm mt-2">🕒 השיעור הסתיים</p>
       )}
     </div>
   );
