@@ -2,119 +2,155 @@ import React, { useState, useEffect } from 'react';
 import { db } from '../services/firebase';
 import { collection, doc, getDocs, setDoc, deleteDoc } from 'firebase/firestore';
 
-const AdminPanel = ({ employee }) => {
-  const [employees, setEmployees] = useState([]);
+const AdminUsersPanel = ({ employee }) => {
+  const [users, setUsers] = useState([]);
   const [phone, setPhone] = useState('');
   const [name, setName] = useState('');
+  const [membershipType, setMembershipType] = useState('');
+  const [search, setSearch] = useState('');
   const [message, setMessage] = useState('');
 
-  // טוען את רשימת העובדים מה-DB
-  const fetchEmployees = async () => {
+  // טוען את רשימת המשתמשים מ-DB
+  const fetchUsers = async () => {
     try {
-      const querySnapshot = await getDocs(collection(db, 'employees'));
-      const employeesData = querySnapshot.docs.map(doc => ({
+      const querySnapshot = await getDocs(collection(db, 'Users'));
+      const usersData = querySnapshot.docs.map(doc => ({
         id: doc.id,
         ...doc.data()
       }));
-      setEmployees(employeesData);
+      setUsers(usersData);
     } catch (error) {
-      console.error('❌ שגיאה בטעינת העובדים:', error);
+      console.error('❌ שגיאה בטעינת המשתמשים:', error);
     }
   };
 
   useEffect(() => {
-    fetchEmployees();
+    fetchUsers();
   }, []);
 
-  // הוספת עובד חדש
-  const handleAddEmployee = async () => {
-    if (!phone || !name) {
-      setMessage('נא להזין שם ומספר טלפון');
+  // הוספת משתמש חדש
+  const handleAddUser = async () => {
+    if (!phone || !name || !membershipType) {
+      setMessage('נא למלא שם, טלפון וסוג מנוי');
       return;
     }
 
     try {
-      const employeeRef = doc(db, 'employees', phone);
-      await setDoc(employeeRef, {
+      const userRef = doc(db, 'Users', phone);
+      await setDoc(userRef, {
+        id: phone,
         name,
         phone,
-        role: 'עובד',
-        createdAt: new Date(),
+        membershipType,
+        remainingLessons: 0,
+        completedLessons: 0,
+        joinDate: new Date().toISOString(),
+        isAdmin: false
       });
 
-      setMessage('✔️ עובד נוסף בהצלחה!');
+      setMessage('✔️ משתמש נוסף בהצלחה!');
       setPhone('');
       setName('');
-      fetchEmployees();
+      setMembershipType('');
+      fetchUsers();
     } catch (error) {
-      console.error('❌ שגיאה בהוספת עובד:', error);
-      setMessage('שגיאה בהוספת עובד');
+      console.error('❌ שגיאה בהוספת משתמש:', error);
+      setMessage('שגיאה בהוספת משתמש');
     }
   };
 
-  // מחיקת עובד
-  const handleDeleteEmployee = async (phone) => {
+  // מחיקת משתמש
+  const handleDeleteUser = async (userId) => {
     try {
-      await deleteDoc(doc(db, 'employees', phone));
-      setMessage('🗑️ עובד נמחק');
-      fetchEmployees();
+      await deleteDoc(doc(db, 'Users', userId));
+      setMessage('🗑️ משתמש נמחק');
+      fetchUsers();
     } catch (error) {
-      console.error('❌ שגיאה במחיקת עובד:', error);
+      console.error('❌ שגיאה במחיקת משתמש:', error);
       setMessage('שגיאה במחיקה');
     }
   };
 
-  // בודקים אם המשתמש מנהל
+  // סינון לפי חיפוש
+  const filteredUsers = users.filter(
+    user =>
+      user.name.includes(search) || user.phone.includes(search)
+  );
+
+  // אם לא מנהל - חסום גישה
   if (employee?.role !== 'מנהל') {
     return (
       <div className="p-6">
         <h1 className="text-xl font-bold">גישה מוגבלת</h1>
-        <p>עמוד זה זמין רק למנהלי מערכת.</p>
+        <p>עמוד זה זמין רק למנהלים.</p>
       </div>
     );
   }
 
   return (
     <div className="p-6">
-      <h1 className="text-2xl font-bold mb-6">פאנל ניהול עובדים</h1>
+      <h1 className="text-2xl font-bold mb-6">ניהול משתמשים (לקוחות)</h1>
 
-      {/* טופס הוספת עובד */}
-      <div className="mb-6">
+      {/* טופס הוספת משתמש */}
+      <div className="mb-6 grid gap-3">
         <input
           type="tel"
-          placeholder="מספר טלפון (+972...)"
+          placeholder="מספר טלפון"
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
-          className="block w-full p-2 mb-3 border rounded text-black"
+          className="block w-full p-2 border rounded text-black"
         />
 
         <input
           type="text"
-          placeholder="שם העובד"
+          placeholder="שם מלא"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          className="block w-full p-2 mb-3 border rounded text-black"
+          className="block w-full p-2 border rounded text-black"
         />
 
+        <select
+          value={membershipType}
+          onChange={(e) => setMembershipType(e.target.value)}
+          className="block w-full p-2 border rounded text-black"
+        >
+          <option value="">בחר סוג מנוי</option>
+          <option value="חודשי">חודשי</option>
+          <option value="שבועי">שבועי</option>
+          <option value="כרטיסייה">כרטיסייה</option>
+        </select>
+
         <button
-          onClick={handleAddEmployee}
+          onClick={handleAddUser}
           className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
         >
-          הוסף עובד
+          הוסף משתמש
         </button>
 
         {message && <p className="mt-3 text-green-600">{message}</p>}
       </div>
 
-      {/* רשימת עובדים */}
+      {/* חיפוש משתמשים */}
+      <input
+        type="text"
+        placeholder="חפש לפי שם או טלפון"
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
+        className="block w-full p-2 mb-4 border rounded text-black"
+      />
+
+      {/* טבלת משתמשים */}
       <div>
-        <h2 className="text-lg font-bold mb-2">רשימת עובדים</h2>
+        <h2 className="text-lg font-bold mb-2">רשימת משתמשים</h2>
         <ul>
-          {employees.map(emp => (
-            <li key={emp.phone} className="flex justify-between items-center p-2 border-b">
-              <span>{emp.name} ({emp.phone})</span>
+          {filteredUsers.map(user => (
+            <li key={user.id} className="flex justify-between items-center p-2 border-b">
+              <div>
+                <p><strong>{user.name}</strong> ({user.phone})</p>
+                <p>מנוי: {user.membershipType}</p>
+              </div>
               <button
-                onClick={() => handleDeleteEmployee(emp.phone)}
+                onClick={() => handleDeleteUser(user.id)}
                 className="bg-red-600 text-white px-2 py-1 rounded hover:bg-red-700 text-sm"
               >
                 מחק
@@ -127,4 +163,4 @@ const AdminPanel = ({ employee }) => {
   );
 };
 
-export default AdminPanel;
+export default AdminUsersPanel;
