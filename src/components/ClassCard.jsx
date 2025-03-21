@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { db } from '../services/firebase';
 import { collection, addDoc, doc, updateDoc, getDoc } from 'firebase/firestore';
 
-const ClassCard = ({ classInfo, employee, isAlreadyBooked, refreshBookings }) => {
+const ClassCard = ({ classInfo, employee, isAlreadyBooked, refreshBookings, isPastClass, handleCancelBooking }) => {
   const [message, setMessage] = useState('');
   const [loading, setLoading] = useState(false);
 
@@ -64,47 +64,43 @@ const ClassCard = ({ classInfo, employee, isAlreadyBooked, refreshBookings }) =>
     setLoading(false);
   };
 
+  const classDateTime = new Date(`${classInfo.date.split('/').reverse().join('-')}T${classInfo.time}`);
+  const now = new Date();
+  const hoursDifference = (classDateTime - now) / (1000 * 60 * 60);
+
   return (
-    <div className="bg-gray-800 text-white p-4 rounded shadow relative mb-4">
+    <div className="bg-white shadow p-4 rounded relative">
       <h2 className="text-lg font-bold mb-2">{classInfo.name}</h2>
       <p>מדריך: {classInfo.instructor}</p>
       <p>תאריך: {classInfo.date}</p>
       <p>שעה: {classInfo.time}</p>
-      <p>מקומות פנויים: {classInfo.spots}</p>
 
-      {message && (
-        <p className={`mt-2 ${message.includes('✔️') ? 'text-green-400' : 'text-red-400'}`}>
-          {message}
-        </p>
-      )}
-
-      {/* אם אין עובד מחובר */}
-      {!employee && (
-        <p className="text-red-400 mt-2">🔒 יש להתחבר כדי להזמין מקום</p>
-      )}
-
-      {/* אם כבר רשום */}
-      {employee && isAlreadyBooked && (
-        <p className="text-green-400 mt-2">כבר נרשמת לשיעור זה ✅</p>
-      )}
-
-      {/* כפתור הרשמה */}
-      {employee && !isAlreadyBooked && (
-        <button
-          onClick={handleBooking}
-          disabled={classInfo.spots <= 0 || loading}
-          className={`mt-3 px-4 py-2 rounded transition-all duration-200 ${
-            classInfo.spots > 0
-              ? 'bg-blue-600 hover:bg-blue-700'
-              : 'bg-gray-400 cursor-not-allowed'
-          } ${loading ? 'opacity-50' : ''}`}
-        >
-          {loading
-            ? 'מבצע רישום...'
-            : classInfo.spots > 0
-            ? 'הזמן מקום'
-            : 'אין מקומות פנויים'}
-        </button>
+      {isPastClass ? (
+        <p className="text-red-500">השיעור עבר</p>
+      ) : (
+        <>
+          {isAlreadyBooked ? (
+            <>
+              {hoursDifference < 5 ? (
+                <p className="text-red-500">לא ניתן לבטל</p>
+              ) : (
+                <button
+                  onClick={() => handleCancelBooking(classInfo.id)}
+                  className="absolute top-4 left-4 bg-red-600 text-white px-3 py-1 rounded text-sm hover:bg-red-700"
+                >
+                  בטל הזמנה
+                </button>
+              )}
+            </>
+          ) : (
+            <button
+              onClick={() => handleBooking(classInfo.id)}
+              className="absolute top-4 left-4 px-3 py-1 rounded text-sm bg-blue-600 text-white hover:bg-blue-700"
+            >
+              הירשם
+            </button>
+          )}
+        </>
       )}
     </div>
   );

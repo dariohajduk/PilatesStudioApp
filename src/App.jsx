@@ -13,7 +13,6 @@ import AdminClassesPanel from "./pages/AdminClassesPanel";
 
 import Logo from "./assets/logo.png";
 
-// אייקונים
 import { Home, Calendar, BookOpen, LogOut, Settings } from "lucide-react";
 
 const App = () => {

@@ -19,7 +19,12 @@ const HomePage = ({ employee }) => {
         ...doc.data(),
       }));
 
-      setUpcomingClasses(classesData);
+      const futureClasses = classesData.filter((cls) => {
+        const classDateTime = new Date(`${cls.date.split('/').reverse().join('-')}T${cls.time}`);
+        return classDateTime > new Date();
+      });
+
+      setUpcomingClasses(futureClasses);
     } catch (error) {
       console.error("❌ שגיאה בטעינת השיעורים:", error);
     }
@@ -60,6 +65,17 @@ const HomePage = ({ employee }) => {
   // בדיקה אם המשתמש רשום לשיעור מסוים
   const isAlreadyBooked = (classId) => {
     return bookings.some((booking) => booking.classId === classId);
+  };
+
+  // בדיקה אם השיעור עבר
+  const isPastClass = (classDate, classTime) => {
+    const classDateTime = new Date(`${classDate.split('/').reverse().join('-')}T${classTime}`);
+    return classDateTime < new Date();
+  };
+
+  // ביטול הזמנה
+  const handleCancelBooking = async (classId) => {
+    // הוספת לוגיקה לביטול הזמנה כאן
   };
 
   if (loading) {
@@ -109,6 +125,8 @@ const HomePage = ({ employee }) => {
                 employee={employee}
                 isAlreadyBooked={isAlreadyBooked(cls.id)} // ✅ בדיקה אם כבר רשום
                 refreshBookings={fetchUserBookings}       // ✅ רענון ההזמנות לאחר פעולה
+                isPastClass={isPastClass(cls.date, cls.time)} // ✅ בדיקה אם השיעור עבר
+                handleCancelBooking={handleCancelBooking} // ✅ פונקציה לביטול הזמנה
               />
             </motion.div>
           ))
