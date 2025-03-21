@@ -121,7 +121,7 @@ const App = () => {
               }`}
             >
               <BookOpen size={20} />
-              <span className="text-xs mt-1">ההזמנות שלי</span>
+              <span className="text-xs mt-1">השיעורים שלי</span>
             </button>
 
             {employee?.role === "מנהל" && (

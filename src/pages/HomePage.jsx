@@ -2,19 +2,16 @@ import React, { useState, useEffect } from "react";
 import TopHeader from "../components/TopHeader";
 import ClassCard from "../components/ClassCard";
 import { db } from "../services/firebase";
-import { collection, getDocs } from "firebase/firestore";
-
-// ייבוא Framer Motion
+import { collection, getDocs, query, where } from "firebase/firestore";
 import { motion } from "framer-motion";
 
-const HomePage = ({employee}) => {
-  // סטייט לשיעורים הקרובים
+const HomePage = ({ employee }) => {
   const [upcomingClasses, setUpcomingClasses] = useState([]);
+  const [bookings, setBookings] = useState([]); // הזמנות של המשתמש
   const [loading, setLoading] = useState(true);
 
-  // שליפת השיעורים מה-DB
+  // שליפת שיעורים מה-DB
   const fetchClasses = async () => {
-    setLoading(true);
     try {
       const querySnapshot = await getDocs(collection(db, "classes"));
       const classesData = querySnapshot.docs.map((doc) => ({
@@ -22,17 +19,48 @@ const HomePage = ({employee}) => {
         ...doc.data(),
       }));
 
-      console.log("🎯 שיעורים נטענו ל-HomePage:", classesData);
       setUpcomingClasses(classesData);
     } catch (error) {
-      console.error("❌ שגיאה בטעינת שיעורים:", error);
+      console.error("❌ שגיאה בטעינת השיעורים:", error);
     }
-    setLoading(false);
   };
 
+  // שליפת ההזמנות של המשתמש
+  const fetchUserBookings = async () => {
+    if (!employee) return;
+
+    try {
+      const bookingsRef = collection(db, "bookings");
+      const q = query(bookingsRef, where("userId", "==", employee.phone));
+      const querySnapshot = await getDocs(q);
+
+      const bookingsData = querySnapshot.docs.map((doc) => ({
+        id: doc.id,
+        ...doc.data(),
+      }));
+
+      setBookings(bookingsData);
+    } catch (error) {
+      console.error("❌ שגיאה בטעינת ההזמנות:", error);
+    }
+  };
+
+  // קריאות ראשוניות
   useEffect(() => {
-    fetchClasses();
-  }, []);
+    const loadData = async () => {
+      setLoading(true);
+      await fetchClasses();
+      await fetchUserBookings();
+      setLoading(false);
+    };
+
+    loadData();
+  }, [employee]);
+
+  // בדיקה אם המשתמש רשום לשיעור מסוים
+  const isAlreadyBooked = (classId) => {
+    return bookings.some((booking) => booking.classId === classId);
+  };
 
   if (loading) {
     return (
@@ -54,7 +82,6 @@ const HomePage = ({employee}) => {
       <div className="mt-4">
         <div className="bg-blue-50 p-4 rounded-lg mb-6">
           <p className="font-medium mb-2">המלצת היום:</p>
-          {/* מציג את ההמלצה מהשיעור הראשון אם יש */}
           {upcomingClasses.length > 0 ? (
             <p>
               שיעור {upcomingClasses[0].name} עם {upcomingClasses[0].instructor}{" "}
@@ -77,11 +104,11 @@ const HomePage = ({employee}) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1 }}
             >
-              {/* תוסיף כאן את העברת ה־employee */}
               <ClassCard
                 classInfo={cls}
-                employee={employee} // 👈 זה מה שחסר לך
-                isBooking={false} // אם אתה רוצה לשמור את זה או להסיר, תלוי בך
+                employee={employee}
+                isAlreadyBooked={isAlreadyBooked(cls.id)} // ✅ בדיקה אם כבר רשום
+                refreshBookings={fetchUserBookings}       // ✅ רענון ההזמנות לאחר פעולה
               />
             </motion.div>
           ))
