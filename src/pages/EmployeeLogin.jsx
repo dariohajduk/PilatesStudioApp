@@ -27,12 +27,15 @@ const EmployeeLogin = ({ onLogin }) => {
         ? 'מדריך'
         : 'משתמש';
 
+      // שמירת פרטי התחברות כולל השם למדריך
       localStorage.setItem('employeePhone', userData.phone);
       localStorage.setItem('employeeRole', role);
+      localStorage.setItem('employeeName', userData.name || '');
 
       onLogin({
         phone: userData.phone,
         role: role,
+        name: userData.name || '',
       });
 
       console.log(`✅ התחברות ${role}:`, userData);

@@ -32,7 +32,16 @@ const BookingsPage = ({ employee }) => {
     fetchBookings();
   }, []);
 
-  const handleCancelBooking = async (bookingId, classId) => {
+  const handleCancelBooking = async (bookingId, classId, classDate, classTime) => {
+    const classDateTime = new Date(`${classDate.split('/').reverse().join('-')}T${classTime}`);
+    const now = new Date();
+    const hoursDifference = (classDateTime - now) / (1000 * 60 * 60);
+
+    if (hoursDifference < 5) {
+      setMessage("לא ניתן לבטל הזמנה פחות מ-5 שעות לפני השיעור");
+      return;
+    }
+
     try {
       // מחיקת ההזמנה
       await deleteDoc(doc(db, "bookings", bookingId));
@@ -85,7 +94,7 @@ const BookingsPage = ({ employee }) => {
               <p>שעה: {booking.time}</p>
 
               <button
-                onClick={() => handleCancelBooking(booking.id, booking.classId)} // 👈 הוספתי את classId
+                onClick={() => handleCancelBooking(booking.id, booking.classId, booking.date, booking.time)} // 👈 הוספתי את classId
                 className="absolute top-4 left-4 bg-red-600 text-white px-3 py-1 rounded text-sm hover:bg-red-700"
               >
                 בטל הזמנה
