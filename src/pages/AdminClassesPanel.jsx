@@ -1,107 +1,100 @@
-import React, { useState, useEffect } from "react";
-import { db } from "../services/firebase";
-import {
-  collection,
-  doc,
-  getDocs,
-  addDoc,
-  deleteDoc,
-} from "firebase/firestore";
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
-import { format } from "date-fns"; // לפורמט תאריך
+import React, { useState, useEffect } from 'react';
+import { db } from '../services/firebase';
+import { collection, doc, getDocs, addDoc, deleteDoc } from 'firebase/firestore';
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
+import { format } from 'date-fns';
 
 const AdminClassesPanel = ({ employee }) => {
   const [classes, setClasses] = useState([]);
+  const [instructors, setInstructors] = useState([]);
   const [newClass, setNewClass] = useState({
-    name: "",
-    instructor: "",
-    date: "",
-    time: "",
+    name: '',
+    instructor: '',
+    date: '',
+    time: '',
     spots: 0,
   });
-  const [message, setMessage] = useState("");
+  const [message, setMessage] = useState('');
   const [selectedDate, setSelectedDate] = useState(null);
 
-  // טוען את כל השיעורים
   const fetchClasses = async () => {
     try {
-      const querySnapshot = await getDocs(collection(db, "classes"));
-      const classesData = querySnapshot.docs.map((doc) => ({
+      const querySnapshot = await getDocs(collection(db, 'classes'));
+      const classesData = querySnapshot.docs.map(doc => ({
         id: doc.id,
         ...doc.data(),
       }));
       setClasses(classesData);
     } catch (error) {
-      console.error("❌ שגיאה בטעינת השיעורים:", error);
+      console.error('❌ שגיאה בטעינת השיעורים:', error);
+    }
+  };
+
+  const fetchInstructors = async () => {
+    try {
+      const querySnapshot = await getDocs(collection(db, 'Instructors'));
+      const instructorsData = querySnapshot.docs.map(doc => ({
+        id: doc.id,
+        ...doc.data(),
+      }));
+      setInstructors(instructorsData);
+    } catch (error) {
+      console.error('❌ שגיאה בטעינת המדריכים:', error);
     }
   };
 
   useEffect(() => {
     fetchClasses();
+    fetchInstructors();
   }, []);
 
-  // הוספת שיעור חדש
   const handleAddClass = async () => {
-    // מפרק את השדות מתוך האובייקט של השיעור החדש
     const { name, instructor, date, time, spots } = newClass;
 
-    // בדיקה שכל השדות מולאו כראוי
     if (!name || !instructor || !date || !time || spots <= 0) {
-      setMessage("נא למלא את כל השדות");
-      return; // יציאה מהפונקציה במקרה שיש שדה חסר
+      setMessage('נא למלא את כל השדות');
+      return;
     }
 
     try {
-      // המרת התאריך מהפורמט של input[type="date"] שהוא YYYY-MM-DD
-      // לפורמט DD/MM/YYYY
-      const formattedDate = date.split("-").reverse().join("/");
-
-      // הוספת השיעור ל-Collection בשם 'classes' בפיירבייס
-      await addDoc(collection(db, "classes"), {
-        name, // שם השיעור
-        instructor, // שם המדריך
-        date: formattedDate, // תאריך בפורמט חדש
-        time, // שעה
-        spots: parseInt(spots), // כמות מקומות פנויים (כמספר)
-        createdAt: new Date(), // תאריך יצירה
+      await addDoc(collection(db, 'classes'), {
+        name,
+        instructor,
+        date,
+        time,
+        spots: parseInt(spots),
+        createdAt: new Date(),
       });
 
-      // עדכון הודעה למשתמש
-      setMessage("✔️ שיעור נוסף בהצלחה!");
-
-      // איפוס הטופס לשיעור הבא
+      setMessage('✔️ שיעור נוסף בהצלחה!');
       setNewClass({
-        name: "",
-        instructor: "",
-        date: "",
-        time: "",
+        name: '',
+        instructor: '',
+        date: '',
+        time: '',
         spots: 0,
       });
-
-      // רענון הרשימה לאחר הוספה
+      setSelectedDate(null);
       fetchClasses();
     } catch (error) {
-      // טיפול בשגיאות
-      console.error("❌ שגיאה בהוספת שיעור:", error);
-      setMessage("שגיאה בהוספת שיעור");
+      console.error('❌ שגיאה בהוספת שיעור:', error);
+      setMessage('שגיאה בהוספת שיעור');
     }
   };
 
-  // מחיקת שיעור
   const handleDeleteClass = async (id) => {
     try {
-      await deleteDoc(doc(db, "classes", id));
-      setMessage("🗑️ שיעור נמחק");
+      await deleteDoc(doc(db, 'classes', id));
+      setMessage('🗑️ שיעור נמחק');
       fetchClasses();
     } catch (error) {
-      console.error("❌ שגיאה במחיקת שיעור:", error);
-      setMessage("שגיאה במחיקה");
+      console.error('❌ שגיאה במחיקת שיעור:', error);
+      setMessage('שגיאה במחיקה');
     }
   };
 
-  // בדיקה אם זה מנהל
-  if (employee?.role !== "מנהל") {
+  if (employee?.role !== 'מנהל') {
     return (
       <div className="p-6">
         <h1 className="text-xl font-bold">גישה מוגבלת</h1>
@@ -114,7 +107,6 @@ const AdminClassesPanel = ({ employee }) => {
     <div className="p-6">
       <h1 className="text-2xl font-bold mb-6">ניהול שיעורים</h1>
 
-      {/* טופס הוספת שיעור */}
       <div className="mb-6">
         <input
           type="text"
@@ -124,21 +116,22 @@ const AdminClassesPanel = ({ employee }) => {
           className="block w-full p-2 mb-3 border rounded text-black"
         />
 
-        <input
-          type="text"
-          placeholder="שם המדריך"
+        <select
           value={newClass.instructor}
-          onChange={(e) =>
-            setNewClass({ ...newClass, instructor: e.target.value })
-          }
+          onChange={(e) => setNewClass({ ...newClass, instructor: e.target.value })}
           className="block w-full p-2 mb-3 border rounded text-black"
-        />
+        >
+          <option value="">בחר מדריך</option>
+          {instructors.map(instr => (
+            <option key={instr.id} value={instr.name}>{instr.name}</option>
+          ))}
+        </select>
 
         <DatePicker
           selected={selectedDate}
           onChange={(date) => {
             setSelectedDate(date);
-            setNewClass({ ...newClass, date: format(date, "dd/MM/yyyy") });
+            setNewClass({ ...newClass, date: format(date, 'dd/MM/yyyy') });
           }}
           dateFormat="dd/MM/yyyy"
           placeholderText="בחר תאריך"
@@ -170,33 +163,23 @@ const AdminClassesPanel = ({ employee }) => {
         {message && <p className="mt-3 text-green-600">{message}</p>}
       </div>
 
-      {/* רשימת שיעורים */}
-      <div>
-        <h2 className="text-lg font-bold mb-2">רשימת שיעורים</h2>
-        <ul>
-          {classes.map((cls) => (
-            <li
-              key={cls.id}
-              className="flex justify-between items-center p-2 border-b"
+      <h2 className="text-lg font-bold mb-2">רשימת שיעורים</h2>
+      <ul>
+        {classes.map(cls => (
+          <li key={cls.id} className="flex justify-between items-center p-2 border-b">
+            <div>
+              <p><strong>{cls.name}</strong> עם {cls.instructor}</p>
+              <p>{cls.date} בשעה {cls.time} | מקומות פנויים: {cls.spots}</p>
+            </div>
+            <button
+              onClick={() => handleDeleteClass(cls.id)}
+              className="bg-red-600 text-white px-2 py-1 rounded hover:bg-red-700 text-sm"
             >
-              <div>
-                <p>
-                  <strong>{cls.name}</strong> עם {cls.instructor}
-                </p>
-                <p>
-                  {cls.date} בשעה {cls.time} | מקומות פנויים: {cls.spots}
-                </p>
-              </div>
-              <button
-                onClick={() => handleDeleteClass(cls.id)}
-                className="bg-red-600 text-white px-2 py-1 rounded hover:bg-red-700 text-sm"
-              >
-                מחק
-              </button>
-            </li>
-          ))}
-        </ul>
-      </div>
+              מחק
+            </button>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };

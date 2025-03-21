@@ -77,7 +77,7 @@ const HomePage = ({ employee }) => {
       exit={{ opacity: 0, y: -20 }}
       transition={{ duration: 0.4 }}
     >
-      <TopHeader title="ברוכים הבאים לסטודיו רוטשילד" />
+      <TopHeader title="ברוכים הבאים לסטודיו מילאן" />
 
       <div className="mt-4">
         <div className="bg-blue-50 p-4 rounded-lg mb-6">
