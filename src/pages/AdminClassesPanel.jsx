@@ -15,6 +15,15 @@ import {
   orderBy,
 } from "firebase/firestore";
 import { motion, AnimatePresence } from "framer-motion";
+const formatDateToDDMMYYYY = (date) => {
+  if (!date) return "";
+
+  const day = String(date.getDate()).padStart(2, "0");
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const year = date.getFullYear();
+
+  return `${day}/${month}/${year}`;
+};
 
 const AdminClassesPanel = ({ employee }) => {
   const [classes, setClasses] = useState([]);
@@ -104,7 +113,21 @@ const AdminClassesPanel = ({ employee }) => {
 
   const openModalForEdit = (cls) => {
     setName(cls.name);
-    setDate(new Date(cls.date.split("/").reverse().join("-")));
+    if (cls.date) {
+      const [day, month, year] = cls.date.split("/");
+      const parsedDate = new Date(`${year}-${month}-${day}`);
+
+      // בדוק שהתאריך חוקי:
+      if (!isNaN(parsedDate.getTime())) {
+        setDate(parsedDate);
+      } else {
+        console.warn("תאריך לא תקין בשיעור:", cls);
+        setDate(null);
+      }
+    } else {
+      console.warn("אין תאריך בשיעור:", cls);
+      setDate(null);
+    }
     setTime(cls.time);
     setSpots(cls.spots);
     setInstructorId(cls.instructorId);
@@ -124,7 +147,7 @@ const AdminClassesPanel = ({ employee }) => {
       const instructor = instructors.find((i) => i.id === instructorId);
       const classData = {
         name,
-        date: date.toLocaleDateString("he-IL"),
+        date: formatDateToDDMMYYYY(date),
         time,
         instructor: instructor?.name || "",
         instructorId,
@@ -175,7 +198,7 @@ const AdminClassesPanel = ({ employee }) => {
     setMessage("");
   };
 
-  if (employee?.role !== "מנהל" && employee?.role !== "מדריך") {
+  if (employee?.isAdmin) {
     return (
       <div className="p-6">
         <h1 className="text-xl font-bold text-red-600">גישה מוגבלת</h1>
