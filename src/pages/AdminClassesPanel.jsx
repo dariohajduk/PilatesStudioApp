@@ -1,5 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { db } from '../services/firebase';
+import React, { useState, useEffect } from "react";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+import { he } from "date-fns/locale";
+import { db } from "../services/firebase";
 import {
   collection,
   getDocs,
@@ -9,32 +12,30 @@ import {
   deleteDoc,
   query,
   where,
-  orderBy
-} from 'firebase/firestore';
-import { motion, AnimatePresence } from 'framer-motion';
+  orderBy,
+} from "firebase/firestore";
+import { motion, AnimatePresence } from "framer-motion";
 
 const AdminClassesPanel = ({ employee }) => {
   const [classes, setClasses] = useState([]);
   const [filteredClasses, setFilteredClasses] = useState([]);
   const [instructors, setInstructors] = useState([]);
 
-  // טפסי שיעור
-  const [name, setName] = useState('');
-  const [date, setDate] = useState('');
-  const [time, setTime] = useState('');
+  const [name, setName] = useState("");
+  const [date, setDate] = useState(null);
+  const [time, setTime] = useState("");
   const [spots, setSpots] = useState(10);
-  const [instructorId, setInstructorId] = useState('');
+  const [instructorId, setInstructorId] = useState("");
 
   const [editingClassId, setEditingClassId] = useState(null);
-  const [message, setMessage] = useState('');
+  const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
 
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // טפסי סינון
-  const [filterInstructorId, setFilterInstructorId] = useState('');
-  const [filterStartDate, setFilterStartDate] = useState('');
-  const [filterEndDate, setFilterEndDate] = useState('');
+  const [filterInstructorId, setFilterInstructorId] = useState("");
+  const [filterStartDate, setFilterStartDate] = useState(null);
+  const [filterEndDate, setFilterEndDate] = useState(null);
 
   useEffect(() => {
     fetchClasses();
@@ -48,22 +49,28 @@ const AdminClassesPanel = ({ employee }) => {
   const fetchClasses = async () => {
     setLoading(true);
     try {
-      const querySnapshot = await getDocs(query(collection(db, 'classes'), orderBy('date')));
-      const data = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-      setClasses(data);
+      const querySnapshot = await getDocs(
+        query(collection(db, "classes"), orderBy("date"))
+      );
+      setClasses(
+        querySnapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }))
+      );
     } catch (error) {
-      console.error('❌ שגיאה בטעינת השיעורים:', error);
+      console.error("❌ שגיאה בטעינת השיעורים:", error);
     }
     setLoading(false);
   };
 
   const fetchInstructors = async () => {
     try {
-      const querySnapshot = await getDocs(query(collection(db, 'Users'), where('isInstructor', '==', true)));
-      const data = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-      setInstructors(data);
+      const querySnapshot = await getDocs(
+        query(collection(db, "Users"), where("isInstructor", "==", true))
+      );
+      setInstructors(
+        querySnapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }))
+      );
     } catch (error) {
-      console.error('❌ שגיאה בטעינת המדריכים:', error);
+      console.error("❌ שגיאה בטעינת המדריכים:", error);
     }
   };
 
@@ -71,25 +78,20 @@ const AdminClassesPanel = ({ employee }) => {
     let result = [...classes];
 
     if (filterInstructorId) {
-      result = result.filter(c => c.instructorId === filterInstructorId);
+      result = result.filter((c) => c.instructorId === filterInstructorId);
     }
 
     if (filterStartDate) {
-      const startDate = new Date(filterStartDate);
-      result = result.filter(c => {
-        const [day, month, year] = c.date.split('/');
-        const classDate = new Date(`${year}-${month}-${day}`);
-        return classDate >= startDate;
-      });
+      result = result.filter(
+        (c) =>
+          new Date(c.date.split("/").reverse().join("-")) >= filterStartDate
+      );
     }
 
     if (filterEndDate) {
-      const endDate = new Date(filterEndDate);
-      result = result.filter(c => {
-        const [day, month, year] = c.date.split('/');
-        const classDate = new Date(`${year}-${month}-${day}`);
-        return classDate <= endDate;
-      });
+      result = result.filter(
+        (c) => new Date(c.date.split("/").reverse().join("-")) <= filterEndDate
+      );
     }
 
     setFilteredClasses(result);
@@ -102,7 +104,7 @@ const AdminClassesPanel = ({ employee }) => {
 
   const openModalForEdit = (cls) => {
     setName(cls.name);
-    setDate(formatDate(cls.date));
+    setDate(new Date(cls.date.split("/").reverse().join("-")));
     setTime(cls.time);
     setSpots(cls.spots);
     setInstructorId(cls.instructorId);
@@ -112,86 +114,81 @@ const AdminClassesPanel = ({ employee }) => {
 
   const handleSaveClass = async (closeAfterSave = false) => {
     if (!name || !date || !time || !instructorId || spots < 1) {
-      setMessage('אנא מלא את כל השדות הנדרשים');
+      setMessage("אנא מלא את כל השדות הנדרשים");
       return;
     }
 
     setLoading(true);
 
     try {
-      const instructor = instructors.find(i => i.id === instructorId);
+      const instructor = instructors.find((i) => i.id === instructorId);
       const classData = {
         name,
-        date: formatDateDisplay(date),
+        date: date.toLocaleDateString("he-IL"),
         time,
-        instructor: instructor?.name || '',
+        instructor: instructor?.name || "",
         instructorId,
         spots: parseInt(spots),
-        createdAt: new Date().toISOString()
+        createdAt: new Date().toISOString(),
       };
 
       if (editingClassId) {
-        const classRef = doc(db, 'classes', editingClassId);
-        await updateDoc(classRef, classData);
-        setMessage('✔️ שיעור עודכן בהצלחה!');
+        await updateDoc(doc(db, "classes", editingClassId), classData);
+        setMessage("✔️ שיעור עודכן בהצלחה!");
       } else {
-        await addDoc(collection(db, 'classes'), classData);
-        setMessage('✔️ שיעור נוסף בהצלחה!');
+        await addDoc(collection(db, "classes"), classData);
+        setMessage("✔️ שיעור נוסף בהצלחה!");
       }
 
       clearForm();
       fetchClasses();
-
       if (closeAfterSave) setIsModalOpen(false);
     } catch (error) {
-      console.error('❌ שגיאה בהוספת/עדכון שיעור:', error);
-      setMessage('שגיאה בהוספת/עדכון שיעור');
+      console.error("❌ שגיאה בהוספת/עדכון שיעור:", error);
+      setMessage("שגיאה בהוספת/עדכון שיעור");
     }
 
     setLoading(false);
   };
 
   const handleDeleteClass = async (classId) => {
-    if (!window.confirm('האם למחוק את השיעור?')) return;
-
+    if (!window.confirm("האם למחוק את השיעור?")) return;
     setLoading(true);
-
     try {
-      await deleteDoc(doc(db, 'classes', classId));
-      setMessage('🗑️ שיעור נמחק');
+      await deleteDoc(doc(db, "classes", classId));
+      setMessage("🗑️ שיעור נמחק");
       fetchClasses();
     } catch (error) {
-      console.error('❌ שגיאה במחיקת שיעור:', error);
-      setMessage('שגיאה במחיקה');
+      console.error("❌ שגיאה במחיקת שיעור:", error);
+      setMessage("שגיאה במחיקה");
     }
-
     setLoading(false);
   };
 
   const clearForm = () => {
-    setName('');
-    setDate('');
-    setTime('');
+    setName("");
+    setDate(null);
+    setTime("");
     setSpots(10);
-    setInstructorId('');
+    setInstructorId("");
     setEditingClassId(null);
-    setMessage('');
+    setMessage("");
   };
 
-  if (employee?.role !== 'מנהל' && employee?.role !== 'מדריך') {
+  if (employee?.role !== "מנהל" && employee?.role !== "מדריך") {
     return (
       <div className="p-6">
         <h1 className="text-xl font-bold text-red-600">גישה מוגבלת</h1>
-        <p>עמוד זה זמין רק למנהלים ומדריכים.</p>
       </div>
     );
   }
 
   return (
     <div className="p-6 pt-28 max-w-6xl mx-auto">
-      <h1 className="text-2xl font-bold mb-6 text-center text-blue-700">ניהול שיעורים</h1>
+      <h1 className="text-2xl font-bold mb-6 text-center text-blue-700">
+        ניהול שיעורים
+      </h1>
 
-      {/* כפתור להוספת שיעור */}
       <div className="flex justify-end mb-6">
         <button
           onClick={openModalForAdd}
@@ -201,7 +198,6 @@ const AdminClassesPanel = ({ employee }) => {
         </button>
       </div>
 
-      {/* סינון שיעורים */}
       <div className="bg-white p-4 rounded-lg shadow-md mb-6 grid grid-cols-1 md:grid-cols-4 gap-4">
         <select
           value={filterInstructorId}
@@ -210,26 +206,36 @@ const AdminClassesPanel = ({ employee }) => {
         >
           <option value="">בחר מדריך</option>
           {instructors.map((instr) => (
-            <option key={instr.id} value={instr.id}>{instr.name}</option>
+            <option key={instr.id} value={instr.id}>
+              {instr.name}
+            </option>
           ))}
         </select>
 
-        <input
-          type="date"
-          value={filterStartDate}
-          onChange={(e) => setFilterStartDate(e.target.value)}
-          className="p-3 border rounded text-black"
+        <DatePicker
+          selected={filterStartDate}
+          onChange={(date) => setFilterStartDate(date)}
+          dateFormat="dd/MM/yyyy"
+          locale={he}
+          placeholderText="תאריך התחלה"
+          className="p-3 border rounded text-black w-full"
         />
 
-        <input
-          type="date"
-          value={filterEndDate}
-          onChange={(e) => setFilterEndDate(e.target.value)}
-          className="p-3 border rounded text-black"
+        <DatePicker
+          selected={filterEndDate}
+          onChange={(date) => setFilterEndDate(date)}
+          dateFormat="dd/MM/yyyy"
+          locale={he}
+          placeholderText="תאריך סיום"
+          className="p-3 border rounded text-black w-full"
         />
 
         <button
-          onClick={() => { setFilterInstructorId(''); setFilterStartDate(''); setFilterEndDate(''); }}
+          onClick={() => {
+            setFilterInstructorId("");
+            setFilterStartDate(null);
+            setFilterEndDate(null);
+          }}
           className="bg-gray-300 hover:bg-gray-400 text-black py-2 rounded"
         >
           נקה סינון
@@ -263,9 +269,12 @@ const AdminClassesPanel = ({ employee }) => {
                 className="bg-white shadow-md rounded-xl p-4 flex flex-col md:flex-row md:justify-between items-center"
               >
                 <div className="flex flex-col text-right">
-                  <h3 className="text-lg font-bold text-blue-700">{cls.name}</h3>
+                  <h3 className="text-lg font-bold text-blue-700">
+                    {cls.name}
+                  </h3>
                   <p className="text-sm text-gray-600">
-                    מדריך: {cls.instructor} | תאריך: {cls.date} | שעה: {cls.time} | מקומות פנויים: {cls.spots}
+                    מדריך: {cls.instructor} | תאריך: {cls.date} | שעה:{" "}
+                    {cls.time} | מקומות פנויים: {cls.spots}
                   </p>
                 </div>
 
@@ -290,7 +299,6 @@ const AdminClassesPanel = ({ employee }) => {
         )}
       </AnimatePresence>
 
-      {/* Modal - POPUP */}
       <AnimatePresence>
         {isModalOpen && (
           <motion.div
@@ -306,7 +314,7 @@ const AdminClassesPanel = ({ employee }) => {
               className="bg-white rounded-lg shadow-xl p-6 w-full max-w-xl relative"
             >
               <h2 className="text-xl font-bold mb-4">
-                {editingClassId ? 'ערוך שיעור' : 'הוסף שיעור'}
+                {editingClassId ? "ערוך שיעור" : "הוסף שיעור"}
               </h2>
 
               <div className="grid gap-4">
@@ -318,10 +326,12 @@ const AdminClassesPanel = ({ employee }) => {
                   className="block w-full p-3 border rounded-lg text-black"
                 />
 
-                <input
-                  type="date"
-                  value={formatDate(date)}
-                  onChange={(e) => setDate(formatDateDisplay(e.target.value))}
+                <DatePicker
+                  selected={date}
+                  onChange={(selectedDate) => setDate(selectedDate)}
+                  dateFormat="dd/MM/yyyy"
+                  locale={he}
+                  placeholderText="בחר תאריך"
                   className="block w-full p-3 border rounded-lg text-black"
                 />
 
@@ -357,24 +367,24 @@ const AdminClassesPanel = ({ employee }) => {
 
               {message && <p className="text-green-600 mt-4">{message}</p>}
 
-              {/* כפתורים לפעולה */}
               <div className="flex justify-end gap-2 mt-6">
                 <button
                   onClick={() => handleSaveClass(false)}
                   className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg shadow"
                 >
-                  {editingClassId ? 'עדכן' : 'הוסף'}
+                  {editingClassId ? "עדכן" : "הוסף"}
                 </button>
-
                 <button
                   onClick={() => handleSaveClass(true)}
                   className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg shadow"
                 >
-                  {editingClassId ? 'עדכן וסגור' : 'הוסף וסגור'}
+                  {editingClassId ? "עדכן וסגור" : "הוסף וסגור"}
                 </button>
-
                 <button
-                  onClick={() => { setIsModalOpen(false); clearForm(); }}
+                  onClick={() => {
+                    setIsModalOpen(false);
+                    clearForm();
+                  }}
                   className="bg-gray-400 hover:bg-gray-500 text-white px-4 py-2 rounded-lg shadow"
                 >
                   סגור
@@ -386,17 +396,6 @@ const AdminClassesPanel = ({ employee }) => {
       </AnimatePresence>
     </div>
   );
-};
-
-const formatDate = (dateStr) => {
-  if (!dateStr) return '';
-  const [day, month, year] = dateStr.split('/');
-  return `${year}-${month}-${day}`;
-};
-
-const formatDateDisplay = (dateStr) => {
-  const [year, month, day] = dateStr.split('-');
-  return `${day}/${month}/${year}`;
 };
 
 export default AdminClassesPanel;
