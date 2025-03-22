@@ -90,7 +90,7 @@ const AdminInstructorsPanel = ({ employee }) => {
     }
   };
 
-  if (employee?.role !== 'מנהל') {
+  if (!employee?.isAdmin) {
     return (
       <div className="p-6">
         <h1 className="text-xl font-bold text-red-600">גישה מוגבלת</h1>

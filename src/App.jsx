@@ -12,13 +12,11 @@ import AdminDashboard from "./pages/AdminDashboard";
 import AdminClassesPanel from "./pages/AdminClassesPanel";
 import AdminUsersPanel from "./pages/AdminUsersPanel";
 import AdminInstructorsPanel from "./pages/AdminInstructorsPanel";
-import { useDesignSettings } from './hooks/useDesignSettings';
 
 import Header from "./components/Header"; // ✅ זה ה-Header החדש
 import { Home, Calendar, BookOpen, LogOut, Settings } from "lucide-react";
 
 const App = () => {
-  useDesignSettings(); // זה עושה את העבודה!
 
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState("home");
