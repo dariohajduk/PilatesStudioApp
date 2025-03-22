@@ -11,11 +11,7 @@ import EmployeeLogin from "./pages/EmployeeLogin";
 import AdminDashboard from "./pages/AdminDashboard";
 import AdminClassesPanel from "./pages/AdminClassesPanel";
 
-// קומפוננטת Header עם מידע שיעורים
-import Header from "./components/Header"; // <-- חשוב: מיקום נכון של הקובץ!
-
-import Logo from "./assets/logo.png";
-
+import Header from "./components/Header"; // ✅ זה ה-Header החדש
 import { Home, Calendar, BookOpen, LogOut, Settings } from "lucide-react";
 
 const App = () => {
@@ -23,6 +19,7 @@ const App = () => {
   const [activeTab, setActiveTab] = useState("home");
   const [employee, setEmployee] = useState(null);
 
+  // מסך פתיחה
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
@@ -30,6 +27,7 @@ const App = () => {
     return () => clearTimeout(timer);
   }, []);
 
+  // טעינת משתמש מה-LocalStorage
   useEffect(() => {
     const storedPhone = localStorage.getItem("employeePhone");
     const storedRole = localStorage.getItem("employeeRole");
@@ -44,6 +42,7 @@ const App = () => {
     }
   }, []);
 
+  // יציאה מהמערכת
   const handleLogout = () => {
     localStorage.removeItem("employeePhone");
     localStorage.removeItem("employeeRole");
@@ -52,6 +51,7 @@ const App = () => {
     setActiveTab("home");
   };
 
+  // ניווט בין העמודים
   const renderPage = () => {
     if (!employee) {
       return (
@@ -87,25 +87,19 @@ const App = () => {
   }
 
   return (
-    <div className="min-h-screen bg-background text-text" dir="rtl">
-      {/* לוגו וטייטל */}
-      <header className="flex justify-center items-center bg-white shadow-md py-4">
-        <img src={Logo} alt="Milan Pilates Logo" className="h-16 mr-4" />
-        <h1 className="text-xl font-bold text-primary">Milan Pilates</h1>
-      </header>
+    <div className="min-h-screen bg-background text-text relative" dir="rtl">
 
-      {/* הצגת Header עם מידע שיעורים */}
+      {/* ✅ Header דינמי חדש שמשלב הכל */}
+      {employee && <Header employee={employee} />}
+
+      {/* תוכן העמודים */}
+      <main className="pb-20 pt-[130px] p-4">{renderPage()}</main>
+
+      {/* תפריט תחתון */}
       {employee && (
-        <Header employee={employee} />
-      )}
-
-      {/* עמודים דינמיים */}
-      <main className="pb-20 p-4">{renderPage()}</main>
-
-      {/* ניווט תחתון */}
-      {employee && (
-        <nav className="fixed bottom-0 right-0 left-0 bg-white shadow-md z-10">
+        <nav className="fixed bottom-0 right-0 left-0 bg-white shadow-md z-50">
           <div className="flex justify-around">
+            {/* בית */}
             <button
               onClick={() => setActiveTab("home")}
               className={`p-3 flex flex-col items-center ${
@@ -116,6 +110,7 @@ const App = () => {
               <span className="text-xs mt-1">בית</span>
             </button>
 
+            {/* לוח שיעורים */}
             <button
               onClick={() => setActiveTab("schedule")}
               className={`p-3 flex flex-col items-center ${
@@ -126,6 +121,7 @@ const App = () => {
               <span className="text-xs mt-1">לוח שיעורים</span>
             </button>
 
+            {/* השיעורים שלי */}
             <button
               onClick={() => setActiveTab("bookings")}
               className={`p-3 flex flex-col items-center ${
@@ -136,6 +132,7 @@ const App = () => {
               <span className="text-xs mt-1">השיעורים שלי</span>
             </button>
 
+            {/* ניהול מערכת - מנהל */}
             {employee?.role === "מנהל" && (
               <button
                 onClick={() => setActiveTab("admin")}
@@ -148,11 +145,14 @@ const App = () => {
               </button>
             )}
 
+            {/* ניהול שיעורים - מדריך */}
             {employee?.role === "מדריך" && (
               <button
                 onClick={() => setActiveTab("adminClasses")}
                 className={`p-3 flex flex-col items-center ${
-                  activeTab === "adminClasses" ? "text-secondary" : "text-muted"
+                  activeTab === "adminClasses"
+                    ? "text-secondary"
+                    : "text-muted"
                 }`}
               >
                 <BookOpen size={20} />
@@ -160,6 +160,7 @@ const App = () => {
               </button>
             )}
 
+            {/* יציאה */}
             <button
               onClick={handleLogout}
               className="p-3 flex flex-col items-center text-red-500"

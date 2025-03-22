@@ -1,31 +1,64 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo.png";
+import { db } from "../services/firebase";
+import { doc, getDoc } from "firebase/firestore";
 
 const EmployeeLogin = ({ onLogin }) => {
   const [phone, setPhone] = useState("");
   const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setError("");
 
     if (!phone || phone.length < 10) {
       setError("אנא הזן מספר טלפון תקין");
       return;
     }
 
-    const data = {
-      phone,
-      role: "מדריך", // או "מנהל" אם תרצה להרחיב בהמשך
-    };
+    setLoading(true);
 
-    onLogin(data);
+    try {
+      const userRef = doc(db, "Users", phone);
+      const userSnap = await getDoc(userRef);
+
+      if (!userSnap.exists()) {
+        setError("משתמש לא נמצא במערכת");
+        setLoading(false);
+        return;
+      }
+
+      const userData = userSnap.data();
+      console.log("🚀 userData:", userData);
+
+      let role = "לקוח"; // ברירת מחדל אם תרצה
+      if (userData.isAdmin) {
+        role = "מנהל";
+      } else if (userData.isInstructor) {
+        role = "מדריך";
+      }
+
+      console.log(`🎯 תפקיד מזוהה: ${role}`);
+
+      onLogin({
+        phone: phone,
+        role: role,
+        name: userData.name || "",
+      });
+
+    } catch (err) {
+      console.error("❌ שגיאה בהתחברות:", err);
+      setError("שגיאה בשרת, נסה שוב מאוחר יותר");
+    }
+
+    setLoading(false);
   };
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-50 to-white p-4">
       <div className="w-full max-w-md bg-white rounded-xl shadow-lg p-6 flex flex-col items-center">
-        
-        {/* לוגו */}
+
         <img
           src={Logo}
           alt="Milan Pilates Logo"
@@ -36,7 +69,6 @@ const EmployeeLogin = ({ onLogin }) => {
           התחברות למערכת
         </h2>
 
-        {/* טופס התחברות */}
         <form onSubmit={handleSubmit} className="w-full space-y-4">
           <div>
             <label className="block text-sm font-medium text-gray-600 mb-1">
@@ -57,9 +89,14 @@ const EmployeeLogin = ({ onLogin }) => {
 
           <button
             type="submit"
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded transition duration-200 text-lg font-semibold"
+            disabled={loading}
+            className={`w-full py-2 rounded text-lg font-semibold ${
+              loading
+                ? "bg-gray-400 cursor-not-allowed"
+                : "bg-blue-600 hover:bg-blue-700 text-white"
+            }`}
           >
-            התחבר
+            {loading ? "מתחבר..." : "התחבר"}
           </button>
         </form>
       </div>
