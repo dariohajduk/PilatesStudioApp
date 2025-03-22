@@ -92,7 +92,7 @@ const BookingsPage = ({ employee }) => {
     <MainLayout employee={employee}>
       {" "}
       <div className="p-4">
-        <h1 className="text-2xl font-bold mb-4">ההזמנות שלי</h1>
+        <h1 className="text-2xl font-bold mb-4">השיעורים שלי</h1>
 
         {message && <p className="text-green-600 mb-4">{message}</p>}
 

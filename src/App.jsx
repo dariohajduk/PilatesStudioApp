@@ -11,6 +11,9 @@ import EmployeeLogin from "./pages/EmployeeLogin";
 import AdminDashboard from "./pages/AdminDashboard";
 import AdminClassesPanel from "./pages/AdminClassesPanel";
 
+// קומפוננטת Header עם מידע שיעורים
+import Header from "./components/Header"; // <-- חשוב: מיקום נכון של הקובץ!
+
 import Logo from "./assets/logo.png";
 
 import { Home, Calendar, BookOpen, LogOut, Settings } from "lucide-react";
@@ -32,15 +35,19 @@ const App = () => {
     const storedRole = localStorage.getItem("employeeRole");
     const storedName = localStorage.getItem("employeeName");
 
-
     if (storedPhone && storedRole) {
-      setEmployee({ phone: storedPhone, role: storedRole, name: storedName || '',});
+      setEmployee({
+        phone: storedPhone,
+        role: storedRole,
+        name: storedName || "",
+      });
     }
   }, []);
 
   const handleLogout = () => {
     localStorage.removeItem("employeePhone");
     localStorage.removeItem("employeeRole");
+    localStorage.removeItem("employeeName");
     setEmployee(null);
     setActiveTab("home");
   };
@@ -52,6 +59,7 @@ const App = () => {
           onLogin={(data) => {
             localStorage.setItem("employeePhone", data.phone);
             localStorage.setItem("employeeRole", data.role);
+            localStorage.setItem("employeeName", data.name || "");
             setEmployee(data);
           }}
         />
@@ -69,8 +77,6 @@ const App = () => {
         return <AdminDashboard employee={employee} />;
       case "adminClasses":
         return <AdminClassesPanel employee={employee} />;
-      case "mainLayout":
-        return <MainLayout employee={employee} />;
       default:
         return <HomePage employee={employee} />;
     }
@@ -82,13 +88,21 @@ const App = () => {
 
   return (
     <div className="min-h-screen bg-background text-text" dir="rtl">
+      {/* לוגו וטייטל */}
       <header className="flex justify-center items-center bg-white shadow-md py-4">
         <img src={Logo} alt="Milan Pilates Logo" className="h-16 mr-4" />
         <h1 className="text-xl font-bold text-primary">Milan Pilates</h1>
       </header>
 
+      {/* הצגת Header עם מידע שיעורים */}
+      {employee && (
+        <Header employee={employee} />
+      )}
+
+      {/* עמודים דינמיים */}
       <main className="pb-20 p-4">{renderPage()}</main>
 
+      {/* ניווט תחתון */}
       {employee && (
         <nav className="fixed bottom-0 right-0 left-0 bg-white shadow-md z-10">
           <div className="flex justify-around">
