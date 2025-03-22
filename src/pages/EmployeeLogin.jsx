@@ -1,7 +1,8 @@
+// ✅ EmployeeLogin.jsx
 import React, { useState } from 'react';
 import { db } from '../services/firebase';
 import { doc, getDoc } from 'firebase/firestore';
-import Logo from '../assets/logo.png'; // ייבוא הלוגו
+import Logo from '../assets/logo.png';
 
 const EmployeeLogin = ({ onLogin }) => {
   const [phone, setPhone] = useState('');
@@ -27,18 +28,29 @@ const EmployeeLogin = ({ onLogin }) => {
         ? 'מדריך'
         : 'משתמש';
 
-      // שמירת פרטי התחברות כולל השם למדריך
-      localStorage.setItem('employeePhone', userData.phone);
-      localStorage.setItem('employeeRole', role);
-      localStorage.setItem('employeeName', userData.name || '');
-
-      onLogin({
+      // שולף את כל המידע הדרוש לניהול מנוי
+      const employeeData = {
         phone: userData.phone,
-        role: role,
+        role,
         name: userData.name || '',
-      });
+        membershipType: userData.membershipType || '',
+        weeklyLimit: userData.weeklyLimit || 0,
+        monthlyLimit: userData.monthlyLimit || 0,
+        remainingLessons: userData.remainingLessons || 0
+      };
 
-      console.log(`✅ התחברות ${role}:`, userData);
+      // שומר ב-localStorage
+      localStorage.setItem('employeePhone', employeeData.phone);
+      localStorage.setItem('employeeRole', employeeData.role);
+      localStorage.setItem('employeeName', employeeData.name);
+      localStorage.setItem('employeeMembershipType', employeeData.membershipType);
+      localStorage.setItem('employeeWeeklyLimit', employeeData.weeklyLimit);
+      localStorage.setItem('employeeMonthlyLimit', employeeData.monthlyLimit);
+      localStorage.setItem('employeeRemainingLessons', employeeData.remainingLessons);
+
+      onLogin(employeeData);
+
+      console.log(`✅ התחברות ${role}:`, employeeData);
     } catch (error) {
       console.error('❌ שגיאה בהתחברות:', error);
       setError('שגיאה בהתחברות');
@@ -47,16 +59,10 @@ const EmployeeLogin = ({ onLogin }) => {
 
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen p-4 bg-gray-100">
-      {/* רקע עם הלוגו */}
       <div className="absolute inset-0 opacity-10 flex justify-center items-center pointer-events-none z-0">
-        <img
-          src={Logo}
-          alt="Logo Background"
-          className="w-3/4 h-auto object-contain"
-        />
+        <img src={Logo} alt="Logo Background" className="w-3/4 h-auto object-contain" />
       </div>
 
-      {/* תוכן הטופס */}
       <div className="relative z-10 flex flex-col items-center bg-white bg-opacity-90 p-8 rounded-lg shadow-lg w-full max-w-sm">
         <h1 className="text-2xl font-bold mb-6 text-center">התחברות למערכת</h1>
 
