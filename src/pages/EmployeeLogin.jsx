@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Logo from "../assets/logo.png";
 import { db } from "../services/firebase";
 import { doc, getDoc } from "firebase/firestore";
@@ -7,24 +7,6 @@ const EmployeeLogin = ({ onLogin }) => {
   const [phone, setPhone] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
-
-  // פונקציה לזיהוי מכשיר
-  const getDeviceType = () => {
-    const ua = navigator.userAgent || navigator.vendor || window.opera;
-    if (/android/i.test(ua)) return "android";
-    if (/iPad|iPhone|iPod/.test(ua) && !window.MSStream) return "ios";
-    return "other";
-  };
-
-  // בדיקה אם הקיצור נשמר כבר
-  const hasShortcutBeenSaved = () => {
-    return localStorage.getItem("shortcutSaved") === "true";
-  };
-
-  // סימון שהקיצור נשמר
-  const setShortcutAsSaved = () => {
-    localStorage.setItem("shortcutSaved", "true");
-  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -50,7 +32,7 @@ const EmployeeLogin = ({ onLogin }) => {
       const userData = userSnap.data();
       console.log("🚀 userData:", userData);
 
-      let role = "לקוח";
+      let role = "לקוח"; // ברירת מחדל אם תרצה
       if (userData.isAdmin) {
         role = "מנהל";
       } else if (userData.isInstructor) {
@@ -65,20 +47,6 @@ const EmployeeLogin = ({ onLogin }) => {
         name: userData.name || "",
       });
 
-      // לאחר התחברות - בדוק אם צריך להציע קיצור דרך
-      if (!hasShortcutBeenSaved()) {
-        const device = getDeviceType();
-
-        if (device === "android") {
-          alert("לחץ על שלוש הנקודות למעלה ובחר 'הוסף למסך הבית' כדי לגשת במהירות לאפליקציה שלנו 😊");
-        }
-
-        if (device === "ios") {
-          alert("לחץ על כפתור השיתוף ואז 'הוסף למסך הבית' כדי לגשת במהירות לאפליקציה שלנו 😊");
-        }
-
-        setShortcutAsSaved();
-      }
     } catch (err) {
       console.error("❌ שגיאה בהתחברות:", err);
       setError("שגיאה בשרת, נסה שוב מאוחר יותר");
