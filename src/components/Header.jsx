@@ -9,6 +9,8 @@ import {
   onSnapshot
 } from 'firebase/firestore';
 
+import Logo from '../assets/logo.png'; // תוודא שהנתיב נכון
+
 const Header = ({ employee }) => {
   const [userData, setUserData] = useState(null);
   const [remainingLessons, setRemainingLessons] = useState(0);
@@ -30,7 +32,6 @@ const Header = ({ employee }) => {
           setUserData(user);
           setMaxLessons(user.remainingLessons);
 
-          // מאזין להזמנות בלייב
           listenToBookings(user);
         }
       } catch (error) {
@@ -42,7 +43,6 @@ const Header = ({ employee }) => {
 
     fetchUserData();
 
-    // ניקוי מאזין ב-unmount
     return () => {
       if (unsubscribeFromBookings) {
         unsubscribeFromBookings();
@@ -117,23 +117,44 @@ const Header = ({ employee }) => {
   return (
     <div className="fixed top-0 left-0 right-0 z-50 w-full bg-gradient-to-l from-blue-600 to-blue-500 text-white shadow-md">
       <div className="max-w-4xl mx-auto flex flex-col md:flex-row md:justify-between items-center px-4 py-3">
+
+        {/* שורה עליונה - לוגו בעיגול לבן + שם משתמש + תפקיד */}
+        <div className="w-full flex justify-between items-center mb-2">
+          <div className="flex items-center gap-2">
+            <div className="bg-white rounded-full p-1 shadow-md">
+              <img
+                src={Logo}
+                alt="Milan Pilates Logo"
+                className="h-10 w-10 object-contain rounded-full"
+              />
+            </div>
+            <h1 className="text-lg font-bold text-white">Milan Pilates</h1>
+          </div>
+
+          <div className="flex flex-col text-right">
+            <span className="text-sm">
+              שלום,{" "}
+              <span className="font-semibold underline">
+                {userData.name}
+              </span>{" "}
+              👋
+            </span>
+            <span className="text-xs text-gray-200">{employee.role}</span>
+          </div>
+        </div>
+
+        {/* שורה תחתונה - סוג מנוי + כמה שיעורים נשארו */}
         {isLoading ? (
           <div className="animate-pulse text-sm">טוען...</div>
         ) : (
-          <>
-            <div className="text-lg font-semibold flex items-center gap-2">
-              👋 שלום, <span className="underline">{userData.name}</span>
+          <div className="flex flex-wrap justify-center gap-2 w-full">
+            <div className="bg-white text-blue-600 px-3 py-1 rounded-lg shadow-sm text-sm font-semibold">
+              מנוי: {userData.membershipType}
             </div>
-
-            <div className="mt-2 md:mt-0 flex items-center gap-2 text-sm">
-              <div className="bg-white text-blue-600 px-2 py-1 rounded-lg shadow-sm">
-                מנוי: {userData.membershipType}
-              </div>
-              <div className={`px-2 py-1 rounded-lg shadow-sm text-white ${getBadgeColor()}`}>
-                נשארו לך {remainingLessons} מתוך {maxLessons} שיעורים
-              </div>
+            <div className={`px-3 py-1 rounded-lg shadow-sm text-white text-sm font-semibold ${getBadgeColor()}`}>
+              נשארו לך {remainingLessons} מתוך {maxLessons} שיעורים
             </div>
-          </>
+          </div>
         )}
       </div>
     </div>

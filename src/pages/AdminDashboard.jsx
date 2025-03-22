@@ -1,75 +1,58 @@
-import React, { useState } from "react";
-import AdminUsersPanel from "./AdminUsersPanel";
-import AdminInstructorsPanel from "./AdminInstructorsPanel";
-import AdminClassesPanel from "./AdminClassesPanel";
-import MainLayout from "../components/MainLayout"; // או הנתיב הנכון אצלך
+import React from "react";
 
 const AdminDashboard = ({ employee }) => {
-  const [selectedPanel, setSelectedPanel] = useState("");
-
-  if (employee?.role !== "מנהל") {
+  if (!employee) {
     return (
-      <div className="p-6">
-        <h1 className="text-xl font-bold">גישה מוגבלת</h1>
-        <p>עמוד זה זמין רק למנהלי מערכת.</p>
+      <div className="p-4 text-center text-red-500">
+        אין גישה! התחבר מחדש.
       </div>
     );
   }
 
-  const renderPanel = () => {
-    switch (selectedPanel) {
-      case "users":
-        return <AdminUsersPanel employee={employee} />;
-      case "instructors":
-        return <AdminInstructorsPanel employee={employee} />;
-      case "classes":
-        return <AdminClassesPanel employee={employee} />;
-      default:
-        return (
-          <MainLayout employee={employee}>
-            <div className="grid gap-4">
-              <h1 className="text-2xl font-bold mb-4">ניהול מערכת</h1>
-
-              <button
-                onClick={() => setSelectedPanel("users")}
-                className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700"
-              >
-                ניהול משתמשים (לקוחות)
-              </button>
-
-              <button
-                onClick={() => setSelectedPanel("instructors")}
-                className="bg-purple-600 text-white px-6 py-3 rounded hover:bg-purple-700"
-              >
-                ניהול מדריכים
-              </button>
-
-              <button
-                onClick={() => setSelectedPanel("classes")}
-                className="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700"
-              >
-                ניהול שיעורים
-              </button>
-            </div>
-          </MainLayout>
-        );
-    }
-  };
+  const isManager = employee.role === "מנהל";
 
   return (
-    <div className="p-6 min-h-screen bg-gray-100">
-      {selectedPanel ? (
-        <div>
+    <div className="p-4 pt-24 max-w-6xl mx-auto">
+      <h1 className="text-2xl font-bold mb-6 text-center text-blue-700">
+        ניהול מערכת
+      </h1>
+
+      {/* למנהל בלבד - 3 כפתורים */}
+      {isManager && (
+        <div className="flex flex-col gap-6 items-center">
           <button
-            onClick={() => setSelectedPanel("")}
-            className="mb-4 text-blue-600 underline"
+            onClick={() => console.log("ניהול משתמשים")}
+            className="w-64 bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold py-3 rounded-lg shadow"
           >
-            ← חזור למסך הניהול הראשי
+            ניהול משתמשים (לקוחות)
           </button>
-          {renderPanel()}
+
+          <button
+            onClick={() => console.log("ניהול מדריכים")}
+            className="w-64 bg-purple-600 hover:bg-purple-700 text-white text-lg font-semibold py-3 rounded-lg shadow"
+          >
+            ניהול מדריכים
+          </button>
+
+          <button
+            onClick={() => console.log("ניהול שיעורים")}
+            className="w-64 bg-green-600 hover:bg-green-700 text-white text-lg font-semibold py-3 rounded-lg shadow"
+          >
+            ניהול שיעורים
+          </button>
         </div>
-      ) : (
-        renderPanel()
+      )}
+
+      {/* במדריך - רק ניהול שיעורים */}
+      {!isManager && (
+        <div className="flex flex-col items-center">
+          <button
+            onClick={() => console.log("ניהול שיעורים")}
+            className="w-64 bg-green-600 hover:bg-green-700 text-white text-lg font-semibold py-3 rounded-lg shadow"
+          >
+            ניהול שיעורים
+          </button>
+        </div>
       )}
     </div>
   );
