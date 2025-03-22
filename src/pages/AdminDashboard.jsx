@@ -1,22 +1,22 @@
 import React, { useState, useEffect } from "react";
 import { db } from "../services/firebase";
-import {
-  collection,
-  query,
-  orderBy,
-  getDocs
-} from "firebase/firestore";
+import { collection, query, orderBy, getDocs } from "firebase/firestore";
 
-import { Users, UserCog, ClipboardList } from "lucide-react";
+import { Users, UserCog, ClipboardList, PaintBucket } from "lucide-react";
 
-const AdminDashboard = ({ employee, setActiveTab }) => {
+import AdminUsersPanel from "./AdminUsersPanel";
+import AdminInstructorsPanel from "./AdminInstructorsPanel";
+import AdminClassesPanel from "./AdminClassesPanel";
+
+const AdminDashboard = ({ employee }) => {
+  const [activeTab, setActiveTab] = useState(null);
   const [bookings, setBookings] = useState([]);
-  const [users, setUsers] = useState([]); // נוסף: שמות המשתמשים
+  const [users, setUsers] = useState([]);
   const [selectedFilter, setSelectedFilter] = useState("week");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetchUsers(); // טוען את המשתמשים לפני ההזמנות
+    fetchUsers();
   }, []);
 
   useEffect(() => {
@@ -29,7 +29,10 @@ const AdminDashboard = ({ employee, setActiveTab }) => {
     try {
       const usersRef = collection(db, "Users");
       const snapshot = await getDocs(usersRef);
-      const usersData = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+      const usersData = snapshot.docs.map((doc) => ({
+        id: doc.id,
+        ...doc.data(),
+      }));
       setUsers(usersData);
     } catch (error) {
       console.error("❌ שגיאה בטעינת משתמשים:", error);
@@ -85,7 +88,6 @@ const AdminDashboard = ({ employee, setActiveTab }) => {
     return data;
   };
 
-  // פונקציה למציאת שם המשתמש לפי userId
   const getUserName = (userId) => {
     const user = users.find((u) => u.phone === userId || u.id === userId);
     return user ? user.name : "לא ידוע";
@@ -97,7 +99,6 @@ const AdminDashboard = ({ employee, setActiveTab }) => {
         ניהול מערכת
       </h2>
 
-      {/* כפתורים לניהול */}
       <div className="grid grid-cols-1 gap-4 mb-10">
         <button
           onClick={() => setActiveTab("manageUsers")}
@@ -133,52 +134,69 @@ const AdminDashboard = ({ employee, setActiveTab }) => {
         </button>
       </div>
 
-      {/* כפתורי סינון לדוחות */}
-      <div className="flex justify-end gap-2 mb-4">
-        <button
-          className={`px-4 py-2 rounded-lg font-medium ${selectedFilter === "week" ? "bg-blue-600 text-white" : "bg-gray-200"}`}
-          onClick={() => setSelectedFilter("week")}
-        >
-          שבוע נוכחי
-        </button>
-        <button
-          className={`px-4 py-2 rounded-lg font-medium ${selectedFilter === "month" ? "bg-blue-600 text-white" : "bg-gray-200"}`}
-          onClick={() => setSelectedFilter("month")}
-        >
-          חודש נוכחי
-        </button>
-      </div>
+      {/* סוויץ טאבים - מציג את הקומפוננטות לפי הבחירה */}
+      {activeTab === "manageUsers" && <AdminUsersPanel />}
+      {activeTab === "manageInstructors" && <AdminInstructorsPanel />}
+      {activeTab === "manageClasses" && <AdminClassesPanel />}
 
-      {loading ? (
-        <div className="text-center text-gray-500 mt-6">טוען נתונים...</div>
-      ) : (
+      {/* תוכן ברירת מחדל אם אין טאב פעיל */}
+      {!activeTab && (
         <>
-          <h3 className="text-lg font-semibold mb-4">
-            סה\"כ הזמנות: {bookings.length}
-          </h3>
-
-          <div className="overflow-x-auto bg-white shadow-md rounded-lg">
-            <table className="w-full text-sm text-right">
-              <thead className="bg-gray-100">
-                <tr>
-                  <th className="p-3">שם משתמש</th>
-                  <th className="p-3">תאריך</th>
-                  <th className="p-3">שיעור</th>
-                  <th className="p-3">שעה</th>
-                </tr>
-              </thead>
-              <tbody>
-                {bookings.map((booking, index) => (
-                  <tr key={index} className="border-t hover:bg-gray-50">
-                    <td className="p-3">{getUserName(booking.userId)}</td>
-                    <td className="p-3">{booking.date}</td>
-                    <td className="p-3">{booking.name}</td>
-                    <td className="p-3">{booking.time}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+          <div className="flex justify-end gap-2 mb-4">
+            <button
+              className={`px-4 py-2 rounded-lg font-medium ${
+                selectedFilter === "week"
+                  ? "bg-blue-600 text-white"
+                  : "bg-gray-200"
+              }`}
+              onClick={() => setSelectedFilter("week")}
+            >
+              שבוע נוכחי
+            </button>
+            <button
+              className={`px-4 py-2 rounded-lg font-medium ${
+                selectedFilter === "month"
+                  ? "bg-blue-600 text-white"
+                  : "bg-gray-200"
+              }`}
+              onClick={() => setSelectedFilter("month")}
+            >
+              חודש נוכחי
+            </button>
           </div>
+
+          {loading ? (
+            <div className="text-center text-gray-500 mt-6">טוען נתונים...</div>
+          ) : (
+            <>
+              <h3 className="text-lg font-semibold mb-4">
+                סה"כ הזמנות: {bookings.length}
+              </h3>
+
+              <div className="overflow-x-auto bg-white shadow-md rounded-lg">
+                <table className="w-full text-sm text-right">
+                  <thead className="bg-gray-100">
+                    <tr>
+                      <th className="p-3">שם משתמש</th>
+                      <th className="p-3">תאריך</th>
+                      <th className="p-3">שיעור</th>
+                      <th className="p-3">שעה</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {bookings.map((booking, index) => (
+                      <tr key={index} className="border-t hover:bg-gray-50">
+                        <td className="p-3">{getUserName(booking.userId)}</td>
+                        <td className="p-3">{booking.date}</td>
+                        <td className="p-3">{booking.name}</td>
+                        <td className="p-3">{booking.time}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </>
+          )}
         </>
       )}
     </div>
