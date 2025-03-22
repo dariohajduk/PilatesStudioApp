@@ -10,6 +10,8 @@ import EmployeeLogin from "./pages/EmployeeLogin";
 // עמודי ניהול
 import AdminDashboard from "./pages/AdminDashboard";
 import AdminClassesPanel from "./pages/AdminClassesPanel";
+import AdminUsersPanel from "./pages/AdminUsersPanel";
+import AdminInstructorsPanel from "./pages/AdminInstructorsPanel";
 
 import Header from "./components/Header"; // ✅ זה ה-Header החדש
 import { Home, Calendar, BookOpen, LogOut, Settings } from "lucide-react";
@@ -74,9 +76,24 @@ const App = () => {
       case "bookings":
         return <BookingsPage employee={employee} />;
       case "admin":
-        return <AdminDashboard employee={employee} />;
-      case "adminClasses":
-        return <AdminClassesPanel employee={employee} />;
+        return (
+          <AdminDashboard employee={employee} setActiveTab={setActiveTab} />
+        );
+      case "manageUsers":
+        return (
+          <AdminUsersPanel employee={employee} setActiveTab={setActiveTab} />
+        );
+      case "manageInstructors":
+        return (
+          <AdminInstructorsPanel
+            employee={employee}
+            setActiveTab={setActiveTab}
+          />
+        );
+      case "manageClasses":
+        return (
+          <AdminClassesPanel employee={employee} setActiveTab={setActiveTab} />
+        );
       default:
         return <HomePage employee={employee} />;
     }
@@ -88,7 +105,6 @@ const App = () => {
 
   return (
     <div className="min-h-screen bg-background text-text relative" dir="rtl">
-
       {/* ✅ Header דינמי חדש שמשלב הכל */}
       {employee && <Header employee={employee} />}
 
@@ -150,9 +166,7 @@ const App = () => {
               <button
                 onClick={() => setActiveTab("adminClasses")}
                 className={`p-3 flex flex-col items-center ${
-                  activeTab === "adminClasses"
-                    ? "text-secondary"
-                    : "text-muted"
+                  activeTab === "adminClasses" ? "text-secondary" : "text-muted"
                 }`}
               >
                 <BookOpen size={20} />
