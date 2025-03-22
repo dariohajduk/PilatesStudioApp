@@ -2,266 +2,257 @@ import React, { useState, useEffect } from 'react';
 import { db } from '../services/firebase';
 import {
   collection,
-  doc,
   getDocs,
   addDoc,
+  doc,
+  updateDoc,
   deleteDoc,
   query,
   where,
+  orderBy
 } from 'firebase/firestore';
-
-import DatePicker from 'react-datepicker';
-import 'react-datepicker/dist/react-datepicker.css';
-import { format } from 'date-fns';
 
 const AdminClassesPanel = ({ employee }) => {
   const [classes, setClasses] = useState([]);
   const [instructors, setInstructors] = useState([]);
-  const [newClass, setNewClass] = useState({
-    name: '',
-    instructor: '',
-    date: '',
-    time: '',
-    spots: 0,
-  });
+
+  const [name, setName] = useState('');
+  const [date, setDate] = useState('');
+  const [time, setTime] = useState('');
+  const [spots, setSpots] = useState(10);
+  const [instructorId, setInstructorId] = useState('');
+
+  const [editingClassId, setEditingClassId] = useState(null);
   const [message, setMessage] = useState('');
-  const [selectedDate, setSelectedDate] = useState(null);
+  const [loading, setLoading] = useState(false);
 
-  // טוען את כל השיעורים
-  const fetchClasses = async () => {
-    try {
-      let classesQuery;
-
-      if (employee?.role === 'מנהל') {
-        classesQuery = collection(db, 'classes');
-      } else if (employee?.role === 'מדריך') {
-        classesQuery = query(
-          collection(db, 'classes'),
-          where('instructorId', '==', employee.phone)
-        );
-      } else {
-        setClasses([]);
-        return;
-      }
-
-      const querySnapshot = await getDocs(classesQuery);
-      const classesData = querySnapshot.docs.map((doc) => ({
-        id: doc.id,
-        ...doc.data(),
-      }));
-
-      setClasses(classesData);
-    } catch (error) {
-      console.error('❌ שגיאה בטעינת השיעורים:', error);
-    }
-  };
-
-  // טוען את רשימת המדריכים
-  const fetchInstructors = async () => {
-    if (employee?.role !== 'מנהל') return;
-
-    try {
-      const querySnapshot = await getDocs(collection(db, 'Instructors'));
-      const instructorsData = querySnapshot.docs.map((doc) => ({
-        id: doc.id,
-        ...doc.data(),
-      }));
-
-      setInstructors(instructorsData);
-    } catch (error) {
-      console.error('❌ שגיאה בטעינת המדריכים:', error);
-    }
-  };
-
+  // טוען שיעורים ומדריכים
   useEffect(() => {
     fetchClasses();
     fetchInstructors();
   }, []);
 
-  // הוספת שיעור חדש
-  const handleAddClass = async () => {
-    const { name, instructor, date, time, spots } = newClass;
-
-    if (!name || !date || !time || spots <= 0) {
-      setMessage('נא למלא את כל השדות');
-      return;
-    }
-
+  const fetchClasses = async () => {
+    setLoading(true);
     try {
-      const instructorName =
-        employee.role === 'מנהל'
-          ? instructor
-          : employee.name || employee.phone;
-
-      const classToAdd = {
-        name,
-        instructor: instructorName,
-        instructorId: employee.phone,
-        date,
-        time,
-        spots: parseInt(spots),
-        createdAt: new Date(),
-      };
-
-      await addDoc(collection(db, 'classes'), classToAdd);
-
-      setMessage('✔️ שיעור נוסף בהצלחה!');
-      setNewClass({
-        name: '',
-        instructor: '',
-        date: '',
-        time: '',
-        spots: 0,
-      });
-      setSelectedDate(null);
-      fetchClasses();
+      const querySnapshot = await getDocs(query(collection(db, 'classes'), orderBy('date')));
+      const data = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+      setClasses(data);
     } catch (error) {
-      console.error('❌ שגיאה בהוספת שיעור:', error);
-      setMessage('שגיאה בהוספת שיעור');
+      console.error('❌ שגיאה בטעינת השיעורים:', error);
+    }
+    setLoading(false);
+  };
+
+  const fetchInstructors = async () => {
+    try {
+      const querySnapshot = await getDocs(query(collection(db, 'Users'), where('isInstructor', '==', true)));
+      const data = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+      setInstructors(data);
+    } catch (error) {
+      console.error('❌ שגיאה בטעינת המדריכים:', error);
     }
   };
 
-  // מחיקת שיעור
-  const handleDeleteClass = async (id, instructorId) => {
-    if (employee.role !== 'מנהל' && instructorId !== employee.phone) {
-      setMessage('אין לך הרשאות למחוק שיעור זה');
+  const handleSaveClass = async () => {
+    if (!name || !date || !time || !instructorId || spots < 1) {
+      setMessage('אנא מלא את כל השדות הנדרשים');
       return;
     }
 
+    setLoading(true);
+
     try {
-      await deleteDoc(doc(db, 'classes', id));
+      const instructor = instructors.find(i => i.id === instructorId);
+      const classData = {
+        name,
+        date,
+        time,
+        instructor: instructor?.name || '',
+        instructorId,
+        spots: parseInt(spots),
+        createdAt: new Date().toISOString()
+      };
+
+      if (editingClassId) {
+        const classRef = doc(db, 'classes', editingClassId);
+        await updateDoc(classRef, classData);
+        setMessage('✔️ שיעור עודכן בהצלחה!');
+      } else {
+        await addDoc(collection(db, 'classes'), classData);
+        setMessage('✔️ שיעור נוסף בהצלחה!');
+      }
+
+      clearForm();
+      fetchClasses();
+    } catch (error) {
+      console.error('❌ שגיאה בהוספת/עדכון שיעור:', error);
+      setMessage('שגיאה בהוספת/עדכון שיעור');
+    }
+
+    setLoading(false);
+  };
+
+  const handleEditClass = (cls) => {
+    setName(cls.name);
+    setDate(cls.date);
+    setTime(cls.time);
+    setSpots(cls.spots);
+    setInstructorId(cls.instructorId);
+    setEditingClassId(cls.id);
+  };
+
+  const handleDeleteClass = async (classId) => {
+    if (!window.confirm('האם למחוק את השיעור?')) return;
+
+    setLoading(true);
+
+    try {
+      await deleteDoc(doc(db, 'classes', classId));
       setMessage('🗑️ שיעור נמחק');
       fetchClasses();
     } catch (error) {
       console.error('❌ שגיאה במחיקת שיעור:', error);
       setMessage('שגיאה במחיקה');
     }
+
+    setLoading(false);
   };
 
-  if (!employee || (employee.role !== 'מנהל' && employee.role !== 'מדריך')) {
+  const clearForm = () => {
+    setName('');
+    setDate('');
+    setTime('');
+    setSpots(10);
+    setInstructorId('');
+    setEditingClassId(null);
+  };
+
+  if (employee?.role !== 'מנהל' && employee?.role !== 'מדריך') {
     return (
       <div className="p-6">
-        <h1 className="text-xl font-bold">גישה מוגבלת</h1>
+        <h1 className="text-xl font-bold text-red-600">גישה מוגבלת</h1>
         <p>עמוד זה זמין רק למנהלים ומדריכים.</p>
       </div>
     );
   }
 
   return (
-    <div className="p-6 min-h-screen bg-gray-100">
-      <h1 className="text-2xl font-bold mb-6">
-        {employee.role === 'מנהל' ? 'ניהול כל השיעורים' : 'ניהול השיעורים שלי'}
-      </h1>
+    <div className="p-6 pt-28 max-w-6xl mx-auto">
+      <h1 className="text-2xl font-bold mb-6 text-center text-blue-700">ניהול שיעורים</h1>
 
-      {/* טופס הוספת שיעור */}
-      <div className="mb-6 bg-white p-4 rounded shadow">
-        <h2 className="text-lg font-semibold mb-4">הוספת שיעור חדש</h2>
+      <div className="mb-10 bg-white shadow-md rounded-xl p-6">
+        <h2 className="text-lg font-semibold mb-4">{editingClassId ? 'עריכת שיעור' : 'הוספת שיעור חדש'}</h2>
 
-        <input
-          type="text"
-          placeholder="שם השיעור"
-          value={newClass.name}
-          onChange={(e) => setNewClass({ ...newClass, name: e.target.value })}
-          className="block w-full p-2 mb-3 border rounded text-black"
-        />
+        <div className="grid gap-4 md:grid-cols-2">
+          <input
+            type="text"
+            placeholder="שם השיעור"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            className="block w-full p-3 border rounded-lg text-black"
+          />
 
-        {/* בחירת מדריך */}
-        {employee.role === 'מנהל' ? (
+          <input
+            type="date"
+            value={formatDate(date)}
+            onChange={(e) => setDate(formatDateDisplay(e.target.value))}
+            className="block w-full p-3 border rounded-lg text-black"
+          />
+
+          <input
+            type="time"
+            value={time}
+            onChange={(e) => setTime(e.target.value)}
+            className="block w-full p-3 border rounded-lg text-black"
+          />
+
           <select
-            value={newClass.instructor}
-            onChange={(e) =>
-              setNewClass({ ...newClass, instructor: e.target.value })
-            }
-            className="block w-full p-2 mb-3 border rounded text-black"
+            value={instructorId}
+            onChange={(e) => setInstructorId(e.target.value)}
+            className="block w-full p-3 border rounded-lg text-black"
           >
             <option value="">בחר מדריך</option>
             {instructors.map((instr) => (
-              <option key={instr.id} value={instr.name}>
+              <option key={instr.id} value={instr.id}>
                 {instr.name}
               </option>
             ))}
           </select>
-        ) : (
+
           <input
-            type="text"
-            value={employee.name || employee.phone}
-            disabled
-            className="block w-full p-2 mb-3 border rounded bg-gray-200 text-black"
+            type="number"
+            min={1}
+            value={spots}
+            onChange={(e) => setSpots(e.target.value)}
+            placeholder="כמות מקומות פנויים"
+            className="block w-full p-3 border rounded-lg text-black"
           />
-        )}
+        </div>
 
-        {/* בחירת תאריך */}
-        <DatePicker
-          selected={selectedDate}
-          onChange={(date) => {
-            setSelectedDate(date);
-            setNewClass({ ...newClass, date: format(date, 'dd/MM/yyyy') });
-          }}
-          dateFormat="dd/MM/yyyy"
-          placeholderText="בחר תאריך"
-          className="block w-full p-2 mb-3 border rounded text-black"
-        />
-
-        {/* בחירת שעה */}
-        <input
-          type="time"
-          value={newClass.time}
-          onChange={(e) => setNewClass({ ...newClass, time: e.target.value })}
-          className="block w-full p-2 mb-3 border rounded text-black"
-        />
-
-        {/* כמות מקומות */}
-        <input
-          type="number"
-          placeholder="כמות מקומות פנויים"
-          value={newClass.spots}
-          onChange={(e) => setNewClass({ ...newClass, spots: e.target.value })}
-          className="block w-full p-2 mb-3 border rounded text-black"
-        />
-
-        {/* כפתור הוספה */}
         <button
-          onClick={handleAddClass}
-          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+          onClick={handleSaveClass}
+          disabled={loading}
+          className={`mt-6 bg-green-600 text-white py-3 px-6 rounded-lg hover:bg-green-700 transition duration-200 ${loading && 'opacity-50'}`}
         >
-          הוסף שיעור
+          {editingClassId ? 'עדכן שיעור' : 'הוסף שיעור'}
         </button>
 
-        {message && <p className="mt-3 text-green-600">{message}</p>}
+        {message && <p className="mt-4 text-green-600">{message}</p>}
       </div>
 
-      {/* רשימת שיעורים */}
-      <h2 className="text-lg font-bold mb-4">רשימת שיעורים</h2>
+      <h2 className="text-lg font-semibold mb-4">רשימת שיעורים</h2>
 
-      <ul className="space-y-2">
-        {classes.map((cls) => (
-          <li
-            key={cls.id}
-            className="flex justify-between items-center p-4 bg-white shadow rounded"
-          >
-            <div>
-              <p className="font-semibold">
-                {cls.name} עם {cls.instructor}
-              </p>
-              <p className="text-sm text-gray-600">
-                {cls.date} בשעה {cls.time} | מקומות פנויים: {cls.spots}
-              </p>
+      {loading ? (
+        <div className="text-center text-gray-500 mt-6">טוען שיעורים...</div>
+      ) : (
+        <div className="grid gap-4">
+          {classes.map((cls) => (
+            <div
+              key={cls.id}
+              className="bg-white shadow-md rounded-xl p-4 flex flex-col md:flex-row md:justify-between items-center hover:shadow-lg transition duration-300"
+            >
+              <div className="flex flex-col text-right">
+                <h3 className="text-lg font-bold text-blue-700">{cls.name}</h3>
+                <p className="text-sm text-gray-600">
+                  מדריך: {cls.instructor} | תאריך: {cls.date} | שעה: {cls.time} | מקומות פנויים: {cls.spots}
+                </p>
+              </div>
+
+              <div className="flex gap-3 mt-4 md:mt-0">
+                <button
+                  onClick={() => handleEditClass(cls)}
+                  className="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-lg shadow text-sm transition-transform transform hover:scale-105"
+                >
+                  ערוך
+                </button>
+
+                <button
+                  onClick={() => handleDeleteClass(cls.id)}
+                  className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg shadow text-sm transition-transform transform hover:scale-105"
+                >
+                  מחק
+                </button>
+              </div>
             </div>
-
-            {/* כפתור מחיקה - רק למנהל או למדריך שהוסיף */}
-            {(employee.role === 'מנהל' || cls.instructorId === employee.phone) && (
-              <button
-                onClick={() => handleDeleteClass(cls.id, cls.instructorId)}
-                className="bg-red-600 text-white px-3 py-1 rounded hover:bg-red-700 text-sm"
-              >
-                מחק
-              </button>
-            )}
-          </li>
-        ))}
-      </ul>
+          ))}
+        </div>
+      )}
     </div>
   );
+};
+
+// פורמט תאריך להצגה
+const formatDate = (dateStr) => {
+  if (!dateStr) return '';
+  const [day, month, year] = dateStr.split('/');
+  return `${year}-${month}-${day}`;
+};
+
+// פורמט תאריך להזנה
+const formatDateDisplay = (dateStr) => {
+  const [year, month, day] = dateStr.split('-');
+  return `${day}/${month}/${year}`;
 };
 
 export default AdminClassesPanel;
