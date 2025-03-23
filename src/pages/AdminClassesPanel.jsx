@@ -1,422 +1,389 @@
 import React, { useState, useEffect } from "react";
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
-import { he } from "date-fns/locale";
 import { db } from "../services/firebase";
 import {
   collection,
   getDocs,
   addDoc,
+  deleteDoc,
   doc,
   updateDoc,
-  deleteDoc,
   query,
   where,
-  orderBy,
 } from "firebase/firestore";
-import { motion, AnimatePresence } from "framer-motion";
-const formatDateToDDMMYYYY = (date) => {
-  if (!date) return "";
+import { format } from "date-fns";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
-  const day = String(date.getDate()).padStart(2, "0");
-  const month = String(date.getMonth() + 1).padStart(2, "0");
-  const year = date.getFullYear();
-
-  return `${day}/${month}/${year}`;
-};
-
+// ==================== קומפוננטת פאנל ניהול שיעורים ====================
 const AdminClassesPanel = ({ employee }) => {
-  const [classes, setClasses] = useState([]);
-  const [filteredClasses, setFilteredClasses] = useState([]);
-  const [instructors, setInstructors] = useState([]);
+  // ========== מצב (State) ==========
+  // משתני State לניהול השיעורים
+  const [classes, setClasses] = useState([]); // רשימת כל השיעורים
+  const [loading, setLoading] = useState(true); // אינדיקטור לטעינה
+  const [message, setMessage] = useState(""); // הודעת מערכת למשתמש
+  const [isModalOpen, setIsModalOpen] = useState(false); // האם חלון המודל פתוח
+  
+  // משתני State לטופס הוספת/עריכת שיעור
+  const [name, setName] = useState(""); // שם השיעור
+  const [date, setDate] = useState(null); // תאריך השיעור
+  const [time, setTime] = useState(""); // שעת השיעור
+  const [spots, setSpots] = useState(10); // מספר מקומות פנויים
+  const [instructorId, setInstructorId] = useState(""); // מזהה המדריך
+  const [instructors, setInstructors] = useState([]); // רשימת המדריכים
+  const [editingClassId, setEditingClassId] = useState(null); // מזהה השיעור שנערך כעת
+  const [showDeleteConfirm, setShowDeleteConfirm] = useState(false); // האם להציג חלון אישור מחיקה
+  const [deleteClassId, setDeleteClassId] = useState(null); // מזהה השיעור למחיקה
 
-  const [name, setName] = useState("");
-  const [date, setDate] = useState(null);
-  const [time, setTime] = useState("");
-  const [spots, setSpots] = useState(10);
-  const [instructorId, setInstructorId] = useState("");
-
-  const [editingClassId, setEditingClassId] = useState(null);
-  const [message, setMessage] = useState("");
-  const [loading, setLoading] = useState(false);
-
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const [filterInstructorId, setFilterInstructorId] = useState("");
-  const [filterStartDate, setFilterStartDate] = useState(null);
-  const [filterEndDate, setFilterEndDate] = useState(null);
-
+  // ========== אפקטים ==========
+  // טעינת נתונים בעת טעינת הקומפוננטה
   useEffect(() => {
-    fetchClasses();
-    fetchInstructors();
+    fetchClasses(); // טעינת רשימת השיעורים
+    fetchInstructors(); // טעינת רשימת המדריכים
   }, []);
 
-  useEffect(() => {
-    applyFilters();
-  }, [filterInstructorId, filterStartDate, filterEndDate, classes]);
-
-  const fetchClasses = async () => {
-    setLoading(true);
-    try {
-      const querySnapshot = await getDocs(
-        query(collection(db, "classes"), orderBy("date"))
-      );
-      setClasses(
-        querySnapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }))
-      );
-    } catch (error) {
-      console.error("❌ שגיאה בטעינת השיעורים:", error);
-    }
-    setLoading(false);
+  // ========== פונקציות עזר ==========
+  // פונקציה להמרת תאריך לפורמט DD/MM/YYYY
+  const formatDateToDDMMYYYY = (date) => {
+    if (!date) return "";
+    return format(date, "dd/MM/yyyy");
   };
 
+  // פונקציה לאיפוס הטופס
+  const clearForm = () => {
+    setName(""); // איפוס שם השיעור
+    setDate(null); // איפוס תאריך
+    setTime(""); // איפוס שעה
+    setSpots(10); // איפוס מספר מקומות לברירת מחדל
+    setInstructorId(""); // איפוס מזהה מדריך
+    setEditingClassId(null); // איפוס מזהה שיעור לעריכה
+    setMessage(""); // איפוס הודעת מערכת
+  };
+
+  // ========== פונקציות שליפת נתונים ==========
+  // פונקציה לשליפת כל השיעורים
+  const fetchClasses = async () => {
+    setLoading(true); // הפעלת אינדיקטור טעינה
+    try {
+      // שליפת כל השיעורים ממסד הנתונים
+      const querySnapshot = await getDocs(collection(db, "classes"));
+      // המרת התוצאות למערך אובייקטים
+      const classesData = querySnapshot.docs.map((doc) => ({
+        id: doc.id, // הוספת מזהה המסמך
+        ...doc.data(), // הוספת כל הנתונים מהמסמך
+      }));
+      setClasses(classesData); // עדכון מצב רשימת השיעורים
+    } catch (error) {
+      // טיפול בשגיאות
+      console.error("❌ שגיאה בטעינת השיעורים:", error);
+    }
+    setLoading(false); // כיבוי אינדיקטור טעינה
+  };
+
+  // פונקציה לשליפת כל המדריכים
   const fetchInstructors = async () => {
     try {
-      const querySnapshot = await getDocs(
-        query(collection(db, "Users"), where("isInstructor", "==", true))
-      );
-      setInstructors(
-        querySnapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }))
-      );
+      // שליפת משתמשים שהם מדריכים
+      const q = query(collection(db, "Users"), where("isInstructor", "==", true));
+      const querySnapshot = await getDocs(q);
+      // המרת התוצאות למערך אובייקטים
+      const instructorsData = querySnapshot.docs.map((doc) => ({
+        id: doc.id, // מזהה המדריך (מספר טלפון)
+        ...doc.data(), // נתוני המדריך
+      }));
+      console.log("📋 מדריכים שהתקבלו:", instructorsData);
+
+      setInstructors(instructorsData); // עדכון מצב רשימת המדריכים
     } catch (error) {
+      // טיפול בשגיאות
       console.error("❌ שגיאה בטעינת המדריכים:", error);
     }
   };
 
-  const applyFilters = () => {
-    let result = [...classes];
-
-    if (filterInstructorId) {
-      result = result.filter((c) => c.instructorId === filterInstructorId);
-    }
-
-    if (filterStartDate) {
-      result = result.filter(
-        (c) =>
-          new Date(c.date.split("/").reverse().join("-")) >= filterStartDate
-      );
-    }
-
-    if (filterEndDate) {
-      result = result.filter(
-        (c) => new Date(c.date.split("/").reverse().join("-")) <= filterEndDate
-      );
-    }
-
-    setFilteredClasses(result);
-  };
-
-  const openModalForAdd = () => {
-    clearForm();
-    setIsModalOpen(true);
-  };
-
+  // ========== פונקציות טיפול במודל ==========
+  // פתיחת מודל לעריכת שיעור קיים
   const openModalForEdit = (cls) => {
-    setName(cls.name);
+    setName(cls.name); // הגדרת שם השיעור
+    
+    // טיפול בתאריך השיעור
     if (cls.date) {
+      // פירוק תאריך בפורמט DD/MM/YYYY
       const [day, month, year] = cls.date.split("/");
+      // יצירת אובייקט תאריך
       const parsedDate = new Date(`${year}-${month}-${day}`);
 
-      // בדוק שהתאריך חוקי:
+      // בדיקה שהתאריך חוקי
       if (!isNaN(parsedDate.getTime())) {
-        setDate(parsedDate);
+        setDate(parsedDate); // הגדרת תאריך השיעור
       } else {
-        console.warn("תאריך לא תקין בשיעור:", cls);
-        setDate(null);
+        console.error("תאריך לא חוקי:", cls.date);
+        setDate(null); // איפוס תאריך במקרה של תאריך לא חוקי
       }
     } else {
+      // התראה אם אין תאריך בשיעור
       console.warn("אין תאריך בשיעור:", cls);
-      setDate(null);
+      setDate(null); // איפוס תאריך
     }
-    setTime(cls.time);
-    setSpots(cls.spots);
-    setInstructorId(cls.instructorId);
-    setEditingClassId(cls.id);
-    setIsModalOpen(true);
+    
+    setTime(cls.time); // הגדרת שעת השיעור
+    setSpots(cls.spots); // הגדרת מספר המקומות הפנויים
+    setInstructorId(cls.instructorId); // הגדרת מזהה המדריך
+    setEditingClassId(cls.id); // הגדרת מזהה השיעור הנערך
+    setIsModalOpen(true); // פתיחת המודל
   };
 
+  // ========== פונקציות טיפול בשיעורים ==========
+  // שמירת שיעור חדש או עדכון שיעור קיים
   const handleSaveClass = async (closeAfterSave = false) => {
+    // בדיקת תקינות הנתונים
     if (!name || !date || !time || !instructorId || spots < 1) {
-      setMessage("אנא מלא את כל השדות הנדרשים");
-      return;
+      setMessage("אנא מלא את כל השדות הנדרשים"); // הצגת הודעת שגיאה
+      return; // עצירת הפונקציה אם יש שדות חסרים
     }
 
-    setLoading(true);
+    setLoading(true); // הפעלת אינדיקטור טעינה
 
     try {
+      // מציאת אובייקט המדריך לפי מזהה
       const instructor = instructors.find((i) => i.id === instructorId);
+      // בניית אובייקט נתוני השיעור
       const classData = {
-        name,
-        date: formatDateToDDMMYYYY(date),
-        time,
-        instructor: instructor?.name || "",
-        instructorId,
-        spots: parseInt(spots),
-        createdAt: new Date().toISOString(),
+        name, // שם השיעור
+        date: formatDateToDDMMYYYY(date), // תאריך בפורמט DD/MM/YYYY
+        time, // שעת השיעור
+        instructor: instructor?.name || "", // שם המדריך
+        instructorId, // מזהה המדריך
+        spots: parseInt(spots), // מספר מקומות (המרה למספר)
+        createdAt: new Date().toISOString(), // זמן יצירה
       };
 
+      // בדיקה האם מדובר בעריכה או ביצירה
       if (editingClassId) {
+        // עדכון שיעור קיים
         await updateDoc(doc(db, "classes", editingClassId), classData);
-        setMessage("✔️ שיעור עודכן בהצלחה!");
+        setMessage("✔️ שיעור עודכן בהצלחה!"); // הודעת הצלחה
       } else {
+        // יצירת שיעור חדש
         await addDoc(collection(db, "classes"), classData);
-        setMessage("✔️ שיעור נוסף בהצלחה!");
+        setMessage("✔️ שיעור נוסף בהצלחה!"); // הודעת הצלחה
       }
 
-      clearForm();
-      fetchClasses();
-      if (closeAfterSave) setIsModalOpen(false);
+      clearForm(); // איפוס הטופס
+      fetchClasses(); // רענון רשימת השיעורים
+      
+      // סגירת המודל אם צוין שיש לסגור אחרי שמירה
+      if (closeAfterSave) {
+        setIsModalOpen(false);
+      }
     } catch (error) {
-      console.error("❌ שגיאה בהוספת/עדכון שיעור:", error);
-      setMessage("שגיאה בהוספת/עדכון שיעור");
+      // טיפול בשגיאות
+      console.error("❌ שגיאה בשמירת השיעור:", error);
+      setMessage("❌ שגיאה בשמירת השיעור, נסה שוב"); // הודעת שגיאה
     }
 
-    setLoading(false);
+    setLoading(false); // כיבוי אינדיקטור טעינה
   };
 
-  const handleDeleteClass = async (classId) => {
-    if (!window.confirm("האם למחוק את השיעור?")) return;
-    setLoading(true);
+  // פונקציה להצגת חלון אישור מחיקת שיעור
+  const confirmDeleteClass = (classId) => {
+    setDeleteClassId(classId); // הגדרת מזהה השיעור למחיקה
+    setShowDeleteConfirm(true); // הצגת חלון אישור המחיקה
+  };
+
+  // פונקציה למחיקת שיעור
+  const handleDeleteClass = async () => {
+    if (!deleteClassId) return; // בדיקה שיש מזהה שיעור למחיקה
+
+    setLoading(true); // הפעלת אינדיקטור טעינה
+
     try {
-      await deleteDoc(doc(db, "classes", classId));
-      setMessage("🗑️ שיעור נמחק");
-      fetchClasses();
+      // מחיקת השיעור ממסד הנתונים
+      await deleteDoc(doc(db, "classes", deleteClassId));
+      setMessage("✔️ שיעור נמחק בהצלחה!"); // הודעת הצלחה
+      fetchClasses(); // רענון רשימת השיעורים
     } catch (error) {
-      console.error("❌ שגיאה במחיקת שיעור:", error);
-      setMessage("שגיאה במחיקה");
+      // טיפול בשגיאות
+      console.error("❌ שגיאה במחיקת השיעור:", error);
+      setMessage("❌ שגיאה במחיקת השיעור, נסה שוב"); // הודעת שגיאה
     }
-    setLoading(false);
+
+    setShowDeleteConfirm(false); // סגירת חלון אישור המחיקה
+    setDeleteClassId(null); // איפוס מזהה השיעור למחיקה
+    setLoading(false); // כיבוי אינדיקטור טעינה
   };
 
-  const clearForm = () => {
-    setName("");
-    setDate(null);
-    setTime("");
-    setSpots(10);
-    setInstructorId("");
-    setEditingClassId(null);
-    setMessage("");
-  };
-
-  if (employee?.isAdmin) {
-    return (
-      <div className="p-6">
-        <h1 className="text-xl font-bold text-red-600">גישה מוגבלת</h1>
-      </div>
-    );
-  }
-
+  // ========== רינדור ממשק המשתמש ==========
   return (
-    <div className="p-6 pt-28 max-w-6xl mx-auto">
-      <h1 className="text-2xl font-bold mb-6 text-center text-blue-700">
-        ניהול שיעורים
-      </h1>
-
-      <div className="flex justify-end mb-6">
-        <button
-          onClick={openModalForAdd}
-          className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold shadow-lg transition-transform transform hover:scale-105"
-        >
-          + הוסף שיעור
-        </button>
-      </div>
-
-      <div className="bg-white p-4 rounded-lg shadow-md mb-6 grid grid-cols-1 md:grid-cols-4 gap-4">
-        <select
-          value={filterInstructorId}
-          onChange={(e) => setFilterInstructorId(e.target.value)}
-          className="p-3 border rounded text-black"
-        >
-          <option value="">בחר מדריך</option>
-          {instructors.map((instr) => (
-            <option key={instr.id} value={instr.id}>
-              {instr.name}
-            </option>
-          ))}
-        </select>
-
-        <DatePicker
-          selected={filterStartDate}
-          onChange={(date) => setFilterStartDate(date)}
-          dateFormat="dd/MM/yyyy"
-          locale={he}
-          placeholderText="תאריך התחלה"
-          className="p-3 border rounded text-black w-full"
-        />
-
-        <DatePicker
-          selected={filterEndDate}
-          onChange={(date) => setFilterEndDate(date)}
-          dateFormat="dd/MM/yyyy"
-          locale={he}
-          placeholderText="תאריך סיום"
-          className="p-3 border rounded text-black w-full"
-        />
-
-        <button
-          onClick={() => {
-            setFilterInstructorId("");
-            setFilterStartDate(null);
-            setFilterEndDate(null);
-          }}
-          className="bg-gray-300 hover:bg-gray-400 text-black py-2 rounded"
-        >
-          נקה סינון
-        </button>
-      </div>
-
-      <AnimatePresence>
-        {loading ? (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="text-center text-gray-500 mt-6"
-          >
-            טוען שיעורים...
-          </motion.div>
-        ) : (
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: 10 }}
-            className="grid gap-4"
-          >
-            {filteredClasses.map((cls) => (
-              <motion.div
-                key={cls.id}
-                layout
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.95 }}
-                className="bg-white shadow-md rounded-xl p-4 flex flex-col md:flex-row md:justify-between items-center"
+    <div className="p-4">
+      <h1 className="text-xl font-bold mb-4">ניהול שיעורים</h1>
+      
+      {/* כפתור להוספת שיעור חדש */}
+      <button
+        onClick={() => {
+          clearForm(); // איפוס הטופס לפני פתיחתו
+          setIsModalOpen(true); // פתיחת המודל
+        }}
+        className="bg-blue-600 text-white px-4 py-2 rounded mb-4"
+      >
+        + הוסף שיעור חדש
+      </button>
+      
+      {/* הודעת מערכת */}
+      {message && <div className="my-2 text-blue-500">{message}</div>}
+      
+      {/* אינדיקטור טעינה */}
+      {loading && <p className="text-gray-500">טוען...</p>}
+      
+      {/* רשימת השיעורים */}
+      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        {classes.map((cls) => (
+          <div key={cls.id} className="bg-white shadow rounded p-4 relative">
+            <h2 className="text-lg font-bold">{cls.name}</h2>
+            <p>תאריך: {cls.date}</p>
+            <p>שעה: {cls.time}</p>
+            <p>מדריך: {cls.instructor}</p>
+            <p>מקומות: {cls.spots}</p>
+            
+            {/* כפתורי עריכה ומחיקה */}
+            <div className="mt-3 flex space-x-2">
+              <button
+                onClick={() => openModalForEdit(cls)}
+                className="bg-blue-100 text-blue-600 px-3 py-1 rounded"
               >
-                <div className="flex flex-col text-right">
-                  <h3 className="text-lg font-bold text-blue-700">
-                    {cls.name}
-                  </h3>
-                  <p className="text-sm text-gray-600">
-                    מדריך: {cls.instructor} | תאריך: {cls.date} | שעה:{" "}
-                    {cls.time} | מקומות פנויים: {cls.spots}
-                  </p>
-                </div>
-
-                <div className="flex gap-3 mt-4 md:mt-0">
-                  <button
-                    onClick={() => openModalForEdit(cls)}
-                    className="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-lg shadow text-sm transition-transform transform hover:scale-105"
-                  >
-                    ערוך
-                  </button>
-
-                  <button
-                    onClick={() => handleDeleteClass(cls.id)}
-                    className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg shadow text-sm transition-transform transform hover:scale-105"
-                  >
-                    מחק
-                  </button>
-                </div>
-              </motion.div>
-            ))}
-          </motion.div>
-        )}
-      </AnimatePresence>
-
-      <AnimatePresence>
-        {isModalOpen && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
-          >
-            <motion.div
-              initial={{ scale: 0.8 }}
-              animate={{ scale: 1 }}
-              exit={{ scale: 0.8 }}
-              className="bg-white rounded-lg shadow-xl p-6 w-full max-w-xl relative"
-            >
-              <h2 className="text-xl font-bold mb-4">
-                {editingClassId ? "ערוך שיעור" : "הוסף שיעור"}
-              </h2>
-
-              <div className="grid gap-4">
+                ערוך
+              </button>
+              <button
+                onClick={() => confirmDeleteClass(cls.id)}
+                className="bg-red-100 text-red-600 px-3 py-1 rounded"
+              >
+                מחק
+              </button>
+            </div>
+          </div>
+        ))}
+      </div>
+      
+      {/* מודל להוספה/עריכת שיעור */}
+      {isModalOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+          <div className="bg-white rounded-lg p-6 w-full max-w-md">
+            <h2 className="text-xl font-bold mb-4">
+              {editingClassId ? "עריכת שיעור" : "הוספת שיעור חדש"}
+            </h2>
+            
+            {/* טופס להוספה/עריכת שיעור */}
+            <div className="space-y-4">
+              {/* שם השיעור */}
+              <div>
+                <label className="block mb-1">שם השיעור:</label>
                 <input
                   type="text"
-                  placeholder="שם השיעור"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="block w-full p-3 border rounded-lg text-black"
+                  className="w-full border p-2 rounded"
                 />
-
+              </div>
+              
+              {/* תאריך השיעור */}
+              <div>
+                <label className="block mb-1">תאריך:</label>
                 <DatePicker
                   selected={date}
-                  onChange={(selectedDate) => setDate(selectedDate)}
+                  onChange={(date) => setDate(date)}
                   dateFormat="dd/MM/yyyy"
-                  locale={he}
+                  className="w-full border p-2 rounded"
                   placeholderText="בחר תאריך"
-                  className="block w-full p-3 border rounded-lg text-black"
                 />
-
+              </div>
+              
+              {/* שעת השיעור */}
+              <div>
+                <label className="block mb-1">שעה:</label>
                 <input
                   type="time"
                   value={time}
                   onChange={(e) => setTime(e.target.value)}
-                  className="block w-full p-3 border rounded-lg text-black"
+                  className="w-full border p-2 rounded"
                 />
-
+              </div>
+              
+              {/* מספר מקומות */}
+              <div>
+                <label className="block mb-1">מקומות:</label>
+                <input
+                  type="number"
+                  min="1"
+                  value={spots}
+                  onChange={(e) => setSpots(e.target.value)}
+                  className="w-full border p-2 rounded"
+                />
+              </div>
+              
+              {/* בחירת מדריך */}
+              <div>
+                <label className="block mb-1">מדריך:</label>
                 <select
                   value={instructorId}
                   onChange={(e) => setInstructorId(e.target.value)}
-                  className="block w-full p-3 border rounded-lg text-black"
+                  className="w-full border p-2 rounded"
                 >
                   <option value="">בחר מדריך</option>
-                  {instructors.map((instr) => (
-                    <option key={instr.id} value={instr.id}>
-                      {instr.name}
+                  {instructors.map((instructor) => (
+                    <option key={instructor.id} value={instructor.id}>
+                      {instructor.name}
                     </option>
                   ))}
                 </select>
-
-                <input
-                  type="number"
-                  min={1}
-                  value={spots}
-                  onChange={(e) => setSpots(e.target.value)}
-                  placeholder="כמות מקומות פנויים"
-                  className="block w-full p-3 border rounded-lg text-black"
-                />
               </div>
-
-              {message && <p className="text-green-600 mt-4">{message}</p>}
-
-              <div className="flex justify-end gap-2 mt-6">
+              
+              {/* הודעת מערכת */}
+              {message && <div className="text-blue-500">{message}</div>}
+              
+              {/* כפתורי פעולה */}
+              <div className="flex justify-between mt-6">
                 <button
-                  onClick={() => handleSaveClass(false)}
-                  className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg shadow"
+                  onClick={() => setIsModalOpen(false)}
+                  className="bg-gray-200 px-4 py-2 rounded"
                 >
-                  {editingClassId ? "עדכן" : "הוסף"}
+                  ביטול
                 </button>
                 <button
                   onClick={() => handleSaveClass(true)}
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg shadow"
+                  className="bg-blue-600 text-white px-4 py-2 rounded"
+                  disabled={loading}
                 >
-                  {editingClassId ? "עדכן וסגור" : "הוסף וסגור"}
-                </button>
-                <button
-                  onClick={() => {
-                    setIsModalOpen(false);
-                    clearForm();
-                  }}
-                  className="bg-gray-400 hover:bg-gray-500 text-white px-4 py-2 rounded-lg shadow"
-                >
-                  סגור
+                  {loading ? "שומר..." : "שמור"}
                 </button>
               </div>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+            </div>
+          </div>
+        </div>
+      )}
+      
+      {/* חלון אישור מחיקה */}
+      {showDeleteConfirm && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+          <div className="bg-white rounded-lg p-6 w-full max-w-sm">
+            <h2 className="text-xl font-bold mb-4">אישור מחיקה</h2>
+            <p>האם אתה בטוח שברצונך למחוק את השיעור?</p>
+            
+            <div className="flex justify-between mt-6">
+              <button
+                onClick={() => setShowDeleteConfirm(false)}
+                className="bg-gray-200 px-4 py-2 rounded"
+              >
+                ביטול
+              </button>
+              <button
+                onClick={handleDeleteClass}
+                className="bg-red-600 text-white px-4 py-2 rounded"
+                disabled={loading}
+              >
+                {loading ? "מוחק..." : "מחק"}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

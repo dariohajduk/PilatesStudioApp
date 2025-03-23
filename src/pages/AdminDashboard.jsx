@@ -94,7 +94,7 @@ const AdminDashboard = ({ employee }) => {
   };
 
   return (
-    <div className="p-4 pt-28 max-w-6xl mx-auto">
+    <div className="p-6 pt-[5px] max-w-6xl mx-auto">
       <h2 className="text-2xl font-bold mb-6 text-center text-blue-700">
         ניהול מערכת
       </h2>
