@@ -133,8 +133,8 @@ const SchedulePage = ({ employee }) => {
       </div>
 
       {/* תצוגת ימי השבוע */}
-      <div className="flex overflow-x-auto px-4 pb-4 no-scrollbar">
-        {Array.from({ length: 7 }).map((_, i) => { // יצירת 7 אלמנטים (ימי השבוע)
+      <div className="grid grid-cols-7 w-full px-2 gap-1">
+        {Array.from({ length: 7 }).map((_, i) => {
           // חישוב התאריך לכל יום בשבוע
           const dateObj = new Date(currentWeekStart);
           dateObj.setDate(currentWeekStart.getDate() + i);
@@ -148,9 +148,11 @@ const SchedulePage = ({ employee }) => {
               key={i}
               onClick={() => setSelectedDate(dateStr)} // בחירת תאריך בלחיצה
               whileTap={{ scale: 0.95 }}
-              className={`mx-1 w-16 text-center py-3 rounded-xl shadow cursor-pointer transition ${isSelected ? "bg-blue-500 text-white" : "bg-gray-100"}`}
+              className={`text-center py-2 rounded-xl shadow cursor-pointer transition ${
+                isSelected ? "bg-blue-500 text-white" : "bg-gray-100"
+              }`}
             >
-              <p className="text-xs">{dayNames[dateObj.getDay()]}</p> {/* הצגת יום השבוע */}
+              <p className="text-xs font-medium">{dayNames[dateObj.getDay()]}</p> {/* הצגת יום השבוע */}
               <p className="font-semibold text-sm">
                 {dateObj.getDate().toString().padStart(2, "0")}/{(dateObj.getMonth() + 1).toString().padStart(2, "0")}
               </p> {/* הצגת התאריך */}
