@@ -10,7 +10,7 @@ import {
   query,
   where,
 } from "firebase/firestore";
-import { format } from "date-fns";
+import { format, addDays, isSameDay } from "date-fns"; // מייבא פונקציות נוספות מ-date-fns
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
@@ -33,6 +33,11 @@ const AdminClassesPanel = ({ employee }) => {
   const [editingClassId, setEditingClassId] = useState(null); // מזהה השיעור שנערך כעת
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false); // האם להציג חלון אישור מחיקה
   const [deleteClassId, setDeleteClassId] = useState(null); // מזהה השיעור למחיקה
+  
+  // משתני State לשיעורים מחזוריים
+  const [isRecurring, setIsRecurring] = useState(false); // האם השיעור מחזורי
+  const [recurrenceEndDate, setRecurrenceEndDate] = useState(null); // תאריך סיום המחזוריות
+  const [selectedDays, setSelectedDays] = useState([]); // הימים הנבחרים בשבוע
 
   // ========== אפקטים ==========
   // טעינת נתונים בעת טעינת הקומפוננטה
@@ -57,6 +62,11 @@ const AdminClassesPanel = ({ employee }) => {
     setInstructorId(""); // איפוס מזהה מדריך
     setEditingClassId(null); // איפוס מזהה שיעור לעריכה
     setMessage(""); // איפוס הודעת מערכת
+    
+    // איפוס משתני שיעורים מחזוריים
+    setIsRecurring(false);
+    setRecurrenceEndDate(null);
+    setSelectedDays([]);
   };
 
   // ========== פונקציות שליפת נתונים ==========
@@ -131,6 +141,49 @@ const AdminClassesPanel = ({ employee }) => {
     setIsModalOpen(true); // פתיחת המודל
   };
 
+  // ========== פונקציות טיפול בשיעורים מחזוריים ==========
+  // פונקציה ליצירת שיעורים מחזוריים
+  const createRecurringClasses = async (baseClassData) => {
+    // וידוא שנבחרו כל הנתונים הדרושים
+    if (!date || !recurrenceEndDate || selectedDays.length === 0) {
+      setMessage("אנא בחר תאריך התחלה, תאריך סיום וימים בשבוע"); // הודעת שגיאה
+      return false;
+    }
+
+    // מעבר על כל התאריכים בטווח ויצירת שיעורים לימים הנבחרים
+    let currentDate = new Date(date);
+    const endDate = new Date(recurrenceEndDate);
+    let successCount = 0; // ספירת שיעורים שנוצרו בהצלחה
+
+    try {
+      // המשך כל עוד התאריך הנוכחי לפני או שווה לתאריך הסיום
+      while (currentDate <= endDate) {
+        const dayOfWeek = currentDate.getDay(); // מספר היום בשבוע (0=ראשון, 1=שני, וכו')
+        
+        // אם היום הנוכחי נמצא ברשימת הימים הנבחרים
+        if (selectedDays.includes(dayOfWeek)) {
+          // יצירת אובייקט שיעור חדש
+          const newClassData = {
+            ...baseClassData,
+            date: formatDateToDDMMYYYY(new Date(currentDate)), // הגדרת התאריך הנוכחי
+          };
+          
+          // הוספת השיעור למסד הנתונים
+          await addDoc(collection(db, "classes"), newClassData);
+          successCount++;
+        }
+        
+        // מעבר ליום הבא
+        currentDate = addDays(currentDate, 1);
+      }
+      
+      return successCount; // החזרת מספר השיעורים שנוצרו
+    } catch (error) {
+      console.error("❌ שגיאה ביצירת שיעורים מחזוריים:", error);
+      return false;
+    }
+  };
+
   // ========== פונקציות טיפול בשיעורים ==========
   // שמירת שיעור חדש או עדכון שיעור קיים
   const handleSaveClass = async (closeAfterSave = false) => {
@@ -156,15 +209,27 @@ const AdminClassesPanel = ({ employee }) => {
         createdAt: new Date().toISOString(), // זמן יצירה
       };
 
-      // בדיקה האם מדובר בעריכה או ביצירה
-      if (editingClassId) {
-        // עדכון שיעור קיים
-        await updateDoc(doc(db, "classes", editingClassId), classData);
-        setMessage("✔️ שיעור עודכן בהצלחה!"); // הודעת הצלחה
+      // בדיקה האם מדובר בשיעור מחזורי או שיעור רגיל
+      if (isRecurring && !editingClassId) {
+        // יצירת שיעורים מחזוריים
+        const successCount = await createRecurringClasses(classData);
+        
+        if (successCount) {
+          setMessage(`✔️ נוצרו ${successCount} שיעורים מחזוריים בהצלחה!`); // הודעת הצלחה
+        } else {
+          setMessage("❌ שגיאה ביצירת שיעורים מחזוריים"); // הודעת שגיאה
+        }
       } else {
-        // יצירת שיעור חדש
-        await addDoc(collection(db, "classes"), classData);
-        setMessage("✔️ שיעור נוסף בהצלחה!"); // הודעת הצלחה
+        // בדיקה האם מדובר בעריכה או ביצירה
+        if (editingClassId) {
+          // עדכון שיעור קיים
+          await updateDoc(doc(db, "classes", editingClassId), classData);
+          setMessage("✔️ שיעור עודכן בהצלחה!"); // הודעת הצלחה
+        } else {
+          // יצירת שיעור חדש
+          await addDoc(collection(db, "classes"), classData);
+          setMessage("✔️ שיעור נוסף בהצלחה!"); // הודעת הצלחה
+        }
       }
 
       clearForm(); // איפוס הטופס
@@ -209,6 +274,18 @@ const AdminClassesPanel = ({ employee }) => {
     setShowDeleteConfirm(false); // סגירת חלון אישור המחיקה
     setDeleteClassId(null); // איפוס מזהה השיעור למחיקה
     setLoading(false); // כיבוי אינדיקטור טעינה
+  };
+
+  // ========== פונקציה לטיפול בבחירת ימים בשבוע ==========
+  // פונקציה לטיפול בשינוי בחירת יום בשבוע
+  const handleDayToggle = (dayIndex) => {
+    if (selectedDays.includes(dayIndex)) {
+      // אם היום כבר נבחר - מסיר אותו
+      setSelectedDays(selectedDays.filter(day => day !== dayIndex));
+    } else {
+      // אם היום לא נבחר - מוסיף אותו
+      setSelectedDays([...selectedDays, dayIndex]);
+    }
   };
 
   // ========== רינדור ממשק המשתמש ==========
@@ -264,14 +341,14 @@ const AdminClassesPanel = ({ employee }) => {
       
       {/* מודל להוספה/עריכת שיעור */}
       {isModalOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
-          <div className="bg-white rounded-lg p-6 w-full max-w-md">
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50 overflow-y-auto">
+          <div className="bg-white rounded-lg p-6 w-full max-w-md max-h-[90vh] flex flex-col">
             <h2 className="text-xl font-bold mb-4">
               {editingClassId ? "עריכת שיעור" : "הוספת שיעור חדש"}
             </h2>
             
-            {/* טופס להוספה/עריכת שיעור */}
-            <div className="space-y-4">
+            {/* טופס להוספה/עריכת שיעור עם גלילה */}
+            <div className="space-y-4 overflow-y-auto flex-1 pr-2">
               {/* שם השיעור */}
               <div>
                 <label className="block mb-1">שם השיעור:</label>
@@ -335,25 +412,90 @@ const AdminClassesPanel = ({ employee }) => {
                 </select>
               </div>
               
-              {/* הודעת מערכת */}
-              {message && <div className="text-blue-500">{message}</div>}
+              {/* אפשרות לשיעור מחזורי - רק ביצירת שיעור חדש */}
+              {!editingClassId && (
+                <div className="border-t pt-3">
+                  <div className="flex items-center mb-2">
+                    <input
+                      type="checkbox"
+                      id="isRecurring"
+                      checked={isRecurring}
+                      onChange={(e) => setIsRecurring(e.target.checked)}
+                      className="mr-2"
+                    />
+                    <label htmlFor="isRecurring" className="font-bold">שיעור מחזורי</label>
+                  </div>
+                  
+                  {/* אפשרויות שיעור מחזורי */}
+                  {isRecurring && (
+                    <div className="bg-gray-50 p-3 rounded space-y-3">
+                      {/* בחירת ימים בשבוע */}
+                      <div>
+                        <label className="block mb-2 font-medium">בחר ימים בשבוע:</label>
+                        <div className="flex flex-wrap gap-2">
+                          {[
+                            { index: 0, name: "ראשון" },
+                            { index: 1, name: "שני" },
+                            { index: 2, name: "שלישי" },
+                            { index: 3, name: "רביעי" },
+                            { index: 4, name: "חמישי" },
+                            { index: 5, name: "שישי" },
+                            { index: 6, name: "שבת" },
+                          ].map((day) => (
+                            <label key={day.index} className="flex items-center bg-white px-2 py-1 rounded border">
+                              <input
+                                type="checkbox"
+                                checked={selectedDays.includes(day.index)}
+                                onChange={() => handleDayToggle(day.index)}
+                                className="mr-1"
+                              />
+                              <span>{day.name}</span>
+                            </label>
+                          ))}
+                        </div>
+                      </div>
+                      
+                      {/* תאריך סיום המחזוריות */}
+                      <div>
+                        <label className="block mb-1">תאריך סיום:</label>
+                        <DatePicker
+                          selected={recurrenceEndDate}
+                          onChange={(date) => setRecurrenceEndDate(date)}
+                          dateFormat="dd/MM/yyyy"
+                          className="w-full border p-2 rounded"
+                          placeholderText="בחר תאריך סיום"
+                          minDate={date} // לא ניתן לבחור תאריך לפני תאריך ההתחלה
+                        />
+                      </div>
+                      
+                      {/* הסבר למשתמש */}
+                      <p className="text-sm text-gray-500">
+                        יצירת שיעור מחזורי תוסיף שיעורים נפרדים בימים הנבחרים בין תאריך ההתחלה לסיום.
+                      </p>
+                    </div>
+                  )}
+                </div>
+              )}
               
-              {/* כפתורי פעולה */}
-              <div className="flex justify-between mt-6">
-                <button
-                  onClick={() => setIsModalOpen(false)}
-                  className="bg-gray-200 px-4 py-2 rounded"
-                >
-                  ביטול
-                </button>
-                <button
-                  onClick={() => handleSaveClass(true)}
-                  className="bg-blue-600 text-white px-4 py-2 rounded"
-                  disabled={loading}
-                >
-                  {loading ? "שומר..." : "שמור"}
-                </button>
-              </div>
+              {/* הודעת מערכת */}
+              {message && <div className="text-blue-500 my-2">{message}</div>}
+            </div>
+            
+            {/* כפתורי פעולה - קבועים בתחתית המודל */}
+            <div className="flex justify-between mt-6 pt-4 border-t sticky bottom-0 bg-white">
+              <button
+                onClick={() => setIsModalOpen(false)}
+                className="bg-gray-200 px-4 py-2 rounded"
+              >
+                ביטול
+              </button>
+              <button
+                onClick={() => handleSaveClass(true)}
+                className="bg-blue-600 text-white px-4 py-2 rounded"
+                disabled={loading}
+              >
+                {loading ? "שומר..." : isRecurring && !editingClassId ? "צור שיעורים מחזוריים" : "שמור"}
+              </button>
             </div>
           </div>
         </div>
