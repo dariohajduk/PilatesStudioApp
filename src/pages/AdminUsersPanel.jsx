@@ -117,11 +117,11 @@ const AdminUsersPanel = ({ employee }) => {
   );
 
   return (
-    <div className="p-6 pt-28 max-w-6xl mx-auto">
+    <div className="p-6 pt-0 max-w-6xl mx-auto">
       <h1 className="text-2xl font-bold mb-6 text-center text-blue-700">ניהול משתמשים (לקוחות)</h1>
 
       {/* טופס הוספה/עריכה */}
-      <div className="mb-10 bg-white shadow-md rounded-xl p-6">
+      <div className="mb-8 bg-white shadow-md rounded-xl p-2">
         <h2 className="text-lg font-semibold mb-4">{editingUserId ? 'עריכת משתמש' : 'הוספת משתמש חדש'}</h2>
 
         <div className="grid gap-4 md:grid-cols-2">

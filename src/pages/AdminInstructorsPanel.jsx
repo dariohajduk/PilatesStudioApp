@@ -8,13 +8,15 @@ import {
   deleteDoc
 } from 'firebase/firestore';
 
-const AdminInstructorsPanel = ({ employee }) => {
+const AdminInstructorsPanel = ({  employee = {isAdmin: true}  }) => {
   const [instructors, setInstructors] = useState([]);
   const [phone, setPhone] = useState('');
   const [name, setName] = useState('');
   const [editingInstructorId, setEditingInstructorId] = useState(null);
   const [message, setMessage] = useState('');
   const [search, setSearch] = useState('');
+  console.log(employee.isAdmin); // חייב להיות true אם זה מנהל
+
 
   // שליפת כל המדריכים
   const fetchInstructors = async () => {
@@ -90,7 +92,8 @@ const AdminInstructorsPanel = ({ employee }) => {
     }
   };
 
-  if (!employee?.isAdmin) {
+  if (!employee?.isAdmin)
+   {
     return (
       <div className="p-6">
         <h1 className="text-xl font-bold text-red-600">גישה מוגבלת</h1>
@@ -104,7 +107,7 @@ const AdminInstructorsPanel = ({ employee }) => {
   );
 
   return (
-    <div className="p-6 pt-28 max-w-6xl mx-auto">
+    <div className="p-6 pt-2 max-w-6xl mx-auto">
       <h1 className="text-2xl font-bold mb-6 text-center text-blue-700">ניהול מדריכים</h1>
 
       <div className="mb-10 bg-white shadow-md rounded-xl p-6">
