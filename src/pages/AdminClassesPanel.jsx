@@ -151,47 +151,60 @@ const AdminClassesPanel = ({ employee }) => {
   };
 
   // ========== פונקציות טיפול בשיעורים מחזוריים ==========
-  // פונקציה ליצירת שיעורים מחזוריים
-  const createRecurringClasses = async (baseClassData) => {
-    // וידוא שנבחרו כל הנתונים הדרושים
-    if (!date || !recurrenceEndDate || selectedDays.length === 0) {
-      setMessage("אנא בחר תאריך התחלה, תאריך סיום וימים בשבוע"); // הודעת שגיאה
-      return false;
-    }
+  // עדכון פונקציית createRecurringClasses
+const createRecurringClasses = async (baseClassData) => {
+  // וידוא שנבחרו כל הנתונים הדרושים
+  if (!date || !recurrenceEndDate || selectedDays.length === 0) {
+    setMessage("אנא בחר תאריך התחלה, תאריך סיום וימים בשבוע"); // הודעת שגיאה
+    return false;
+  }
 
-    // מעבר על כל התאריכים בטווח ויצירת שיעורים לימים הנבחרים
-    let currentDate = new Date(date);
-    const endDate = new Date(recurrenceEndDate);
-    let successCount = 0; // ספירת שיעורים שנוצרו בהצלחה
+  // מעבר על כל התאריכים בטווח ויצירת שיעורים לימים הנבחרים
+  let currentDate = new Date(date);
+  const endDate = new Date(recurrenceEndDate);
+  let successCount = 0; // ספירת שיעורים שנוצרו בהצלחה
+  let totalAutoRegistrations = 0; // ספירת רישומים אוטומטיים
 
-    try {
-      // המשך כל עוד התאריך הנוכחי לפני או שווה לתאריך הסיום
-      while (currentDate <= endDate) {
-        const dayOfWeek = currentDate.getDay(); // מספר היום בשבוע (0=ראשון, 1=שני, וכו')
+  try {
+    // המשך כל עוד התאריך הנוכחי לפני או שווה לתאריך הסיום
+    while (currentDate <= endDate) {
+      const dayOfWeek = currentDate.getDay(); // מספר היום בשבוע (0=ראשון, 1=שני, וכו')
 
-        // אם היום הנוכחי נמצא ברשימת הימים הנבחרים
-        if (selectedDays.includes(dayOfWeek)) {
-          // יצירת אובייקט שיעור חדש
-          const newClassData = {
-            ...baseClassData,
-            date: formatDateToDDMMYYYY(new Date(currentDate)), // הגדרת התאריך הנוכחי
-          };
+      // אם היום הנוכחי נמצא ברשימת הימים הנבחרים
+      if (selectedDays.includes(dayOfWeek)) {
+        // יצירת אובייקט שיעור חדש
+        const newClassData = {
+          ...baseClassData,
+          date: formatDateToDDMMYYYY(new Date(currentDate)), // הגדרת התאריך הנוכחי
+        };
 
-          // הוספת השיעור למסד הנתונים
-          await addDoc(collection(db, "classes"), newClassData);
-          successCount++;
-        }
-
-        // מעבר ליום הבא
-        currentDate = addDays(currentDate, 1);
+        // הוספת השיעור למסד הנתונים
+        const docRef = await addDoc(collection(db, "classes"), newClassData);
+        
+        // רישום אוטומטי למשתמשים
+        const classWithId = { ...newClassData, id: docRef.id };
+        const autoRegistrations = await autoRegisterUsersForClass(classWithId);
+        totalAutoRegistrations += autoRegistrations;
+        
+        successCount++;
       }
 
-      return successCount; // החזרת מספר השיעורים שנוצרו
-    } catch (error) {
-      console.error("❌ שגיאה ביצירת שיעורים מחזוריים:", error);
-      return false;
+      // מעבר ליום הבא
+      currentDate = addDays(currentDate, 1);
     }
-  };
+    
+    console.log(`נוצרו ${successCount} שיעורים מחזוריים עם ${totalAutoRegistrations} רישומים אוטומטיים`);
+    
+    if (totalAutoRegistrations > 0) {
+      setMessage(`✔️ נוצרו ${successCount} שיעורים מחזוריים בהצלחה עם ${totalAutoRegistrations} רישומים אוטומטיים!`);
+    }
+
+    return successCount; // החזרת מספר השיעורים שנוצרו
+  } catch (error) {
+    console.error("❌ שגיאה ביצירת שיעורים מחזוריים:", error);
+    return false;
+  }
+};
 
   // ========== פונקציות טיפול בשיעורים ==========
   // שמירת שיעור חדש או עדכון שיעור קיים
@@ -225,19 +238,33 @@ const AdminClassesPanel = ({ employee }) => {
 
         if (successCount) {
           setMessage(`✔️ נוצרו ${successCount} שיעורים מחזוריים בהצלחה!`); // הודעת הצלחה
+          
+          // רישום אוטומטי למשתמשים יבוצע בתוך createRecurringClasses
         } else {
           setMessage("❌ שגיאה ביצירת שיעורים מחזוריים"); // הודעת שגיאה
         }
       } else {
+        let newClassId;
+        
         // בדיקה האם מדובר בעריכה או ביצירה
         if (editingClassId) {
           // עדכון שיעור קיים
           await updateDoc(doc(db, "classes", editingClassId), classData);
+          newClassId = editingClassId;
           setMessage("✔️ שיעור עודכן בהצלחה!"); // הודעת הצלחה
         } else {
           // יצירת שיעור חדש
-          await addDoc(collection(db, "classes"), classData);
+          const docRef = await addDoc(collection(db, "classes"), classData);
+          newClassId = docRef.id;
           setMessage("✔️ שיעור נוסף בהצלחה!"); // הודעת הצלחה
+          
+          // רישום אוטומטי למשתמשים לשיעור החדש
+          const classWithId = { ...classData, id: newClassId };
+          const autoRegistrations = await autoRegisterUsersForClass(classWithId);
+          
+          if (autoRegistrations > 0) {
+            setMessage(`✔️ שיעור נוסף בהצלחה! ${autoRegistrations} משתמשים נרשמו אוטומטית.`);
+          }
         }
       }
 
@@ -369,6 +396,211 @@ const AdminClassesPanel = ({ employee }) => {
     });
   };
 
+  // פונקציה חדשה לרישום אוטומטי של משתמשים לשיעור חדש
+  const autoRegisterUsersForClass = async (classData) => {
+    try {
+      console.log("⚙️ התחלת תהליך רישום אוטומטי למשתמשים עבור שיעור חדש:", classData.name);
+      
+      // שליפת כל המשתמשים שסימנו רישום אוטומטי והגדירו העדפות
+      const usersQuery = query(
+        collection(db, "Users"),
+        where("autoJoin", "==", true)
+      );
+      const usersSnapshot = await getDocs(usersQuery);
+      
+      if (usersSnapshot.empty) {
+        console.log("לא נמצאו משתמשים עם רישום אוטומטי מופעל");
+        return 0;
+      }
+      
+      // המרת תאריך השיעור לאובייקט Date
+      const [day, month, year] = classData.date.split('/').map(Number);
+      const classDate = new Date(year, month - 1, day);
+      
+      // חישוב היום בשבוע (0-6)
+      const dayOfWeek = classDate.getDay();
+      
+      // חישוב השעה בדקות מתחילת היום
+      const [classHours, classMinutes] = classData.time.split(':').map(Number);
+      const classTimeInMinutes = classHours * 60 + classMinutes;
+      
+      console.log(`פרטי השיעור: יום ${dayOfWeek}, שעה ${classData.time} (${classTimeInMinutes} דקות)`);
+      
+      let registrationCount = 0;
+      
+      // עיבוד כל משתמש
+      for (const userDoc of usersSnapshot.docs) {
+        const user = { id: userDoc.id, ...userDoc.data() };
+        
+        console.log(`בדיקת התאמה למשתמש: ${user.name}, טלפון: ${user.phone || user.id}`);
+        
+        // וידוא שיש למשתמש העדפות ימים ושעות
+        if (!user.preferredDays || !user.preferredDays.length || !user.preferredTimeRange) {
+          console.log(`❌ למשתמש ${user.name} אין העדפות מוגדרות מלאות`);
+          continue;
+        }
+        
+        // בדיקה האם היום מתאים להעדפות המשתמש
+        if (!user.preferredDays.includes(dayOfWeek)) {
+          console.log(`❌ היום ${dayOfWeek} לא מתאים להעדפות המשתמש`);
+          continue;
+        }
+        
+        // בדיקת התאמת שעה
+        const [startTime, endTime] = user.preferredTimeRange.split('-');
+        const startParts = startTime.split(':').map(Number);
+        const endParts = endTime.split(':').map(Number);
+        const startMinutes = startParts[0] * 60 + startParts[1];
+        const endMinutes = endParts[0] * 60 + endParts[1];
+        
+        if (classTimeInMinutes < startMinutes || classTimeInMinutes > endMinutes) {
+          console.log(`❌ השעה ${classData.time} לא בטווח המועדף ${startTime}-${endTime}`);
+          continue;
+        }
+        
+        const userId = user.phone || user.id;
+        
+        // בדיקה שהמשתמש לא כבר רשום לשיעור זה
+        const bookingsQuery = query(
+          collection(db, 'bookings'),
+          where('userId', '==', userId),
+          where('classId', '==', classData.id)
+        );
+        const existingBookings = await getDocs(bookingsQuery);
+        
+        if (!existingBookings.empty) {
+          console.log(`❌ המשתמש כבר רשום לשיעור זה`);
+          continue;
+        }
+        
+        // בדיקת מגבלות לפי סוג המנוי
+        const isWeeklySubscription = user.membershipType === 'שבועי';
+        const isMonthlySubscription = user.membershipType === 'חודשי';
+        const isCardSubscription = user.membershipType === 'כרטיסייה';
+        
+        if (isCardSubscription && user.remainingLessons <= 0) {
+          console.log(`❌ אין למשתמש שיעורים נותרים בכרטיסייה`);
+          continue;
+        }
+        
+        // עבור מנוי שבועי, בדוק מספר הרשמות לשבוע זה
+        if (isWeeklySubscription) {
+          const weekNumber = getWeekNumber(classDate);
+          const weekKey = `${year}-${weekNumber}`;
+          
+          // בדיקת כמה שיעורים המשתמש כבר רשום אליהם באותו שבוע
+          const userWeeklyBookingsQuery = query(
+            collection(db, 'bookings'),
+            where('userId', '==', userId)
+          );
+          const userBookingsSnapshot = await getDocs(userWeeklyBookingsQuery);
+          
+          // סינון רק הרשמות לאותו שבוע
+          const weeklyBookings = userBookingsSnapshot.docs
+            .map(doc => ({ id: doc.id, ...doc.data() }))
+            .filter(booking => {
+              try {
+                const [bDay, bMonth, bYear] = booking.date.split('/').map(Number);
+                const bookingDate = new Date(bYear, bMonth - 1, bDay);
+                const bookingWeekNumber = getWeekNumber(bookingDate);
+                const bookingWeekKey = `${bYear}-${bookingWeekNumber}`;
+                return bookingWeekKey === weekKey;
+              } catch (error) {
+                return false;
+              }
+            });
+          
+          if (weeklyBookings.length >= user.remainingLessons) {
+            console.log(`❌ המשתמש כבר רשום למקסימום שיעורים (${user.remainingLessons}) בשבוע ${weekKey}`);
+            continue;
+          }
+        }
+        
+        // עבור מנוי חודשי, בדוק מספר הרשמות לחודש זה
+        if (isMonthlySubscription) {
+          const monthKey = `${year}-${month}`;
+          
+          // בדיקת כמה שיעורים המשתמש כבר רשום אליהם באותו חודש
+          const userMonthlyBookingsQuery = query(
+            collection(db, 'bookings'),
+            where('userId', '==', userId)
+          );
+          const userBookingsSnapshot = await getDocs(userMonthlyBookingsQuery);
+          
+          // סינון רק הרשמות לאותו חודש
+          const monthlyBookings = userBookingsSnapshot.docs
+            .map(doc => ({ id: doc.id, ...doc.data() }))
+            .filter(booking => {
+              try {
+                const [bDay, bMonth, bYear] = booking.date.split('/').map(Number);
+                const bookingMonthKey = `${bYear}-${bMonth}`;
+                return bookingMonthKey === monthKey;
+              } catch (error) {
+                return false;
+              }
+            });
+          
+          if (monthlyBookings.length >= user.remainingLessons) {
+            console.log(`❌ המשתמש כבר רשום למקסימום שיעורים (${user.remainingLessons}) בחודש ${monthKey}`);
+            continue;
+          }
+        }
+        
+        // תנאים להרשמה מתקיימים - הוספת הרשמה חדשה
+        console.log(`✅ רושם את ${user.name} לשיעור ${classData.name} בתאריך ${classData.date}`);
+        
+        try {
+          await addDoc(collection(db, 'bookings'), {
+            classId: classData.id,
+            userId: userId,
+            className: classData.name,
+            date: classData.date,
+            time: classData.time,
+            bookedBy: "אוטומטית",
+            bookedAt: new Date().toISOString(),
+            autoBooked: true
+          });
+          
+          // עדכון מספר המקומות הפנויים בשיעור
+          await updateDoc(doc(db, 'classes', classData.id), {
+            spots: classData.spots - 1
+          });
+          
+          // עדכון מספר השיעורים הנותרים למשתמש (רק עבור כרטיסייה)
+          if (isCardSubscription) {
+            await updateDoc(doc(db, 'Users', user.id), {
+              remainingLessons: user.remainingLessons - 1
+            });
+          }
+          
+          registrationCount++;
+          
+        } catch (error) {
+          console.error(`❌ שגיאה ברישום המשתמש ${user.name} לשיעור:`, error);
+        }
+      }
+      
+      console.log(`🎉 סה"כ נרשמו ${registrationCount} משתמשים לשיעור`);
+      return registrationCount;
+      
+    } catch (error) {
+      console.error("❌ שגיאה ברישום אוטומטי למשתמשים:", error);
+      return 0;
+    }
+  };
+
+  // פונקציה לחישוב מספר השבוע בשנה
+  const getWeekNumber = (date) => {
+    // יצירת עותק של התאריך כדי לא לשנות את המקורי
+    const d = new Date(date);
+    // תחילת השנה (1 בינואר של אותה שנה)
+    const startOfYear = new Date(d.getFullYear(), 0, 1);
+    // מספר הימים שעברו מתחילת השנה
+    const days = Math.floor((d - startOfYear) / (24 * 60 * 60 * 1000));
+    // מספר השבוע (מחושב לפי 7 ימים בשבוע)
+    return Math.ceil((days + startOfYear.getDay() + 1) / 7);
+  };
+
   // ========== רינדור ממשק המשתמש ==========
   return (
     <div className="p-4">
@@ -475,7 +707,7 @@ const AdminClassesPanel = ({ employee }) => {
       {/* מודל להוספה/עריכת שיעור */}
       {isModalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50 overflow-y-auto">
-          <div className="bg-white rounded-lg p-6 w-full max-w-md max-h-[90vh] flex flex-col">
+          <div className="bg-white rounded-lg p-6 w-full max-w-md max-ה-[90vh] flex flex-col">
             <h2 className="text-xl font-bold mb-4">
               {editingClassId ? "עריכת שיעור" : "הוספת שיעור חדש"}
             </h2>
