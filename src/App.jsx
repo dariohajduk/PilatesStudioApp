@@ -8,6 +8,7 @@ import BookingsPage from "./pages/BookingsPage";
 import EmployeeLogin from "./pages/EmployeeLogin";
 
 // עמודי ניהול
+import { Toaster } from 'react-hot-toast';
 import AdminDashboard from "./pages/AdminDashboard";
 import AdminClassesPanel from "./pages/AdminClassesPanel";
 import AdminUsersPanel from "./pages/AdminUsersPanel";
@@ -105,88 +106,91 @@ const App = () => {
   }
 
   return (
-    <div className="min-h-screen bg-background text-text relative" dir="rtl">
-      {/* ✅ Header דינמי חדש שמשלב הכל */}
-      {employee && <Header employee={employee} />}
+    <>
+      <Toaster position="top-center" reverseOrder={false} />
+      <div className="min-h-screen bg-background text-text relative" dir="rtl">
+        {/* ✅ Header דינמי חדש שמשלב הכל */}
+        {employee && <Header employee={employee} />}
 
-      {/* תוכן העמודים */}
-      <main className="pb-20 pt-[130px] p-4">{renderPage()}</main>
+        {/* תוכן העמודים */}
+        <main className="pb-20 pt-[130px] p-4">{renderPage()}</main>
 
-      {/* תפריט תחתון */}
-      {employee && (
-        <nav className="fixed bottom-0 right-0 left-0 bg-white shadow-md z-50">
-          <div className="flex justify-around">
-            {/* בית */}
-            <button
-              onClick={() => setActiveTab("home")}
-              className={`p-3 flex flex-col items-center ${
-                activeTab === "home" ? "text-primary" : "text-muted"
-              }`}
-            >
-              <Home size={20} />
-              <span className="text-xs mt-1">בית</span>
-            </button>
-
-            {/* לוח שיעורים */}
-            <button
-              onClick={() => setActiveTab("schedule")}
-              className={`p-3 flex flex-col items-center ${
-                activeTab === "schedule" ? "text-primary" : "text-muted"
-              }`}
-            >
-              <Calendar size={20} />
-              <span className="text-xs mt-1">לוח שיעורים</span>
-            </button>
-
-            {/* השיעורים שלי */}
-            <button
-              onClick={() => setActiveTab("bookings")}
-              className={`p-3 flex flex-col items-center ${
-                activeTab === "bookings" ? "text-primary" : "text-muted"
-              }`}
-            >
-              <BookOpen size={20} />
-              <span className="text-xs mt-1">השיעורים שלי</span>
-            </button>
-
-            {/* ניהול מערכת - מנהל */}
-            {employee?.role === "מנהל" && (
+        {/* תפריט תחתון */}
+        {employee && (
+          <nav className="fixed bottom-0 right-0 left-0 bg-white shadow-md z-50">
+            <div className="flex justify-around">
+              {/* בית */}
               <button
-                onClick={() => setActiveTab("admin")}
+                onClick={() => setActiveTab("home")}
                 className={`p-3 flex flex-col items-center ${
-                  activeTab === "admin" ? "text-secondary" : "text-muted"
+                  activeTab === "home" ? "text-primary" : "text-muted"
                 }`}
               >
-                <Settings size={20} />
-                <span className="text-xs mt-1">ניהול</span>
+                <Home size={20} />
+                <span className="text-xs mt-1">בית</span>
               </button>
-            )}
 
-            {/* ניהול שיעורים - מדריך */}
-            {employee?.role === "מדריך" && (
+              {/* לוח שיעורים */}
               <button
-                onClick={() => setActiveTab("adminClasses")}
+                onClick={() => setActiveTab("schedule")}
                 className={`p-3 flex flex-col items-center ${
-                  activeTab === "adminClasses" ? "text-secondary" : "text-muted"
+                  activeTab === "schedule" ? "text-primary" : "text-muted"
+                }`}
+              >
+                <Calendar size={20} />
+                <span className="text-xs mt-1">לוח שיעורים</span>
+              </button>
+
+              {/* השיעורים שלי */}
+              <button
+                onClick={() => setActiveTab("bookings")}
+                className={`p-3 flex flex-col items-center ${
+                  activeTab === "bookings" ? "text-primary" : "text-muted"
                 }`}
               >
                 <BookOpen size={20} />
-                <span className="text-xs mt-1">ניהול שיעורים</span>
+                <span className="text-xs mt-1">השיעורים שלי</span>
               </button>
-            )}
 
-            {/* יציאה */}
-            <button
-              onClick={handleLogout}
-              className="p-3 flex flex-col items-center text-red-500"
-            >
-              <LogOut size={20} />
-              <span className="text-xs mt-1">התנתק</span>
-            </button>
-          </div>
-        </nav>
-      )}
-    </div>
+              {/* ניהול מערכת - מנהל */}
+              {employee?.role === "מנהל" && (
+                <button
+                  onClick={() => setActiveTab("admin")}
+                  className={`p-3 flex flex-col items-center ${
+                    activeTab === "admin" ? "text-secondary" : "text-muted"
+                  }`}
+                >
+                  <Settings size={20} />
+                  <span className="text-xs mt-1">ניהול</span>
+                </button>
+              )}
+
+              {/* ניהול שיעורים - מדריך */}
+              {employee?.role === "מדריך" && (
+                <button
+                  onClick={() => setActiveTab("adminClasses")}
+                  className={`p-3 flex flex-col items-center ${
+                    activeTab === "adminClasses" ? "text-secondary" : "text-muted"
+                  }`}
+                >
+                  <BookOpen size={20} />
+                  <span className="text-xs mt-1">ניהול שיעורים</span>
+                </button>
+              )}
+
+              {/* יציאה */}
+              <button
+                onClick={handleLogout}
+                className="p-3 flex flex-col items-center text-red-500"
+              >
+                <LogOut size={20} />
+                <span className="text-xs mt-1">התנתק</span>
+              </button>
+            </div>
+          </nav>
+        )}
+      </div>
+    </>
   );
 };
 
