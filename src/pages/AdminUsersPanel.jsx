@@ -114,68 +114,57 @@ const AdminUsersPanel = ({ employee }) => {
   }, [users]);
 
   // הוספה/עדכון של משתמש
-  const handleSaveUser = async () => {
-    if (!phone || !name || !membershipType) {
-      setMessage("נא למלא שם, טלפון וסוג מנוי");
-      return;
+// פונקציה להוספת / עדכון משתמש
+const handleSaveUser = async () => {
+  if (!phone || !name || !membershipType) {
+    setMessage("נא למלא שם, טלפון וסוג מנוי");
+    return;
+  }
+
+  // שליפת המשתמש הקיים במידה ועורך
+  const existingUser = users.find((u) => u.phone === phone);
+
+  try {
+    const userRef = doc(db, "Users", phone);
+
+    const userData = {
+      id: phone,
+      phone,
+      name,
+      membershipType,
+      remainingLessons: parseInt(remainingLessons, 10) || 0,
+      completedLessons: existingUser?.completedLessons || 0,
+      joinDate: existingUser?.joinDate || new Date().toISOString(),
+      isInstructor: false,
+      isAdmin: false,
+      preferredDays,
+      preferredTimeRange:
+        preferredStartTime && preferredEndTime
+          ? `${preferredStartTime}-${preferredEndTime}`
+          : "",
+      autoJoin,
+      signature: signature || existingUser?.signature || "",
+      signedAt: signature
+        ? new Date().toISOString()
+        : existingUser?.signedAt || null,
+    };
+
+    await setDoc(userRef, userData);
+
+    if (autoJoin && preferredDays.length > 0) {
+      await registerToMatchingClasses(userData);
     }
 
-    // בדיקה שהטווח שעות תקין אם נבחרו שעות
-    if (preferredStartTime && preferredEndTime) {
-      const start = preferredStartTime.split(":").map(Number);
-      const end = preferredEndTime.split(":").map(Number);
+    setMessage(editingUserId ? "✔️ המשתמש עודכן" : "✔️ המשתמש נוסף");
+    clearForm();
+    fetchUsers();
+  } catch (error) {
+    console.error("❌ שגיאה בהוספת/עדכון משתמש:", error);
+    setMessage("שגיאה בהוספת/עדכון משתמש");
+  }
+};
 
-      const startMinutes = start[0] * 60 + start[1];
-      const endMinutes = end[0] * 60 + end[1];
 
-      if (startMinutes >= endMinutes) {
-        setMessage("שעת הסיום חייבת להיות מאוחרת משעת ההתחלה");
-        return;
-      }
-    }
-
-    try {
-      const userRef = doc(db, "Users", phone);
-
-      // יצירת אובייקט המשתמש עם הימים והשעות המועדפים
-      const userData = {
-        id: phone,
-        phone,
-        name,
-        membershipType,
-        remainingLessons: parseInt(remainingLessons, 10),
-        completedLessons: 0,
-        joinDate: new Date().toISOString(),
-        isInstructor: false,
-        isAdmin: false,
-        // הוספת נתוני העדפות
-        preferredDays: preferredDays,
-        preferredTimeRange:
-          preferredStartTime && preferredEndTime
-            ? `${preferredStartTime}-${preferredEndTime}`
-            : "",
-        autoJoin: autoJoin,
-        signature: signature || user?.signature, // שמור על חתימה קיימת אם לא הועלתה חדשה
-        signedAt: signature ? new Date().toISOString() : user?.signedAt,
-      };
-
-      await setDoc(userRef, userData);
-
-      // אם נבחרה האפשרות להצטרפות אוטומטית, נחפש שיעורים מתאימים ונרשום אליהם
-      if (autoJoin && preferredDays.length > 0) {
-        await registerToMatchingClasses(userData);
-      }
-
-      setMessage(
-        editingUserId ? "✔️ משתמש עודכן בהצלחה!" : "✔️ משתמש נוסף בהצלחה!"
-      );
-      clearForm();
-      fetchUsers();
-    } catch (error) {
-      console.error("❌ שגיאה בהוספת/עדכון משתמש:", error);
-      setMessage("שגיאה בהוספת/עדכון משתמש");
-    }
-  };
 
   // פונקציה לרישום אוטומטי לשיעורים בהתאם לסוג המנוי
   const registerToMatchingClasses = async (user) => {
