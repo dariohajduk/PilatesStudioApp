@@ -2,11 +2,12 @@ import React, { useState, useEffect } from "react";
 import { db } from "../services/firebase";
 import { collection, query, orderBy, getDocs } from "firebase/firestore";
 
-import { Users, UserCog, ClipboardList, PaintBucket } from "lucide-react";
+import { Users, UserCog, ClipboardList, ShieldCheck } from "lucide-react";
 
 import AdminUsersPanel from "./AdminUsersPanel";
 import AdminInstructorsPanel from "./AdminInstructorsPanel";
 import AdminClassesPanel from "./AdminClassesPanel";
+import AdminHealthDeclarations from "./AdminHealthDeclarations"; // ✅ חדש
 
 const AdminDashboard = ({ employee }) => {
   const [activeTab, setActiveTab] = useState(null);
@@ -98,7 +99,6 @@ const AdminDashboard = ({ employee }) => {
       <h2 className="text-2xl font-bold mb-6 text-center text-blue-700">
         ניהול מערכת
       </h2>
-
       <div className="grid grid-cols-1 gap-4 mb-10">
         <button
           onClick={() => setActiveTab("manageUsers")}
@@ -133,15 +133,24 @@ const AdminDashboard = ({ employee }) => {
           <ClipboardList size={28} />
         </button>
 
-
-        
+        <button
+          onClick={() => setActiveTab("manageDeclarations")}
+          className="flex items-center justify-between bg-gradient-to-r from-red-500 to-red-700 text-white py-4 px-6 rounded-2xl shadow-md hover:scale-105 transition-transform duration-200"
+        >
+          <div className="flex flex-col items-start text-right">
+            <span className="text-lg font-bold">הצהרות בריאות</span>
+            <span className="text-sm text-red-100">צפייה בחתימות משתמשים</span>
+          </div>
+          <ShieldCheck size={28} />
+        </button>
       </div>
-
       {/* סוויץ טאבים - מציג את הקומפוננטות לפי הבחירה */}
-      {activeTab === "manageUsers" && <AdminUsersPanel />}
-      {activeTab === "manageInstructors" && <AdminInstructorsPanel />}
-      {activeTab === "manageClasses" && <AdminClassesPanel />}
-
+      {activeTab === "manageUsers" && <AdminUsersPanel employee={employee}/>}
+      {activeTab === "manageInstructors" && <AdminInstructorsPanel/>}
+      {activeTab === "manageClasses" && <AdminClassesPanel employee={employee} />}
+      {activeTab === "manageDeclarations" && (
+  <AdminHealthDeclarations employee={employee} />
+)}      {/* ✅ חדש */}
       {/* תוכן ברירת מחדל אם אין טאב פעיל */}
       {!activeTab && (
         <>

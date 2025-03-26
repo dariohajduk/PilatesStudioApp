@@ -16,6 +16,8 @@ import {
 import { Check, Clock, Calendar } from "lucide-react";
 import jsPDF from "jspdf";
 
+
+
 const resizeImage = (file, maxWidth = 300) => {
   return new Promise((resolve) => {
     const img = new Image();
@@ -69,16 +71,12 @@ const AdminUsersPanel = ({ employee }) => {
   const fetchUsers = async () => {
     try {
       const querySnapshot = await getDocs(collection(db, "Users"));
-      const usersData = querySnapshot.docs
-        .map((doc) => ({ id: doc.id, ...doc.data() }))
-        .filter((user) => !user.isInstructor && !user.isAdmin);
-
-      // הוספת חתימה לדמו לכל משתמש (רק בקליינט, לא בשרת)
+      const usersWithSignatures = [];
+  
       for (const docSnap of querySnapshot.docs) {
         const user = { id: docSnap.id, ...docSnap.data() };
-      
+  
         if (!user.isInstructor && !user.isAdmin) {
-          // כאן תביא את המידע מהמסמך ב-employees
           const employeeDoc = await getDoc(doc(db, "employees", user.phone));
           if (employeeDoc.exists()) {
             const employeeData = employeeDoc.data();
@@ -87,16 +85,16 @@ const AdminUsersPanel = ({ employee }) => {
               user.signedAt = employeeData.signedAt;
             }
           }
-      
           usersWithSignatures.push(user);
         }
       }
-      
-      setUsers(usersWithSignatures);
+  
+      setUsers(usersWithSignatures); // ✅ רק פעם אחת
     } catch (error) {
       console.error("❌ שגיאה בטעינת המשתמשים:", error);
     }
   };
+  
 
   useEffect(() => {
     fetchUsers();
@@ -1023,22 +1021,7 @@ const handleSaveUser = async () => {
                   מחק
                 </button>
 
-                {user.signature && (
-                  <>
-                    <button
-                      onClick={() => handleShowSignature(user)}
-                      className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg shadow text-sm transition-transform transform hover:scale-105"
-                    >
-                      הצג חתימה
-                    </button>
-                    <button
-                      onClick={() => handleCreatePDF(user)}
-                      className="bg-purple-500 hover:bg-purple-600 text-white px-4 py-2 rounded-lg shadow text-sm transition-transform transform hover:scale-105"
-                    >
-                      צור PDF
-                    </button>
-                  </>
-                )}
+
               </div>
             </div>
           ))}

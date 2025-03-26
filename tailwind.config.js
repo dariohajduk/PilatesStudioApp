@@ -17,7 +17,7 @@ module.exports = {
         black: '#000000'
       },
       fontFamily: {
-        sans: ['Roboto', 'Arial', 'sans-serif'],
+        alef: ['Alef', 'sans-serif'], // פונט עברי
       },
     },
   },
