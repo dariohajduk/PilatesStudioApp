@@ -12,10 +12,12 @@ import AdminDashboard from "./pages/AdminDashboard";
 import AdminClassesPanel from "./pages/AdminClassesPanel";
 import AdminUsersPanel from "./pages/AdminUsersPanel";
 import AdminInstructorsPanel from "./pages/AdminInstructorsPanel";
+import AdminHealthDeclarations from "./pages/AdminHealthDeclarations"; // ✅ הוספה
 
-// עמוד הצהרת בריאות
+// הצהרת בריאות
 import HealthDeclaration from "./pages/HealthDeclaration";
 
+import './fonts.css';
 import Header from "./components/Header";
 import { Home, Calendar, BookOpen, LogOut, Settings } from "lucide-react";
 
@@ -51,7 +53,33 @@ const App = () => {
     }
   }, []);
 
-  // יציאה מהמערכת
+  // התחברות למערכת + בדיקת הצהרת בריאות
+  const handleLogin = async (data) => {
+    localStorage.setItem("employeePhone", data.phone);
+    localStorage.setItem("employeeRole", data.role);
+    localStorage.setItem("employeeName", data.name || "");
+    setEmployee(data);
+  
+    try {
+      const docRef = doc(db, "employees", data.phone);
+      const docSnap = await getDoc(docRef);
+      const userData = docSnap.data();
+      const hasDeclaration = docSnap.exists() && userData?.declarationImage;
+  
+      // ✅ רק לקוח יידרש להצהרה
+      if (data.role === "לקוח" && !hasDeclaration) {
+        setActiveTab("healthDeclaration");
+      } else {
+        setActiveTab("home");
+      }
+    } catch (error) {
+      console.error("שגיאה בבדיקת הצהרת בריאות:", error);
+      setActiveTab("healthDeclaration");
+    }
+  };
+  
+
+  // התנתקות
   const handleLogout = () => {
     localStorage.removeItem("employeePhone");
     localStorage.removeItem("employeeRole");
@@ -60,33 +88,8 @@ const App = () => {
     setActiveTab("home");
   };
 
-  // התחברות למערכת + בדיקת חתימה ב-Firestore
-  const handleLogin = async (data) => {
-    localStorage.setItem("employeePhone", data.phone);
-    localStorage.setItem("employeeRole", data.role);
-    localStorage.setItem("employeeName", data.name || "");
-    setEmployee(data);
-
-    try {
-      const docRef = doc(db, "employees", data.phone);
-      const docSnap = await getDoc(docRef);
-      const hasSignature = docSnap.exists() && docSnap.data().signature;
-
-      if (hasSignature) {
-        setActiveTab("home");
-      } else {
-        setActiveTab("healthDeclaration");
-      }
-    } catch (error) {
-      console.error("שגיאה בבדיקת חתימה:", error);
-      setActiveTab("healthDeclaration");
-    }
-  };
-
   const renderPage = () => {
-    if (!employee) {
-      return <EmployeeLogin onLogin={handleLogin} />;
-    }
+    if (!employee) return <EmployeeLogin onLogin={handleLogin} />;
 
     switch (activeTab) {
       case "home":
@@ -103,6 +106,8 @@ const App = () => {
         return <AdminInstructorsPanel employee={employee} setActiveTab={setActiveTab} />;
       case "manageClasses":
         return <AdminClassesPanel employee={employee} setActiveTab={setActiveTab} />;
+      case "adminHealthDeclarations":
+        return <AdminHealthDeclarations employee={employee} />;
       case "healthDeclaration":
         return (
           <HealthDeclaration
@@ -116,9 +121,7 @@ const App = () => {
     }
   };
 
-  if (loading) {
-    return <SplashScreen />;
-  }
+  if (loading) return <SplashScreen />;
 
   return (
     <>
@@ -170,18 +173,6 @@ const App = () => {
                 >
                   <Settings size={20} />
                   <span className="text-xs mt-1">ניהול</span>
-                </button>
-              )}
-
-              {employee?.role === "מדריך" && (
-                <button
-                  onClick={() => setActiveTab("adminClasses")}
-                  className={`p-3 flex flex-col items-center ${
-                    activeTab === "adminClasses" ? "text-secondary" : "text-muted"
-                  }`}
-                >
-                  <BookOpen size={20} />
-                  <span className="text-xs mt-1">ניהול שיעורים</span>
                 </button>
               )}
 

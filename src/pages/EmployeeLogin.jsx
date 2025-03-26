@@ -3,6 +3,7 @@ import Logo from "../assets/logo.png";
 import { db } from "../services/firebase";
 import { doc, getDoc } from "firebase/firestore";
 
+
 const EmployeeLogin = ({ onLogin }) => {
   const [phone, setPhone] = useState("");
   const [error, setError] = useState("");
@@ -40,11 +41,13 @@ const EmployeeLogin = ({ onLogin }) => {
       }
 
       console.log(`🎯 תפקיד מזוהה: ${role}`);
-
+      const requiresHealthDeclaration = !userData.isAdmin && !userData.isInstructor;
+      console.log(`🎯 דרישת הצהרת בריאות: ${requiresHealthDeclaration}`);
       onLogin({
         phone: phone,
         role: role,
         name: userData.name || "",
+        requiresHealthDeclaration,
       });
 
     } catch (err) {
