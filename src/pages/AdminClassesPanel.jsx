@@ -14,6 +14,8 @@ import { format, addDays } from "date-fns";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { Trash2, Edit, Check, X } from "lucide-react"; // אייקונים
+import BackToAdminButton from "../components/BackToAdminButton";
+import { useNavigate } from "react-router-dom";
 
 // ==================== קומפוננטת פאנל ניהול שיעורים ====================
 const AdminClassesPanel = ({ employee }) => {
@@ -605,7 +607,7 @@ const createRecurringClasses = async (baseClassData) => {
   return (
     <div className="p-4">
       <h1 className="text-xl font-bold mb-4">ניהול שיעורים</h1>
-
+      <BackToAdminButton />
       <div className="flex flex-wrap gap-2 mb-4">
         {/* כפתור להוספת שיעור חדש */}
         <button

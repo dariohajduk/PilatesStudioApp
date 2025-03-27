@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { db } from "../services/firebase";
 import "../styles/animations.css";
+import { useNavigate } from "react-router-dom";
 
 import {
   collection,
@@ -11,12 +12,10 @@ import {
   query,
   where,
   addDoc,
-  getDoc // 👈 הוסף את זה
+  getDoc, // 👈 הוסף את זה
 } from "firebase/firestore";
-import { Check, Clock, Calendar } from "lucide-react";
+import { Check, Clock, Calendar, ChevronDown, ChevronUp } from "lucide-react";
 import jsPDF from "jspdf";
-
-
 
 const resizeImage = (file, maxWidth = 300) => {
   return new Promise((resolve) => {
@@ -44,6 +43,9 @@ const resizeImage = (file, maxWidth = 300) => {
 };
 
 const AdminUsersPanel = ({ employee }) => {
+  const navigate = useNavigate();
+  const [showAdvanced, setShowAdvanced] = useState(false);
+  const [showForm, setShowForm] = useState(false); // חדש
   const [users, setUsers] = useState([]);
   const [phone, setPhone] = useState("");
   const [name, setName] = useState("");
@@ -66,16 +68,15 @@ const AdminUsersPanel = ({ employee }) => {
   const [signature, setSignature] = useState("");
   const usersWithSignatures = [];
 
-
   // שליפת כל המשתמשים (לא מדריכים ולא מנהלים)
   const fetchUsers = async () => {
     try {
       const querySnapshot = await getDocs(collection(db, "Users"));
       const usersWithSignatures = [];
-  
+
       for (const docSnap of querySnapshot.docs) {
         const user = { id: docSnap.id, ...docSnap.data() };
-  
+
         if (!user.isInstructor && !user.isAdmin) {
           const employeeDoc = await getDoc(doc(db, "employees", user.phone));
           if (employeeDoc.exists()) {
@@ -88,13 +89,12 @@ const AdminUsersPanel = ({ employee }) => {
           usersWithSignatures.push(user);
         }
       }
-  
+
       setUsers(usersWithSignatures); // ✅ רק פעם אחת
     } catch (error) {
       console.error("❌ שגיאה בטעינת המשתמשים:", error);
     }
   };
-  
 
   useEffect(() => {
     fetchUsers();
@@ -112,57 +112,55 @@ const AdminUsersPanel = ({ employee }) => {
   }, [users]);
 
   // הוספה/עדכון של משתמש
-// פונקציה להוספת / עדכון משתמש
-const handleSaveUser = async () => {
-  if (!phone || !name || !membershipType) {
-    setMessage("נא למלא שם, טלפון וסוג מנוי");
-    return;
-  }
-
-  // שליפת המשתמש הקיים במידה ועורך
-  const existingUser = users.find((u) => u.phone === phone);
-
-  try {
-    const userRef = doc(db, "Users", phone);
-
-    const userData = {
-      id: phone,
-      phone,
-      name,
-      membershipType,
-      remainingLessons: parseInt(remainingLessons, 10) || 0,
-      completedLessons: existingUser?.completedLessons || 0,
-      joinDate: existingUser?.joinDate || new Date().toISOString(),
-      isInstructor: false,
-      isAdmin: false,
-      preferredDays,
-      preferredTimeRange:
-        preferredStartTime && preferredEndTime
-          ? `${preferredStartTime}-${preferredEndTime}`
-          : "",
-      autoJoin,
-      signature: signature || existingUser?.signature || "",
-      signedAt: signature
-        ? new Date().toISOString()
-        : existingUser?.signedAt || null,
-    };
-
-    await setDoc(userRef, userData);
-
-    if (autoJoin && preferredDays.length > 0) {
-      await registerToMatchingClasses(userData);
+  // פונקציה להוספת / עדכון משתמש
+  const handleSaveUser = async () => {
+    if (!phone || !name || !membershipType) {
+      setMessage("נא למלא שם, טלפון וסוג מנוי");
+      return;
     }
 
-    setMessage(editingUserId ? "✔️ המשתמש עודכן" : "✔️ המשתמש נוסף");
-    clearForm();
-    fetchUsers();
-  } catch (error) {
-    console.error("❌ שגיאה בהוספת/עדכון משתמש:", error);
-    setMessage("שגיאה בהוספת/עדכון משתמש");
-  }
-};
+    // שליפת המשתמש הקיים במידה ועורך
+    const existingUser = users.find((u) => u.phone === phone);
 
+    try {
+      const userRef = doc(db, "Users", phone);
 
+      const userData = {
+        id: phone,
+        phone,
+        name,
+        membershipType,
+        remainingLessons: parseInt(remainingLessons, 10) || 0,
+        completedLessons: existingUser?.completedLessons || 0,
+        joinDate: existingUser?.joinDate || new Date().toISOString(),
+        isInstructor: false,
+        isAdmin: false,
+        preferredDays,
+        preferredTimeRange:
+          preferredStartTime && preferredEndTime
+            ? `${preferredStartTime}-${preferredEndTime}`
+            : "",
+        autoJoin,
+        signature: signature || existingUser?.signature || "",
+        signedAt: signature
+          ? new Date().toISOString()
+          : existingUser?.signedAt || null,
+      };
+
+      await setDoc(userRef, userData);
+
+      if (autoJoin && preferredDays.length > 0) {
+        await registerToMatchingClasses(userData);
+      }
+
+      setMessage(editingUserId ? "✔️ המשתמש עודכן" : "✔️ המשתמש נוסף");
+      clearForm();
+      fetchUsers();
+    } catch (error) {
+      console.error("❌ שגיאה בהוספת/עדכון משתמש:", error);
+      setMessage("שגיאה בהוספת/עדכון משתמש");
+    }
+  };
 
   // פונקציה לרישום אוטומטי לשיעורים בהתאם לסוג המנוי
   const registerToMatchingClasses = async (user) => {
@@ -779,105 +777,136 @@ const handleSaveUser = async () => {
   const dayNames = ["ראשון", "שני", "שלישי", "רביעי", "חמישי", "שישי", "שבת"];
 
   return (
-    <div className="p-6 pt-0 max-w-6xl mx-auto">
-      <h1 className="text-2xl font-bold mb-6 text-center text-blue-700">
+    <div className="p-4 max-w-6xl mx-auto">
+      <h1 className="text-2xl font-bold mb-3 text-center text-blue-700">
         ניהול משתמשים (לקוחות)
       </h1>
 
-      {/* טופס הוספה/עריכה */}
-      <div className="mb-8 bg-white shadow-md rounded-xl p-5">
-        <h2 className="text-lg font-semibold mb-4">
-          {editingUserId ? "עריכת משתמש" : "הוספת משתמש חדש"}
-        </h2>
+      {/* כפתורי שליטה */}
+      <div className="flex flex-wrap gap-2 justify-center mb-4">
+        <button
+          onClick={() => {
+            setShowForm(!showForm);
+            if (showAdvanced) setShowAdvanced(false);
+          }}
+          className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg shadow"
+        >
+          {showForm ? "סגור טופס" : "➕ הוסף משתמש חדש"}
+        </button>
 
-        <div className="grid gap-4 md:grid-cols-2">
-          <input
-            type="tel"
-            placeholder="מספר טלפון"
-            value={phone}
-            onChange={(e) => setPhone(e.target.value)}
-            className="block w-full p-3 border rounded-lg text-black"
-          />
+        <button
+          onClick={() => navigate("/admin")}
+          className="bg-gray-100 hover:bg-gray-200 text-gray-700 py-2 px-4 rounded-full shadow-sm"
+        >
+          ← חזרה
+        </button>
+      </div>
 
-          <input
-            type="text"
-            placeholder="שם מלא"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            className="block w-full p-3 border rounded-lg text-black"
-          />
+      {showForm && (
+        <div className="bg-white shadow rounded-xl p-4 mb-4">
+          <h2 className="text-lg font-semibold mb-3">
+            {editingUserId ? "עריכת משתמש" : "הוספת משתמש חדש"}
+          </h2>
 
-          <select
-            value={membershipType}
-            onChange={(e) => {
-              setMembershipType(e.target.value);
+          <div className="grid gap-2 grid-cols-1 md:grid-cols-2">
+            <input
+              type="tel"
+              placeholder="מספר טלפון"
+              value={phone}
+              onChange={(e) => setPhone(e.target.value)}
+              className="w-full p-2 border rounded-md text-sm"
+            />
 
-              if (e.target.value === "כרטיסייה") setRemainingLessons(10);
-              if (e.target.value === "שבועי") setRemainingLessons(3);
-              if (e.target.value === "חודשי") setRemainingLessons(12);
-            }}
-            className="block w-full p-3 border rounded-lg text-black"
+            <input
+              type="text"
+              placeholder="שם מלא"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              className="w-full p-2 border rounded-md text-sm"
+            />
+
+            <select
+              value={membershipType}
+              onChange={(e) => {
+                setMembershipType(e.target.value);
+                if (e.target.value === "כרטיסייה") setRemainingLessons(10);
+                if (e.target.value === "שבועי") setRemainingLessons(3);
+                if (e.target.value === "חודשי") setRemainingLessons(12);
+              }}
+              className="w-full p-2 border rounded-md text-sm"
+            >
+              <option value="">בחר סוג מנוי</option>
+              <option value="חודשי">חודשי</option>
+              <option value="שבועי">שבועי</option>
+              <option value="כרטיסייה">כרטיסייה</option>
+            </select>
+
+            <input
+              type="number"
+              placeholder="כמות שיעורים זמינים"
+              value={remainingLessons}
+              onChange={(e) => setRemainingLessons(e.target.value)}
+              className="w-full p-2 border rounded-md text-sm"
+            />
+          </div>
+
+          {/* כפתור הגדרות מתקדמות */}
+          <button
+            onClick={() => setShowAdvanced(!showAdvanced)}
+            className="mt-3 flex items-center gap-1 text-sm text-blue-700 hover:underline hover:text-blue-800"
           >
-            <option value="">בחר סוג מנוי</option>
-            <option value="חודשי">חודשי</option>
-            <option value="שבועי">שבועי</option>
-            <option value="כרטיסייה">כרטיסייה</option>
-          </select>
+            {showAdvanced ? (
+              <>
+                הסתר הגדרות מתקדמות <ChevronUp size={16} />
+              </>
+            ) : (
+              <>
+                הצג הגדרות מתקדמות <ChevronDown size={16} />
+              </>
+            )}
+          </button>
 
-          <input
-            type="number"
-            placeholder="כמות שיעורים זמינים"
-            value={remainingLessons}
-            onChange={(e) => setRemainingLessons(e.target.value)}
-            className="block w-full p-3 border rounded-lg text-black"
-          />
-        </div>
+          {/* הגדרות מתקדמות */}
+          {showAdvanced && (
+            <div className="mt-3 pt-3 border-t border-gray-200 space-y-3">
+              <h3 className="text-sm font-medium flex items-center">
+                <Calendar size={16} className="mr-2" />
+                הגדרת זמני אימון מועדפים
+              </h3>
 
-        {/* חלק ההגדרות המועדפות */}
-        <div className="mt-6 pt-4 border-t border-gray-200">
-          <h3 className="text-md font-medium mb-3 flex items-center">
-            <Calendar size={18} className="mr-2" />
-            הגדרת זמני אימון מועדפים
-          </h3>
-
-          <div className="space-y-4">
-            {/* בחירת ימים מועדפים */}
-            <div>
-              <p className="text-sm text-gray-600 mb-2">ימים מועדפים:</p>
+              {/* ימים מועדפים */}
               <div className="flex flex-wrap gap-2">
-                {dayNames.map((day, index) => (
-                  <label
-                    key={index}
-                    className={`flex items-center px-3 py-2 rounded-lg border cursor-pointer transition-colors
-                      ${
+                {["ראשון", "שני", "שלישי", "רביעי", "חמישי", "שישי", "שבת"].map(
+                  (day, index) => (
+                    <label
+                      key={index}
+                      className={`cursor-pointer px-3 py-1 border rounded-full text-sm ${
                         preferredDays.includes(index)
                           ? "bg-blue-100 border-blue-300 text-blue-800"
-                          : "bg-gray-50 border-gray-200 text-gray-700"
+                          : "bg-gray-50 border-gray-200 text-gray-600"
                       }`}
-                  >
-                    <input
-                      type="checkbox"
-                      checked={preferredDays.includes(index)}
-                      onChange={() => handleDayToggle(index)}
-                      className="hidden"
-                    />
-                    {preferredDays.includes(index) && (
-                      <Check size={14} className="mr-1" />
-                    )}
-                    <span>{day}</span>
-                  </label>
-                ))}
+                    >
+                      <input
+                        type="checkbox"
+                        className="hidden"
+                        checked={preferredDays.includes(index)}
+                        onChange={() =>
+                          preferredDays.includes(index)
+                            ? setPreferredDays(
+                                preferredDays.filter((d) => d !== index)
+                              )
+                            : setPreferredDays([...preferredDays, index])
+                        }
+                      />
+                      {day}
+                    </label>
+                  )
+                )}
               </div>
-            </div>
 
-            {/* בחירת טווח שעות */}
-            <div>
-              <p className="text-sm text-gray-600 mb-2 flex items-center">
-                <Clock size={16} className="mr-1" />
-                טווח שעות מועדף:
-              </p>
-              <div className="flex items-center space-x-2">
-                <div className="flex-1">
+              {/* שעות מועדפות */}
+              <div className="grid grid-cols-2 gap-3">
+                <div>
                   <label className="text-xs text-gray-500 block mb-1">
                     משעה:
                   </label>
@@ -888,8 +917,7 @@ const handleSaveUser = async () => {
                     className="p-2 border rounded w-full"
                   />
                 </div>
-                <div className="text-gray-400">-</div>
-                <div className="flex-1">
+                <div>
                   <label className="text-xs text-gray-500 block mb-1">
                     עד שעה:
                   </label>
@@ -901,66 +929,48 @@ const handleSaveUser = async () => {
                   />
                 </div>
               </div>
-            </div>
 
-            {/* הצטרפות אוטומטית */}
-            <div className="flex items-center">
-              <input
-                type="checkbox"
-                id="autoJoin"
-                checked={autoJoin}
-                onChange={(e) => setAutoJoin(e.target.checked)}
-                className="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500"
-              />
-              <label htmlFor="autoJoin" className="mr-2 text-sm text-gray-700">
+              {/* רישום אוטומטי */}
+              <label className="flex items-center text-sm gap-2">
+                <input
+                  type="checkbox"
+                  checked={autoJoin}
+                  onChange={(e) => setAutoJoin(e.target.checked)}
+                />
                 רישום אוטומטי לשיעורים מתאימים (מיידי ובעתיד)
               </label>
-            </div>
 
-            <div className="mt-4">
-              <p className="text-sm text-gray-600 mb-2">הוסף חתימה (תמונה):</p>
-              <input
-                type="file"
-                accept="image/*"
-                onChange={(e) => {
-                  const file = e.target.files[0];
-                  if (file) {
-                    resizeImage(file).then((resized) => {
-                      setSignature(resized);
-                    });
-                  }
-                }}
-                className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
-              />
-
-              {signature && (
-                <div className="mt-2 p-2 border rounded">
-                  <p className="text-xs text-gray-500 mb-1">תצוגה מקדימה:</p>
-                  <img
- src="data:image/png;base64,..."
-                     alt="חתימה"
-                    style={{
-                      maxWidth: "100%",
-                      height: "auto",
-                      border: "1px solid #ccc",
-                      objectFit: "contain",
-                    }}
-                  />
-                </div>
-              )}
+              {/* חתימה */}
+              <div>
+                <p className="text-sm text-gray-600 mb-1">
+                  הוסף חתימה (תמונה):
+                </p>
+                <input
+                  type="file"
+                  accept="image/*"
+                  onChange={(e) => {
+                    const file = e.target.files[0];
+                    if (file) {
+                      resizeImage(file).then((resized) => {
+                        setSignature(resized);
+                      });
+                    }
+                  }}
+                />
+              </div>
             </div>
-          </div>
+          )}
+
+          <button
+            onClick={handleSaveUser}
+            className="mt-4 bg-blue-600 text-white py-2 px-5 rounded-md hover:bg-blue-700"
+          >
+            {editingUserId ? "עדכן משתמש" : "הוסף משתמש"}
+          </button>
+
+          {message && <p className="mt-3 text-green-600 text-sm">{message}</p>}
         </div>
-
-        <button
-          onClick={handleSaveUser}
-          className="mt-6 bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-200"
-        >
-          {editingUserId ? "עדכן משתמש" : "הוסף משתמש"}
-        </button>
-
-        {message && <p className="mt-4 text-green-600">{message}</p>}
-      </div>
+      )}
 
       {/* שדה חיפוש */}
       <input
@@ -968,93 +978,63 @@ const handleSaveUser = async () => {
         placeholder="חפש לפי שם או טלפון"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        className="block w-full p-3 mb-6 border rounded-lg text-black"
+        className="w-full p-2 mb-4 border rounded-md text-sm"
       />
 
       {/* רשימת משתמשים */}
-      <div>
-        <h2 className="text-lg font-semibold mb-4">רשימת משתמשים</h2>
+      <div className="grid gap-3">
+        {filteredUsers.map((user) => (
+          <div
+            key={user.id}
+            className="bg-white border border-gray-200 rounded-xl p-4 shadow-sm hover:shadow-md transition flex flex-col gap-2"
+          >
+            <div className="flex justify-between items-center">
+              <h3 className="text-lg font-semibold text-blue-800">
+                {user.name}
+              </h3>
+              <span className="text-xs text-gray-400">טלפון: {user.phone}</span>
+            </div>
 
-        <div className="grid gap-4">
-          {filteredUsers.map((user) => (
-            <div
-              key={user.id}
-              className="bg-white shadow-md rounded-xl p-4 flex flex-col md:flex-row md:justify-between items-center hover:shadow-lg transition duration-300"
-            >
-              <div className="flex flex-col text-right">
-                <h3 className="text-lg font-bold text-blue-700">{user.name}</h3>
-                <p className="text-sm text-gray-600">טלפון: {user.phone}</p>
-                <p className="text-sm text-gray-600">
-                  מנוי:{" "}
-                  <span className="font-semibold">{user.membershipType}</span> |
-                  שיעורים: {user.remainingLessons}
-                </p>
+            <div className="text-sm text-gray-700">
+              סוג מנוי:{" "}
+              <span className="font-medium">{user.membershipType}</span>
+              {user.remainingLessons !== undefined && (
+                <>
+                  {" "}
+                  | שיעורים:{" "}
+                  <span className="font-medium">{user.remainingLessons}</span>
+                </>
+              )}
+            </div>
 
-                {user.preferredDays && user.preferredDays.length > 0 && (
-                  <div className="text-xs text-gray-500 mt-1">
-                    <span className="font-medium">ימים מועדפים:</span>{" "}
-                    {user.preferredDays.map((day) => dayNames[day]).join(", ")}
-                    {user.preferredTimeRange &&
-                      ` | שעות: ${user.preferredTimeRange}`}
-                    {user.autoJoin && (
-                      <span className="text-green-600 mr-1">
-                        {" "}
-                        • רישום אוטומטי
-                      </span>
-                    )}
-                  </div>
+            {user.preferredDays?.length > 0 && (
+              <div className="text-xs text-gray-600">
+                <span className="font-medium">העדפות:</span>{" "}
+                {user.preferredDays.map((d) => dayNames[d]).join(", ")}
+                {user.preferredTimeRange && ` (${user.preferredTimeRange})`}
+                {user.autoJoin && (
+                  <span className="text-green-600 ml-2">• רישום אוטומטי</span>
                 )}
               </div>
+            )}
 
-              <div className="flex gap-3 mt-4 md:mt-0">
-                <button
-                  onClick={() => handleEditUser(user)}
-                  className="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-lg shadow text-sm transition-transform transform hover:scale-105"
-                >
-                  ערוך
-                </button>
-
-                <button
-                  onClick={() => handleDeleteUser(user.id)}
-                  className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg shadow text-sm transition-transform transform hover:scale-105"
-                >
-                  מחק
-                </button>
-
-
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* מודל להצגת החתימה - עודכן עם z-index גבוה יותר */}
-      {showSignature && currentUser && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center">
-          <div className="bg-white p-6 rounded-xl max-w-md w-full">
-            <h2 className="text-xl font-bold text-center mb-4">
-              חתימה של {currentUser.name}
-            </h2>
-            <img
-              src={currentSignature}
-              alt="חתימה"
-              className="mx-auto max-h-60 border p-2"
-              onError={() =>
-                console.error("❌ בעיה בטעינת התמונה - בדוק את base64")
-              }
-            />
-
-            <div className="mt-4 text-center">
+            <div className="flex justify-end gap-2">
               <button
-                onClick={handleCloseSignature}
-                className="bg-gray-200 px-4 py-2 rounded hover:bg-gray-300"
+                onClick={() => handleEditUser(user)}
+                className="text-sm bg-yellow-500 hover:bg-yellow-600 text-white py-1 px-3 rounded"
               >
-                סגור
+                ערוך
+              </button>
+              <button
+                onClick={() => handleDeleteUser(user.id)}
+                className="text-sm bg-red-600 hover:bg-red-700 text-white py-1 px-3 rounded"
+              >
+                מחק
               </button>
             </div>
           </div>
-        </div>
-      )}
+        ))}
+      </div>
     </div>
   );
 };

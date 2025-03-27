@@ -7,6 +7,8 @@ import {
   setDoc,
   deleteDoc
 } from 'firebase/firestore';
+import BackToAdminButton from "../components/BackToAdminButton";
+import { useNavigate } from "react-router-dom";
 
 const AdminInstructorsPanel = ({  employee = {isAdmin: true}  }) => {
   const [instructors, setInstructors] = useState([]);
@@ -107,8 +109,10 @@ const AdminInstructorsPanel = ({  employee = {isAdmin: true}  }) => {
   );
 
   return (
+  
     <div className="p-6 pt-2 max-w-6xl mx-auto">
       <h1 className="text-2xl font-bold mb-6 text-center text-blue-700">ניהול מדריכים</h1>
+      <BackToAdminButton />
 
       <div className="mb-10 bg-white shadow-md rounded-xl p-6">
         <h2 className="text-lg font-semibold mb-4">{editingInstructorId ? 'עריכת מדריך' : 'הוספת מדריך חדש'}</h2>
