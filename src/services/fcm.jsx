@@ -3,7 +3,7 @@ import { doc, setDoc } from "firebase/firestore";
 import { db } from "./firebase";
 import { messaging } from "./firebase"; // או הנתיב הנכון אצלך
 import { onMessage } from "firebase/messaging";
-
+import { toast } from "react-hot-toast";
 
 /**
  * שמירת טוקן FCM במסמך של המשתמש לפי הטלפון
