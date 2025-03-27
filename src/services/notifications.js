@@ -11,12 +11,12 @@ export const requestNotificationPermission = async (phone) => {
 
     if (permission === "granted") {
       const token = await getToken(messaging, {
-        vapidKey: "🔑 כאן תכניס את ה-VAPID public key שלך",
+        vapidKey: "🔑 הכנס כאן את ה־VAPID Public Key שלך",
       });
 
       if (token) {
-        console.log("✅ FCM Token:", token);
         await saveFcmToken(phone, token);
+        alert("📱 טוקן שלך:\n" + token); // ✅ זמני לבדיקה
       } else {
         console.warn("⚠️ לא התקבל טוקן FCM");
       }
@@ -27,6 +27,7 @@ export const requestNotificationPermission = async (phone) => {
     console.error("❌ שגיאה בקבלת הרשאות התראות:", err);
   }
 };
+
 
 // שמירת הטוקן במסמך המשתמש ב-Firestore
 export const saveFcmToken = async (phone, token) => {
