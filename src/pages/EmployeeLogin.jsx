@@ -86,7 +86,7 @@ const EmployeeLogin = ({ onLogin }) => {
               type="tel"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
-              className="w-full p-3 border rounded focus:outline-none focus:ring focus:border-blue-400 text-right"
+              className="w-full p-3 border rounded focus:outline-none focus:ring focus:border-blue-400 text-right text-black"
               placeholder="הזן מספר טלפון"
             />
           </div>
