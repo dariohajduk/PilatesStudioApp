@@ -31,6 +31,9 @@ import Header from "./components/Header";
 import { Home, Calendar, BookOpen, LogOut, Settings } from "lucide-react";
 import { Toaster } from "react-hot-toast";
 import "./fonts.css";
+import { requestNotificationPermission } from "./services/notifications";
+import { listenToForegroundMessages } from "./services/fcm";
+
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -54,12 +57,20 @@ const App = () => {
       });
     }
   }, []);
+  useEffect(() => {
+    if (employee) {
+      listenToForegroundMessages(); // 📬 כאן!
+    }
+  }, [employee]);
 
   const handleLogin = async (data) => {
     localStorage.setItem("employeePhone", data.phone);
     localStorage.setItem("employeeRole", data.role);
     localStorage.setItem("employeeName", data.name || "");
     setEmployee(data);
+    
+    // קריאה לבקשת הרשאת התראות
+    requestNotificationPermission(data.phone);
 
     try {
       const docRef = doc(db, "employees", data.phone);
@@ -150,15 +161,15 @@ const App = () => {
                   element={<AdminBookingOverview />}
                 />
                 <Route
-                   path="/admin/bookings-overview/:week"
+                  path="/admin/bookings-overview/:week"
                   element={<AdminBookingOverview />}
                 />
                 <Route
-                    path="/admin/bookings-overview/:week/:day"
+                  path="/admin/bookings-overview/:week/:day"
                   element={<AdminBookingOverview />}
                 />
                 <Route
-                     path="/admin/bookings-overview/:week/:day/:userId"
+                  path="/admin/bookings-overview/:week/:day/:userId"
                   element={<AdminBookingOverview />}
                 />
               </>
