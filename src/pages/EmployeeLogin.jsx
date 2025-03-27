@@ -3,7 +3,6 @@ import Logo from "../assets/logo.png";
 import { db } from "../services/firebase";
 import { doc, getDoc } from "firebase/firestore";
 
-
 const EmployeeLogin = ({ onLogin }) => {
   const [phone, setPhone] = useState("");
   const [error, setError] = useState("");
@@ -33,7 +32,7 @@ const EmployeeLogin = ({ onLogin }) => {
       const userData = userSnap.data();
       console.log("🚀 userData:", userData);
 
-      let role = "לקוח"; // ברירת מחדל אם תרצה
+      let role = "לקוח";
       if (userData.isAdmin) {
         role = "מנהל";
       } else if (userData.isInstructor) {
@@ -59,9 +58,15 @@ const EmployeeLogin = ({ onLogin }) => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-50 to-white p-4">
-      <div className="w-full max-w-md bg-white rounded-xl shadow-lg p-6 flex flex-col items-center">
+    <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-50 to-white p-4 overflow-hidden">
+      <img
+        src={Logo}
+        alt="Milan Pilates Logo Background"
+        className="absolute top-0 left-0 right-0 mx-auto opacity-10 max-w-xs md:max-w-md lg:max-w-lg pointer-events-none"
+        style={{ zIndex: 0 }}
+      />
 
+      <div className="w-full max-w-md bg-white rounded-xl shadow-lg p-6 flex flex-col items-center relative z-10">
         <img
           src={Logo}
           alt="Milan Pilates Logo"
