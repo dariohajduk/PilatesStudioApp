@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { db } from "../services/firebase";
 import { collection, getDocs } from "firebase/firestore";
 import toast from "react-hot-toast";
+import BackToAdminButton from "../components/BackToAdminButton";
+import { useNavigate } from "react-router-dom";
 
 const AdminHealthDeclarations = ({ employee }) => {
   const [employees, setEmployees] = useState([]);
@@ -44,6 +46,7 @@ const AdminHealthDeclarations = ({ employee }) => {
   return (
     <div className="p-6 max-w-6xl mx-auto">
       <h1 className="text-2xl font-bold mb-6 text-center text-blue-700">הצהרות בריאות של לקוחות</h1>
+      <BackToAdminButton />
 
       {/* 🔍 חיפוש לפי שם */}
       <input
