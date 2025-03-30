@@ -1,6 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import { Users, UserCog, ClipboardList, ShieldCheck ,AlarmClock ,UserPlus ,ListChecks} from "lucide-react";
+import {
+  Users,
+  UserCog,
+  ClipboardList,
+  ShieldCheck,
+  AlarmClock,
+  UserPlus,
+  ListChecks,
+} from "lucide-react";
 
 const AdminDashboard = () => {
   const navigate = useNavigate();
@@ -10,7 +19,19 @@ const AdminDashboard = () => {
       <h2 className="text-2xl font-bold mb-6 text-center text-blue-700">
         ניהול מערכת
       </h2>
-
+      return (
+      <div className="p-4">
+        <h1 className="text-xl font-bold mb-4">לוח בקרה למנהל</h1>
+        <div className="space-y-4">
+          <Link
+            to="/admin/send-notification"
+            className="block bg-blue-500 text-white p-2 rounded"
+          >
+            שלח התראה למשתמש
+          </Link>
+        </div>
+      </div>
+      );
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
         <button
           onClick={() => navigate("/admin/users")}
@@ -55,7 +76,7 @@ const AdminDashboard = () => {
               מחיקה לפי משתמש / תאריך
             </span>
           </div>
-          <ClipboardList   size={28} />
+          <ClipboardList size={28} />
         </button>
 
         <button

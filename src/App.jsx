@@ -1,3 +1,4 @@
+// App.jsx
 import React, { useState, useEffect } from "react";
 import {
   BrowserRouter as Router,
@@ -15,6 +16,7 @@ import SchedulePage from "./pages/SchedulePage";
 import BookingsPage from "./pages/BookingsPage";
 import HealthDeclaration from "./pages/HealthDeclaration";
 import AdminBookingOverview from "./pages/AdminBookingOverview";
+import SendNotification from "./pages/SendNotification";
 
 // ניהול
 import AdminDashboard from "./pages/AdminDashboard";
@@ -24,15 +26,14 @@ import AdminClassesPanel from "./pages/AdminClassesPanel";
 import AdminHealthDeclarations from "./pages/AdminHealthDeclarations";
 import AdminBookingControl from "./pages/AdminBookingControl";
 
-import { doc, getDoc } from "firebase/firestore";
-import { db } from "./services/firebase";
+import { doc, getDoc, setDoc } from "firebase/firestore";
+import { db, messaging } from "./services/firebase";
 
 import Header from "./components/Header";
 import { Home, Calendar, BookOpen, LogOut, Settings } from "lucide-react";
 import { Toaster } from "react-hot-toast";
 import "./fonts.css";
-import { requestNotificationPermission } from "./services/notifications";
-import { listenToForegroundMessages } from "./services/fcm";
+import { getToken } from "firebase/messaging";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -57,11 +58,7 @@ const App = () => {
     }
   }, []);
 
-  useEffect(() => {
-    if (employee) {
-      listenToForegroundMessages();
-    }
-  }, [employee]);
+
 
   const handleLogin = async (data) => {
     localStorage.setItem("employeePhone", data.phone);
@@ -69,7 +66,7 @@ const App = () => {
     localStorage.setItem("employeeName", data.name || "");
     setEmployee(data);
 
-    requestNotificationPermission(data.phone);
+
 
     try {
       const docRef = doc(db, "employees", data.phone);
@@ -100,7 +97,6 @@ const App = () => {
   return (
     <Router>
       <Toaster position="top-center" reverseOrder={false} />
-
       <div className="min-h-screen bg-background text-text relative" dir="rtl">
         {employee && window.location.pathname !== "/health-declaration" && (
           <Header employee={employee} />
@@ -108,15 +104,18 @@ const App = () => {
 
         <main className="pb-20 pt-[130px] p-4">
           <Routes>
+            <Route path="/admin/send-notification" element={<SendNotification />} />
             <Route path="/" element={<Navigate to="/home" />} />
             <Route path="/home" element={<HomePage employee={employee} />} />
             <Route path="/schedule" element={<SchedulePage employee={employee} />} />
             <Route path="/bookings" element={<BookingsPage employee={employee} />} />
-            <Route
-              path="/health-declaration"
-              element={<HealthDeclaration employee={employee} setEmployee={setEmployee} onDone={() => (window.location.href = "/home")} />}
-            />
-
+            <Route path="/health-declaration" element={
+              <HealthDeclaration
+                employee={employee}
+                setEmployee={setEmployee}
+                onDone={() => (window.location.href = "/home")}
+              />
+            } />
             {employee?.role === "מנהל" && (
               <>
                 <Route path="/admin" element={<AdminDashboard />} />
@@ -160,7 +159,10 @@ const NavButton = ({ to, icon, label }) => {
   const isActive = window.location.pathname === to;
 
   return (
-    <button onClick={() => navigate(to)} className={`p-3 flex flex-col items-center ${isActive ? "text-primary" : "text-muted"}`}>
+    <button
+      onClick={() => navigate(to)}
+      className={`p-3 flex flex-col items-center ${isActive ? "text-primary" : "text-muted"}`}
+    >
       {icon}
       <span className="text-xs mt-1">{label}</span>
     </button>

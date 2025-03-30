@@ -1,11 +1,11 @@
-// ייבוא SDK מ-Firebase
-import { initializeApp } from 'firebase/app';
-import { getFirestore } from 'firebase/firestore';
-import { getAuth } from 'firebase/auth';
-import { getStorage } from 'firebase/storage';
-import { getMessaging } from 'firebase/messaging'; // ✅ חדש
+// firebase.js – אתחול Firebase
+import { initializeApp } from "firebase/app";
+import { getMessaging } from "firebase/messaging";
+import { getFirestore } from "firebase/firestore"; // ✅ נכון
+import { getAuth } from "firebase/auth";
+import { getStorage } from "firebase/storage";
 
-// קונפיגורציה מתוך משתני סביבה (Vercel)
+// קונפיגורציה של Firebase
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
@@ -16,11 +16,8 @@ const firebaseConfig = {
   measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
 
-// אתחול האפליקציה
 const app = initializeApp(firebaseConfig);
 
-// שירותים זמינים מה-Firebase
 export const db = getFirestore(app);
-export const auth = getAuth(app);
 export const storage = getStorage(app);
-export const messaging = getMessaging(app); // ✅ חדש
+export const messaging = getMessaging(app);
