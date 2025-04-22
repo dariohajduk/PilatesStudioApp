@@ -1,29 +1,33 @@
-import { initializeApp, cert } from "firebase-admin/app";
-import { getMessaging } from "firebase-admin/messaging";
-import dotenv from "dotenv";
+// /api/sendNotification.js
+import { initializeApp, cert, getApps } from 'firebase-admin/app';
+import { getMessaging } from 'firebase-admin/messaging';
 
-dotenv.config();
+const serviceAccount = JSON.parse(process.env.FIREBASE_ADMIN_SDK);
 
-const serviceAccount = {
-  projectId: process.env.FIREBASE_PROJECT_ID,
-  privateKey: process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, "\n"),
-  clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
-};
+if (!getApps().length) {
+  initializeApp({
+    credential: cert(serviceAccount),
+  });
+}
 
-initializeApp({ credential: cert(serviceAccount) });
+export default async function handler(req, res) {
+  if (req.method !== 'POST') {
+    return res.status(405).json({ success: false, error: 'Method not allowed' });
+  }
 
-export const sendNotification = async (token, message) => {
+  const { token, message } = req.body;
+
   try {
-    const messaging = getMessaging();
-    const res = await messaging.send({
+    await getMessaging().send({
       token,
       notification: {
-        title: "מילאן פילאטיס",
+        title: 'התראה חדשה',
         body: message,
       },
     });
-    console.log("✅ נשלח:", res);
+    res.status(200).json({ success: true });
   } catch (err) {
-    console.error("❌ שגיאה:", err);
+    console.error("❌ FCM Error:", err);
+    res.status(500).json({ success: false, error: err.message });
   }
-};
+}
