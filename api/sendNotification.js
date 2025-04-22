@@ -2,7 +2,7 @@
 import { initializeApp, cert, getApps } from 'firebase-admin/app';
 import { getMessaging } from 'firebase-admin/messaging';
 
-const serviceAccount = JSON.parse(process.env.FIREBASE_ADMIN_SDK);
+const serviceAccount = JSON.parse(process.env.GOOGLE_CREDENTIALS_JSON);
 
 if (!getApps().length) {
   initializeApp({
