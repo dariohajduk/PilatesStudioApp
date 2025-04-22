@@ -1,0 +1,64 @@
+[33me76bfc1b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m k
+[33m94fbd1d2[m a
+[33mfdb4a16d[m .
+[33m764751b4[m  שינויים זמניים לפני rebase
+[33mc62ad2fb[m  ניקוי סודות, כולל .env.local ו־sendNotification.js
+[33mdee2a330[m  Clean: removed secrets from history
+[33m0085e361[m ש
+[33m230754e0[m API
+[33m7d6acd82[m sms
+[33m742d1097[m[33m ([m[1;31morigin/main[m[33m)[m Cancel Report
+[33m72b7693b[m Toast update and fix Home and Card
+[33m72775bcc[m Update Class Card
+[33mb1da1b41[m messaging
+[33m4eb9e319[m firebase-messaging-sw.js
+[33mc787aca9[m Token
+[33m404b2388[m fix routing
+[33mfb7b973f[m Notifi
+[33ma43079d6[m Notification
+[33mae44b55a[m Login Black Text
+[33m65602c49[m Login
+[33m4d498540[m Version with reports
+[33m9060e49e[m FIx signatures
+[33mdfbbb5f0[m Fix Add User
+[33mf5600286[m Add signatures
+[33m07180304[m Automatic Register
+[33m2a1a00b9[m invite other user
+[33mfe63dd2b[m Classes Panel Update
+[33m1b2e6227[m Recurring Class
+[33m31a30d42[m Class Sort
+[33m841c918e[m cancel condition
+[33mc57ff5bd[m 2 AM
+[33m07da5ecb[m Update
+[33m02211bc0[m Last Update
+[33m7d9b7c9f[m Login Rollback
+[33mdb8ca68a[m Login update
+[33m28589751[m AdminDashboard UI Updaet
+[33m8db27587[m  AdminClassesPanel
+[33m0f116d02[m .
+[33m68413f71[m .
+[33m479dc5f3[m Admin Class Fix
+[33m8befd5ff[m Admin Dashboard
+[33mfa1c143a[m Header Upgrade
+[33m48549cff[m Visable Header
+[33m45a925b0[m Header
+[33mab40e5fb[m Class Limit
+[33mf7948f62[m Cancel class fix
+[33m83c10357[m Profile
+[33m7d839ba3[m Instructors Update
+[33md3c9ccc2[m Logo
+[33mb6c54c5f[m Instructors
+[33m619ad9e0[m if statment
+[33m4367dd14[m fixed
+[33m02572cfd[m fix: set execute permissions on vite
+[33m51a0c251[m vite 6.2.2
+[33mb564ef79[m vite
+[33m6e428392[m fix: clean vercel build config and vite permissions
+[33m5ec4242f[m json
+[33m99f6badc[m upload
+[33m1be83e5b[m New commit
+[33m2a57a11e[m com
+[33mc79a1b0a[m vercle
+[33m375a652a[m ClassCard
+[33mb11b2b52[m Booking fix
+[33m222a0c51[m New project
