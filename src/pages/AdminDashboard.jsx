@@ -9,6 +9,7 @@ import {
   AlarmClock,
   UserPlus,
   ListChecks,
+  Ban,
 } from "lucide-react";
 
 const AdminDashboard = () => {
@@ -19,7 +20,7 @@ const AdminDashboard = () => {
       <h2 className="text-2xl font-bold mb-6 text-center text-blue-700">
         ניהול מערכת
       </h2>
-       
+
       <div className="p-4">
         <h1 className="text-xl font-bold mb-4">לוח בקרה למנהל</h1>
         <div className="space-y-4">
@@ -31,7 +32,7 @@ const AdminDashboard = () => {
           </Link>
         </div>
       </div>
-      
+
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
         <button
           onClick={() => navigate("/admin/users")}
@@ -89,6 +90,7 @@ const AdminDashboard = () => {
           </div>
           <ShieldCheck size={28} />
         </button>
+
         <button
           onClick={() => navigate("/admin/bookings-overview")}
           className="flex items-center justify-between bg-gradient-to-r from-blue-500 to-blue-700 text-white py-4 px-6 rounded-2xl shadow-md hover:scale-105 transition-transform duration-200"
@@ -100,6 +102,17 @@ const AdminDashboard = () => {
             </span>
           </div>
           <ListChecks size={28} />
+        </button>
+
+        <button
+          onClick={() => navigate("/admin/cancellations")}
+          className="flex items-center justify-between bg-gradient-to-r from-pink-500 to-pink-700 text-white py-4 px-6 rounded-2xl shadow-md hover:scale-105 transition-transform duration-200"
+        >
+          <div className="flex flex-col items-start text-right">
+            <span className="text-lg font-bold">דו"ח ביטולים</span>
+            <span className="text-sm text-pink-100">צפייה בביטולים לפי מתאמן</span>
+          </div>
+          <Ban size={28} />
         </button>
       </div>
     </div>

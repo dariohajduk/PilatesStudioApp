@@ -9,9 +9,11 @@ import {
   doc,
   getDoc,
   updateDoc,
+  setDoc,
 } from "firebase/firestore";
 import MainLayout from "../components/MainLayout";
 import { toast } from "react-hot-toast";
+import { motion, AnimatePresence } from "framer-motion";
 
 const BookingsPage = ({ employee }) => {
   const [bookings, setBookings] = useState([]);
@@ -58,6 +60,8 @@ const BookingsPage = ({ employee }) => {
       return;
     }
 
+    const reason = prompt("(לא חובה) ניתן להזין סיבה לביטול:") || "";
+
     try {
       await deleteDoc(doc(db, "bookings", bookingId));
 
@@ -70,6 +74,15 @@ const BookingsPage = ({ employee }) => {
           spots: currentClass.spots + 1,
         });
       }
+
+      await setDoc(doc(db, "cancellations", bookingId), {
+        userId: employee.phone,
+        classId,
+        date: classDate,
+        time: classTime,
+        reason,
+        cancelledAt: new Date(),
+      });
 
       toast.success("✔️ ההזמנה בוטלה בהצלחה");
       fetchBookings();
@@ -121,30 +134,36 @@ const BookingsPage = ({ employee }) => {
               <>
                 <h2 className="text-xl font-semibold mt-4 mb-2">שיעורים עתידיים</h2>
                 <ul className="space-y-4">
-                  {futureBookings.map((booking) => (
-                    <li
-                      key={booking.id}
-                      className="bg-white shadow p-4 rounded relative"
-                    >
-                      <h2 className="text-lg font-bold mb-2">{booking.className}</h2>
-                      <p>מדריך: {booking.instructor}</p>
-                      <p>תאריך: {booking.date}</p>
-                      <p>שעה: {booking.time}</p>
-                      <button
-                        onClick={() =>
-                          handleCancelBooking(
-                            booking.id,
-                            booking.classId,
-                            booking.date,
-                            booking.time
-                          )
-                        }
-                        className="absolute top-4 left-4 bg-red-600 text-white px-3 py-1 rounded text-sm hover:bg-red-700"
+                  <AnimatePresence>
+                    {futureBookings.map((booking) => (
+                      <motion.li
+                        key={booking.id}
+                        className="bg-white shadow p-4 rounded relative"
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -20 }}
+                        layout
                       >
-                        בטל הזמנה
-                      </button>
-                    </li>
-                  ))}
+                        <h2 className="text-lg font-bold mb-2">{booking.className}</h2>
+                        <p>מדריך: {booking.instructor}</p>
+                        <p>תאריך: {booking.date}</p>
+                        <p>שעה: {booking.time}</p>
+                        <button
+                          onClick={() =>
+                            handleCancelBooking(
+                              booking.id,
+                              booking.classId,
+                              booking.date,
+                              booking.time
+                            )
+                          }
+                          className="absolute top-4 left-4 bg-red-600 text-white px-3 py-1 rounded text-sm hover:bg-red-700"
+                        >
+                          בטל הזמנה
+                        </button>
+                      </motion.li>
+                    ))}
+                  </AnimatePresence>
                 </ul>
               </>
             )}
@@ -153,17 +172,23 @@ const BookingsPage = ({ employee }) => {
               <>
                 <h2 className="text-xl font-semibold mt-6 mb-2">שיעורים שעברו</h2>
                 <ul className="space-y-4">
-                  {pastBookings.map((booking) => (
-                    <li
-                      key={booking.id}
-                      className="bg-gray-100 shadow p-4 rounded"
-                    >
-                      <h2 className="text-lg font-bold mb-2">{booking.className}</h2>
-                      <p>מדריך: {booking.instructor}</p>
-                      <p>תאריך: {booking.date}</p>
-                      <p>שעה: {booking.time}</p>
-                    </li>
-                  ))}
+                  <AnimatePresence>
+                    {pastBookings.map((booking) => (
+                      <motion.li
+                        key={booking.id}
+                        className="bg-gray-100 shadow p-4 rounded"
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -20 }}
+                        layout
+                      >
+                        <h2 className="text-lg font-bold mb-2">{booking.className}</h2>
+                        <p>מדריך: {booking.instructor}</p>
+                        <p>תאריך: {booking.date}</p>
+                        <p>שעה: {booking.time}</p>
+                      </motion.li>
+                    ))}
+                  </AnimatePresence>
                 </ul>
               </>
             )}

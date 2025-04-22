@@ -15,6 +15,7 @@ import toast from "react-hot-toast"; // גם זה תוסיף אם עוד אין 
 
 // עמודים
 import SplashScreen from "./pages/SplashScreen";
+import AdminCancellationsPage from "./pages/AdminCancellationsPage";
 import EmployeeLogin from "./pages/EmployeeLogin";
 import HomePage from "./pages/HomePage";
 import SchedulePage from "./pages/SchedulePage";
@@ -134,7 +135,8 @@ const App = () => {
                 <Route path="/admin/bookings-overview/:week" element={<AdminBookingOverview />} />
                 <Route path="/admin/bookings-overview/:week/:day" element={<AdminBookingOverview />} />
                 <Route path="/admin/bookings-overview/:week/:day/:userId" element={<AdminBookingOverview />} />
-              </>
+                <Route path="/admin/cancellations" element={<AdminCancellationsPage />} />
+                </>
             )}
           </Routes>
         </main>
