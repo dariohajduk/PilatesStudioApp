@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { db } from "../services/firebase"; 
 import { doc, getDoc } from "firebase/firestore";
 import { toast } from "react-hot-toast";
-import { sendPushNotification } from "./api/sendNotification";
-
 
 const SendNotification = () => {
   const [phone, setPhone] = useState("");
@@ -16,35 +14,45 @@ const SendNotification = () => {
       toast.error("אנא מלא את כל השדות");
       return;
     }
-
+  
     setLoading(true);
-
+  
     try {
+      // שליפת ה־FCM Token מה־Firestore לפי מספר הטלפון
       const userRef = doc(db, "Users", phone);
       const userSnap = await getDoc(userRef);
-
+  
       if (!userSnap.exists()) {
         toast.error("משתמש לא נמצא");
         setLoading(false);
         return;
       }
-
+  
       const userData = userSnap.data();
       const token = userData.fcmToken;
-
-      if (token) {
-        await sendPushNotification(token, message);
-        toast.success("ההתראה נשלחה בהצלחה!");
+  
+      const response = await fetch("/api/sendNotification", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ token, message }),
+      });
+  
+      const result = await response.json();
+  
+      if (result.success) {
+        toast.success("הודעה נשלחה בהצלחה!");
       } else {
-        toast.error("למשתמש אין טוקן FCM");
+        toast.error("שליחה נכשלה: " + result.error);
       }
-    } catch (error) {
-      console.error("שגיאה בשליחת ההתראה:", error);
-      toast.error("שגיאה בשליחת ההתראה");
+    } catch (err) {
+      console.error("שגיאה בשליחת התראה:", err);
+      toast.error("שגיאה כללית");
     }
-
+  
     setLoading(false);
   };
+  
+  
 
   return (
     <div className="p-4">
