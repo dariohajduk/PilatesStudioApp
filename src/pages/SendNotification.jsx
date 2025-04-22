@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { db } from "../services/firebase"; 
 import { doc, getDoc } from "firebase/firestore";
 import { toast } from "react-hot-toast";
+import { sendPushNotification } from "./api/sendNotification";
+
 
 const SendNotification = () => {
   const [phone, setPhone] = useState("");
