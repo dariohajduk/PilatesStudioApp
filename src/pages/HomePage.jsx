@@ -2,14 +2,21 @@ import React, { useState, useEffect } from "react";
 import TopHeader from "../components/TopHeader";
 import ClassCard from "../components/ClassCard";
 import { db } from "../services/firebase";
-import { collection, getDocs, query, where, addDoc } from "firebase/firestore";
+import {
+  collection,
+  getDocs,
+  query,
+  where,
+} from "firebase/firestore";
 import { motion } from "framer-motion";
 import MainLayout from "../components/MainLayout";
+import { useUser } from "../context/UserContext";
 
 const HomePage = ({ employee }) => {
   const [upcomingClasses, setUpcomingClasses] = useState([]);
   const [bookings, setBookings] = useState([]);
   const [loading, setLoading] = useState(true);
+  const { userData } = useUser();
 
   const fetchClasses = async () => {
     try {
@@ -25,13 +32,19 @@ const HomePage = ({ employee }) => {
       endOfTomorrow.setHours(23, 59, 59, 999);
 
       const filteredClasses = classesData.filter((cls) => {
-        const classDateTime = new Date(`${cls.date.split("/").reverse().join("-")}T${cls.time}`);
+        const classDateTime = new Date(
+          `${cls.date.split("/").reverse().join("-")}T${cls.time}`
+        );
         return classDateTime >= now && classDateTime <= endOfTomorrow;
       });
 
       filteredClasses.sort((a, b) => {
-        const dateA = new Date(`${a.date.split("/").reverse().join("-")}T${a.time}`);
-        const dateB = new Date(`${b.date.split("/").reverse().join("-")}T${b.time}`);
+        const dateA = new Date(
+          `${a.date.split("/").reverse().join("-")}T${a.time}`
+        );
+        const dateB = new Date(
+          `${b.date.split("/").reverse().join("-")}T${b.time}`
+        );
         return dateA - dateB;
       });
 
@@ -76,38 +89,14 @@ const HomePage = ({ employee }) => {
   };
 
   const isPastClass = (classDate, classTime) => {
-    const classDateTime = new Date(`${classDate.split("/").reverse().join("-")}T${classTime}`);
+    const classDateTime = new Date(
+      `${classDate.split("/").reverse().join("-")}T${classTime}`
+    );
     return classDateTime < new Date();
   };
 
   const handleCancelBooking = async (classId) => {
     // לוגיקת ביטול הזמנה
-  };
-
-  const handleBooking = async (classInfo) => {
-    if (!employee) {
-      alert("יש להתחבר כדי להירשם לשיעור.");
-      return;
-    }
-
-    try {
-      const bookingRef = collection(db, "bookings");
-      await addDoc(bookingRef, {
-        userId: employee.phone,
-        classId: classInfo.id,
-        date: classInfo.date,
-        time: classInfo.time,
-        instructor: classInfo.instructor,
-        className: classInfo.name,
-        createdAt: new Date(),
-      });
-
-      alert("נרשמת בהצלחה!");
-      fetchUserBookings();
-    } catch (error) {
-      console.error("❌ שגיאה בהרשמה לשיעור:", error);
-      alert("אירעה שגיאה בהרשמה.");
-    }
   };
 
   if (loading) {
@@ -132,19 +121,17 @@ const HomePage = ({ employee }) => {
           <div className="bg-gradient-to-r from-blue-100 to-blue-200 p-4 rounded-lg shadow-lg mb-6">
             <p className="font-bold text-lg mb-2">✨ המלצת היום! ✨</p>
             {upcomingClasses.length > 0 ? (
-              <div>
-                <p className="mb-2">
-                  שיעור <span className="font-semibold">{upcomingClasses[0].name}</span> עם
-                  <span className="font-semibold"> {upcomingClasses[0].instructor}</span> בשעה
-                  <span className="font-semibold"> {upcomingClasses[0].time}</span>.
-                </p>
-                <button
-                  onClick={() => handleBooking(upcomingClasses[0])}
-                  className="bg-blue-500 text-white py-1 px-3 rounded-lg shadow hover:bg-blue-600 transition"
-                >
-                  הירשם עכשיו!
-                </button>
-              </div>
+              <ClassCard
+                classInfo={upcomingClasses[0]}
+                employee={employee}
+                userData={userData}
+                isAlreadyBooked={isAlreadyBooked(upcomingClasses[0].id)}
+                refreshBookings={fetchUserBookings}
+                isPastClass={isPastClass(
+                  upcomingClasses[0].date,
+                  upcomingClasses[0].time
+                )}
+              />
             ) : (
               <p>אין שיעורים זמינים להמלצה כרגע.</p>
             )}
@@ -165,6 +152,7 @@ const HomePage = ({ employee }) => {
                 <ClassCard
                   classInfo={cls}
                   employee={employee}
+                  userData={userData}
                   isAlreadyBooked={isAlreadyBooked(cls.id)}
                   refreshBookings={fetchUserBookings}
                   isPastClass={isPastClass(cls.date, cls.time)}

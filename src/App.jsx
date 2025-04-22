@@ -7,6 +7,11 @@ import {
   Navigate,
   useNavigate,
 } from "react-router-dom";
+import { Toaster } from 'react-hot-toast';
+import { UserProvider } from "./context/UserContext";
+import toast from "react-hot-toast"; // גם זה תוסיף אם עוד אין לך
+
+
 
 // עמודים
 import SplashScreen from "./pages/SplashScreen";
@@ -31,7 +36,6 @@ import { db, messaging } from "./services/firebase";
 
 import Header from "./components/Header";
 import { Home, Calendar, BookOpen, LogOut, Settings } from "lucide-react";
-import { Toaster } from "react-hot-toast";
 import "./fonts.css";
 import { getToken } from "firebase/messaging";
 
@@ -96,6 +100,8 @@ const App = () => {
 
   return (
     <Router>
+        <UserProvider employee={employee}>
+        <Toaster position="top-center" />
       <Toaster position="top-center" reverseOrder={false} />
       <div className="min-h-screen bg-background text-text relative" dir="rtl">
         {employee && window.location.pathname !== "/health-declaration" && (
@@ -150,6 +156,7 @@ const App = () => {
           </nav>
         )}
       </div>
+      </UserProvider>
     </Router>
   );
 };

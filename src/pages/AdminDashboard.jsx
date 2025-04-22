@@ -19,7 +19,7 @@ const AdminDashboard = () => {
       <h2 className="text-2xl font-bold mb-6 text-center text-blue-700">
         ניהול מערכת
       </h2>
-      return (
+       
       <div className="p-4">
         <h1 className="text-xl font-bold mb-4">לוח בקרה למנהל</h1>
         <div className="space-y-4">
@@ -31,7 +31,7 @@ const AdminDashboard = () => {
           </Link>
         </div>
       </div>
-      );
+      
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
         <button
           onClick={() => navigate("/admin/users")}

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useMemo } from "react";
 import { db } from "../services/firebase";
 import {
   addDoc,
@@ -11,39 +11,44 @@ import {
   where,
   getDocs,
 } from "firebase/firestore";
-
+import toast from "react-hot-toast";
+import { useNavigate } from "react-router-dom";
 import { FiX, FiSearch, FiCheck } from "react-icons/fi"; // 🛠 ייבוא אייקונים מתוקן
 
 // ==================== קומפוננטת כרטיסיית שיעור ====================
+// ==================== קומפוננטת כרטיסיית שיעור ====================
 const ClassCard = ({
-  classInfo, // מידע על השיעור
-  employee, // פרטי המשתמש המחובר
-  isAlreadyBooked, // האם המשתמש כבר רשום לשיעור
-  refreshBookings, // פונקציה לרענון רשימת ההזמנות
-  isPastClass, // האם השיעור כבר עבר
-  customers = [], // ← חובה שיהיה פה
-  isAdmin = false, // ← כדי שתוכל להשתמש בו גם שם
+  classInfo, // מידע על השיעור (שם, מדריך, תאריך, שעה, מקומות וכו')
+  employee, // פרטי המשתמש המחובר (מכיל רק טלפון)
+  userData, // ✅ נתוני המשתמש המורחבים (נטען מראש מהקומפוננטה האב - כולל סוג מנוי, שיעורים שנותרו וכו')
+  isAlreadyBooked, // האם המשתמש כבר רשום לשיעור הזה
+  refreshBookings, // פונקציה לרענון רשימת ההזמנות (כדי שהמסך יתעדכן אחרי הרשמה/ביטול)
+  isPastClass, // האם השיעור כבר התרחש (כדי למנוע הרשמה לשיעור עבר)
+  customers = [], // רשימת כל הלקוחות (משמש את המנהל לבחירת משתמש להזמנה)
+  isAdmin = false, // האם הקומפוננטה מוצגת מתוך ממשק ניהול
 }) => {
+
   // ========== משתני מצב (State) ==========.
   const [showParticipantsModal, setShowParticipantsModal] = useState(false);
   const [participants, setParticipants] = useState([]); // משתנה לאחסון רשימת המשתתפים
-  const [message, setMessage] = useState(""); // הודעת מערכת למשתמש
   const [loading, setLoading] = useState(false); // אינדיקטור טעינה
   const [registeredCount, setRegisteredCount] = useState(0); // מספר הנרשמים לשיעור
   const [totalSpots, setTotalSpots] = useState(0); // סך כל המקומות בשיעור
-  const [userData, setUserData] = useState(null); // נתוני המשתמש המחובר
   const [showUserSelector, setShowUserSelector] = useState(false); // חלון בחירת משתמש
   const [searchTerm, setSearchTerm] = useState(""); // מונח חיפוש
   const [filteredCustomers, setFilteredCustomers] = useState([]); // רשימת משתמשים מסוננת
   const [selectedUser, setSelectedUser] = useState(null); // משתמש שנבחר
   const searchInputRef = useRef(null); // הפניה לשדה החיפוש
-  const isAdminOrInstructor =
-    userData?.role === "admin" ||
-    userData?.role === "instructor" ||
-    userData?.role === "מנהל" ||
-    userData?.role === "מדריך" ||
-    userData?.isAdmin === true ||
-    userData?.isInstructor === true;
+  const isAdminOrInstructor = useMemo(() => {
+    return (
+      userData?.role === "admin" ||
+      userData?.role === "instructor" ||
+      userData?.role === "מנהל" ||
+      userData?.role === "מדריך" ||
+      userData?.isAdmin === true ||
+      userData?.isInstructor === true
+    );
+  }, [userData]);
   const [showAdminOptions, setShowAdminOptions] = useState(false);
 
   // ========== פונקציות עזר ==========
@@ -70,33 +75,11 @@ const ClassCard = ({
       setShowParticipantsModal(true);
     } catch (error) {
       console.error("❌ שגיאה בטעינת נרשמים:", error);
-      setMessage("❌ שגיאה בטעינת נרשמים");
+      toast.error("❌ שגיאה בטעינת נרשמים");
+  
     }
   };
   
-  // פונקציה לרענון נתוני המשתמש והחזרתם
-  const refreshUserDataAndReturn = async () => {
-    if (!employee) return null; // אם אין משתמש מחובר, יציאה מהפונקציה
-    try {
-      // שליפת נתוני המשתמש העדכניים מ-Firestore
-      const userRef = doc(db, "Users", employee.phone);
-      const userSnap = await getDoc(userRef, { source: "server" });
-
-      if (userSnap.exists()) {
-        const user = userSnap.data(); // קבלת נתוני המשתמש
-        setUserData(user); // עדכון מצב נתוני המשתמש
-        console.log("✅ userData רענון:", user); // לוג נתוני המשתמש
-        return user; // החזרת נתוני המשתמש
-      } else {
-        console.log("❗ המשתמש לא נמצא במסד"); // לוג שגיאה
-        return null; // החזרת null אם המשתמש לא נמצא
-      }
-    } catch (error) {
-      console.error("❌ שגיאה ברענון מידע משתמש:", error); // לוג שגיאה
-      return null; // החזרת null במקרה של שגיאה
-    }
-  };
-
   // פונקציה לחישוב מספר השבוע בשנה
   const getWeekNumber = (dateObj) => {
     const tempDate = new Date(dateObj.getTime()); // יצירת עותק של התאריך
@@ -125,13 +108,7 @@ const ClassCard = ({
   };
 
   // ========== השפעות (Effects) ==========
-  // אפקט לטעינת נתוני המשתמש בעת טעינת הקומפוננטה
-  useEffect(() => {
-    const fetchUser = async () => {
-      await refreshUserDataAndReturn(); // טעינת נתוני המשתמש
-    };
-    fetchUser(); // הפעלת פונקציית הטעינה
-  }, [employee]); // ביצוע מחדש כאשר המשתמש משתנה
+  
 
   useEffect(() => {
     const term = searchTerm.toLowerCase();
@@ -257,26 +234,26 @@ const ClassCard = ({
   // פונקציה להזמנת מקום בשיעור
   const handleBooking = async () => {
     if (!employee) {
-      setMessage("❗ עליך להתחבר כדי להזמין מקום"); // הודעה אם המשתמש לא מחובר
+      toast.error("❗ עליך להתחבר כדי להזמין מקום"); // הודעה אם המשתמש לא מחובר
       return;
     }
 
     // רענון נתוני המשתמש
-    const freshUserData = await refreshUserDataAndReturn();
+    const freshUserData = userData;
     if (!freshUserData) {
-      setMessage("❗ לא ניתן לקרוא מידע על המשתמש"); // הודעת שגיאה
+      toast.error("❗ לא ניתן לקרוא מידע על המשתמש"); // הודעת שגיאה
       return;
     }
 
     console.log("🔍 נתוני משתמש טריים לפני בדיקה:", freshUserData); // לוג מידע
 
     if (isAlreadyBooked) {
-      setMessage("❗ כבר נרשמת לשיעור הזה"); // הודעה אם המשתמש כבר רשום
+      toast("❗ כבר נרשמת לשיעור הזה"); // הודעה אם המשתמש כבר רשום
       return;
     }
 
     if (isPastClass) {
-      setMessage("❗ לא ניתן להירשם לשיעור שהסתיים"); // הודעה אם השיעור כבר עבר
+      toast("❗ לא ניתן להירשם לשיעור שהסתיים"); // הודעה אם השיעור כבר עבר
       return;
     }
 
@@ -286,12 +263,11 @@ const ClassCard = ({
     console.log("🔍 הרשאה להזמנה?", allowed); // לוג מידע
 
     if (!allowed) {
-      setMessage("❗ הגעת למגבלת ההזמנות לפי סוג המנוי"); // הודעת שגיאה
+      toast.error("❗ הגעת למגבלת ההזמנות לפי סוג המנוי"); // הודעת שגיאה
       return;
     }
 
     setLoading(true); // הפעלת אינדיקטור טעינה
-    setMessage(""); // איפוס הודעות קודמות
 
     try {
       // בדיקה אם יש מקומות פנויים בשיעור
@@ -300,7 +276,7 @@ const ClassCard = ({
       const currentClass = classSnap.data();
 
       if (!currentClass || currentClass.spots <= 0) {
-        setMessage("❗ אין יותר מקומות פנויים"); // הודעת שגיאה
+        toast.error("❗ אין יותר מקומות פנויים"); // הודעת שגיאה
         setLoading(false); // כיבוי אינדיקטור טעינה
         return;
       }
@@ -335,13 +311,13 @@ const ClassCard = ({
         });
       }
 
-      await refreshUserDataAndReturn(); // רענון נתוני המשתמש
+ // רענון נתוני המשתמש
 
-      setMessage("✔️ נרשמת בהצלחה!"); // הודעת הצלחה
+      toast.success("✔️ נרשמת בהצלחה!"); // הודעת הצלחה
       if (refreshBookings) await refreshBookings(); // רענון רשימת ההזמנות
     } catch (error) {
       console.error("❌ שגיאה בהרשמה:", error); // לוג שגיאה
-      setMessage("❌ שגיאה בהרשמה. נסה שוב"); // הודעת שגיאה
+      toast.error("❌ שגיאה בהרשמה. נסה שוב"); // הודעת שגיאה
     }
 
     setLoading(false); // כיבוי אינדיקטור טעינה
@@ -350,12 +326,11 @@ const ClassCard = ({
   // פונקציה להזמנת שיעור עבור משתמש שנבחר
   const bookClassForUser = async (user) => {
     if (!user) {
-      setMessage("❗ עליך לבחור משתמש להזמנה"); // הודעה אם לא נבחר משתמש
+      toast.error("❗ עליך לבחור משתמש להזמנה"); // הודעה אם לא נבחר משתמש
       return;
     }
 
     setLoading(true); // הפעלת אינדיקטור טעינה
-    setMessage(""); // איפוס הודעות קודמות
 
     try {
       // בדיקה אם יש מקומות פנויים בשיעור
@@ -364,7 +339,7 @@ const ClassCard = ({
       const currentClass = classSnap.data();
 
       if (!currentClass || currentClass.spots <= 0) {
-        setMessage("❗ אין יותר מקומות פנויים"); // הודעת שגיאה
+        toast.error("❗ אין יותר מקומות פנויים"); // הודעת שגיאה
         setLoading(false); // כיבוי אינדיקטור טעינה
         return;
       }
@@ -385,12 +360,12 @@ const ClassCard = ({
         spots: currentClass.spots - 1, // הפחתת מקום פנוי
       });
 
-      setMessage("✔️ נרשמת בהצלחה!"); // הודעת הצלחה
+      toast.success("✔️ נרשמת בהצלחה!"); // הודעת הצלחה
       setShowUserSelector(false); // סגירת חלון בחירת המשתמש
       if (refreshBookings) await refreshBookings(); // רענון רשימת ההזמנות
     } catch (error) {
       console.error("❌ שגיאה בהרשמה:", error); // לוג שגיאה
-      setMessage("❌ שגיאה בהרשמה. נסה שוב"); // הודעת שגיאה
+      toast.error("❌ שגיאה בהרשמה. נסה שוב"); // הודעת שגיאה
     }
 
     setLoading(false); // כיבוי אינדיקטור טעינה
@@ -398,20 +373,16 @@ const ClassCard = ({
 
   // פונקציה לביטול הזמנה
   const handleCancelBooking = async () => {
+    const freshUserData = userData;
+
     if (!employee) return; // יציאה אם אין משתמש מחובר
 
     // בדיקה אם ניתן לבטל את ההזמנה (יותר מ-5 שעות לפני השיעור)
     if (!canCancelBooking()) {
-      setMessage("❗ לא ניתן לבטל הזמנה פחות מ-5 שעות לפני השיעור"); // הודעת שגיאה
+      toast.error("❗ לא ניתן לבטל הזמנה פחות מ-5 שעות לפני השיעור"); // הודעת שגיאה
       return;
     }
 
-    // רענון נתוני המשתמש
-    const freshUserData = await refreshUserDataAndReturn();
-    if (!freshUserData) {
-      setMessage("❗ לא ניתן לקרוא מידע על המשתמש"); // הודעת שגיאה
-      return;
-    }
 
     setLoading(true); // הפעלת אינדיקטור טעינה
 
@@ -426,7 +397,7 @@ const ClassCard = ({
       const querySnapshot = await getDocs(q);
 
       if (querySnapshot.empty) {
-        setMessage("❗ לא נמצאה הזמנה לביטול"); // הודעת שגיאה
+        toast.error("❗ לא נמצאה הזמנה לביטול"); // הודעת שגיאה
         setLoading(false); // כיבוי אינדיקטור טעינה
         return;
       }
@@ -454,13 +425,12 @@ const ClassCard = ({
         });
       }
 
-      await refreshUserDataAndReturn(); // רענון נתוני המשתמש
 
-      setMessage("✔️ ההזמנה בוטלה"); // הודעת הצלחה
+      toast.success("✔️ ההזמנה בוטלה"); // הודעת הצלחה
       if (refreshBookings) await refreshBookings(); // רענון רשימת ההזמנות
     } catch (error) {
       console.error("❌ שגיאה בביטול ההזמנה:", error); // לוג שגיאה
-      setMessage("❌ שגיאה בביטול ההזמנה"); // הודעת שגיאה
+      toast.error("❌ שגיאה בביטול ההזמנה"); // הודעת שגיאה
     }
 
     setLoading(false); // כיבוי אינדיקטור טעינה
@@ -481,15 +451,7 @@ const ClassCard = ({
         {/* מספר הנרשמים / סך כל המקומות */}
       </p>
       {/* הצגת הודעת מערכת אם קיימת */}
-      {message && (
-        <p
-          className={`mt-2 ${
-            message.includes("✔️") ? "text-green-500" : "text-red-500"
-          }`}
-        >
-          {message}
-        </p>
-      )}
+
       {/* הצגת הודעה אם המשתמש לא מחובר */}
       {!employee && (
         <p className="text-red-400 mt-2">🔒 התחברות נדרשת להזמנה</p>

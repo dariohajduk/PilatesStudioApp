@@ -11,11 +11,11 @@ import {
   updateDoc,
 } from "firebase/firestore";
 import MainLayout from "../components/MainLayout";
+import { toast } from "react-hot-toast";
 
 const BookingsPage = ({ employee }) => {
   const [bookings, setBookings] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [message, setMessage] = useState("");
 
   const fetchBookings = async () => {
     setLoading(true);
@@ -32,6 +32,7 @@ const BookingsPage = ({ employee }) => {
       setBookings(bookingsList);
     } catch (error) {
       console.error("❌ שגיאה בטעינת ההזמנות:", error);
+      toast.error("שגיאה בטעינת ההזמנות");
     }
     setLoading(false);
   };
@@ -53,15 +54,13 @@ const BookingsPage = ({ employee }) => {
     const hoursDifference = (classDateTime - now) / (1000 * 60 * 60);
 
     if (hoursDifference < 5) {
-      setMessage("לא ניתן לבטל הזמנה פחות מ-5 שעות לפני השיעור");
+      toast("❗ לא ניתן לבטל הזמנה פחות מ-5 שעות לפני השיעור");
       return;
     }
 
     try {
-      // מחיקת ההזמנה
       await deleteDoc(doc(db, "bookings", bookingId));
 
-      // החזרת מקום פנוי בשיעור
       const classRef = doc(db, "classes", classId);
       const classSnap = await getDoc(classRef);
       const currentClass = classSnap.data();
@@ -72,13 +71,34 @@ const BookingsPage = ({ employee }) => {
         });
       }
 
-      setMessage("ההזמנה בוטלה בהצלחה ✅");
-      fetchBookings(); // מרענן את רשימת ההזמנות
+      toast.success("✔️ ההזמנה בוטלה בהצלחה");
+      fetchBookings();
     } catch (error) {
       console.error("❌ שגיאה בביטול ההזמנה:", error);
-      setMessage("שגיאה בביטול ההזמנה");
+      toast.error("❌ שגיאה בביטול ההזמנה");
     }
   };
+
+  const isPastClass = (date, time) => {
+    const classDateTime = new Date(`${date.split("/").reverse().join("-")}T${time}`);
+    return classDateTime < new Date();
+  };
+
+  const futureBookings = bookings
+    .filter((b) => !isPastClass(b.date, b.time))
+    .sort((a, b) => {
+      const aDate = new Date(`${a.date.split("/").reverse().join("-")}T${a.time}`);
+      const bDate = new Date(`${b.date.split("/").reverse().join("-")}T${b.time}`);
+      return aDate - bDate;
+    });
+
+  const pastBookings = bookings
+    .filter((b) => isPastClass(b.date, b.time))
+    .sort((a, b) => {
+      const aDate = new Date(`${a.date.split("/").reverse().join("-")}T${a.time}`);
+      const bDate = new Date(`${b.date.split("/").reverse().join("-")}T${b.time}`);
+      return bDate - aDate;
+    });
 
   if (loading) {
     return (
@@ -90,42 +110,64 @@ const BookingsPage = ({ employee }) => {
 
   return (
     <MainLayout employee={employee}>
-      {" "}
       <div className="p-4">
         <h1 className="text-2xl font-bold mb-4">השיעורים שלי</h1>
 
-        {message && <p className="text-green-600 mb-4">{message}</p>}
-
-        {bookings.length === 0 ? (
+        {futureBookings.length === 0 && pastBookings.length === 0 ? (
           <p className="text-muted">אין לך הזמנות פעילות כרגע.</p>
         ) : (
-          <ul className="space-y-4">
-            {bookings.map((booking) => (
-              <li
-                key={booking.id}
-                className="bg-white shadow p-4 rounded relative"
-              >
-                <h2 className="text-lg font-bold mb-2">{booking.className}</h2>
-                <p>מדריך: {booking.instructor}</p>
-                <p>תאריך: {booking.date}</p>
-                <p>שעה: {booking.time}</p>
+          <>
+            {futureBookings.length > 0 && (
+              <>
+                <h2 className="text-xl font-semibold mt-4 mb-2">שיעורים עתידיים</h2>
+                <ul className="space-y-4">
+                  {futureBookings.map((booking) => (
+                    <li
+                      key={booking.id}
+                      className="bg-white shadow p-4 rounded relative"
+                    >
+                      <h2 className="text-lg font-bold mb-2">{booking.className}</h2>
+                      <p>מדריך: {booking.instructor}</p>
+                      <p>תאריך: {booking.date}</p>
+                      <p>שעה: {booking.time}</p>
+                      <button
+                        onClick={() =>
+                          handleCancelBooking(
+                            booking.id,
+                            booking.classId,
+                            booking.date,
+                            booking.time
+                          )
+                        }
+                        className="absolute top-4 left-4 bg-red-600 text-white px-3 py-1 rounded text-sm hover:bg-red-700"
+                      >
+                        בטל הזמנה
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
 
-                <button
-                  onClick={() =>
-                    handleCancelBooking(
-                      booking.id,
-                      booking.classId,
-                      booking.date,
-                      booking.time
-                    )
-                  } // 👈 הוספתי את classId
-                  className="absolute top-4 left-4 bg-red-600 text-white px-3 py-1 rounded text-sm hover:bg-red-700"
-                >
-                  בטל הזמנה
-                </button>
-              </li>
-            ))}
-          </ul>
+            {pastBookings.length > 0 && (
+              <>
+                <h2 className="text-xl font-semibold mt-6 mb-2">שיעורים שעברו</h2>
+                <ul className="space-y-4">
+                  {pastBookings.map((booking) => (
+                    <li
+                      key={booking.id}
+                      className="bg-gray-100 shadow p-4 rounded"
+                    >
+                      <h2 className="text-lg font-bold mb-2">{booking.className}</h2>
+                      <p>מדריך: {booking.instructor}</p>
+                      <p>תאריך: {booking.date}</p>
+                      <p>שעה: {booking.time}</p>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+          </>
         )}
       </div>
     </MainLayout>
