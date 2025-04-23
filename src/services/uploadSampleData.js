@@ -179,6 +179,39 @@ const uploadClasses = async () => {
 /**
  * TODO: תאר את הפונקציה collection
  */
+/**
+ * TODO: תאר את הפונקציה collection
+ */
+/**
+ * TODO: תאר את הפונקציה collection
+ */
+/**
+ * TODO: תאר את הפונקציה collection
+ */
+/**
+ * TODO: תאר את הפונקציה collection
+ */
+/**
+ * TODO: תאר את הפונקציה collection
+ */
+/**
+ * TODO: תאר את הפונקציה collection
+ */
+/**
+ * TODO: תאר את הפונקציה collection
+ */
+/**
+ * TODO: תאר את הפונקציה collection
+ */
+/**
+ * TODO: תאר את הפונקציה collection
+ */
+/**
+ * TODO: תאר את הפונקציה collection
+ */
+/**
+ * TODO: תאר את הפונקציה collection
+ */
     const classesCollection = collection(db, 'classes');
     for (let cls of upcomingClasses) {
       await addDoc(classesCollection, cls);

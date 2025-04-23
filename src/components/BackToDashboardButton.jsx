@@ -107,6 +107,21 @@ import { useNavigate } from "react-router-dom";
 /**
  * TODO: תאר את הפונקציה BackToDashboardButton
  */
+/**
+ * TODO: תאר את הפונקציה BackToDashboardButton
+ */
+/**
+ * TODO: תאר את הפונקציה BackToDashboardButton
+ */
+/**
+ * TODO: תאר את הפונקציה BackToDashboardButton
+ */
+/**
+ * TODO: תאר את הפונקציה BackToDashboardButton
+ */
+/**
+ * TODO: תאר את הפונקציה BackToDashboardButton
+ */
 const BackToDashboardButton = () => {
   const navigate = useNavigate();
 

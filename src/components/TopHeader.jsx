@@ -51,6 +51,18 @@ const TopHeader = ({ title }) => {
 /**
  * TODO: תאר את הפונקציה return
  */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
   return (
     // מיכל רקע כחול עם טקסט לבן
     <header className="bg-blue-600 text-white p-4 shadow-md">
