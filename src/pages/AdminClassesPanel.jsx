@@ -22,6 +22,2685 @@ const AdminClassesPanel = ({ employee }) => {
   // ========== מצב (State) ==========
   // משתני State לניהול השיעורים
   const [classes, setClasses] = useState([]); // רשימת כל השיעורים
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
   const [loading, setLoading] = useState(true); // אינדיקטור לטעינה
   const [message, setMessage] = useState(""); // הודעת מערכת למשתמש
   const [isModalOpen, setIsModalOpen] = useState(false); // האם חלון המודל פתוח
@@ -384,6 +3063,1164 @@ const createRecurringClasses = async (baseClassData) => {
 
   // פונקציה למיון שיעורים לפי תאריך ושעה
   const sortClasses = (classesArray) => {
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
 /**
  * TODO: תאר את הפונקציה undefined
  */

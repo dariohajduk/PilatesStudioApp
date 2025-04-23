@@ -175,6 +175,519 @@ import BackToDashboardButton from "../components/BackToDashboardButton";
 /**
  * TODO: תאר את הפונקציה undefined
  */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
 const AdminBookingOverview = () => {
   const [bookingsByGroup, setBookingsByGroup] = useState({});
   const [filterType, setFilterType] = useState("week");

@@ -2,122 +2,15 @@ import React, { useState } from "react";
 import Logo from "../assets/logo.png";
 import { db } from "../services/firebase";
 import { doc, getDoc } from "firebase/firestore";
+import { useInstallPrompt } from '../components/InstallPromptManager';
+import { toast } from 'react-toastify';
 
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
-/**
- * TODO: תאר את הפונקציה undefined
- */
 const EmployeeLogin = ({ onLogin }) => {
   const [phone, setPhone] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+
+  const { triggerInstall, isIOS, isStandalone } = useInstallPrompt();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -141,21 +34,27 @@ const EmployeeLogin = ({ onLogin }) => {
       }
 
       const userData = userSnap.data();
-      console.log("🚀 userData:", userData);
-
       let role = "לקוח";
-      if (userData.isAdmin) {
-        role = "מנהל";
-      } else if (userData.isInstructor) {
-        role = "מדריך";
+      if (userData.isAdmin) role = "מנהל";
+      else if (userData.isInstructor) role = "מדריך";
+
+      const requiresHealthDeclaration = !userData.isAdmin && !userData.isInstructor;
+
+      // כאן נשלב את הבדיקה להתקנה
+      const alreadyInstalled = localStorage.getItem('pwa-installed');
+      if (!alreadyInstalled && !isStandalone) {
+        if (isIOS) {
+          toast.info("באייפון יש ללחוץ על כפתור השיתוף ואז על 'הוסף למסך הבית'");
+          // אפשר להוסיף גם modal עם סרטון הדרכה כאן
+          localStorage.setItem('pwa-installed', 'true');
+        } else {
+          await triggerInstall();
+        }
       }
 
-      console.log(`🎯 תפקיד מזוהה: ${role}`);
-      const requiresHealthDeclaration = !userData.isAdmin && !userData.isInstructor;
-      console.log(`🎯 דרישת הצהרת בריאות: ${requiresHealthDeclaration}`);
       onLogin({
-        phone: phone,
-        role: role,
+        phone,
+        role,
         name: userData.name || "",
         requiresHealthDeclaration,
       });
@@ -178,11 +77,7 @@ const EmployeeLogin = ({ onLogin }) => {
       />
 
       <div className="w-full max-w-md bg-white rounded-xl shadow-lg p-6 flex flex-col items-center relative z-10">
-        <img
-          src={Logo}
-          alt="Milan Pilates Logo"
-          className="h-24 md:h-32 mb-4 mt-4"
-        />
+        <img src={Logo} alt="Milan Pilates Logo" className="h-24 md:h-32 mb-4 mt-4" />
 
         <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
           התחברות למערכת
@@ -202,17 +97,13 @@ const EmployeeLogin = ({ onLogin }) => {
             />
           </div>
 
-          {error && (
-            <div className="text-red-500 text-sm text-center">{error}</div>
-          )}
+          {error && <div className="text-red-500 text-sm text-center">{error}</div>}
 
           <button
             type="submit"
             disabled={loading}
             className={`w-full py-2 rounded text-lg font-semibold ${
-              loading
-                ? "bg-gray-400 cursor-not-allowed"
-                : "bg-blue-600 hover:bg-blue-700 text-white"
+              loading ? "bg-gray-400 cursor-not-allowed" : "bg-blue-600 hover:bg-blue-700 text-white"
             }`}
           >
             {loading ? "מתחבר..." : "התחבר"}

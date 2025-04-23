@@ -201,6 +201,564 @@ import { motion, AnimatePresence } from "framer-motion";
 /**
  * TODO: תאר את הפונקציה undefined
  */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
+/**
+ * TODO: תאר את הפונקציה BookingsPage
+ */
 const BookingsPage = ({ employee }) => {
   const [bookings, setBookings] = useState([]);
   const [loading, setLoading] = useState(true);

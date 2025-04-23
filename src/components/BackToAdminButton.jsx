@@ -22,6 +22,60 @@ import React from "react";
 /**
  * TODO: תאר את הפונקציה undefined
  */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה BackToAdminButton
+ */
+/**
+ * TODO: תאר את הפונקציה BackToAdminButton
+ */
+/**
+ * TODO: תאר את הפונקציה BackToAdminButton
+ */
+/**
+ * TODO: תאר את הפונקציה BackToAdminButton
+ */
+/**
+ * TODO: תאר את הפונקציה BackToAdminButton
+ */
+/**
+ * TODO: תאר את הפונקציה BackToAdminButton
+ */
 const BackToAdminButton = () => {
   const navigate = useNavigate();
 
