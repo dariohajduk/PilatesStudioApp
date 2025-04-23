@@ -91,6 +91,24 @@ import Logo from '../assets/logo.png'; // לוודא שהקובץ קיים כא�
 /**
  * TODO: תאר את הפונקציה SplashScreen
  */
+/**
+ * TODO: תאר את הפונקציה SplashScreen
+ */
+/**
+ * TODO: תאר את הפונקציה SplashScreen
+ */
+/**
+ * TODO: תאר את הפונקציה SplashScreen
+ */
+/**
+ * TODO: תאר את הפונקציה SplashScreen
+ */
+/**
+ * TODO: תאר את הפונקציה SplashScreen
+ */
+/**
+ * TODO: תאר את הפונקציה SplashScreen
+ */
 const SplashScreen = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-background text-text transition-all duration-500">
