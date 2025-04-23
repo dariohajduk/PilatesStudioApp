@@ -1657,6 +1657,189 @@ import { useNavigate } from "react-router-dom";
 /**
  * TODO: תאר את הפונקציה AdminInstructorsPanel
  */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminInstructorsPanel
+ */
 const AdminInstructorsPanel = ({  employee = {isAdmin: true}  }) => {
   const [instructors, setInstructors] = useState([]);
   const [phone, setPhone] = useState('');
