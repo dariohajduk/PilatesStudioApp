@@ -1,0 +1,8450 @@
+[
+  {
+    "file": "src/services/uploadSampleData.js",
+    "line": 48,
+    "params": [],
+    "description": "פונקציה להעלאת השיעורים ל-Collection בשם \"classes\""
+  },
+  {
+    "file": "src/services/uploadSampleData.js",
+    "line": 61,
+    "params": [],
+    "description": "פונקציה להעלאת ההזמנות ל-Collection בשם \"bookings\""
+  },
+  {
+    "file": "src/services/uploadSampleData.js",
+    "line": 74,
+    "params": [],
+    "description": "קריאה לפונקציות (מריץ את הכל)"
+  },
+  {
+    "file": "src/pages/SplashScreen.jsx",
+    "line": 4,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SplashScreen.jsx",
+    "line": 7,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SplashScreen.jsx",
+    "line": 10,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SplashScreen.jsx",
+    "line": 13,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SplashScreen.jsx",
+    "line": 16,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SplashScreen.jsx",
+    "line": 19,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 6,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 9,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 12,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 15,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 18,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 21,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 24,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 27,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 30,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 33,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 36,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 39,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 42,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 45,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 48,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 51,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 54,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 57,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 60,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 63,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 66,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 69,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 72,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 75,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 78,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 81,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 84,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 87,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 90,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SendNotification.jsx",
+    "line": 93,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 18,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 21,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 24,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 27,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 30,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 33,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 36,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 39,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 42,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 45,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 48,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 51,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 54,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 57,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 60,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 63,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 66,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 69,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 72,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 75,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 78,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 81,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 84,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 87,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 90,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 93,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 96,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 99,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 102,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 105,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 108,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 111,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 114,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 117,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 120,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 123,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 126,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 129,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 132,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 135,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 138,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 141,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 144,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 147,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 150,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 153,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 156,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 159,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 162,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 165,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 168,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 171,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 174,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 177,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 180,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 183,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 186,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 189,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 192,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 195,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 198,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 201,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 204,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 207,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 210,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 213,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 216,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 219,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 222,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 225,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 228,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 231,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 234,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 237,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 240,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 243,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 246,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 249,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 252,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 255,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 258,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 261,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 264,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 267,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 15,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 18,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 21,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 24,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 27,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 30,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 33,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 36,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 39,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 42,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 45,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 48,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 51,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 54,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 57,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 60,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 63,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 66,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 69,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 72,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 75,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 78,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 81,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 84,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 87,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 90,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 93,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 96,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 99,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 102,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 105,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 108,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 111,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 114,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 117,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 120,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 123,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 126,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 129,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 132,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 135,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 138,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 141,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 144,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 147,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 150,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 153,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 156,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 159,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 162,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 165,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 168,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HomePage.jsx",
+    "line": 171,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 8,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 11,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 14,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 17,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 20,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 23,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 26,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 29,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 32,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 35,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 38,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 41,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 44,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 47,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 50,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 53,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 56,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 59,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 62,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 65,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 68,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 71,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 74,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 77,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 80,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 83,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 86,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 89,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 92,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 95,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 98,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 101,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 104,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 107,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 110,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 113,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 116,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 119,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 122,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 125,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/HealthDeclaration.jsx",
+    "line": 128,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 6,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 9,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 12,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 15,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 18,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 21,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 24,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 27,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 30,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 33,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 36,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 39,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 42,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 45,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 48,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 51,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 54,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 57,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 60,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 63,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 66,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 69,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 72,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 75,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 78,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 81,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 84,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 87,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 90,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 93,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 96,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 99,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 102,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 105,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 108,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 111,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/EmployeeLogin.jsx",
+    "line": 114,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 18,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 21,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 24,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 27,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 30,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 33,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 36,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 39,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 42,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 45,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 48,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 51,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 54,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 57,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 60,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 63,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 66,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 69,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 72,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 75,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 78,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 81,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 84,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 87,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 90,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 93,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 96,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 99,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 102,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 105,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 108,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 111,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 114,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 117,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 120,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 123,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 126,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 129,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 132,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 135,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 138,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 141,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 144,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 147,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 150,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 153,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 156,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 159,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 162,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 165,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 168,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 171,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 174,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 177,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 180,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 183,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 186,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 189,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 192,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 195,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 198,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/BookingsPage.jsx",
+    "line": 201,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 20,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 23,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 26,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 29,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 32,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 35,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 38,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 41,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 44,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 47,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 50,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 53,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 56,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 59,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 62,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 65,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 68,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 71,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 74,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 77,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 80,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 83,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 86,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 89,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 92,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 95,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 98,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 101,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 104,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 107,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 110,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 113,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 116,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 119,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 122,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 125,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 128,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 131,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 134,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 137,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 140,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 143,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 146,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 149,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 152,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 155,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 158,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 161,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 164,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 167,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 170,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 173,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 176,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 179,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 182,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 185,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 188,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 191,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 194,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 197,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 200,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 203,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 206,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 209,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 212,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 215,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 218,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 221,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 224,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 227,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 230,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 233,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 236,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 239,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 242,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 245,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 248,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 251,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 254,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 257,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 260,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 263,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 266,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 269,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 272,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 275,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 278,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 281,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 284,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 287,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 290,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 293,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 296,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 299,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 302,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 305,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 308,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 311,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 314,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 317,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 320,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 323,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 326,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 329,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 332,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 335,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 338,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 341,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 344,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 347,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 350,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 353,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 356,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 359,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 362,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 365,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 368,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 371,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 374,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 377,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 380,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 383,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 386,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 389,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 392,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 395,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 398,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 401,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 404,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 407,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 410,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 413,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 416,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 419,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 422,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 425,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 428,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 431,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 434,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 437,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 440,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 443,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 446,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 449,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 452,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 455,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 458,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 461,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 464,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 467,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 470,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 473,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 476,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 479,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 482,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 485,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 488,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 491,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 494,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 497,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 500,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 503,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 506,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 509,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 512,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 515,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 518,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 521,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 524,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 527,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 530,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 533,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 536,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 539,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 542,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 545,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 548,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 551,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 554,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 557,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 560,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 563,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 566,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 569,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 572,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 575,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 578,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 581,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 584,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 587,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 590,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 593,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 596,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 599,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 602,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 605,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 608,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 611,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 614,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 617,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 620,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 623,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 626,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 629,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 632,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 635,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 638,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 641,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 644,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 647,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 650,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 653,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 656,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 659,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 662,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 665,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 668,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 671,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 674,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 677,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 680,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 683,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 686,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 689,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 692,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 695,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 698,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 701,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 704,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 707,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 710,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 713,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 716,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 719,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 722,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 725,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 728,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 731,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 734,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 737,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 740,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 743,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 746,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 749,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 752,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 755,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 758,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 761,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 764,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 767,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 770,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 773,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 776,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 779,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 782,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 785,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 788,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 791,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 794,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 797,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 800,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 803,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 806,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 809,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 812,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 815,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 818,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 821,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 824,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 827,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 830,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 833,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 836,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 839,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 842,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 845,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 848,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 851,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 854,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 857,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 860,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 863,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 866,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 869,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 872,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 875,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 878,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 881,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 884,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 887,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 890,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 893,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 896,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 899,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 902,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 905,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 908,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 911,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 914,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 917,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 920,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 923,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 926,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 929,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 932,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 935,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 938,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 941,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 944,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 947,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 950,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 953,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 956,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 959,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 962,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 965,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 968,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 971,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 974,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 977,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 980,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 983,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 986,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 989,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 992,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 995,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 998,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1001,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1004,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1007,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1010,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1013,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1016,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1019,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1022,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1025,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1028,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1031,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1034,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1037,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1040,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1043,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 5,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 8,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 11,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 14,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 17,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 20,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 23,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 26,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 29,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 32,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 35,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 38,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 41,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 44,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 47,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 50,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 53,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 56,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 59,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 62,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 65,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 68,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 71,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 74,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 77,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 80,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 83,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 86,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 89,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 92,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 95,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 98,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 101,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 104,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 107,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 110,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 113,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 116,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 119,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 122,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 125,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 128,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 131,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 134,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 137,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 140,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 143,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 146,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 149,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 152,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 155,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 158,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 161,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 164,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminPanel.jsx",
+    "line": 167,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 13,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 16,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 19,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 22,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 25,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 28,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 31,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 34,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 37,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 40,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 43,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 46,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 49,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 52,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 55,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 58,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 61,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 64,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 67,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 70,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 73,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 76,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 79,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 82,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 85,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 88,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 91,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 94,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 97,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 100,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 103,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 106,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 109,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 112,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 115,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 118,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 121,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 124,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 127,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 130,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 133,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 136,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 139,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 142,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 145,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 148,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 151,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 154,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 157,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 160,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 163,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 166,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 169,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 172,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 175,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 178,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 181,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 184,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 187,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 190,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 193,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 8,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 11,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 14,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 17,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 20,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 23,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 26,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 29,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 32,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 35,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 38,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 41,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 44,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 47,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 50,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 53,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 56,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 59,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 62,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 65,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 68,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 71,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 74,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 77,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 80,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 83,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 86,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 89,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 92,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 95,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 98,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 101,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 104,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 107,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 110,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 113,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 116,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 119,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 15,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 18,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 21,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 24,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 27,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 30,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 33,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 36,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 39,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 42,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 45,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 48,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 51,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 54,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 57,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 60,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 63,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 66,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 69,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 72,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 75,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 78,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 81,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 84,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 87,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 90,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 93,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 96,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 99,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 102,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 105,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 108,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 111,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 114,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 117,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 120,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 123,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 21,
+    "params": [],
+    "description": "==================== קומפוננטת פאנל ניהול שיעורים ===================="
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 51,
+    "params": [],
+    "description": "טעינת נתונים בעת טעינת הקומפוננטה"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 58,
+    "params": [],
+    "description": "פונקציה להמרת תאריך לפורמט DD/MM/YYYY"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 64,
+    "params": [],
+    "description": "פונקציה לאיפוס הטופס"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 81,
+    "params": [],
+    "description": "פונקציה לשליפת כל השיעורים"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 87,
+    "params": [],
+    "description": "המרת התוצאות למערך אובייקטים"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 101,
+    "params": [],
+    "description": "פונקציה לשליפת כל המדריכים"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 110,
+    "params": [],
+    "description": "המרת התוצאות למערך אובייקטים"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 125,
+    "params": [],
+    "description": "פתיחת מודל לעריכת שיעור קיים"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 157,
+    "params": [],
+    "description": "עדכון פונקציית createRecurringClasses"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 213,
+    "params": [],
+    "description": "שמירת שיעור חדש או עדכון שיעור קיים"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 224,
+    "params": [],
+    "description": "מציאת אובייקט המדריך לפי מזהה"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 291,
+    "params": [],
+    "description": "טיפול בשינוי בחירת שיעור לפעולות מרובות"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 302,
+    "params": [],
+    "description": "פונקציה לבחירת כל השיעורים"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 313,
+    "params": [],
+    "description": "פונקציה להצגת חלון אישור מחיקת שיעור בודד"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 319,
+    "params": [],
+    "description": "פונקציה למחיקת שיעור בודד"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 341,
+    "params": [],
+    "description": "פונקציה למחיקת מספר שיעורים יחד"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 367,
+    "params": [],
+    "description": "פונקציה לטיפול בשינוי בחירת יום בשבוע"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 370,
+    "params": [],
+    "description": "אם היום כבר נבחר - מסיר אותו"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 379,
+    "params": [],
+    "description": "פונקציה להמרת תאריך בפורמט DD/MM/YYYY למבנה השוואה"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 386,
+    "params": [],
+    "description": "פונקציה למיון שיעורים לפי תאריך ושעה"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 387,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 390,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 393,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 396,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 399,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 402,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 405,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 408,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 411,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 414,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 417,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 420,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 423,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 426,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 429,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 432,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 435,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 438,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 441,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 444,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 447,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 450,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 453,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 456,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 459,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 462,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 465,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 468,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 471,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 474,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 477,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 480,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 483,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 486,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 489,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 492,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 495,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 498,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 501,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 504,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 507,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 510,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 513,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 516,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 519,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 522,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 525,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 528,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 531,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 534,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 537,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 540,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 543,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 546,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 549,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 552,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 555,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 558,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 561,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 564,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 567,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 570,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 573,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 576,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 579,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 582,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 585,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 588,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 591,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 594,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 597,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 600,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 603,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 606,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 609,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 612,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 615,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 618,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 621,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 624,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 627,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 630,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 633,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 636,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 639,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 642,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 645,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 648,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 651,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 654,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 657,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 660,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 663,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 666,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 669,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 672,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 675,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 678,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 681,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 684,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 687,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 690,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 693,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 696,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 699,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 702,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 705,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 708,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 711,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 714,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 717,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 720,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 723,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 726,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 729,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 732,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 735,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 738,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 741,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 744,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 747,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 750,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 753,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 756,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 759,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 762,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 765,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 768,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 771,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 774,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 777,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 780,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 783,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 786,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 789,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 792,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 795,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 798,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 801,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 804,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 807,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 810,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 813,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 816,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 819,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 822,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 825,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 828,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 831,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 834,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 837,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 840,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 843,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 846,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 849,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 852,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 855,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 858,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 861,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 864,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 867,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 870,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 873,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 876,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 879,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 882,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 885,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 888,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 891,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 894,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 897,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 900,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 903,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 906,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 909,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 912,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 915,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 918,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 921,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 924,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 927,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 930,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 933,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 936,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 939,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 942,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 945,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 948,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 951,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 954,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 957,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 960,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminClassesPanel.jsx",
+    "line": 963,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 7,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 10,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 13,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 16,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 19,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 22,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 25,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 28,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 31,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 34,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 37,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 40,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 43,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 46,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 49,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 52,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 55,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 58,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 61,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 64,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 67,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 70,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 73,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 76,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 79,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 82,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 85,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 88,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 91,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 94,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 97,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 100,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 103,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 106,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 109,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 112,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 115,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 118,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 121,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 124,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 127,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 130,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 133,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 136,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 139,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 142,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 145,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 148,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 151,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 154,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 157,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 160,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 163,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 166,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 169,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 172,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 7,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 10,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 13,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 16,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 19,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 22,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 25,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 28,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 31,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 34,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 37,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 40,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 43,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 46,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 49,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 52,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 55,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 58,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 61,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 64,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 67,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 70,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 73,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 76,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 79,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 82,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 85,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 88,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 91,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 94,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 97,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 100,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 103,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 106,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 109,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 112,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 115,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 118,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 121,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 124,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 127,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 130,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 133,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 136,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 139,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 142,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 145,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 148,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 151,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 154,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 157,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 160,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 163,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 166,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 169,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 172,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 175,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 17,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 20,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 23,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 26,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 29,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 32,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 35,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 38,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 41,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 44,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 47,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 50,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 53,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 56,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 59,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 62,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 65,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 68,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 71,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 74,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 77,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 80,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 83,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 86,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 89,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 92,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 95,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 98,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 101,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 104,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 107,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 110,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 113,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 116,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 119,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 122,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 125,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 128,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 131,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 134,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 137,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 140,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 143,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 146,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 149,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 152,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 155,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/TopHeader.jsx",
+    "line": 5,
+    "params": [],
+    "description": "קומפוננטה שמקבלת כותרת שיוצג בחלק העליון"
+  },
+  {
+    "file": "src/components/MainLayout.jsx",
+    "line": 4,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/MainLayout.jsx",
+    "line": 7,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/MainLayout.jsx",
+    "line": 10,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/MainLayout.jsx",
+    "line": 13,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/MainLayout.jsx",
+    "line": 16,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/MainLayout.jsx",
+    "line": 19,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/MainLayout.jsx",
+    "line": 22,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/MainLayout.jsx",
+    "line": 25,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/MainLayout.jsx",
+    "line": 28,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 14,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 17,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 20,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 23,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 26,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 29,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 32,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 35,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 38,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 41,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 44,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 47,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 50,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 53,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 56,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 59,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 62,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 65,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 68,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 71,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 74,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 77,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 80,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 83,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 86,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 89,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 92,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 95,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 98,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 101,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 104,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 107,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 110,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 113,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 116,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 119,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 122,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 125,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 128,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 131,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 134,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 137,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 140,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 143,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 146,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 149,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 152,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 155,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 158,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 161,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/Header.jsx",
+    "line": 164,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/DarkModeToggle.jsx",
+    "line": 5,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/DarkModeToggle.jsx",
+    "line": 8,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/DarkModeToggle.jsx",
+    "line": 11,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/DarkModeToggle.jsx",
+    "line": 14,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/DarkModeToggle.jsx",
+    "line": 17,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/DarkModeToggle.jsx",
+    "line": 20,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/DarkModeToggle.jsx",
+    "line": 23,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/DarkModeToggle.jsx",
+    "line": 26,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 38,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 41,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 44,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 47,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 50,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 53,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 56,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 59,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 62,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 65,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 68,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 71,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 74,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 77,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 80,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 83,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 86,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 89,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 92,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 95,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 98,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 101,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 104,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 107,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 110,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 113,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 116,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 119,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 122,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 125,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 128,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 131,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 134,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 137,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 140,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 143,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 146,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 149,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 152,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 155,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 158,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 161,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 164,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 167,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 170,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 173,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 176,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 179,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 182,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 185,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 188,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 191,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 194,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 197,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 200,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 203,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 206,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 209,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 212,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 215,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 218,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 221,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 224,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 227,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 230,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 233,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 236,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 239,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 242,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 245,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 248,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 251,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 254,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 257,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 260,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 263,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 266,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 269,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 272,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 275,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 278,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 281,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 284,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 287,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 290,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 293,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 296,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 299,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 302,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 305,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 308,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 311,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 314,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 317,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 320,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 323,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 326,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 329,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 332,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 335,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 338,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 341,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 344,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 347,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/ClassCard.jsx",
+    "line": 350,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/BackToDashboardButton.jsx",
+    "line": 5,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/BackToDashboardButton.jsx",
+    "line": 8,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/BackToDashboardButton.jsx",
+    "line": 11,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/BackToDashboardButton.jsx",
+    "line": 14,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/BackToDashboardButton.jsx",
+    "line": 17,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/BackToAdminButton.jsx",
+    "line": 7,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/BackToAdminButton.jsx",
+    "line": 10,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/BackToAdminButton.jsx",
+    "line": 13,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/BackToAdminButton.jsx",
+    "line": 16,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/BackToAdminButton.jsx",
+    "line": 19,
+    "params": [],
+    "description": "---"
+  },
+  {
+    "file": "src/components/BackToAdminButton.jsx",
+    "line": 22,
+    "params": [],
+    "description": "---"
+  }
+]

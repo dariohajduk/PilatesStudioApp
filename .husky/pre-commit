@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npm run generate-index
+git add FUNCTION_INDEX.md function-index.json
