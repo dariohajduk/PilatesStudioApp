@@ -966,6 +966,165 @@ import { useUser } from "../context/UserContext";
 /**
  * TODO: תאר את הפונקציה HomePage
  */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
+/**
+ * TODO: תאר את הפונקציה HomePage
+ */
 const HomePage = ({ employee }) => {
   const [upcomingClasses, setUpcomingClasses] = useState([]);
   const [bookings, setBookings] = useState([]);

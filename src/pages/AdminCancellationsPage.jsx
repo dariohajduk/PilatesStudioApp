@@ -1012,6 +1012,174 @@ import BackToDashboardButton from "../components/BackToDashboardButton";
 /**
  * TODO: תאר את הפונקציה AdminCancellationsPage
  */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
 const AdminCancellationsPage = () => {
   const [cancellationsByGroup, setCancellationsByGroup] = useState({});
   const [filterType, setFilterType] = useState("week");
