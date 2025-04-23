@@ -6,6 +6,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "echo \"No linting configured\"",
+    "generate-index": "node generate-function-index.js",
     "prepare": "husky install"
   },
   "dependencies": {

@@ -2,6 +2,21 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
+/**
+ * TODO: תאר את הפונקציה undefined
+ */
 const BackToDashboardButton = () => {
   const navigate = useNavigate();
 
