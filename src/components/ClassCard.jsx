@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef, useMemo } from "react";
 import { db } from "../services/firebase";
+import { FiUsers } from "react-icons/fi";
+import { Tooltip } from "react-tooltip";
 import {
   addDoc,
   deleteDoc,
@@ -27,7 +29,6 @@ const ClassCard = ({
   customers = [], // רשימת כל הלקוחות (משמש את המנהל לבחירת משתמש להזמנה)
   isAdmin = false, // האם הקומפוננטה מוצגת מתוך ממשק ניהול
 }) => {
-
   // ========== משתני מצב (State) ==========.
   const [showParticipantsModal, setShowParticipantsModal] = useState(false);
   const [participants, setParticipants] = useState([]); // משתנה לאחסון רשימת המשתתפים
@@ -54,32 +55,42 @@ const ClassCard = ({
   // ========== פונקציות עזר ==========
   const openParticipantsPopup = async () => {
     try {
-      const q = query(collection(db, "bookings"), where("classId", "==", classInfo.id));
+      const q = query(
+        collection(db, "bookings"),
+        where("classId", "==", classInfo.id)
+      );
       const snapshot = await getDocs(q);
       const userIds = snapshot.docs.map((doc) => doc.data().userId);
-  
+
       const usersSnapshot = await getDocs(collection(db, "Users"));
       const usersMap = {};
       usersSnapshot.forEach((doc) => {
         const data = doc.data();
         usersMap[doc.id] = data.name || "לא ידוע";
       });
-  
-      const fullParticipants = userIds.map((uid) => ({
-        id: uid,
-        name: usersMap[uid] || "לא ידוע",
-        phone: uid,
-      }));
-  
+
+      const fullParticipants = await Promise.all(
+        userIds.map(async (uid) => {
+          const userRef = doc(db, "Users", uid);
+          const userSnap = await getDoc(userRef);
+          const userData = userSnap.exists() ? userSnap.data() : {};
+          return {
+            id: uid,
+            name: userData.name || uid,
+            phone: uid,
+          };
+        })
+      );
+
       setParticipants(fullParticipants);
+      console.log("📋 participants loaded:", fullParticipants);
       setShowParticipantsModal(true);
     } catch (error) {
       console.error("❌ שגיאה בטעינת נרשמים:", error);
       toast.error("❌ שגיאה בטעינת נרשמים");
-  
     }
   };
-  
+
   // פונקציה לחישוב מספר השבוע בשנה
   const getWeekNumber = (dateObj) => {
     const tempDate = new Date(dateObj.getTime()); // יצירת עותק של התאריך
@@ -108,7 +119,6 @@ const ClassCard = ({
   };
 
   // ========== השפעות (Effects) ==========
-  
 
   useEffect(() => {
     const term = searchTerm.toLowerCase();
@@ -311,7 +321,7 @@ const ClassCard = ({
         });
       }
 
- // רענון נתוני המשתמש
+      // רענון נתוני המשתמש
 
       toast.success("✔️ נרשמת בהצלחה!"); // הודעת הצלחה
       if (refreshBookings) await refreshBookings(); // רענון רשימת ההזמנות
@@ -383,7 +393,6 @@ const ClassCard = ({
       return;
     }
 
-
     setLoading(true); // הפעלת אינדיקטור טעינה
 
     try {
@@ -425,7 +434,6 @@ const ClassCard = ({
         });
       }
 
-
       toast.success("✔️ ההזמנה בוטלה"); // הודעת הצלחה
       if (refreshBookings) await refreshBookings(); // רענון רשימת ההזמנות
     } catch (error) {
@@ -446,12 +454,33 @@ const ClassCard = ({
       <p>מדריך: {classInfo.instructor}</p> {/* שם המדריך */}
       <p>תאריך: {classInfo.date}</p> {/* תאריך השיעור */}
       <p>שעה: {classInfo.time}</p> {/* שעת השיעור */}
-      <p className="text-sm text-gray-600">
-        רשומים: {registeredCount} / {totalSpots}{" "}
-        {/* מספר הנרשמים / סך כל המקומות */}
-      </p>
+      <div className="flex items-center gap-1 text-sm text-gray-600 mt-1">
+        <span>רשומים: {participants.length}</span>
+        <div
+          data-tooltip-id={`tooltip-${classInfo.id}`}
+          data-tooltip-html={
+            participants.length > 0
+              ? `
+        <div dir="rtl">
+          <strong>נרשמו ${participants.length} מתאמנים:</strong><br/>
+          <ul style="padding-right: 1rem; margin-top: 4px">
+            ${participants
+              .map((p) => {
+                const isMe = p.phone === employee?.phone;
+                return `<li>${p.name} ${isMe ? "🎯" : "✅"}</li>`;
+              })
+              .join("")}
+          </ul>
+        </div>
+        `
+              : "עדיין לא נרשמו מתאמנים"
+          }
+          className="text-blue-600 cursor-pointer hover:text-blue-800 transition"
+        >
+          <FiUsers size={18} />
+        </div>
+      </div>
       {/* הצגת הודעת מערכת אם קיימת */}
-
       {/* הצגת הודעה אם המשתמש לא מחובר */}
       {!employee && (
         <p className="text-red-400 mt-2">🔒 התחברות נדרשת להזמנה</p>
@@ -541,7 +570,6 @@ const ClassCard = ({
       {isPastClass && (
         <p className="text-gray-500 text-sm mt-2">🕒 השיעור הסתיים</p>
       )}
-      
       {showUserSelector && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
           <div className="bg-white rounded-lg p-5 w-full max-w-md max-h-[80vh] flex flex-col">
