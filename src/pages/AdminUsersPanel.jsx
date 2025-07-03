@@ -17,6 +17,1101 @@ import {
 import { Check, Clock, Calendar, ChevronDown, ChevronUp } from "lucide-react";
 import jsPDF from "jspdf";
 
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
+/**
+ * TODO: תאר את הפונקציה resizeImage
+ */
 const resizeImage = (file, maxWidth = 300) => {
   return new Promise((resolve) => {
     const img = new Image();

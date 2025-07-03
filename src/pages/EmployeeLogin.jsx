@@ -6,6 +6,117 @@ import { useInstallPrompt } from '../components/InstallPromptManager';
 import { toast } from 'react-toastify';
 
 
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
+/**
+ * TODO: תאר את הפונקציה EmployeeLogin
+ */
 const EmployeeLogin = ({ onLogin }) => {
   const [phone, setPhone] = useState("");
   const [error, setError] = useState("");

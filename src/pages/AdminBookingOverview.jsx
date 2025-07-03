@@ -27,6 +27,7 @@ import {
   Legend,
 } from "recharts";
 
+
 const AdminBookingOverview = () => {
   const [bookingsByGroup, setBookingsByGroup] = useState({});
   const [filterType, setFilterType] = useState("week");

@@ -3,6 +3,30 @@ import React, { useState, useEffect } from 'react';
 import { Moon, Sun } from 'lucide-react';
 
 
+/**
+ * TODO: תאר את הפונקציה DarkModeToggle
+ */
+/**
+ * TODO: תאר את הפונקציה DarkModeToggle
+ */
+/**
+ * TODO: תאר את הפונקציה DarkModeToggle
+ */
+/**
+ * TODO: תאר את הפונקציה DarkModeToggle
+ */
+/**
+ * TODO: תאר את הפונקציה DarkModeToggle
+ */
+/**
+ * TODO: תאר את הפונקציה DarkModeToggle
+ */
+/**
+ * TODO: תאר את הפונקציה DarkModeToggle
+ */
+/**
+ * TODO: תאר את הפונקציה DarkModeToggle
+ */
 const DarkModeToggle = () => {
   const [darkMode, setDarkMode] = useState(false);
 

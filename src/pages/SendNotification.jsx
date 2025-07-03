@@ -4,6 +4,96 @@ import { doc, getDoc } from "firebase/firestore";
 import { toast } from "react-hot-toast";
 
 
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
+/**
+ * TODO: תאר את הפונקציה SendNotification
+ */
 const SendNotification = () => {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");

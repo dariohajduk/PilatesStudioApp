@@ -22,6 +22,7 @@ import {
 import BackToDashboardButton from "../components/BackToDashboardButton";
 import toast from "react-hot-toast";
 
+    
 const AdminCancellationsPage = () => {
   // סטייטים כלליים
   const [cancellationsByGroup, setCancellationsByGroup] = useState({}); // ביטולים מחולקים לקבוצות תצוגה

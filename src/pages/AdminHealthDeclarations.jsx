@@ -6,6 +6,7 @@ import BackToAdminButton from "../components/BackToAdminButton";
 import { useNavigate } from "react-router-dom";
 
 
+
 const AdminHealthDeclarations = ({ employee }) => {
   const [employees, setEmployees] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");

@@ -1,20 +1,20 @@
-// ✅ גרסה מתוקנת של ClassCard.jsx עם Tooltip פנימי עובד וטעינת משתתפים תקינה
+// ✅ גרסה מלאה ומשודרגת של ClassCard.jsx עם אפשרות למחוק משתמש משיעור
 import React, { useState, useEffect, useRef, useMemo } from "react";
 import { db } from "../services/firebase";
+import { Tooltip } from "react-tooltip";
+
 import {
   addDoc,
   deleteDoc,
   doc,
   getDoc,
-  updateDoc,
   collection,
   query,
   where,
   getDocs,
 } from "firebase/firestore";
 import toast from "react-hot-toast";
-import { FiX, FiSearch, FiCheck, FiUsers } from "react-icons/fi";
-import { Tooltip } from "react-tooltip";
+import { FiX, FiSearch, FiCheck, FiUsers, FiTrash2 } from "react-icons/fi";
 
 const ClassCard = ({
   classInfo,
@@ -26,6 +26,7 @@ const ClassCard = ({
   customers = [],
   isAdmin = false,
 }) => {
+  // State variables
   const [participants, setParticipants] = useState([]);
   const [loading, setLoading] = useState(false);
   const [showAdminOptions, setShowAdminOptions] = useState(false);
@@ -34,6 +35,24 @@ const ClassCard = ({
   const [filteredCustomers, setFilteredCustomers] = useState([]);
   const [selectedUser, setSelectedUser] = useState(null);
   const searchInputRef = useRef(null);
+
+  const canViewClass = useMemo(() => {
+    const isManager =
+      userData?.role === "admin" ||
+      userData?.role === "מנהל" ||
+      userData?.isAdmin;
+    const isRegularUser =
+      !userData?.isInstructor &&
+      userData?.role !== "מדריך" &&
+      userData?.role !== "instructor";
+    const isInstructorAndOwnsClass =
+      (userData?.isInstructor || userData?.role === "מדריך" || userData?.role === "instructor") &&
+      classInfo?.instructorId === employee?.phone;
+
+    return isManager || isRegularUser || isInstructorAndOwnsClass;
+  }, [userData, employee, classInfo]);
+
+  if (!canViewClass) return null;
 
   const isAdminOrInstructor = useMemo(() => {
     return (
@@ -89,35 +108,81 @@ const ClassCard = ({
     }
   }, [searchTerm, customers]);
 
+  // פונקציה למחיקת משתמש מהרשמות השיעור
+  const handleRemoveParticipant = async (userId) => {
+    if (!window.confirm("האם אתה בטוח שברצונך למחוק משתמש זה מהשיעור?")) return;
+
+    setLoading(true);
+    try {
+      const q = query(
+        collection(db, "bookings"),
+        where("classId", "==", classInfo.id),
+        where("userId", "==", userId)
+      );
+      const snapshot = await getDocs(q);
+
+      if (snapshot.empty) {
+        toast.error("❌ לא נמצאה הרשמה למחיקה");
+        setLoading(false);
+        return;
+      }
+
+      for (const docSnap of snapshot.docs) {
+        await deleteDoc(doc(db, "bookings", docSnap.id));
+      }
+
+      toast.success("✔️ המשתמש הוסר מהשיעור בהצלחה");
+      if (refreshBookings) await refreshBookings();
+    } catch (error) {
+      console.error("❌ שגיאה במחיקת המשתמש מהשיעור:", error);
+      toast.error("❌ שגיאה במחיקה");
+    }
+    setLoading(false);
+  };
+
   const renderParticipantsTooltip = () => {
     return (
-      <div className="flex items-center gap-1 text-sm text-gray-600 mt-1">
-        <span>רשומים: {participants.length}</span>
+      <>
         <div
           data-tooltip-id={`tooltip-${classInfo.id}`}
-          data-tooltip-html={
-            participants.length > 0
-              ? `
-        <div dir="rtl">
-          <strong>נרשמו ${participants.length} מתאמנים:</strong><br/>
-          <ul style="padding-right: 1rem; margin-top: 4px">
-            ${participants
-              .map((p) => {
-                const isMe = p.phone === employee?.phone;
-                return `<li>${p.name} ${isMe ? "🎯" : "✅"}</li>`;
-              })
-              .join("")}
-          </ul>
-        </div>
-        `
-              : "עדיין לא נרשמו מתאמנים"
-          }
-          className="text-blue-600 cursor-pointer hover:text-blue-800 transition"
+          className="flex items-center gap-1 text-sm text-gray-600 cursor-pointer hover:text-blue-800 transition"
         >
+          <span>רשומים: {participants.length}</span>
           <FiUsers size={18} />
         </div>
-        <Tooltip id={`tooltip-${classInfo.id}`} clickable openOnClick />
-      </div>
+  
+        <Tooltip id={`tooltip-${classInfo.id}`} clickable place="bottom">
+          <div className="flex flex-col max-h-48 overflow-auto p-2 min-w-[200px]">
+            {participants.length > 0 ? (
+              participants.map((p) => {
+                const isMe = p.phone === employee?.phone;
+                return (
+                  <div
+                    key={p.id}
+                    className="flex justify-between items-center py-1 border-b border-gray-200"
+                  >
+                    <span>{p.name} {isMe ? "🎯" : "✅"}</span>
+                    {(isAdmin || isAdminOrInstructor) && !isMe && (
+                      <button
+                        onClick={() => handleRemoveParticipant(p.phone)}
+                        disabled={loading}
+                        className="text-red-500 hover:text-red-700 text-xs p-1 rounded"
+                        title="מחק משתמש מהשיעור"
+                      >
+                        <FiTrash2 size={16} />
+                      </button>
+                    )}
+                  </div>
+                );
+              })
+            ) : (
+              <div className="text-center text-gray-400 py-4">
+                עדיין לא נרשמו מתאמנים
+              </div>
+            )}
+          </div>
+        </Tooltip>
+      </>
     );
   };
 
@@ -129,11 +194,26 @@ const ClassCard = ({
 
     setLoading(true);
     try {
+      // בדיקה אם כבר רשום
+      const bookingsRef = collection(db, "bookings");
+      const q = query(
+        bookingsRef,
+        where("userId", "==", employee.phone),
+        where("classId", "==", classInfo.id)
+      );
+      const existingBookingSnapshot = await getDocs(q);
+      if (!existingBookingSnapshot.empty) {
+        toast.error("❗ אתה כבר רשום לשיעור הזה");
+        setLoading(false);
+        return;
+      }
+
       await addDoc(collection(db, "bookings"), {
         userId: employee.phone,
         classId: classInfo.id,
         name: classInfo.name,
         instructor: classInfo.instructor,
+        instructorPhone: employee.phone,
         date: classInfo.date,
         time: classInfo.time,
         createdAt: new Date(),
@@ -154,7 +234,22 @@ const ClassCard = ({
     }
 
     setLoading(true);
+
     try {
+      // בדיקה אם המשתמש כבר רשום
+      const bookingsRef = collection(db, "bookings");
+      const q = query(
+        bookingsRef,
+        where("userId", "==", user.phone),
+        where("classId", "==", classInfo.id)
+      );
+      const existingBookingSnapshot = await getDocs(q);
+      if (!existingBookingSnapshot.empty) {
+        toast.error("❗ המשתמש כבר רשום לשיעור הזה");
+        setLoading(false);
+        return;
+      }
+
       await addDoc(collection(db, "bookings"), {
         userId: user.phone,
         classId: classInfo.id,
@@ -175,7 +270,7 @@ const ClassCard = ({
   };
 
   const handleCancelBookingWithOptionalReason = async () => {
-    const userId = userData?.phone; // זיהוי לפי מספר טלפון ולא UID
+    const userId = userData?.phone;
     if (!userId) {
       toast.error("משתמש לא מזוהה. נסה להתחבר מחדש.");
       return;
@@ -188,13 +283,12 @@ const ClassCard = ({
         await addDoc(collection(db, "cancellations"), {
           classId: classInfo.id,
           userId,
-          userName: userData.name || "", // אופציונלי
+          userName: userData.name || "",
           date: classInfo.date,
           time: classInfo.time,
           reason: reason.trim(),
           cancelledAt: new Date(),
         });
-        console.log("✅ סיבת ביטול נשמרה:", reason);
         toast.success("✔️ הסיבה נשמרה");
       }
 

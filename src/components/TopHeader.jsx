@@ -2,9 +2,10 @@ import React, { useEffect, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../services/firebase";
 
-const TopHeader = ({ title, userData, employee, allClasses }) => {
-  const [weekly, setWeekly] = useState(0);
-  const [last2Months, setLast2Months] = useState(0);
+const TopHeader = ({ title, userData, allClasses }) => {
+  const [weeklyCount, setWeeklyCount] = useState(0);
+  const [monthlyCount, setMonthlyCount] = useState(0);
+  const [uniqueParticipantsCount, setUniqueParticipantsCount] = useState(0);
   const [userCount, setUserCount] = useState(0);
   const [instructorCount, setInstructorCount] = useState(0);
 
@@ -12,38 +13,76 @@ const TopHeader = ({ title, userData, employee, allClasses }) => {
   const isAdmin = userData?.isAdmin === true;
 
   useEffect(() => {
-    if (!isInstructor || !employee || !allClasses || allClasses.length === 0) return;
+    const normalizePhone = (phone) => phone?.replace(/\D/g, "");
 
-    const now = new Date();
+    const fetchStats = async () => {
+      if (!isInstructor || !userData?.phone || !Array.isArray(allClasses)) return;
 
-    const startOfWeek = new Date(now);
-    startOfWeek.setDate(now.getDate() - now.getDay());
-    startOfWeek.setHours(0, 0, 0, 0);
+      const currentPhone = normalizePhone(userData.phone);
+      const now = new Date();
 
-    const endOfWeek = new Date(startOfWeek);
-    endOfWeek.setDate(endOfWeek.getDate() + 6);
-    endOfWeek.setHours(23, 59, 59, 999);
+      // תחילת השבוע - ראשון
+      const startOfWeek = new Date(now);
+      startOfWeek.setDate(now.getDate() - now.getDay());
+      startOfWeek.setHours(0, 0, 0, 0);
 
-    const startOf2MonthsAgo = new Date(now);
-    startOf2MonthsAgo.setMonth(now.getMonth() - 2);
-    startOf2MonthsAgo.setDate(1);
-    startOf2MonthsAgo.setHours(0, 0, 0, 0);
+      // סוף השבוע - שבת
+      const endOfWeek = new Date(startOfWeek);
+      endOfWeek.setDate(endOfWeek.getDate() + 6);
+      endOfWeek.setHours(23, 59, 59, 999);
 
-    const weeklyCount = allClasses.filter((cls) => {
-      if (cls.instructorName !== employee.name) return false;
-      const clsDate = new Date(`${cls.date.split("/").reverse().join("-")}T${cls.time}`);
-      return clsDate >= startOfWeek && clsDate <= endOfWeek;
-    }).length;
+      // תחילת החודש (חודש נוכחי)
+      const year = now.getFullYear();
+      const startOfMonth = new Date(year, now.getMonth(), 1);
+      startOfMonth.setHours(0, 0, 0, 0);
 
-    const last2MonthsCount = allClasses.filter((cls) => {
-      if (cls.instructorName !== employee.name) return false;
-      const clsDate = new Date(`${cls.date.split("/").reverse().join("-")}T${cls.time}`);
-      return clsDate >= startOf2MonthsAgo && clsDate <= now;
-    }).length;
+      // סוף החודש (יום אחרון בחודש)
+      const endOfMonth = new Date(year, now.getMonth() + 1, 0);
+      endOfMonth.setHours(23, 59, 59, 999);
 
-    setWeekly(weeklyCount);
-    setLast2Months(last2MonthsCount);
-  }, [isInstructor, allClasses, employee]);
+      // שיעורים בשבוע הנוכחי
+      const classesThisWeek = allClasses.filter((cls) => {
+        if (!cls.instructorId || !cls.date || !cls.time) return false;
+        const instructorPhone = normalizePhone(cls.instructorId);
+        if (instructorPhone !== currentPhone) return false;
+        const clsDate = new Date(`${cls.date.split("/").reverse().join("-")}T${cls.time}`);
+        return clsDate >= startOfWeek && clsDate <= endOfWeek;
+      });
+      setWeeklyCount(classesThisWeek.length);
+
+      // שיעורים בחודש הנוכחי
+      const classesThisMonth = allClasses.filter((cls) => {
+        if (!cls.instructorId || !cls.date || !cls.time) return false;
+        const instructorPhone = normalizePhone(cls.instructorId);
+        if (instructorPhone !== currentPhone) return false;
+        const clsDate = new Date(`${cls.date.split("/").reverse().join("-")}T${cls.time}`);
+        return clsDate >= startOfMonth && clsDate <= endOfMonth;
+      });
+      setMonthlyCount(classesThisMonth.length);
+
+      // חישוב משתתפים ייחודיים בחודש
+      if (classesThisMonth.length === 0) {
+        setUniqueParticipantsCount(0);
+        return;
+      }
+      const classIds = classesThisMonth.map((cls) => cls.id);
+
+      try {
+        const bookingsSnap = await getDocs(collection(db, "bookings"));
+        const allBookings = bookingsSnap.docs.map((doc) => doc.data());
+
+        const relevantBookings = allBookings.filter((b) => classIds.includes(b.classId));
+        const uniqueUserIds = [...new Set(relevantBookings.map((b) => b.userId))];
+
+        setUniqueParticipantsCount(uniqueUserIds.length);
+      } catch (error) {
+        console.error("שגיאה בטעינת ההזמנות:", error);
+        setUniqueParticipantsCount(0);
+      }
+    };
+
+    fetchStats();
+  }, [isInstructor, allClasses, userData]);
 
   useEffect(() => {
     const fetchUserStats = async () => {
@@ -72,19 +111,23 @@ const TopHeader = ({ title, userData, employee, allClasses }) => {
       <h1 className="text-xl font-bold">{title}</h1>
 
       {userData && isInstructor && (
-        <div className="bg-white text-blue-600 font-semibold py-1 px-3 rounded-lg text-sm text-right">
-          מדריך | {weekly} שיעורים השבוע | {last2Months} בחודשיים האחרונים
+        <div className="bg-white text-blue-600 font-semibold py-1 px-4 rounded-full text-sm select-none whitespace-nowrap"
+          style={{ boxShadow: "0 0 6px rgba(0,0,0,0.25)" }}
+        >
+          מדריך | {weeklyCount} שיעורים השבוע | {monthlyCount} בחודש | {uniqueParticipantsCount} משתתפים
         </div>
       )}
 
       {userData && isAdmin && (
-        <div className="bg-white text-blue-600 font-semibold py-1 px-3 rounded-lg text-sm text-right">
+        <div className="bg-white text-blue-600 font-semibold py-1 px-4 rounded-full text-sm select-none whitespace-nowrap"
+          style={{ boxShadow: "0 0 6px rgba(0,0,0,0.25)" }}
+        >
           מנהל | {userCount} לקוחות | {instructorCount} מדריכים
         </div>
       )}
 
       {userData && !isInstructor && !isAdmin && (
-        <div className="bg-red-500 text-white font-semibold py-1 px-3 rounded-lg text-sm">
+        <div className="bg-red-500 text-white font-semibold py-1 px-3 rounded-lg text-sm select-none whitespace-nowrap">
           נשארו לך {userData.remainingClasses || 0} מתוך {userData.totalClasses || 0} שיעורים
         </div>
       )}

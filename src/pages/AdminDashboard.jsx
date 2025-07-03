@@ -12,7 +12,6 @@ import {
   Ban,
 } from "lucide-react";
 
-
 const AdminDashboard = () => {
   const navigate = useNavigate();
 
