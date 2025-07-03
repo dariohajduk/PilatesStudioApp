@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 import { Toaster } from 'react-hot-toast';
 import { UserProvider } from "./context/UserContext";
-import toast from "react-hot-toast"; // גם זה תוסיף אם עוד אין לך
+import toast from "react-hot-toast"; 
 
 
 
