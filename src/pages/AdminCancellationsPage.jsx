@@ -1613,6 +1613,324 @@ import toast from "react-hot-toast";
 /**
  * TODO: תאר את הפונקציה AdminCancellationsPage
  */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
+/**
+ * TODO: תאר את הפונקציה AdminCancellationsPage
+ */
 const AdminCancellationsPage = () => {
   // סטייטים כלליים
   const [cancellationsByGroup, setCancellationsByGroup] = useState({}); // ביטולים מחולקים לקבוצות תצוגה
