@@ -489,6 +489,165 @@ import Logo from '../assets/logo.png';
 /**
  * TODO: תאר את הפונקציה Header
  */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
+/**
+ * TODO: תאר את הפונקציה Header
+ */
 const Header = ({ employee }) => {
   const [userData, setUserData] = useState(null);
   const [remainingLessons, setRemainingLessons] = useState(0);
@@ -636,7 +795,7 @@ const Header = ({ employee }) => {
             <TopHeader
               userData={userData}
               allClasses={allClasses}
-              title="סטטוס מדריך"
+              title="סטטוס "
               remainingLessons={remainingLessons}
             />
           </div>
