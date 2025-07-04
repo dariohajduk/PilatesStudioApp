@@ -2,6 +2,141 @@ import React, { useEffect, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../services/firebase";
 
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
+/**
+ * TODO: תאר את הפונקציה TopHeader
+ */
 const TopHeader = ({ title, userData, allClasses }) => {
   const [weeklyCount, setWeeklyCount] = useState(0);
   const [monthlyCount, setMonthlyCount] = useState(0);

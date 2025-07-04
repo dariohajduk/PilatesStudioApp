@@ -1,4 +1,4 @@
-// ✅ גרסה מתוקנת של ClassCard.jsx - החלפת Tooltip ברשימת משתתפים אינטראקטיבית יציבה
+// ✅ גרסה מתוקנת של ClassCard.jsx עם popup שנשאר בתוך המסך (נפתח למעלה אם צריך)
 
 import React, { useState, useEffect, useRef, useMemo } from "react";
 import {
@@ -13,7 +13,7 @@ import {
 } from "firebase/firestore";
 import { db } from "../services/firebase";
 import toast from "react-hot-toast";
-import { FiX, FiSearch, FiCheck, FiUsers, FiTrash2 } from "react-icons/fi";
+import { FiUsers, FiTrash2 } from "react-icons/fi";
 
 const ClassCard = ({
   classInfo,
@@ -25,15 +25,14 @@ const ClassCard = ({
   customers = [],
   isAdmin = false,
 }) => {
+
+ */
   const [participants, setParticipants] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [showAdminOptions, setShowAdminOptions] = useState(false);
-  const [showUserSelector, setShowUserSelector] = useState(false);
   const [showParticipantsList, setShowParticipantsList] = useState(false);
-  const [searchTerm, setSearchTerm] = useState("");
-  const [filteredCustomers, setFilteredCustomers] = useState([]);
-  const [selectedUser, setSelectedUser] = useState(null);
-  const searchInputRef = useRef(null);
+  const participantsBtnRef = useRef(null);
+  const popupRef = useRef(null);
+  const [openDirection, setOpenDirection] = useState("down");
 
   const canViewClass = useMemo(() => {
     const isManager = userData?.role === "admin" || userData?.role === "מנהל" || userData?.isAdmin;
@@ -93,13 +92,11 @@ const ClassCard = ({
   }, [classInfo.id]);
 
   useEffect(() => {
-    const term = searchTerm.toLowerCase();
-    if (!term.trim()) {
-      setFilteredCustomers(customers);
-    } else {
-      setFilteredCustomers(customers.filter((c) => c.name?.toLowerCase().includes(term) || c.phone?.includes(term)));
-    }
-  }, [searchTerm, customers]);
+    if (!showParticipantsList || !participantsBtnRef.current) return;
+    const rect = participantsBtnRef.current.getBoundingClientRect();
+    const spaceBelow = window.innerHeight - rect.bottom;
+    setOpenDirection(spaceBelow < 250 ? "up" : "down");
+  }, [showParticipantsList]);
 
   const handleRemoveParticipant = async (userId) => {
     if (!window.confirm("האם אתה בטוח שברצונך למחוק משתמש זה מהשיעור?")) return;
@@ -113,7 +110,7 @@ const ClassCard = ({
       toast.success("✔️ המשתמש הוסר מהשיעור");
       if (refreshBookings) await refreshBookings();
     } catch (error) {
-      console.error("שגיאה במחיקת משתתפ:", error);
+      console.error("שגיאה במחיקת משתתף:", error);
       toast.error("שגיאה במחיקה");
     }
     setLoading(false);
@@ -122,15 +119,19 @@ const ClassCard = ({
   const renderParticipantsList = () => (
     <div className="relative inline-block text-right">
       <button
-        onClick={() => setShowParticipantsList(!showParticipantsList)}
+        ref={participantsBtnRef}
+        onClick={() => setShowParticipantsList((prev) => !prev)}
         className="flex items-center gap-1 text-sm text-gray-600 cursor-pointer hover:text-blue-800 transition"
       >
         <span>רשומים: {participants.length}</span>
         <FiUsers size={18} />
       </button>
-      {showParticipantsList && (
-        <div className="absolute z-50 mt-2 right-0 bg-white border border-gray-300 rounded shadow-lg w-64 max-h-[200px] overflow-y-auto p-2">
 
+      {showParticipantsList && (
+        <div
+          ref={popupRef}
+          className={`absolute z-50 ${openDirection === "up" ? "bottom-full mb-2" : "mt-2"} right-0 bg-white border border-gray-300 rounded shadow-lg w-64 max-h-[200px] overflow-y-auto p-2`}
+        >
           {participants.length > 0 ? (
             participants.map((p) => {
               const isMe = p.phone === employee?.phone;
@@ -158,9 +159,6 @@ const ClassCard = ({
     </div>
   );
 
-  // המשך הקומפוננטה נשאר כפי שהוא...
-  // פשוט תחליף את השורה: {renderParticipantsTooltip()} ב- {renderParticipantsList()}
-
   return (
     <div className="bg-white p-4 rounded shadow relative mb-4">
       <h2 className="text-lg font-bold mb-2">{classInfo.name}</h2>
@@ -168,7 +166,6 @@ const ClassCard = ({
       <p>תאריך: {classInfo.date}</p>
       <p>שעה: {classInfo.time}</p>
       {renderParticipantsList()}
-      {/* שאר כפתורים ושיטות נשארים כמו בקוד שלך */}
     </div>
   );
 };

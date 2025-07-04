@@ -15,6 +15,258 @@ import MainLayout from "../components/MainLayout";
 import { toast } from "react-hot-toast";
 import { useUser } from "../context/UserContext";
 
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
+/**
+ * TODO: תאר את הפונקציה SchedulePage
+ */
 const SchedulePage = ({ employee }) => {
   const today = new Date();
   const { userData } = useUser();

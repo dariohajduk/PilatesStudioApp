@@ -121,6 +121,120 @@ import { useNavigate } from "react-router-dom";
 /**
  * TODO: תאר את הפונקציה AdminHealthDeclarations
  */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
 const AdminHealthDeclarations = ({ employee }) => {
   const [employees, setEmployees] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
