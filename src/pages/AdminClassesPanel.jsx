@@ -26,7 +26,7 @@ const AdminClassesPanel = ({ employee }) => {
   const [loading, setLoading] = useState(true); // אינדיקטור לטעינה
   const [message, setMessage] = useState(""); // הודעת מערכת למשתמש
   const [isModalOpen, setIsModalOpen] = useState(false); // האם חלון המודל פתוח
-  
+
   // משתני State למחיקה מרובה
   const [selectedClasses, setSelectedClasses] = useState([]); // רשימת שיעורים מסומנים למחיקה
   const [showBulkDeleteConfirm, setShowBulkDeleteConfirm] = useState(false); // האם להציג חלון אישור מחיקה מרובה
@@ -155,59 +155,65 @@ const AdminClassesPanel = ({ employee }) => {
 
   // ========== פונקציות טיפול בשיעורים מחזוריים ==========
   // עדכון פונקציית createRecurringClasses
-const createRecurringClasses = async (baseClassData) => {
-  // וידוא שנבחרו כל הנתונים הדרושים
-  if (!date || !recurrenceEndDate || selectedDays.length === 0) {
-    setMessage("אנא בחר תאריך התחלה, תאריך סיום וימים בשבוע"); // הודעת שגיאה
-    return false;
-  }
+  const createRecurringClasses = async (baseClassData) => {
+    // וידוא שנבחרו כל הנתונים הדרושים
+    if (!date || !recurrenceEndDate || selectedDays.length === 0) {
+      setMessage("אנא בחר תאריך התחלה, תאריך סיום וימים בשבוע"); // הודעת שגיאה
+      return false;
+    }
 
-  // מעבר על כל התאריכים בטווח ויצירת שיעורים לימים הנבחרים
-  let currentDate = new Date(date);
-  const endDate = new Date(recurrenceEndDate);
-  let successCount = 0; // ספירת שיעורים שנוצרו בהצלחה
-  let totalAutoRegistrations = 0; // ספירת רישומים אוטומטיים
+    // מעבר על כל התאריכים בטווח ויצירת שיעורים לימים הנבחרים
+    let currentDate = new Date(date);
+    const endDate = new Date(recurrenceEndDate);
+    let successCount = 0; // ספירת שיעורים שנוצרו בהצלחה
+    let totalAutoRegistrations = 0; // ספירת רישומים אוטומטיים
 
-  try {
-    // המשך כל עוד התאריך הנוכחי לפני או שווה לתאריך הסיום
-    while (currentDate <= endDate) {
-      const dayOfWeek = currentDate.getDay(); // מספר היום בשבוע (0=ראשון, 1=שני, וכו')
+    try {
+      // המשך כל עוד התאריך הנוכחי לפני או שווה לתאריך הסיום
+      while (currentDate <= endDate) {
+        const dayOfWeek = currentDate.getDay(); // מספר היום בשבוע (0=ראשון, 1=שני, וכו')
 
-      // אם היום הנוכחי נמצא ברשימת הימים הנבחרים
-      if (selectedDays.includes(dayOfWeek)) {
-        // יצירת אובייקט שיעור חדש
-        const newClassData = {
-          ...baseClassData,
-          date: formatDateToDDMMYYYY(new Date(currentDate)), // הגדרת התאריך הנוכחי
-        };
+        // אם היום הנוכחי נמצא ברשימת הימים הנבחרים
+        if (selectedDays.includes(dayOfWeek)) {
+          // יצירת אובייקט שיעור חדש
+          const newClassData = {
+            ...baseClassData,
+            date: formatDateToDDMMYYYY(new Date(currentDate)), // הגדרת התאריך הנוכחי
+          };
 
-        // הוספת השיעור למסד הנתונים
-        const docRef = await addDoc(collection(db, "classes"), newClassData);
-        
-        // רישום אוטומטי למשתמשים
-        const classWithId = { ...newClassData, id: docRef.id };
-        const autoRegistrations = await autoRegisterUsersForClass(classWithId);
-        totalAutoRegistrations += autoRegistrations;
-        
-        successCount++;
+          // הוספת השיעור למסד הנתונים
+          const docRef = await addDoc(collection(db, "classes"), newClassData);
+
+          // רישום אוטומטי למשתמשים
+          const classWithId = { ...newClassData, id: docRef.id };
+          const autoRegistrations = await autoRegisterUsersForClass(
+            classWithId
+          );
+          totalAutoRegistrations += autoRegistrations;
+
+          successCount++;
+        }
+
+        // מעבר ליום הבא
+        currentDate = addDays(currentDate, 1);
       }
 
-      // מעבר ליום הבא
-      currentDate = addDays(currentDate, 1);
-    }
-    
-    console.log(`נוצרו ${successCount} שיעורים מחזוריים עם ${totalAutoRegistrations} רישומים אוטומטיים`);
-    
-    if (totalAutoRegistrations > 0) {
-      setMessage(`✔️ נוצרו ${successCount} שיעורים מחזוריים בהצלחה עם ${totalAutoRegistrations} רישומים אוטומטיים!`);
-    }
+      console.log(
+        `נוצרו ${successCount} שיעורים מחזוריים עם ${totalAutoRegistrations} רישומים אוטומטיים`
+      );
 
-    return successCount; // החזרת מספר השיעורים שנוצרו
-  } catch (error) {
-    console.error("❌ שגיאה ביצירת שיעורים מחזוריים:", error);
-    return false;
-  }
-};
+      if (totalAutoRegistrations > 0) {
+        setMessage(
+          `✔️ נוצרו ${successCount} שיעורים מחזוריים בהצלחה עם ${totalAutoRegistrations} רישומים אוטומטיים!`
+        );
+      }
+
+      return successCount; // החזרת מספר השיעורים שנוצרו
+    } catch (error) {
+      console.error("❌ שגיאה ביצירת שיעורים מחזוריים:", error);
+      return false;
+    }
+  };
 
   // ========== פונקציות טיפול בשיעורים ==========
   // שמירת שיעור חדש או עדכון שיעור קיים
@@ -241,14 +247,14 @@ const createRecurringClasses = async (baseClassData) => {
 
         if (successCount) {
           setMessage(`✔️ נוצרו ${successCount} שיעורים מחזוריים בהצלחה!`); // הודעת הצלחה
-          
+
           // רישום אוטומטי למשתמשים יבוצע בתוך createRecurringClasses
         } else {
           setMessage("❌ שגיאה ביצירת שיעורים מחזוריים"); // הודעת שגיאה
         }
       } else {
         let newClassId;
-        
+
         // בדיקה האם מדובר בעריכה או ביצירה
         if (editingClassId) {
           // עדכון שיעור קיים
@@ -260,13 +266,17 @@ const createRecurringClasses = async (baseClassData) => {
           const docRef = await addDoc(collection(db, "classes"), classData);
           newClassId = docRef.id;
           setMessage("✔️ שיעור נוסף בהצלחה!"); // הודעת הצלחה
-          
+
           // רישום אוטומטי למשתמשים לשיעור החדש
           const classWithId = { ...classData, id: newClassId };
-          const autoRegistrations = await autoRegisterUsersForClass(classWithId);
-          
+          const autoRegistrations = await autoRegisterUsersForClass(
+            classWithId
+          );
+
           if (autoRegistrations > 0) {
-            setMessage(`✔️ שיעור נוסף בהצלחה! ${autoRegistrations} משתמשים נרשמו אוטומטית.`);
+            setMessage(
+              `✔️ שיעור נוסף בהצלחה! ${autoRegistrations} משתמשים נרשמו אוטומטית.`
+            );
           }
         }
       }
@@ -292,7 +302,7 @@ const createRecurringClasses = async (baseClassData) => {
   const handleClassSelection = (classId) => {
     if (selectedClasses.includes(classId)) {
       // אם השיעור כבר נבחר - מסיר אותו
-      setSelectedClasses(selectedClasses.filter(id => id !== classId));
+      setSelectedClasses(selectedClasses.filter((id) => id !== classId));
     } else {
       // אם השיעור לא נבחר - מוסיף אותו
       setSelectedClasses([...selectedClasses, classId]);
@@ -306,10 +316,10 @@ const createRecurringClasses = async (baseClassData) => {
       setSelectedClasses([]);
     } else {
       // בוחר את כל השיעורים
-      setSelectedClasses(classes.map(cls => cls.id));
+      setSelectedClasses(classes.map((cls) => cls.id));
     }
   };
-  
+
   // פונקציה להצגת חלון אישור מחיקת שיעור בודד
   const confirmDeleteClass = (classId) => {
     setDeleteClassId(classId); // הגדרת מזהה השיעור למחיקה
@@ -337,7 +347,7 @@ const createRecurringClasses = async (baseClassData) => {
     setDeleteClassId(null); // איפוס מזהה השיעור למחיקה
     setLoading(false); // כיבוי אינדיקטור טעינה
   };
-  
+
   // פונקציה למחיקת מספר שיעורים יחד
   const handleBulkDelete = async () => {
     if (selectedClasses.length === 0) return; // בדיקה שיש שיעורים מסומנים
@@ -349,7 +359,7 @@ const createRecurringClasses = async (baseClassData) => {
       for (const classId of selectedClasses) {
         await deleteDoc(doc(db, "classes", classId));
       }
-      
+
       setMessage(`✔️ ${selectedClasses.length} שיעורים נמחקו בהצלחה!`); // הודעת הצלחה
       fetchClasses(); // רענון רשימת השיעורים
     } catch (error) {
@@ -385,7 +395,6 @@ const createRecurringClasses = async (baseClassData) => {
 
   // פונקציה למיון שיעורים לפי תאריך ושעה
   const sortClasses = (classesArray) => {
-
     return [...classesArray].sort((a, b) => {
       // השוואת תאריכים קודם
       const dateA = parseDateStringForSorting(a.date);
@@ -403,108 +412,126 @@ const createRecurringClasses = async (baseClassData) => {
   // פונקציה חדשה לרישום אוטומטי של משתמשים לשיעור חדש
   const autoRegisterUsersForClass = async (classData) => {
     try {
-      console.log("⚙️ התחלת תהליך רישום אוטומטי למשתמשים עבור שיעור חדש:", classData.name);
-      
+      console.log(
+        "⚙️ התחלת תהליך רישום אוטומטי למשתמשים עבור שיעור חדש:",
+        classData.name
+      );
+
       // שליפת כל המשתמשים שסימנו רישום אוטומטי והגדירו העדפות
       const usersQuery = query(
         collection(db, "Users"),
         where("autoJoin", "==", true)
       );
       const usersSnapshot = await getDocs(usersQuery);
-      
+
       if (usersSnapshot.empty) {
         console.log("לא נמצאו משתמשים עם רישום אוטומטי מופעל");
         return 0;
       }
-      
+
       // המרת תאריך השיעור לאובייקט Date
-      const [day, month, year] = classData.date.split('/').map(Number);
+      const [day, month, year] = classData.date.split("/").map(Number);
       const classDate = new Date(year, month - 1, day);
-      
+
       // חישוב היום בשבוע (0-6)
       const dayOfWeek = classDate.getDay();
-      
+
       // חישוב השעה בדקות מתחילת היום
-      const [classHours, classMinutes] = classData.time.split(':').map(Number);
+      const [classHours, classMinutes] = classData.time.split(":").map(Number);
       const classTimeInMinutes = classHours * 60 + classMinutes;
-      
-      console.log(`פרטי השיעור: יום ${dayOfWeek}, שעה ${classData.time} (${classTimeInMinutes} דקות)`);
-      
+
+      console.log(
+        `פרטי השיעור: יום ${dayOfWeek}, שעה ${classData.time} (${classTimeInMinutes} דקות)`
+      );
+
       let registrationCount = 0;
-      
+
       // עיבוד כל משתמש
       for (const userDoc of usersSnapshot.docs) {
         const user = { id: userDoc.id, ...userDoc.data() };
-        
-        console.log(`בדיקת התאמה למשתמש: ${user.name}, טלפון: ${user.phone || user.id}`);
-        
+
+        console.log(
+          `בדיקת התאמה למשתמש: ${user.name}, טלפון: ${user.phone || user.id}`
+        );
+
         // וידוא שיש למשתמש העדפות ימים ושעות
-        if (!user.preferredDays || !user.preferredDays.length || !user.preferredTimeRange) {
+        if (
+          !user.preferredDays ||
+          !user.preferredDays.length ||
+          !user.preferredTimeRange
+        ) {
           console.log(`❌ למשתמש ${user.name} אין העדפות מוגדרות מלאות`);
           continue;
         }
-        
+
         // בדיקה האם היום מתאים להעדפות המשתמש
         if (!user.preferredDays.includes(dayOfWeek)) {
           console.log(`❌ היום ${dayOfWeek} לא מתאים להעדפות המשתמש`);
           continue;
         }
-        
+
         // בדיקת התאמת שעה
-        const [startTime, endTime] = user.preferredTimeRange.split('-');
-        const startParts = startTime.split(':').map(Number);
-        const endParts = endTime.split(':').map(Number);
+        const [startTime, endTime] = user.preferredTimeRange.split("-");
+        const startParts = startTime.split(":").map(Number);
+        const endParts = endTime.split(":").map(Number);
         const startMinutes = startParts[0] * 60 + startParts[1];
         const endMinutes = endParts[0] * 60 + endParts[1];
-        
-        if (classTimeInMinutes < startMinutes || classTimeInMinutes > endMinutes) {
-          console.log(`❌ השעה ${classData.time} לא בטווח המועדף ${startTime}-${endTime}`);
+
+        if (
+          classTimeInMinutes < startMinutes ||
+          classTimeInMinutes > endMinutes
+        ) {
+          console.log(
+            `❌ השעה ${classData.time} לא בטווח המועדף ${startTime}-${endTime}`
+          );
           continue;
         }
-        
+
         const userId = user.phone || user.id;
-        
+
         // בדיקה שהמשתמש לא כבר רשום לשיעור זה
         const bookingsQuery = query(
-          collection(db, 'bookings'),
-          where('userId', '==', userId),
-          where('classId', '==', classData.id)
+          collection(db, "bookings"),
+          where("userId", "==", userId),
+          where("classId", "==", classData.id)
         );
         const existingBookings = await getDocs(bookingsQuery);
-        
+
         if (!existingBookings.empty) {
           console.log(`❌ המשתמש כבר רשום לשיעור זה`);
           continue;
         }
-        
+
         // בדיקת מגבלות לפי סוג המנוי
-        const isWeeklySubscription = user.membershipType === 'שבועי';
-        const isMonthlySubscription = user.membershipType === 'חודשי';
-        const isCardSubscription = user.membershipType === 'כרטיסייה';
-        
+        const isWeeklySubscription = user.membershipType === "שבועי";
+        const isMonthlySubscription = user.membershipType === "חודשי";
+        const isCardSubscription = user.membershipType === "כרטיסייה";
+
         if (isCardSubscription && user.remainingLessons <= 0) {
           console.log(`❌ אין למשתמש שיעורים נותרים בכרטיסייה`);
           continue;
         }
-        
+
         // עבור מנוי שבועי, בדוק מספר הרשמות לשבוע זה
         if (isWeeklySubscription) {
           const weekNumber = getWeekNumber(classDate);
           const weekKey = `${year}-${weekNumber}`;
-          
+
           // בדיקת כמה שיעורים המשתמש כבר רשום אליהם באותו שבוע
           const userWeeklyBookingsQuery = query(
-            collection(db, 'bookings'),
-            where('userId', '==', userId)
+            collection(db, "bookings"),
+            where("userId", "==", userId)
           );
           const userBookingsSnapshot = await getDocs(userWeeklyBookingsQuery);
-          
+
           // סינון רק הרשמות לאותו שבוע
           const weeklyBookings = userBookingsSnapshot.docs
-            .map(doc => ({ id: doc.id, ...doc.data() }))
-            .filter(booking => {
+            .map((doc) => ({ id: doc.id, ...doc.data() }))
+            .filter((booking) => {
               try {
-                const [bDay, bMonth, bYear] = booking.date.split('/').map(Number);
+                const [bDay, bMonth, bYear] = booking.date
+                  .split("/")
+                  .map(Number);
                 const bookingDate = new Date(bYear, bMonth - 1, bDay);
                 const bookingWeekNumber = getWeekNumber(bookingDate);
                 const bookingWeekKey = `${bYear}-${bookingWeekNumber}`;
@@ -513,48 +540,56 @@ const createRecurringClasses = async (baseClassData) => {
                 return false;
               }
             });
-          
+
           if (weeklyBookings.length >= user.remainingLessons) {
-            console.log(`❌ המשתמש כבר רשום למקסימום שיעורים (${user.remainingLessons}) בשבוע ${weekKey}`);
+            console.log(
+              `❌ המשתמש כבר רשום למקסימום שיעורים (${user.remainingLessons}) בשבוע ${weekKey}`
+            );
             continue;
           }
         }
-        
+
         // עבור מנוי חודשי, בדוק מספר הרשמות לחודש זה
         if (isMonthlySubscription) {
           const monthKey = `${year}-${month}`;
-          
+
           // בדיקת כמה שיעורים המשתמש כבר רשום אליהם באותו חודש
           const userMonthlyBookingsQuery = query(
-            collection(db, 'bookings'),
-            where('userId', '==', userId)
+            collection(db, "bookings"),
+            where("userId", "==", userId)
           );
           const userBookingsSnapshot = await getDocs(userMonthlyBookingsQuery);
-          
+
           // סינון רק הרשמות לאותו חודש
           const monthlyBookings = userBookingsSnapshot.docs
-            .map(doc => ({ id: doc.id, ...doc.data() }))
-            .filter(booking => {
+            .map((doc) => ({ id: doc.id, ...doc.data() }))
+            .filter((booking) => {
               try {
-                const [bDay, bMonth, bYear] = booking.date.split('/').map(Number);
+                const [bDay, bMonth, bYear] = booking.date
+                  .split("/")
+                  .map(Number);
                 const bookingMonthKey = `${bYear}-${bMonth}`;
                 return bookingMonthKey === monthKey;
               } catch (error) {
                 return false;
               }
             });
-          
+
           if (monthlyBookings.length >= user.remainingLessons) {
-            console.log(`❌ המשתמש כבר רשום למקסימום שיעורים (${user.remainingLessons}) בחודש ${monthKey}`);
+            console.log(
+              `❌ המשתמש כבר רשום למקסימום שיעורים (${user.remainingLessons}) בחודש ${monthKey}`
+            );
             continue;
           }
         }
-        
+
         // תנאים להרשמה מתקיימים - הוספת הרשמה חדשה
-        console.log(`✅ רושם את ${user.name} לשיעור ${classData.name} בתאריך ${classData.date}`);
-        
+        console.log(
+          `✅ רושם את ${user.name} לשיעור ${classData.name} בתאריך ${classData.date}`
+        );
+
         try {
-          await addDoc(collection(db, 'bookings'), {
+          await addDoc(collection(db, "bookings"), {
             classId: classData.id,
             userId: userId,
             className: classData.name,
@@ -562,31 +597,29 @@ const createRecurringClasses = async (baseClassData) => {
             time: classData.time,
             bookedBy: "אוטומטית",
             bookedAt: new Date().toISOString(),
-            autoBooked: true
+            autoBooked: true,
           });
-          
+
           // עדכון מספר המקומות הפנויים בשיעור
-          await updateDoc(doc(db, 'classes', classData.id), {
-            spots: classData.spots - 1
+          await updateDoc(doc(db, "classes", classData.id), {
+            spots: classData.spots - 1,
           });
-          
+
           // עדכון מספר השיעורים הנותרים למשתמש (רק עבור כרטיסייה)
           if (isCardSubscription) {
-            await updateDoc(doc(db, 'Users', user.id), {
-              remainingLessons: user.remainingLessons - 1
+            await updateDoc(doc(db, "Users", user.id), {
+              remainingLessons: user.remainingLessons - 1,
             });
           }
-          
+
           registrationCount++;
-          
         } catch (error) {
           console.error(`❌ שגיאה ברישום המשתמש ${user.name} לשיעור:`, error);
         }
       }
-      
+
       console.log(`🎉 סה"כ נרשמו ${registrationCount} משתמשים לשיעור`);
       return registrationCount;
-      
     } catch (error) {
       console.error("❌ שגיאה ברישום אוטומטי למשתמשים:", error);
       return 0;
@@ -621,17 +654,19 @@ const createRecurringClasses = async (baseClassData) => {
         >
           + הוסף שיעור חדש
         </button>
-        
+
         {/* כפתור לבחירת כל השיעורים */}
         {classes.length > 0 && (
           <button
             onClick={selectAllClasses}
             className="bg-gray-200 text-gray-800 px-4 py-2 rounded"
           >
-            {selectedClasses.length === classes.length ? "בטל בחירת הכל" : "בחר הכל"}
+            {selectedClasses.length === classes.length
+              ? "בטל בחירת הכל"
+              : "בחר הכל"}
           </button>
         )}
-        
+
         {/* כפתור למחיקת שיעורים מסומנים */}
         {selectedClasses.length > 0 && (
           <button
@@ -652,60 +687,84 @@ const createRecurringClasses = async (baseClassData) => {
 
       {/* רשימת השיעורים */}
       <div className="space-y-3">
-        {sortClasses(classes).map((cls) => (
-          <div
-            key={cls.id}
-            className={`bg-white shadow rounded p-4 border-r-4 ${
-              selectedClasses.includes(cls.id) ? "border-green-500 bg-green-50" : "border-blue-500"
-            } flex flex-col md:flex-row md:items-center justify-between`}
-          >
-            <div className="flex items-start">
-              {/* תיבת סימון לבחירת השיעור */}
-              <input
-                type="checkbox"
-                checked={selectedClasses.includes(cls.id)}
-                onChange={() => handleClassSelection(cls.id)}
-                className="mt-1 mr-3 h-5 w-5 cursor-pointer accent-blue-500"
-              />
-              
-              <div className="flex-1">
-                <h2 className="text-lg font-bold">{cls.name}</h2>
-                <div className="flex flex-wrap gap-x-6 mt-1 text-gray-600">
-                  <p>
-                    <span className="font-medium">תאריך:</span> {cls.date}
-                  </p>
-                  <p>
-                    <span className="font-medium">שעה:</span> {cls.time}
-                  </p>
-                  <p>
-                    <span className="font-medium">מדריך:</span> {cls.instructor}
-                  </p>
-                  <p>
-                    <span className="font-medium">מקומות:</span> {cls.spots}
-                  </p>
+        {sortClasses(classes).map((cls) => {
+          const isCancelled = cls.cancelled === true;
+
+          return (
+            <div
+              key={cls.id}
+              className={`shadow rounded p-4 border-r-4 flex flex-col md:flex-row md:items-center justify-between
+        ${
+          selectedClasses.includes(cls.id)
+            ? "border-green-500 bg-green-50"
+            : isCancelled
+            ? "border-red-500 bg-red-50"
+            : "border-blue-500"
+        }
+      `}
+            >
+              <div className="flex items-start">
+                {/* תיבת סימון */}
+                <input
+                  type="checkbox"
+                  checked={selectedClasses.includes(cls.id)}
+                  onChange={() => handleClassSelection(cls.id)}
+                  className="mt-1 mr-3 h-5 w-5 cursor-pointer accent-blue-500"
+                  disabled={isCancelled} // אפשר גם למנוע סימון של שיעור מבוטל
+                />
+                <div className="flex-1">
+                  <h2
+                    className={`text-lg font-bold ${
+                      isCancelled ? "line-through text-red-600" : ""
+                    }`}
+                  >
+                    {cls.name}
+                  </h2>
+                  <div className="flex flex-wrap gap-x-6 mt-1 text-gray-600">
+                    <p>
+                      <span className="font-medium">תאריך:</span> {cls.date}
+                    </p>
+                    <p>
+                      <span className="font-medium">שעה:</span> {cls.time}
+                    </p>
+                    <p>
+                      <span className="font-medium">מדריך:</span>{" "}
+                      {cls.instructor}
+                    </p>
+                    <p>
+                      <span className="font-medium">מקומות:</span> {cls.spots}
+                    </p>
+                    {isCancelled && (
+                      <p className="text-red-600 font-semibold">
+                        ביטול: {cls.cancelReason || "חוסר מתאמנות"}
+                      </p>
+                    )}
+                  </div>
                 </div>
               </div>
-            </div>
 
-            {/* כפתורי עריכה ומחיקה */}
-            <div className="mt-3 md:mt-0 flex space-x-2">
-              <button
-                onClick={() => openModalForEdit(cls)}
-                className="bg-blue-100 text-blue-600 px-3 py-1 rounded hover:bg-blue-200 flex items-center"
-              >
-                <Edit size={16} className="mr-1" />
-                ערוך
-              </button>
-              <button
-                onClick={() => confirmDeleteClass(cls.id)}
-                className="bg-red-100 text-red-600 px-3 py-1 rounded hover:bg-red-200 flex items-center"
-              >
-                <Trash2 size={16} className="mr-1" />
-                מחק
-              </button>
+              {/* כפתורי עריכה ומחיקה */}
+              <div className="mt-3 md:mt-0 flex space-x-2">
+                {/* אם השיעור מבוטל אפשר למנוע עריכה/מחיקה לפי צורך */}
+                <button
+                  onClick={() => openModalForEdit(cls)}
+                  className="bg-blue-100 text-blue-600 px-3 py-1 rounded hover:bg-blue-200 flex items-center"
+                  disabled={isCancelled}
+                >
+                  <Edit size={16} className="mr-1" />
+                  ערוך
+                </button>
+                <button
+                  onClick={() => confirmDeleteClass(cls.id)}
+                  className="bg-red-100 text-red-600 px-3 py-1 rounded hover:bg-red-200 flex items-center"
+                >
+                  <Trash2 size={16} className="mr-1" />
+                  מחק
+                </button>
+              </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
 
       {/* מודל להוספה/עריכת שיעור */}
@@ -749,7 +808,7 @@ const createRecurringClasses = async (baseClassData) => {
                   max="23:59"
                 />
               </div>
-              
+
               {/* מספר מקומות */}
               <div className="mt-4">
                 <label className="block mb-1">מקומות:</label>
@@ -864,8 +923,8 @@ const createRecurringClasses = async (baseClassData) => {
               >
                 ביטול
               </button>
-              
-              <div className="flex space-x-2">              
+
+              <div className="flex space-x-2">
                 <button
                   onClick={() => handleSaveClass(true)}
                   className="bg-blue-600 text-white px-2 py-2 rounded"
@@ -879,14 +938,14 @@ const createRecurringClasses = async (baseClassData) => {
                 </button>
               </div>
               <div className="flex space-x-2">
-              <button
+                <button
                   onClick={() => handleSaveClass(false)}
                   className="bg-blue-500 text-white px-5 py-2 rounded"
                   disabled={loading}
                 >
                   {loading ? "שומר..." : "שמור"}
                 </button>
-                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -925,14 +984,19 @@ const createRecurringClasses = async (baseClassData) => {
           </div>
         </div>
       )}
-      
+
       {/* חלון אישור מחיקה מרובה */}
       {showBulkDeleteConfirm && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
           <div className="bg-white rounded-lg p-6 w-full max-w-sm">
             <h2 className="text-xl font-bold mb-4">אישור מחיקה מרובה</h2>
-            <p>האם אתה בטוח שברצונך למחוק {selectedClasses.length} שיעורים מסומנים?</p>
-            <p className="text-red-500 text-sm mt-2">שים לב: פעולה זו אינה ניתנת לביטול!</p>
+            <p>
+              האם אתה בטוח שברצונך למחוק {selectedClasses.length} שיעורים
+              מסומנים?
+            </p>
+            <p className="text-red-500 text-sm mt-2">
+              שים לב: פעולה זו אינה ניתנת לביטול!
+            </p>
 
             <div className="flex justify-between mt-6">
               <button

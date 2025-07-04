@@ -15,8 +15,6 @@ import MainLayout from "../components/MainLayout";
 import { toast } from "react-hot-toast";
 import { useUser } from "../context/UserContext";
 
-
-
 const SchedulePage = ({ employee }) => {
   const today = new Date();
   const { userData } = useUser();
