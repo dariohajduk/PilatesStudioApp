@@ -26,6 +26,153 @@ const ClassCard = ({
   isAdmin = false,
 }) => {
 
+
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
+ */
+/**
+ * TODO: תאר את הפונקציה useState
  */
   const [participants, setParticipants] = useState([]);
   const [loading, setLoading] = useState(false);
