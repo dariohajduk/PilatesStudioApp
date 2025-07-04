@@ -345,6 +345,117 @@ import {
 /**
  * TODO: תאר את הפונקציה AdminDashboard
  */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
+/**
+ * TODO: תאר את הפונקציה AdminDashboard
+ */
 const AdminDashboard = () => {
   const navigate = useNavigate();
 

@@ -82,6 +82,33 @@ import Logo from "../assets/logo.png";
 /**
  * TODO: תאר את הפונקציה MainLayout
  */
+/**
+ * TODO: תאר את הפונקציה MainLayout
+ */
+/**
+ * TODO: תאר את הפונקציה MainLayout
+ */
+/**
+ * TODO: תאר את הפונקציה MainLayout
+ */
+/**
+ * TODO: תאר את הפונקציה MainLayout
+ */
+/**
+ * TODO: תאר את הפונקציה MainLayout
+ */
+/**
+ * TODO: תאר את הפונקציה MainLayout
+ */
+/**
+ * TODO: תאר את הפונקציה MainLayout
+ */
+/**
+ * TODO: תאר את הפונקציה MainLayout
+ */
+/**
+ * TODO: תאר את הפונקציה MainLayout
+ */
 const MainLayout = ({ children, employee }) => {
   const userName = employee?.name || "משתמש";
   const firstLetter = userName.charAt(0);
