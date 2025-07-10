@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { collection, getDocs, addDoc } from "firebase/firestore";
+import { collection, getDocs, addDoc, query, where } from "firebase/firestore";
 import { db } from "../services/firebase";
 import toast from "react-hot-toast";
 
-const BookingModal = ({ onClose, classInfo, refreshBookings }) => {
+const BookingModal = ({ onClose, classInfo, refreshBookings, employee }) => {
   const [users, setUsers] = useState([]);
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
@@ -13,8 +13,8 @@ const BookingModal = ({ onClose, classInfo, refreshBookings }) => {
     const fetchUsers = async () => {
       const snapshot = await getDocs(collection(db, "Users"));
       const filtered = snapshot.docs
-        .map(doc => doc.data())
-        .filter(user => !user.isAdmin && !user.isInstructor);
+        .map((doc) => doc.data())
+        .filter((user) => !user.isAdmin && !user.isInstructor);
       setUsers(filtered);
       setFilteredUsers(filtered);
     };
@@ -23,16 +23,59 @@ const BookingModal = ({ onClose, classInfo, refreshBookings }) => {
 
   useEffect(() => {
     const term = searchTerm.toLowerCase();
-    setFilteredUsers(
-      users.filter(u => u.name?.toLowerCase().includes(term))
-    );
+    setFilteredUsers(users.filter((u) => u.name?.toLowerCase().includes(term)));
   }, [searchTerm, users]);
 
   const handleBooking = async () => {
-    const selectedUser = users.find(u => u.phone === selectedPhone);
-    if (!selectedUser) return toast.error("יש לבחור משתמש תקין");
+    const selectedUser = users.find((u) => u.phone === selectedPhone);
+    if (!selectedUser) {
+      return toast.error("יש לבחור משתמש תקין");
+    }
+
+    // מי שמבצע את ההזמנה – האם הוא מנהל/מדריך
+    const isAdminOrInstructor =
+      employee?.isAdmin === true ||
+      employee?.isInstructor === true ||
+      employee?.role === "מנהל" ||
+      employee?.role === "מדריך";
 
     try {
+      const now = new Date();
+      const startOfWeek = new Date(now);
+      startOfWeek.setDate(now.getDate() - now.getDay());
+      startOfWeek.setHours(0, 0, 0, 0);
+
+      const endOfWeek = new Date(startOfWeek);
+      endOfWeek.setDate(startOfWeek.getDate() + 6);
+      endOfWeek.setHours(23, 59, 59, 999);
+
+      const bookingsRef = collection(db, "bookings");
+      const q = query(bookingsRef, where("userId", "==", selectedUser.phone));
+      const snapshot = await getDocs(q);
+
+      // בדיקה אם כבר רשום לאותו יום
+      const sameDayBooking = snapshot.docs.some(
+        (doc) => doc.data().date === classInfo.date
+      );
+      if (sameDayBooking && !isAdminOrInstructor) {
+        return toast.error("המתאמן כבר רשום לשיעור אחר באותו יום");
+      }
+
+      // בדיקה אם עבר את מגבלת השיעורים השבועית
+      const weeklyBookings = snapshot.docs.filter((doc) => {
+        const booking = doc.data();
+        const bookingDateTime = new Date(
+          `${booking.date.split("/").reverse().join("-")}T${booking.time}`
+        );
+        return bookingDateTime >= startOfWeek && bookingDateTime <= endOfWeek;
+      });
+
+      const weeklyLimit = selectedUser.weeklyLimit || 0;
+      if (weeklyBookings.length >= weeklyLimit && !isAdminOrInstructor) {
+        return toast.error("המתאמן עבר את מגבלת השיעורים השבועית");
+      }
+
+      // הרשמה בפועל
       await addDoc(collection(db, "bookings"), {
         userId: selectedUser.phone,
         userName: selectedUser.name,
@@ -44,11 +87,11 @@ const BookingModal = ({ onClose, classInfo, refreshBookings }) => {
         createdAt: new Date(),
       });
 
-      toast.success("הוזמן בהצלחה");
+      toast.success("ההזמנה בוצעה בהצלחה");
       refreshBookings?.();
       onClose();
     } catch (e) {
-      console.error("שגיאה בהזמנה:", e);
+      console.error("❌ שגיאה בהזמנה:", e);
       toast.error("שגיאה בהזמנה");
     }
   };

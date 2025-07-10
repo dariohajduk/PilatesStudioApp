@@ -10,197 +10,13 @@ import {
   getDoc,
   updateDoc,
   setDoc,
+  addDoc,
 } from "firebase/firestore";
 import MainLayout from "../components/MainLayout";
 import { toast } from "react-hot-toast";
 import { motion, AnimatePresence } from "framer-motion";
 
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
-/**
- * TODO: תאר את הפונקציה BookingsPage
- */
+
 const BookingsPage = ({ employee }) => {
   const [bookings, setBookings] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -228,7 +44,32 @@ const BookingsPage = ({ employee }) => {
   useEffect(() => {
     fetchBookings();
   }, []);
-
+  const getWeeklyBookingsCount = async (userPhone) => {
+    const now = new Date();
+    const startOfWeek = new Date(now);
+    startOfWeek.setDate(now.getDate() - now.getDay()); // ראשון
+    startOfWeek.setHours(0, 0, 0, 0);
+  
+    const endOfWeek = new Date(startOfWeek);
+    endOfWeek.setDate(startOfWeek.getDate() + 6);
+    endOfWeek.setHours(23, 59, 59, 999);
+  
+    const q = query(
+      collection(db, "bookings"),
+      where("userId", "==", userPhone)
+    );
+  
+    const snapshot = await getDocs(q);
+    const weeklyBookings = snapshot.docs.filter((doc) => {
+      const bookingDate = doc.data().date;
+      const bookingTime = doc.data().time;
+      const bookingDateTime = new Date(`${bookingDate.split("/").reverse().join("-")}T${bookingTime}`);
+      return bookingDateTime >= startOfWeek && bookingDateTime <= endOfWeek;
+    });
+  
+    return weeklyBookings.length;
+  };
+  
   const handleCancelBooking = async (
     bookingId,
     classId,
@@ -275,6 +116,45 @@ const BookingsPage = ({ employee }) => {
     } catch (error) {
       console.error("❌ שגיאה בביטול ההזמנה:", error);
       toast.error("❌ שגיאה בביטול ההזמנה");
+    }
+  };
+
+  const handleBooking = async () => {
+    const selectedUser = users.find((u) => u.phone === selectedPhone);
+    if (!selectedUser) {
+      return toast.error("יש לבחור משתמש תקין");
+    }
+
+    // Check if the user has remaining lessons
+    if (selectedUser.remainingLessons <= 0) {
+      return toast.error("אין למשתמש זה שיעורים זמינים");
+    }
+
+    try {
+      // Proceed with booking
+      await addDoc(collection(db, "bookings"), {
+        userId: selectedUser.phone,
+        userName: selectedUser.name,
+        classId: classInfo.id,
+        className: classInfo.name,
+        instructor: classInfo.instructor,
+        date: classInfo.date,
+        time: classInfo.time,
+        createdAt: new Date(),
+      });
+
+      // Decrease the user's remaining lessons
+      const userRef = doc(db, "users", selectedUser.phone);
+      await updateDoc(userRef, {
+        remainingLessons: selectedUser.remainingLessons - 1,
+      });
+
+      toast.success("✔️ ההזמנה בוצעה בהצלחה");
+      refreshBookings?.();
+      onClose();
+    } catch (e) {
+      console.error("❌ שגיאה בהזמנה:", e);
+      toast.error("❌ שגיאה בהזמנה");
     }
   };
 

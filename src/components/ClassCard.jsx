@@ -25,210 +25,6 @@ const ClassCard = ({
   refreshBookings,
   isPastClass,
 }) => {
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
   const [participants, setParticipants] = useState([]);
   const [loading, setLoading] = useState(false);
   const [showParticipantsList, setShowParticipantsList] = useState(false);
@@ -258,9 +54,14 @@ const ClassCard = ({
   }, [userData]);
 
   const canViewClass = useMemo(() => {
-    const isManager = userData?.role === "admin" || userData?.role === "מנהל" || userData?.isAdmin;
+    const isManager =
+      userData?.role === "admin" ||
+      userData?.role === "מנהל" ||
+      userData?.isAdmin;
     const isInstructorAndOwnsClass =
-      (userData?.isInstructor || userData?.role === "מדריך" || userData?.role === "instructor") &&
+      (userData?.isInstructor ||
+        userData?.role === "מדריך" ||
+        userData?.role === "instructor") &&
       classInfo?.instructorId === employee?.phone;
     return isManager || isRegularUser || isInstructorAndOwnsClass;
   }, [userData, employee, classInfo]);
@@ -270,7 +71,10 @@ const ClassCard = ({
   useEffect(() => {
     const fetchParticipants = async () => {
       try {
-        const q = query(collection(db, "bookings"), where("classId", "==", classInfo.id));
+        const q = query(
+          collection(db, "bookings"),
+          where("classId", "==", classInfo.id)
+        );
         const snapshot = await getDocs(q);
         const fullParticipants = await Promise.all(
           snapshot.docs.map(async (docSnap) => {
@@ -279,7 +83,9 @@ const ClassCard = ({
             try {
               const userRef = doc(db, "Users", uid);
               const userSnap = await getDoc(userRef);
-              const nameFromUserDoc = userSnap.exists() ? userSnap.data().name : null;
+              const nameFromUserDoc = userSnap.exists()
+                ? userSnap.data().name
+                : null;
               return {
                 id: docSnap.id,
                 name: bookingData.userName || nameFromUserDoc || "לא ידוע",
@@ -311,6 +117,43 @@ const ClassCard = ({
 
   const handleBookingSelf = async () => {
     try {
+      // שלב 1: שליפת כל ההזמנות של המשתמש
+      const bookingsRef = collection(db, "bookings");
+      const q = query(bookingsRef, where("userId", "==", userData.phone));
+      const snapshot = await getDocs(q);
+
+      // שלב 2: בדיקה אם המשתמש כבר רשום לשיעור אחר באותו יום
+      const sameDayBooking = snapshot.docs.some(
+        (doc) => doc.data().date === classInfo.date
+      );
+      if (sameDayBooking) {
+        return toast.error("כבר רשום לשיעור אחר באותו יום");
+      }
+
+      // שלב 3: בדיקת מגבלת השיעורים השבועית לפי המנוי
+      const now = new Date();
+      const startOfWeek = new Date(now);
+      startOfWeek.setDate(now.getDate() - now.getDay());
+      startOfWeek.setHours(0, 0, 0, 0);
+
+      const endOfWeek = new Date(startOfWeek);
+      endOfWeek.setDate(startOfWeek.getDate() + 6);
+      endOfWeek.setHours(23, 59, 59, 999);
+
+      const weeklyBookings = snapshot.docs.filter((doc) => {
+        const { date, time } = doc.data();
+        const bookingDateTime = new Date(
+          `${date.split("/").reverse().join("-")}T${time}`
+        );
+        return bookingDateTime >= startOfWeek && bookingDateTime <= endOfWeek;
+      });
+
+      const weeklyLimit = userData.weeklyLimit || 0;
+      if (weeklyBookings.length >= weeklyLimit) {
+        return toast.error("הגעת למכסת השיעורים השבועית");
+      }
+
+      // שלב 4: ביצוע ההרשמה בפועל
       await addDoc(collection(db, "bookings"), {
         userId: userData.phone,
         userName: userData.name,
@@ -321,9 +164,11 @@ const ClassCard = ({
         time: classInfo.time,
         createdAt: new Date(),
       });
-      toast.success("נרשמת הוספה לשיעור");
+
+      toast.success("✔️ נרשמת לשיעור בהצלחה");
       if (refreshBookings) refreshBookings();
     } catch (e) {
+      console.error("שגיאה בהרשמה:", e);
       toast.error("שגיאה בהרשמה");
     }
   };
@@ -350,6 +195,50 @@ const ClassCard = ({
     setLoading(false);
   };
 
+  const handleBooking = async () => {
+    const selectedUser = users.find((u) => u.phone === selectedPhone);
+    if (!selectedUser) {
+      return toast.error("יש לבחור משתמש תקין");
+    }
+
+    // Check if the user has a weekly limit of 0
+    if (selectedUser.weeklyLimit === 0) {
+      return toast.error("לא ניתן להזמין שיעור נוסף. הגעת למגבלת השבוע");
+    }
+
+    // Check if the user has remaining lessons
+    if (selectedUser.remainingLessons <= 0) {
+      return toast.error("אין למשתמש זה שיעורים זמינים");
+    }
+
+    try {
+      // Proceed with booking
+      await addDoc(collection(db, "bookings"), {
+        userId: selectedUser.phone,
+        userName: selectedUser.name,
+        classId: classInfo.id,
+        className: classInfo.name,
+        instructor: classInfo.instructor,
+        date: classInfo.date,
+        time: classInfo.time,
+        createdAt: new Date(),
+      });
+
+      // Decrease the user's remaining lessons
+      const userRef = doc(db, "users", selectedUser.phone);
+      await updateDoc(userRef, {
+        remainingLessons: selectedUser.remainingLessons - 1,
+      });
+
+      toast.success("✔️ ההזמנה בוצעה בהצלחה");
+      refreshBookings?.();
+      onClose();
+    } catch (e) {
+      console.error("❌ שגיאה בהזמנה:", e);
+      toast.error("❌ שגיאה בהזמנה");
+    }
+  };
+
   const renderParticipantsList = () => (
     <div className="relative inline-block text-right">
       <button
@@ -364,11 +253,16 @@ const ClassCard = ({
       {showParticipantsList && (
         <div
           ref={popupRef}
-          className={`absolute z-50 ${openDirection === "up" ? "bottom-full mb-2" : "mt-2"} right-0 bg-white border border-gray-300 rounded shadow-lg w-64 max-h-64 overflow-y-auto p-2`}
+          className={`absolute z-50 ${
+            openDirection === "up" ? "bottom-full mb-2" : "mt-2"
+          } right-0 bg-white border border-gray-300 rounded shadow-lg w-64 max-h-64 overflow-y-auto p-2`}
         >
           {participants.length > 0 ? (
             participants.map((p) => (
-              <div key={p.id} className="flex justify-between items-center py-1 border-b text-sm text-gray-700">
+              <div
+                key={p.id}
+                className="flex justify-between items-center py-1 border-b text-sm text-gray-700"
+              >
                 <span>{p.name}</span>
                 {isAdminOrInstructor && p.phone !== userData?.phone && (
                   <button
@@ -383,7 +277,9 @@ const ClassCard = ({
               </div>
             ))
           ) : (
-            <div className="text-gray-400 py-2 text-sm text-center">אין משתתפים</div>
+            <div className="text-gray-400 py-2 text-sm text-center">
+              אין משתתפים
+            </div>
           )}
         </div>
       )}
@@ -425,6 +321,7 @@ const ClassCard = ({
           onClose={() => setShowBookingModal(false)}
           classInfo={classInfo}
           refreshBookings={refreshBookings}
+          employee={employee}
         />
       )}
     </div>
