@@ -517,6 +517,177 @@ import BackToAdminButton from "../components/BackToAdminButton";
 /**
  * TODO: תאר את הפונקציה AdminHealthDeclarations
  */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
+/**
+ * TODO: תאר את הפונקציה AdminHealthDeclarations
+ */
 const AdminHealthDeclarations = ({ employee }) => {
   const [signedUsers, setSignedUsers] = useState([]);
   const [unsignedUsers, setUnsignedUsers] = useState([]);

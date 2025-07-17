@@ -1193,6 +1193,138 @@ import html2canvas from "html2canvas";
 /**
  * TODO: תאר את הפונקציה HealthDeclaration
  */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
+/**
+ * TODO: תאר את הפונקציה HealthDeclaration
+ */
 const HealthDeclaration = ({ employee, onDone }) => {
   const sigCanvas = useRef(null);
   const declarationRef = useRef(null); // עוטף את כל הטופס

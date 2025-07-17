@@ -17,6 +17,7 @@ import { toast } from "react-hot-toast";
 import { motion, AnimatePresence } from "framer-motion";
 
 
+
 const BookingsPage = ({ employee }) => {
   const [bookings, setBookings] = useState([]);
   const [loading, setLoading] = useState(true);

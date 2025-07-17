@@ -25,6 +25,7 @@ const ClassCard = ({
   refreshBookings,
   isPastClass,
 }) => {
+
   const [participants, setParticipants] = useState([]);
   const [loading, setLoading] = useState(false);
   const [showParticipantsList, setShowParticipantsList] = useState(false);
@@ -117,43 +118,50 @@ const ClassCard = ({
 
   const handleBookingSelf = async () => {
     try {
-      // שלב 1: שליפת כל ההזמנות של המשתמש
+      // שליפת כל ההזמנות של המשתמש
       const bookingsRef = collection(db, "bookings");
       const q = query(bookingsRef, where("userId", "==", userData.phone));
       const snapshot = await getDocs(q);
-
-      // שלב 2: בדיקה אם המשתמש כבר רשום לשיעור אחר באותו יום
+  
+      // בדיקה אם המשתמש כבר רשום לשיעור אחר באותו יום
       const sameDayBooking = snapshot.docs.some(
         (doc) => doc.data().date === classInfo.date
       );
       if (sameDayBooking) {
         return toast.error("כבר רשום לשיעור אחר באותו יום");
       }
-
-      // שלב 3: בדיקת מגבלת השיעורים השבועית לפי המנוי
-      const now = new Date();
-      const startOfWeek = new Date(now);
-      startOfWeek.setDate(now.getDate() - now.getDay());
+  
+      // תאריך השיעור בפורמט Date
+      const [day, month, year] = classInfo.date.split("/");
+      const classDateTime = new Date(`${year}-${month}-${day}T${classInfo.time}`);
+  
+      // חישוב תחילת השבוע של השיעור (ראשון בבוקר)
+      const classDay = classDateTime.getDay(); // 0 = ראשון
+      const startOfWeek = new Date(classDateTime);
+      startOfWeek.setDate(classDateTime.getDate() - classDay);
       startOfWeek.setHours(0, 0, 0, 0);
-
+  
+      // חישוב סוף השבוע של השיעור (שבת בלילה)
       const endOfWeek = new Date(startOfWeek);
       endOfWeek.setDate(startOfWeek.getDate() + 6);
       endOfWeek.setHours(23, 59, 59, 999);
-
+  
+      // סינון הזמנות של המשתמש לשבוע הזה בלבד
       const weeklyBookings = snapshot.docs.filter((doc) => {
         const { date, time } = doc.data();
-        const bookingDateTime = new Date(
-          `${date.split("/").reverse().join("-")}T${time}`
-        );
+        if (!date || !time) return false;
+        const [d, m, y] = date.split("/");
+        const bookingDateTime = new Date(`${y}-${m}-${d}T${time}`);
         return bookingDateTime >= startOfWeek && bookingDateTime <= endOfWeek;
       });
-
+  
+      // בדיקת מגבלת שיעורים שבועית לפי מנוי
       const weeklyLimit = userData.weeklyLimit || 0;
       if (weeklyBookings.length >= weeklyLimit) {
-        return toast.error("הגעת למכסת השיעורים השבועית");
+        return toast.error("הגעת למכסת השיעורים השבועית לשבוע זה");
       }
-
-      // שלב 4: ביצוע ההרשמה בפועל
+  
+      // הרשמה בפועל לשיעור
       await addDoc(collection(db, "bookings"), {
         userId: userData.phone,
         userName: userData.name,
@@ -164,7 +172,7 @@ const ClassCard = ({
         time: classInfo.time,
         createdAt: new Date(),
       });
-
+  
       toast.success("✔️ נרשמת לשיעור בהצלחה");
       if (refreshBookings) refreshBookings();
     } catch (e) {
@@ -172,6 +180,7 @@ const ClassCard = ({
       toast.error("שגיאה בהרשמה");
     }
   };
+  
 
   const handleRemoveParticipant = async (userId) => {
     if (!window.confirm("האם אתה בטוח שברצונך למחוק משתתף זה?")) return;

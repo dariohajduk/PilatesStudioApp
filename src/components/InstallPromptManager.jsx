@@ -326,6 +326,42 @@ import { toast } from 'react-toastify';
 /**
  * TODO: תאר את הפונקציה useInstallPrompt
  */
+/**
+ * TODO: תאר את הפונקציה useInstallPrompt
+ */
+/**
+ * TODO: תאר את הפונקציה useInstallPrompt
+ */
+/**
+ * TODO: תאר את הפונקציה useInstallPrompt
+ */
+/**
+ * TODO: תאר את הפונקציה useInstallPrompt
+ */
+/**
+ * TODO: תאר את הפונקציה useInstallPrompt
+ */
+/**
+ * TODO: תאר את הפונקציה useInstallPrompt
+ */
+/**
+ * TODO: תאר את הפונקציה useInstallPrompt
+ */
+/**
+ * TODO: תאר את הפונקציה useInstallPrompt
+ */
+/**
+ * TODO: תאר את הפונקציה useInstallPrompt
+ */
+/**
+ * TODO: תאר את הפונקציה useInstallPrompt
+ */
+/**
+ * TODO: תאר את הפונקציה useInstallPrompt
+ */
+/**
+ * TODO: תאר את הפונקציה useInstallPrompt
+ */
 export const useInstallPrompt = () => {
   const [deferredPrompt, setDeferredPrompt] = useState(null);
   const [isStandalone, setIsStandalone] = useState(false);
