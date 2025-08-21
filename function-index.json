@@ -5640,63 +5640,231 @@
     "description": ""
   },
   {
-    "name": "AdminDashboard",
+    "name": "StatCard",
     "file": "src/pages/AdminDashboard.jsx",
-    "line": 16,
+    "line": 26,
     "description": ""
   },
   {
-    "name": "useNavigate",
+    "name": "MicroStat",
     "file": "src/pages/AdminDashboard.jsx",
-    "line": 17,
+    "line": 38,
     "description": ""
   },
   {
-    "name": "return",
+    "name": "countWithFallback",
     "file": "src/pages/AdminDashboard.jsx",
-    "line": 19,
+    "line": 57,
     "description": ""
   },
   {
-    "name": "navigate",
+    "name": "getCountFromServer",
     "file": "src/pages/AdminDashboard.jsx",
-    "line": 39,
+    "line": 59,
     "description": ""
   },
   {
-    "name": "navigate",
+    "name": "data",
     "file": "src/pages/AdminDashboard.jsx",
-    "line": 50,
+    "line": 60,
     "description": ""
   },
   {
-    "name": "navigate",
+    "name": "if",
     "file": "src/pages/AdminDashboard.jsx",
     "line": 61,
     "description": ""
   },
   {
-    "name": "navigate",
+    "name": "getDocs",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 65,
+    "description": ""
+  },
+  {
+    "name": "safePrefetch",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 69,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 71,
+    "description": ""
+  },
+  {
+    "name": "import",
     "file": "src/pages/AdminDashboard.jsx",
     "line": 72,
     "description": ""
   },
   {
-    "name": "navigate",
+    "name": "AdminDashboard",
     "file": "src/pages/AdminDashboard.jsx",
-    "line": 85,
+    "line": 77,
+    "description": ""
+  },
+  {
+    "name": "useNavigate",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 78,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 80,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 86,
+    "description": ""
+  },
+  {
+    "name": "useMemo",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 88,
+    "description": ""
+  },
+  {
+    "name": "fetchStats",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 158,
+    "description": ""
+  },
+  {
+    "name": "setLoadingStats",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 159,
+    "description": ""
+  },
+  {
+    "name": "collection",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 161,
+    "description": ""
+  },
+  {
+    "name": "query",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 162,
+    "description": ""
+  },
+  {
+    "name": "collection",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 163,
+    "description": ""
+  },
+  {
+    "name": "collection",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 164,
+    "description": ""
+  },
+  {
+    "name": "all",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 166,
+    "description": ""
+  },
+  {
+    "name": "countWithFallback",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 167,
+    "description": ""
+  },
+  {
+    "name": "countWithFallback",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 168,
+    "description": ""
+  },
+  {
+    "name": "countWithFallback",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 169,
+    "description": ""
+  },
+  {
+    "name": "countWithFallback",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 170,
+    "description": ""
+  },
+  {
+    "name": "setStats",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 173,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 174,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 175,
+    "description": ""
+  },
+  {
+    "name": "setLoadingStats",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 177,
+    "description": ""
+  },
+  {
+    "name": "useEffect",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 181,
+    "description": ""
+  },
+  {
+    "name": "fetchStats",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 182,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 185,
+    "description": ""
+  },
+  {
+    "name": "safePrefetch",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 195,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 233,
     "description": ""
   },
   {
     "name": "navigate",
     "file": "src/pages/AdminDashboard.jsx",
-    "line": 96,
+    "line": 236,
     "description": ""
   },
   {
-    "name": "navigate",
+    "name": "safePrefetch",
     "file": "src/pages/AdminDashboard.jsx",
-    "line": 109,
+    "line": 237,
+    "description": ""
+  },
+  {
+    "name": "safePrefetch",
+    "file": "src/pages/AdminDashboard.jsx",
+    "line": 238,
     "description": ""
   },
   {
