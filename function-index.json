@@ -8750,6 +8750,18 @@
   {
     "name": "useState",
     "file": "src/components/ClassCard.jsx",
+    "line": 28,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/components/ClassCard.jsx",
+    "line": 29,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/components/ClassCard.jsx",
     "line": 30,
     "description": ""
   },
@@ -8760,7 +8772,7 @@
     "description": ""
   },
   {
-    "name": "useState",
+    "name": "useRef",
     "file": "src/components/ClassCard.jsx",
     "line": 32,
     "description": ""
@@ -8772,274 +8784,298 @@
     "description": ""
   },
   {
-    "name": "useRef",
-    "file": "src/components/ClassCard.jsx",
-    "line": 34,
-    "description": ""
-  },
-  {
-    "name": "useRef",
+    "name": "isAdminOrInstructor",
     "file": "src/components/ClassCard.jsx",
     "line": 35,
     "description": ""
   },
   {
-    "name": "useState",
+    "name": "return",
     "file": "src/components/ClassCard.jsx",
     "line": 36,
     "description": ""
   },
   {
-    "name": "isAdminOrInstructor",
-    "file": "src/components/ClassCard.jsx",
-    "line": 38,
-    "description": ""
-  },
-  {
-    "name": "return",
-    "file": "src/components/ClassCard.jsx",
-    "line": 39,
-    "description": ""
-  },
-  {
     "name": "isRegularUser",
     "file": "src/components/ClassCard.jsx",
-    "line": 49,
+    "line": 46,
     "description": ""
   },
   {
     "name": "return",
     "file": "src/components/ClassCard.jsx",
-    "line": 50,
+    "line": 47,
     "description": ""
   },
   {
     "name": "canViewClass",
     "file": "src/components/ClassCard.jsx",
-    "line": 58,
+    "line": 55,
     "description": ""
   },
   {
     "name": "if",
     "file": "src/components/ClassCard.jsx",
-    "line": 71,
+    "line": 68,
     "description": ""
   },
   {
-    "name": "useEffect",
+    "name": "loadParticipants",
+    "file": "src/components/ClassCard.jsx",
+    "line": 70,
+    "description": ""
+  },
+  {
+    "name": "query",
+    "file": "src/components/ClassCard.jsx",
+    "line": 72,
+    "description": ""
+  },
+  {
+    "name": "collection",
     "file": "src/components/ClassCard.jsx",
     "line": 73,
     "description": ""
   },
   {
-    "name": "fetchParticipants",
+    "name": "where",
     "file": "src/components/ClassCard.jsx",
     "line": 74,
     "description": ""
   },
   {
-    "name": "query",
+    "name": "getDocs",
     "file": "src/components/ClassCard.jsx",
     "line": 76,
     "description": ""
   },
   {
-    "name": "collection",
+    "name": "all",
     "file": "src/components/ClassCard.jsx",
     "line": 77,
     "description": ""
   },
   {
-    "name": "where",
+    "name": "map",
     "file": "src/components/ClassCard.jsx",
     "line": 78,
     "description": ""
   },
   {
-    "name": "getDocs",
-    "file": "src/components/ClassCard.jsx",
-    "line": 80,
-    "description": ""
-  },
-  {
-    "name": "all",
-    "file": "src/components/ClassCard.jsx",
-    "line": 81,
-    "description": ""
-  },
-  {
-    "name": "map",
-    "file": "src/components/ClassCard.jsx",
-    "line": 82,
-    "description": ""
-  },
-  {
     "name": "data",
     "file": "src/components/ClassCard.jsx",
-    "line": 83,
+    "line": 79,
     "description": ""
   },
   {
     "name": "doc",
     "file": "src/components/ClassCard.jsx",
-    "line": 86,
+    "line": 82,
     "description": ""
   },
   {
     "name": "getDoc",
     "file": "src/components/ClassCard.jsx",
-    "line": 87,
+    "line": 83,
     "description": ""
   },
   {
     "name": "exists",
     "file": "src/components/ClassCard.jsx",
-    "line": 88,
-    "description": ""
-  },
-  {
-    "name": "data",
-    "file": "src/components/ClassCard.jsx",
-    "line": 89,
+    "line": 84,
     "description": ""
   },
   {
     "name": "setParticipants",
     "file": "src/components/ClassCard.jsx",
-    "line": 105,
+    "line": 95,
     "description": ""
   },
   {
     "name": "catch",
     "file": "src/components/ClassCard.jsx",
-    "line": 106,
+    "line": 96,
     "description": ""
   },
   {
     "name": "error",
     "file": "src/components/ClassCard.jsx",
-    "line": 107,
-    "description": ""
-  },
-  {
-    "name": "fetchParticipants",
-    "file": "src/components/ClassCard.jsx",
-    "line": 110,
+    "line": 97,
     "description": ""
   },
   {
     "name": "useEffect",
     "file": "src/components/ClassCard.jsx",
-    "line": 113,
+    "line": 101,
+    "description": ""
+  },
+  {
+    "name": "loadParticipants",
+    "file": "src/components/ClassCard.jsx",
+    "line": 102,
+    "description": ""
+  },
+  {
+    "name": "useEffect",
+    "file": "src/components/ClassCard.jsx",
+    "line": 106,
     "description": ""
   },
   {
     "name": "if",
     "file": "src/components/ClassCard.jsx",
-    "line": 114,
+    "line": 107,
     "description": ""
   },
   {
     "name": "getBoundingClientRect",
     "file": "src/components/ClassCard.jsx",
-    "line": 115,
+    "line": 108,
     "description": ""
   },
   {
     "name": "setOpenDirection",
     "file": "src/components/ClassCard.jsx",
-    "line": 117,
+    "line": 110,
     "description": ""
   },
   {
-    "name": "handleBookingSelf",
+    "name": "countCurrentBookings",
     "file": "src/components/ClassCard.jsx",
-    "line": 120,
+    "line": 113,
+    "description": ""
+  },
+  {
+    "name": "query",
+    "file": "src/components/ClassCard.jsx",
+    "line": 114,
     "description": ""
   },
   {
     "name": "collection",
     "file": "src/components/ClassCard.jsx",
-    "line": 123,
-    "description": "שליפת כל ההזמנות של המשתמש"
+    "line": 115,
+    "description": ""
   },
   {
-    "name": "query",
+    "name": "where",
     "file": "src/components/ClassCard.jsx",
-    "line": 124,
+    "line": 116,
     "description": ""
   },
   {
     "name": "getDocs",
     "file": "src/components/ClassCard.jsx",
-    "line": 125,
+    "line": 118,
     "description": ""
   },
   {
-    "name": "some",
+    "name": "hasFreeSpot",
     "file": "src/components/ClassCard.jsx",
-    "line": 128,
-    "description": "בדיקה אם המשתמש כבר רשום לשיעור אחר באותו יום"
+    "line": 121,
+    "description": ""
   },
   {
-    "name": "data",
+    "name": "Number",
     "file": "src/components/ClassCard.jsx",
-    "line": 129,
+    "line": 122,
     "description": ""
   },
   {
     "name": "if",
     "file": "src/components/ClassCard.jsx",
+    "line": 123,
+    "description": ""
+  },
+  {
+    "name": "countCurrentBookings",
+    "file": "src/components/ClassCard.jsx",
+    "line": 124,
+    "description": ""
+  },
+  {
+    "name": "handleBookingSelf",
+    "file": "src/components/ClassCard.jsx",
+    "line": 128,
+    "description": ""
+  },
+  {
+    "name": "collection",
+    "file": "src/components/ClassCard.jsx",
+    "line": 130,
+    "description": ""
+  },
+  {
+    "name": "query",
+    "file": "src/components/ClassCard.jsx",
     "line": 131,
     "description": ""
   },
   {
-    "name": "error",
+    "name": "getDocs",
     "file": "src/components/ClassCard.jsx",
     "line": 132,
     "description": ""
   },
   {
-    "name": "split",
+    "name": "some",
     "file": "src/components/ClassCard.jsx",
-    "line": 136,
-    "description": "תאריך השיעור בפורמט Date"
+    "line": 134,
+    "description": ""
   },
   {
-    "name": "Date",
+    "name": "data",
+    "file": "src/components/ClassCard.jsx",
+    "line": 135,
+    "description": ""
+  },
+  {
+    "name": "if",
     "file": "src/components/ClassCard.jsx",
     "line": 137,
     "description": ""
   },
   {
-    "name": "getDay",
+    "name": "error",
     "file": "src/components/ClassCard.jsx",
-    "line": 140,
-    "description": "חישוב תחילת השבוע של השיעור (ראשון בבוקר)"
+    "line": 138,
+    "description": ""
   },
   {
-    "name": "Date",
+    "name": "split",
     "file": "src/components/ClassCard.jsx",
     "line": 141,
     "description": ""
   },
   {
-    "name": "setDate",
+    "name": "Date",
     "file": "src/components/ClassCard.jsx",
     "line": 142,
     "description": ""
   },
   {
-    "name": "setHours",
+    "name": "Date",
     "file": "src/components/ClassCard.jsx",
     "line": 143,
+    "description": ""
+  },
+  {
+    "name": "setDate",
+    "file": "src/components/ClassCard.jsx",
+    "line": 144,
+    "description": ""
+  },
+  {
+    "name": "setHours",
+    "file": "src/components/ClassCard.jsx",
+    "line": 145,
     "description": ""
   },
   {
     "name": "Date",
     "file": "src/components/ClassCard.jsx",
     "line": 146,
-    "description": "חישוב סוף השבוע של השיעור (שבת בלילה)"
+    "description": ""
   },
   {
     "name": "setDate",
@@ -9056,319 +9092,277 @@
   {
     "name": "weeklyBookings",
     "file": "src/components/ClassCard.jsx",
-    "line": 151,
-    "description": "סינון הזמנות של המשתמש לשבוע הזה בלבד"
+    "line": 150,
+    "description": ""
   },
   {
     "name": "data",
+    "file": "src/components/ClassCard.jsx",
+    "line": 151,
+    "description": ""
+  },
+  {
+    "name": "if",
     "file": "src/components/ClassCard.jsx",
     "line": 152,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "split",
     "file": "src/components/ClassCard.jsx",
     "line": 153,
     "description": ""
   },
   {
-    "name": "split",
+    "name": "Date",
     "file": "src/components/ClassCard.jsx",
     "line": 154,
     "description": ""
   },
   {
-    "name": "Date",
-    "file": "src/components/ClassCard.jsx",
-    "line": 155,
-    "description": ""
-  },
-  {
     "name": "if",
     "file": "src/components/ClassCard.jsx",
-    "line": 161,
+    "line": 159,
     "description": ""
   },
   {
     "name": "error",
     "file": "src/components/ClassCard.jsx",
-    "line": 162,
-    "description": ""
-  },
-  {
-    "name": "addDoc",
-    "file": "src/components/ClassCard.jsx",
-    "line": 166,
-    "description": "הרשמה בפועל לשיעור"
-  },
-  {
-    "name": "Date",
-    "file": "src/components/ClassCard.jsx",
-    "line": 174,
-    "description": ""
-  },
-  {
-    "name": "success",
-    "file": "src/components/ClassCard.jsx",
-    "line": 177,
+    "line": 160,
     "description": ""
   },
   {
     "name": "if",
     "file": "src/components/ClassCard.jsx",
-    "line": 178,
-    "description": ""
-  },
-  {
-    "name": "catch",
-    "file": "src/components/ClassCard.jsx",
-    "line": 179,
+    "line": 163,
     "description": ""
   },
   {
     "name": "error",
+    "file": "src/components/ClassCard.jsx",
+    "line": 164,
+    "description": ""
+  },
+  {
+    "name": "setDoc",
+    "file": "src/components/ClassCard.jsx",
+    "line": 168,
+    "description": ""
+  },
+  {
+    "name": "serverTimestamp",
+    "file": "src/components/ClassCard.jsx",
+    "line": 176,
+    "description": ""
+  },
+  {
+    "name": "Number",
     "file": "src/components/ClassCard.jsx",
     "line": 180,
-    "description": ""
+    "description": "בדיקת מירוץ: אם אחרי ההוספה עברנו את הקיבולת – מוחקים ומחזירים שגיאה"
   },
   {
-    "name": "error",
+    "name": "if",
     "file": "src/components/ClassCard.jsx",
     "line": 181,
     "description": ""
   },
   {
-    "name": "handleRemoveParticipant",
+    "name": "countCurrentBookings",
     "file": "src/components/ClassCard.jsx",
-    "line": 186,
+    "line": 182,
     "description": ""
   },
   {
     "name": "if",
     "file": "src/components/ClassCard.jsx",
-    "line": 187,
-    "description": ""
-  },
-  {
-    "name": "setLoading",
-    "file": "src/components/ClassCard.jsx",
-    "line": 188,
-    "description": ""
-  },
-  {
-    "name": "query",
-    "file": "src/components/ClassCard.jsx",
-    "line": 190,
-    "description": ""
-  },
-  {
-    "name": "collection",
-    "file": "src/components/ClassCard.jsx",
-    "line": 191,
-    "description": ""
-  },
-  {
-    "name": "where",
-    "file": "src/components/ClassCard.jsx",
-    "line": 192,
-    "description": ""
-  },
-  {
-    "name": "where",
-    "file": "src/components/ClassCard.jsx",
-    "line": 193,
-    "description": ""
-  },
-  {
-    "name": "getDocs",
-    "file": "src/components/ClassCard.jsx",
-    "line": 195,
-    "description": ""
-  },
-  {
-    "name": "for",
-    "file": "src/components/ClassCard.jsx",
-    "line": 196,
+    "line": 183,
     "description": ""
   },
   {
     "name": "deleteDoc",
     "file": "src/components/ClassCard.jsx",
-    "line": 197,
+    "line": 184,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/components/ClassCard.jsx",
+    "line": 185,
     "description": ""
   },
   {
     "name": "success",
     "file": "src/components/ClassCard.jsx",
-    "line": 199,
+    "line": 189,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "loadParticipants",
     "file": "src/components/ClassCard.jsx",
-    "line": 200,
-    "description": ""
-  },
-  {
-    "name": "catch",
-    "file": "src/components/ClassCard.jsx",
-    "line": 201,
-    "description": ""
-  },
-  {
-    "name": "error",
-    "file": "src/components/ClassCard.jsx",
-    "line": 202,
-    "description": ""
-  },
-  {
-    "name": "error",
-    "file": "src/components/ClassCard.jsx",
-    "line": 203,
-    "description": ""
-  },
-  {
-    "name": "setLoading",
-    "file": "src/components/ClassCard.jsx",
-    "line": 205,
-    "description": ""
-  },
-  {
-    "name": "handleBooking",
-    "file": "src/components/ClassCard.jsx",
-    "line": 208,
-    "description": ""
-  },
-  {
-    "name": "selectedUser",
-    "file": "src/components/ClassCard.jsx",
-    "line": 209,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/components/ClassCard.jsx",
-    "line": 210,
-    "description": ""
-  },
-  {
-    "name": "error",
-    "file": "src/components/ClassCard.jsx",
-    "line": 211,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/components/ClassCard.jsx",
-    "line": 215,
-    "description": "Check if the user has a weekly limit of 0"
-  },
-  {
-    "name": "error",
-    "file": "src/components/ClassCard.jsx",
-    "line": 216,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/components/ClassCard.jsx",
-    "line": 220,
-    "description": "Check if the user has remaining lessons"
-  },
-  {
-    "name": "error",
-    "file": "src/components/ClassCard.jsx",
-    "line": 221,
-    "description": ""
-  },
-  {
-    "name": "addDoc",
-    "file": "src/components/ClassCard.jsx",
-    "line": 226,
-    "description": "Proceed with booking"
-  },
-  {
-    "name": "Date",
-    "file": "src/components/ClassCard.jsx",
-    "line": 234,
-    "description": ""
-  },
-  {
-    "name": "doc",
-    "file": "src/components/ClassCard.jsx",
-    "line": 238,
-    "description": "Decrease the user's remaining lessons"
-  },
-  {
-    "name": "updateDoc",
-    "file": "src/components/ClassCard.jsx",
-    "line": 239,
-    "description": ""
-  },
-  {
-    "name": "success",
-    "file": "src/components/ClassCard.jsx",
-    "line": 243,
-    "description": ""
-  },
-  {
-    "name": "onClose",
-    "file": "src/components/ClassCard.jsx",
-    "line": 245,
+    "line": 190,
     "description": ""
   },
   {
     "name": "catch",
     "file": "src/components/ClassCard.jsx",
-    "line": 246,
+    "line": 192,
     "description": ""
   },
   {
     "name": "error",
     "file": "src/components/ClassCard.jsx",
-    "line": 247,
+    "line": 193,
     "description": ""
   },
   {
     "name": "error",
     "file": "src/components/ClassCard.jsx",
-    "line": 248,
-    "description": ""
-  },
-  {
-    "name": "renderParticipantsList",
-    "file": "src/components/ClassCard.jsx",
-    "line": 252,
-    "description": ""
-  },
-  {
-    "name": "setShowParticipantsList",
-    "file": "src/components/ClassCard.jsx",
-    "line": 256,
-    "description": ""
-  },
-  {
-    "name": "map",
-    "file": "src/components/ClassCard.jsx",
-    "line": 271,
+    "line": 194,
     "description": ""
   },
   {
     "name": "handleRemoveParticipant",
     "file": "src/components/ClassCard.jsx",
-    "line": 279,
+    "line": 198,
     "description": ""
   },
   {
-    "name": "return",
+    "name": "if",
     "file": "src/components/ClassCard.jsx",
-    "line": 299,
+    "line": 199,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
+    "file": "src/components/ClassCard.jsx",
+    "line": 200,
+    "description": ""
+  },
+  {
+    "name": "query",
+    "file": "src/components/ClassCard.jsx",
+    "line": 202,
+    "description": ""
+  },
+  {
+    "name": "collection",
+    "file": "src/components/ClassCard.jsx",
+    "line": 203,
+    "description": ""
+  },
+  {
+    "name": "where",
+    "file": "src/components/ClassCard.jsx",
+    "line": 204,
+    "description": ""
+  },
+  {
+    "name": "where",
+    "file": "src/components/ClassCard.jsx",
+    "line": 205,
+    "description": ""
+  },
+  {
+    "name": "getDocs",
+    "file": "src/components/ClassCard.jsx",
+    "line": 207,
+    "description": ""
+  },
+  {
+    "name": "all",
+    "file": "src/components/ClassCard.jsx",
+    "line": 208,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/components/ClassCard.jsx",
+    "line": 209,
+    "description": ""
+  },
+  {
+    "name": "deleteDoc",
+    "file": "src/components/ClassCard.jsx",
+    "line": 210,
+    "description": ""
+  },
+  {
+    "name": "success",
+    "file": "src/components/ClassCard.jsx",
+    "line": 213,
+    "description": ""
+  },
+  {
+    "name": "loadParticipants",
+    "file": "src/components/ClassCard.jsx",
+    "line": 214,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/components/ClassCard.jsx",
+    "line": 216,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/components/ClassCard.jsx",
+    "line": 217,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/components/ClassCard.jsx",
+    "line": 218,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
+    "file": "src/components/ClassCard.jsx",
+    "line": 220,
+    "description": ""
+  },
+  {
+    "name": "Number",
+    "file": "src/components/ClassCard.jsx",
+    "line": 227,
     "description": ""
   },
   {
     "name": "renderParticipantsList",
     "file": "src/components/ClassCard.jsx",
-    "line": 306,
+    "line": 231,
+    "description": ""
+  },
+  {
+    "name": "setShowParticipantsList",
+    "file": "src/components/ClassCard.jsx",
+    "line": 235,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/components/ClassCard.jsx",
+    "line": 249,
+    "description": ""
+  },
+  {
+    "name": "handleRemoveParticipant",
+    "file": "src/components/ClassCard.jsx",
+    "line": 257,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/components/ClassCard.jsx",
+    "line": 277,
+    "description": ""
+  },
+  {
+    "name": "renderParticipantsList",
+    "file": "src/components/ClassCard.jsx",
+    "line": 300,
     "description": ""
   },
   {
@@ -9380,7 +9374,7 @@
   {
     "name": "setShowBookingModal",
     "file": "src/components/ClassCard.jsx",
-    "line": 331,
+    "line": 337,
     "description": ""
   },
   {

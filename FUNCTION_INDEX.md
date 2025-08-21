@@ -4377,150 +4377,168 @@
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/DarkModeToggle.jsx#L284) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\DarkModeToggle.jsx:284)
 
 - **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L28) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:28)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L29) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:29)
+
+- **useState** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L30) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:30)
 
 - **useState** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L31) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:31)
 
-- **useState** – 
+- **useRef** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L32) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:32)
 
 - **useState** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L33) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:33)
 
-- **useRef** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L34) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:34)
-
-- **useRef** – 
+- **isAdminOrInstructor** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L35) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:35)
 
-- **useState** – 
+- **return** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L36) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:36)
 
-- **isAdminOrInstructor** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L38) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:38)
-
-- **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L39) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:39)
-
 - **isRegularUser** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L49) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:49)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L46) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:46)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L50) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:50)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L47) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:47)
 
 - **canViewClass** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L58) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:58)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L55) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:55)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L71) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:71)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L68) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:68)
 
-- **useEffect** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L73) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:73)
-
-- **fetchParticipants** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L74) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:74)
+- **loadParticipants** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L70) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:70)
 
 - **query** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L76) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:76)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L72) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:72)
 
 - **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L77) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:77)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L73) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:73)
 
 - **where** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L78) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:78)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L74) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:74)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L80) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:80)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L76) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:76)
 
 - **all** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L81) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:81)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L77) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:77)
 
 - **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L82) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:82)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L78) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:78)
 
 - **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L83) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:83)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L79) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:79)
 
 - **doc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L86) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:86)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L82) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:82)
 
 - **getDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L87) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:87)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L83) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:83)
 
 - **exists** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L88) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:88)
-
-- **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L89) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:89)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L84) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:84)
 
 - **setParticipants** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L105) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:105)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L95) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:95)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L106) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:106)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L96) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:96)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L107) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:107)
-
-- **fetchParticipants** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L110) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:110)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L97) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:97)
 
 - **useEffect** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L113) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:113)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L101) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:101)
+
+- **loadParticipants** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L102) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:102)
+
+- **useEffect** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L106) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:106)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L114) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:114)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L107) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:107)
 
 - **getBoundingClientRect** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L115) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:115)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L108) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:108)
 
 - **setOpenDirection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L117) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:117)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L110) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:110)
 
-- **handleBookingSelf** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L120) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:120)
-
-- **collection** – שליפת כל ההזמנות של המשתמש
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L123) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:123)
+- **countCurrentBookings** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L113) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:113)
 
 - **query** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L124) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:124)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L114) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:114)
+
+- **collection** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L115) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:115)
+
+- **where** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L116) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:116)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L125) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:125)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L118) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:118)
 
-- **some** – בדיקה אם המשתמש כבר רשום לשיעור אחר באותו יום
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L128) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:128)
+- **hasFreeSpot** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L121) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:121)
 
-- **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L129) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:129)
+- **Number** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L122) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:122)
 
 - **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L123) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:123)
+
+- **countCurrentBookings** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L124) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:124)
+
+- **handleBookingSelf** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L128) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:128)
+
+- **collection** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L130) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:130)
+
+- **query** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L131) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:131)
 
-- **error** – 
+- **getDocs** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L132) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:132)
 
-- **split** – תאריך השיעור בפורמט Date
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L136) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:136)
+- **some** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L134) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:134)
 
-- **Date** – 
+- **data** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L135) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:135)
+
+- **if** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L137) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:137)
 
-- **getDay** – חישוב תחילת השבוע של השיעור (ראשון בבוקר)
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L140) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:140)
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L138) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:138)
 
-- **Date** – 
+- **split** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L141) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:141)
 
-- **setDate** – 
+- **Date** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L142) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:142)
 
-- **setHours** – 
+- **Date** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L143) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:143)
 
-- **Date** – חישוב סוף השבוע של השיעור (שבת בלילה)
+- **setDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L144) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:144)
+
+- **setHours** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L145) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:145)
+
+- **Date** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L146) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:146)
 
 - **setDate** – 
@@ -4529,170 +4547,149 @@
 - **setHours** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L148) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:148)
 
-- **weeklyBookings** – סינון הזמנות של המשתמש לשבוע הזה בלבד
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L151) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:151)
+- **weeklyBookings** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L150) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:150)
 
 - **data** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L151) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:151)
+
+- **if** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L152) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:152)
 
-- **if** – 
+- **split** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L153) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:153)
 
-- **split** – 
+- **Date** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L154) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:154)
 
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L155) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:155)
-
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L161) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:161)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L159) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:159)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L162) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:162)
-
-- **addDoc** – הרשמה בפועל לשיעור
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L166) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:166)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L174) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:174)
-
-- **success** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L177) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:177)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L160) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:160)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L178) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:178)
-
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L179) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:179)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L163) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:163)
 
 - **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L164) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:164)
+
+- **setDoc** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L168) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:168)
+
+- **serverTimestamp** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L176) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:176)
+
+- **Number** – בדיקת מירוץ: אם אחרי ההוספה עברנו את הקיבולת – מוחקים ומחזירים שגיאה
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L180) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:180)
 
-- **error** – 
+- **if** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L181) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:181)
 
-- **handleRemoveParticipant** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L186) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:186)
+- **countCurrentBookings** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L182) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:182)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L187) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:187)
-
-- **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L188) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:188)
-
-- **query** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L190) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:190)
-
-- **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L191) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:191)
-
-- **where** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L192) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:192)
-
-- **where** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L193) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:193)
-
-- **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L195) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:195)
-
-- **for** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L196) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:196)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L183) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:183)
 
 - **deleteDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L197) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:197)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L184) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:184)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L185) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:185)
 
 - **success** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L199) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:199)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L189) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:189)
 
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L200) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:200)
-
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L201) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:201)
-
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L202) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:202)
-
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L203) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:203)
-
-- **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L205) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:205)
-
-- **handleBooking** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L208) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:208)
-
-- **selectedUser** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L209) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:209)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L210) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:210)
-
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L211) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:211)
-
-- **if** – Check if the user has a weekly limit of 0
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L215) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:215)
-
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L216) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:216)
-
-- **if** – Check if the user has remaining lessons
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L220) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:220)
-
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L221) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:221)
-
-- **addDoc** – Proceed with booking
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L226) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:226)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L234) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:234)
-
-- **doc** – Decrease the user's remaining lessons
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L238) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:238)
-
-- **updateDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L239) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:239)
-
-- **success** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L243) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:243)
-
-- **onClose** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L245) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:245)
+- **loadParticipants** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L190) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:190)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L246) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:246)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L192) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:192)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L247) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:247)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L193) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:193)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L248) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:248)
-
-- **renderParticipantsList** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L252) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:252)
-
-- **setShowParticipantsList** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L256) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:256)
-
-- **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L271) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:271)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L194) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:194)
 
 - **handleRemoveParticipant** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L279) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:279)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L198) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:198)
 
-- **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L299) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:299)
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L199) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:199)
+
+- **setLoading** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L200) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:200)
+
+- **query** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L202) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:202)
+
+- **collection** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L203) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:203)
+
+- **where** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L204) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:204)
+
+- **where** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L205) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:205)
+
+- **getDocs** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L207) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:207)
+
+- **all** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L208) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:208)
+
+- **map** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L209) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:209)
+
+- **deleteDoc** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L210) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:210)
+
+- **success** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L213) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:213)
+
+- **loadParticipants** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L214) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:214)
+
+- **catch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L216) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:216)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L217) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:217)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L218) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:218)
+
+- **setLoading** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L220) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:220)
+
+- **Number** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L227) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:227)
 
 - **renderParticipantsList** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L306) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:306)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L231) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:231)
+
+- **setShowParticipantsList** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L235) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:235)
+
+- **map** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L249) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:249)
+
+- **handleRemoveParticipant** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L257) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:257)
+
+- **return** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L277) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:277)
+
+- **renderParticipantsList** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L300) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:300)
 
 - **setShowBookingModal** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L321) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:321)
 
 - **setShowBookingModal** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L331) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:331)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L337) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:337)
 
 - **BookingModal** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L288) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:288)
