@@ -76,6 +76,12 @@ const firebaseConfig = {
 /**
  * TODO: תאר את הפונקציה initializeApp
  */
+/**
+ * TODO: תאר את הפונקציה initializeApp
+ */
+/**
+ * TODO: תאר את הפונקציה initializeApp
+ */
 const app = initializeApp(firebaseConfig);
 
 export const db = getFirestore(app);

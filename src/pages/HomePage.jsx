@@ -1110,6 +1110,279 @@ const AdminClassesTable = ({ classes = [], onRowClick }) => {
 /**
  * TODO: תאר את הפונקציה return
  */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
+/**
+ * TODO: תאר את הפונקציה return
+ */
   return (
     <table className="w-full table-auto border-collapse border border-gray-300">
       <thead>

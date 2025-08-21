@@ -144,6 +144,147 @@ import toast from "react-hot-toast";
 /**
  * TODO: תאר את הפונקציה BookingModal
  */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
+/**
+ * TODO: תאר את הפונקציה BookingModal
+ */
 const BookingModal = ({ onClose, classInfo, refreshBookings, employee }) => {
   const [users, setUsers] = useState([]);
   const [filteredUsers, setFilteredUsers] = useState([]);

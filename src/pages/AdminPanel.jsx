@@ -1652,6 +1652,171 @@ import { collection, doc, getDocs, setDoc, deleteDoc } from 'firebase/firestore'
 /**
  * TODO: תאר את הפונקציה AdminUsersPanel
  */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
+/**
+ * TODO: תאר את הפונקציה AdminUsersPanel
+ */
 const AdminUsersPanel = ({ employee }) => {
   const [users, setUsers] = useState([]);
   const [phone, setPhone] = useState('');

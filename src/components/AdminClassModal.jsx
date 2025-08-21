@@ -156,6 +156,147 @@ import { getDoc } from "firebase/firestore"; // ← זה חסר אצלך
 /**
  * TODO: תאר את הפונקציה AdminClassModal
  */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
+/**
+ * TODO: תאר את הפונקציה AdminClassModal
+ */
 const AdminClassModal = ({ cls, onClose, refresh, handleRemoveParticipant }) => {
   const [participants, setParticipants] = useState([]);
   const [loading, setLoading] = useState(false);

@@ -59,18 +59,19 @@ files.forEach((filePath) => {
       }
 
       // תיעוד JSDoc אם חסר
-      if (!description && !minimalMode) {
-        const jsdoc = [
-          '/**',
-          ` * TODO: תאר את הפונקציה ${functionName}`,
-          ' */'
-        ];
-        content.splice(index, 0, ...jsdoc);
-        description = '---';
-        fileChanged = true;
-      }
+    //  if (!description && !minimalMode) {
+     //   const jsdoc = [
+    //      '/**',
+      //    ` * TODO: תאר את הפונקציה ${functionName}`,
+//
+//        //  ' */'
+  //      ];
+    //    content.splice(index, 0, ...jsdoc);
+      //  description = '---';
+        //fileChanged = true;
+      //}
 
-      if (minimalMode && !description) return;
+      //if (minimalMode && !description) return;
 
       functions.push({
         name: functionName,

@@ -26,6 +26,7 @@ const ClassCard = ({
   isPastClass,
 }) => {
 
+
   const [participants, setParticipants] = useState([]);
   const [loading, setLoading] = useState(false);
   const [showParticipantsList, setShowParticipantsList] = useState(false);

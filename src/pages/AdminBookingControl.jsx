@@ -12,6 +12,147 @@ import toast from "react-hot-toast";
 import BackToAdminButton from "../components/BackToAdminButton";
 import { useNavigate } from "react-router-dom";
 
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingControl
+ */
 const AdminBookingControl = () => {
   const navigate = useNavigate(); // בתוך הקומפוננטה
   const [dateToDelete, setDateToDelete] = useState("");

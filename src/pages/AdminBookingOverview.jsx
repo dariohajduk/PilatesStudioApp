@@ -23,6 +23,141 @@ import {
 } from "recharts";
 
 
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
+/**
+ * TODO: תאר את הפונקציה AdminBookingOverview
+ */
 const AdminBookingOverview = () => {
   const [monthlyData, setMonthlyData] = useState([]);
   const [loading, setLoading] = useState(true);
