@@ -5070,169 +5070,157 @@
     "description": ""
   },
   {
-    "name": "AdminInstructorsPanel",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 16,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 17,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 18,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 19,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 20,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 21,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 22,
-    "description": ""
-  },
-  {
-    "name": "log",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 23,
-    "description": ""
-  },
-  {
-    "name": "fetchInstructors",
+    "name": "onlyDigits",
     "file": "src/pages/AdminInstructorsPanel.jsx",
     "line": 27,
-    "description": "שליפת כל המדריכים"
+    "description": ""
   },
   {
-    "name": "getDocs",
+    "name": "normalizePhone",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 28,
+    "description": ""
+  },
+  {
+    "name": "byNameAsc",
     "file": "src/pages/AdminInstructorsPanel.jsx",
     "line": 29,
     "description": ""
   },
   {
-    "name": "map",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 31,
-    "description": ""
-  },
-  {
-    "name": "filter",
+    "name": "InstructorSkeleton",
     "file": "src/pages/AdminInstructorsPanel.jsx",
     "line": 32,
     "description": ""
   },
   {
-    "name": "setInstructors",
+    "name": "AdminInstructorsPanel",
     "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 34,
+    "line": 43,
     "description": ""
   },
   {
-    "name": "catch",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 35,
-    "description": ""
-  },
-  {
-    "name": "error",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 36,
-    "description": ""
-  },
-  {
-    "name": "useEffect",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 40,
-    "description": ""
-  },
-  {
-    "name": "fetchInstructors",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 41,
-    "description": ""
-  },
-  {
-    "name": "handleSaveInstructor",
+    "name": "useState",
     "file": "src/pages/AdminInstructorsPanel.jsx",
     "line": 45,
-    "description": "הוספה/עדכון מדריך"
+    "description": ""
   },
   {
-    "name": "if",
+    "name": "useState",
     "file": "src/pages/AdminInstructorsPanel.jsx",
     "line": 46,
     "description": ""
   },
   {
-    "name": "setMessage",
+    "name": "useState",
     "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 47,
+    "line": 48,
     "description": ""
   },
   {
-    "name": "replace",
+    "name": "useState",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 49,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 50,
+    "description": ""
+  },
+  {
+    "name": "useState",
     "file": "src/pages/AdminInstructorsPanel.jsx",
     "line": 52,
     "description": ""
   },
   {
-    "name": "doc",
+    "name": "useState",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 53,
+    "description": ""
+  },
+  {
+    "name": "useState",
     "file": "src/pages/AdminInstructorsPanel.jsx",
     "line": 54,
     "description": ""
   },
   {
-    "name": "doc",
+    "name": "useState",
     "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 55,
+    "line": 56,
     "description": ""
   },
   {
-    "name": "Date",
+    "name": "useEffect",
     "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 64,
+    "line": 59,
     "description": ""
   },
   {
-    "name": "setDoc",
+    "name": "t",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 60,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 61,
+    "description": ""
+  },
+  {
+    "name": "fetchInstructors",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 65,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 66,
+    "description": ""
+  },
+  {
+    "name": "getDocs",
     "file": "src/pages/AdminInstructorsPanel.jsx",
     "line": 69,
-    "description": ""
+    "description": "מביאים את כל המשתמשים ומסננים בצד לקוח – נמנע אינדקס קומפוזיט מיותר"
   },
   {
-    "name": "setDoc",
+    "name": "map",
     "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 70,
+    "line": 71,
     "description": ""
   },
   {
-    "name": "Date",
+    "name": "filter",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 72,
+    "description": ""
+  },
+  {
+    "name": "sort",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 73,
+    "description": ""
+  },
+  {
+    "name": "setInstructors",
     "file": "src/pages/AdminInstructorsPanel.jsx",
     "line": 74,
     "description": ""
   },
   {
     "name": "catch",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 75,
+    "description": ""
+  },
+  {
+    "name": "error",
     "file": "src/pages/AdminInstructorsPanel.jsx",
     "line": 76,
     "description": ""
@@ -5244,171 +5232,417 @@
     "description": ""
   },
   {
-    "name": "setMessage",
+    "name": "setLoading",
     "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 78,
+    "line": 79,
     "description": ""
   },
   {
-    "name": "clearForm",
+    "name": "useEffect",
     "file": "src/pages/AdminInstructorsPanel.jsx",
     "line": 83,
     "description": ""
   },
   {
-    "name": "setPhone",
+    "name": "fetchInstructors",
     "file": "src/pages/AdminInstructorsPanel.jsx",
     "line": 84,
     "description": ""
   },
   {
-    "name": "setName",
+    "name": "cleanedPhone",
     "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 85,
+    "line": 88,
     "description": ""
   },
   {
-    "name": "setEditingInstructorId",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 86,
-    "description": ""
-  },
-  {
-    "name": "handleEditInstructor",
+    "name": "trim",
     "file": "src/pages/AdminInstructorsPanel.jsx",
     "line": 89,
     "description": ""
   },
   {
-    "name": "setPhone",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 90,
-    "description": ""
-  },
-  {
-    "name": "setName",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 91,
-    "description": ""
-  },
-  {
-    "name": "setEditingInstructorId",
+    "name": "handleSave",
     "file": "src/pages/AdminInstructorsPanel.jsx",
     "line": 92,
     "description": ""
   },
   {
-    "name": "handleDeleteInstructor",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 95,
-    "description": ""
-  },
-  {
     "name": "if",
     "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 96,
-    "description": ""
-  },
-  {
-    "name": "deleteDoc",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 99,
-    "description": ""
-  },
-  {
-    "name": "setMessage",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 100,
-    "description": ""
-  },
-  {
-    "name": "fetchInstructors",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 101,
-    "description": ""
-  },
-  {
-    "name": "catch",
-    "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 102,
+    "line": 93,
     "description": ""
   },
   {
     "name": "error",
     "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 103,
+    "line": 94,
     "description": ""
   },
   {
-    "name": "setMessage",
+    "name": "setSaving",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 98,
+    "description": ""
+  },
+  {
+    "name": "doc",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 100,
+    "description": ""
+  },
+  {
+    "name": "doc",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 101,
+    "description": ""
+  },
+  {
+    "name": "getDoc",
     "file": "src/pages/AdminInstructorsPanel.jsx",
     "line": 104,
-    "description": ""
+    "description": "שומרים/מעדכנים את מסמך המשתמש – לא מוחקים שדות קיימים (merge)"
   },
   {
-    "name": "if",
+    "name": "exists",
     "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 108,
+    "line": 105,
     "description": ""
   },
   {
-    "name": "return",
+    "name": "trim",
     "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 110,
+    "line": 111,
     "description": ""
   },
   {
-    "name": "filter",
+    "name": "Date",
     "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 118,
+    "line": 117,
     "description": ""
   },
   {
-    "name": "includes",
+    "name": "setDoc",
     "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 119,
+    "line": 120,
     "description": ""
   },
   {
-    "name": "return",
+    "name": "Instructors",
     "file": "src/pages/AdminInstructorsPanel.jsx",
     "line": 122,
     "description": ""
   },
   {
-    "name": "setPhone",
+    "name": "setDoc",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 123,
+    "description": "מרקרים קלים גם באינדקס Instructors (לשאליתות/תצוגות מהירות)"
+  },
+  {
+    "name": "trim",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 128,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 129,
+    "description": ""
+  },
+  {
+    "name": "success",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 134,
+    "description": ""
+  },
+  {
+    "name": "clearForm",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 135,
+    "description": ""
+  },
+  {
+    "name": "fetchInstructors",
     "file": "src/pages/AdminInstructorsPanel.jsx",
     "line": 136,
     "description": ""
   },
   {
-    "name": "setName",
+    "name": "catch",
     "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 144,
+    "line": 137,
     "description": ""
   },
   {
-    "name": "setSearch",
+    "name": "error",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 138,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 139,
+    "description": ""
+  },
+  {
+    "name": "setSaving",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 141,
+    "description": ""
+  },
+  {
+    "name": "softDeleteInstructor",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 146,
+    "description": ""
+  },
+  {
+    "name": "setSaving",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 147,
+    "description": ""
+  },
+  {
+    "name": "doc",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 149,
+    "description": ""
+  },
+  {
+    "name": "doc",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 150,
+    "description": ""
+  },
+  {
+    "name": "setDoc",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 153,
+    "description": "מסירים תפקיד מדריך מהמשתמש"
+  },
+  {
+    "name": "deleteDoc",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 155,
+    "description": "מוחקים את הרשומה בטבלת Instructors"
+  },
+  {
+    "name": "success",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 157,
+    "description": ""
+  },
+  {
+    "name": "fetchInstructors",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 158,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 159,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 160,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 161,
+    "description": ""
+  },
+  {
+    "name": "setSaving",
     "file": "src/pages/AdminInstructorsPanel.jsx",
     "line": 163,
     "description": ""
   },
   {
-    "name": "map",
+    "name": "onEdit",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 168,
+    "description": ""
+  },
+  {
+    "name": "setPhone",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 169,
+    "description": ""
+  },
+  {
+    "name": "setName",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 170,
+    "description": ""
+  },
+  {
+    "name": "setEditingId",
     "file": "src/pages/AdminInstructorsPanel.jsx",
     "line": 171,
     "description": ""
   },
   {
-    "name": "handleEditInstructor",
+    "name": "scrollTo",
     "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 183,
+    "line": 172,
     "description": ""
   },
   {
-    "name": "handleDeleteInstructor",
+    "name": "onAskDelete",
     "file": "src/pages/AdminInstructorsPanel.jsx",
-    "line": 190,
+    "line": 175,
+    "description": ""
+  },
+  {
+    "name": "setConfirm",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 176,
+    "description": ""
+  },
+  {
+    "name": "onConfirmDelete",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 178,
+    "description": ""
+  },
+  {
+    "name": "setConfirm",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 180,
+    "description": ""
+  },
+  {
+    "name": "softDeleteInstructor",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 181,
+    "description": ""
+  },
+  {
+    "name": "clearForm",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 184,
+    "description": ""
+  },
+  {
+    "name": "setPhone",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 185,
+    "description": ""
+  },
+  {
+    "name": "setName",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 186,
+    "description": ""
+  },
+  {
+    "name": "setEditingId",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 187,
+    "description": ""
+  },
+  {
+    "name": "filtered",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 191,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 192,
+    "description": ""
+  },
+  {
+    "name": "toLowerCase",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 193,
+    "description": ""
+  },
+  {
+    "name": "onlyDigits",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 194,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 195,
+    "description": ""
+  },
+  {
+    "name": "toLowerCase",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 197,
+    "description": ""
+  },
+  {
+    "name": "includes",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 198,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 202,
+    "description": ""
+  },
+  {
+    "name": "setSearch",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 221,
+    "description": ""
+  },
+  {
+    "name": "setPhone",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 259,
+    "description": ""
+  },
+  {
+    "name": "setName",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 274,
+    "description": ""
+  },
+  {
+    "name": "from",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 307,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 313,
+    "description": ""
+  },
+  {
+    "name": "onEdit",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 331,
+    "description": ""
+  },
+  {
+    "name": "onAskDelete",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 337,
+    "description": ""
+  },
+  {
+    "name": "setConfirm",
+    "file": "src/pages/AdminInstructorsPanel.jsx",
+    "line": 365,
     "description": ""
   },
   {
@@ -8412,274 +8646,202 @@
     "description": ""
   },
   {
-    "name": "AdminBookingControl",
+    "name": "pad",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 15,
     "description": ""
   },
   {
-    "name": "useNavigate",
+    "name": "todayYMD",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 16,
     "description": ""
   },
   {
-    "name": "useState",
+    "name": "Date",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 17,
     "description": ""
   },
   {
-    "name": "useState",
-    "file": "src/pages/AdminBookingControl.jsx",
-    "line": 18,
-    "description": ""
-  },
-  {
-    "name": "useState",
+    "name": "firstDayOfWeekYMD",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 19,
     "description": ""
   },
   {
-    "name": "handleDeleteAll",
+    "name": "Date",
     "file": "src/pages/AdminBookingControl.jsx",
-    "line": 22,
-    "description": "מחיקת כל ההרשמות"
+    "line": 20,
+    "description": ""
   },
   {
-    "name": "if",
+    "name": "getDay",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 21,
+    "description": ""
+  },
+  {
+    "name": "setDate",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 23,
     "description": ""
   },
   {
-    "name": "setLoading",
+    "name": "getFullYear",
     "file": "src/pages/AdminBookingControl.jsx",
-    "line": 25,
+    "line": 24,
     "description": ""
   },
   {
-    "name": "collection",
+    "name": "lastDayOfWeekYMD",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 26,
+    "description": ""
+  },
+  {
+    "name": "Date",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 27,
     "description": ""
   },
   {
-    "name": "getDocs",
+    "name": "setDate",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 28,
     "description": ""
   },
   {
-    "name": "batch",
+    "name": "getFullYear",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 29,
     "description": ""
   },
   {
-    "name": "deleteDoc",
+    "name": "ymdToDisplay",
     "file": "src/pages/AdminBookingControl.jsx",
-    "line": 30,
+    "line": 31,
     "description": ""
   },
   {
-    "name": "all",
+    "name": "if",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 32,
     "description": ""
   },
   {
-    "name": "success",
+    "name": "split",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 33,
     "description": ""
   },
   {
-    "name": "catch",
-    "file": "src/pages/AdminBookingControl.jsx",
-    "line": 34,
-    "description": ""
-  },
-  {
-    "name": "error",
-    "file": "src/pages/AdminBookingControl.jsx",
-    "line": 35,
-    "description": ""
-  },
-  {
-    "name": "error",
+    "name": "ymdToDDMMYYYY",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 36,
     "description": ""
   },
   {
-    "name": "setLoading",
+    "name": "if",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 37,
+    "description": ""
+  },
+  {
+    "name": "split",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 38,
     "description": ""
   },
   {
-    "name": "handleDeleteByDate",
-    "file": "src/pages/AdminBookingControl.jsx",
-    "line": 42,
-    "description": "מחיקה לפי תאריך"
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminBookingControl.jsx",
-    "line": 43,
-    "description": ""
-  },
-  {
-    "name": "setLoading",
-    "file": "src/pages/AdminBookingControl.jsx",
-    "line": 45,
-    "description": ""
-  },
-  {
-    "name": "query",
-    "file": "src/pages/AdminBookingControl.jsx",
-    "line": 47,
-    "description": ""
-  },
-  {
-    "name": "collection",
-    "file": "src/pages/AdminBookingControl.jsx",
-    "line": 48,
-    "description": ""
-  },
-  {
-    "name": "where",
-    "file": "src/pages/AdminBookingControl.jsx",
-    "line": 49,
-    "description": ""
-  },
-  {
-    "name": "getDocs",
-    "file": "src/pages/AdminBookingControl.jsx",
-    "line": 51,
-    "description": ""
-  },
-  {
-    "name": "batch",
-    "file": "src/pages/AdminBookingControl.jsx",
-    "line": 52,
-    "description": ""
-  },
-  {
-    "name": "deleteDoc",
+    "name": "BookingsManager",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 53,
     "description": ""
   },
   {
-    "name": "all",
+    "name": "useState",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 55,
-    "description": ""
+    "description": "Filters"
   },
   {
-    "name": "success",
+    "name": "useState",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 56,
     "description": ""
   },
   {
-    "name": "catch",
+    "name": "useState",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 57,
     "description": ""
   },
   {
-    "name": "error",
+    "name": "useState",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 58,
     "description": ""
   },
   {
-    "name": "error",
-    "file": "src/pages/AdminBookingControl.jsx",
-    "line": 59,
-    "description": ""
-  },
-  {
-    "name": "setLoading",
+    "name": "useState",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 61,
+    "description": "Data"
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 62,
     "description": ""
   },
   {
-    "name": "handleDeleteByUser",
+    "name": "useState",
     "file": "src/pages/AdminBookingControl.jsx",
-    "line": 65,
-    "description": "מחיקה לפי מזהה משתמש"
+    "line": 63,
+    "description": ""
   },
   {
-    "name": "if",
+    "name": "useState",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 64,
+    "description": ""
+  },
+  {
+    "name": "useMemo",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 66,
     "description": ""
   },
   {
-    "name": "setLoading",
+    "name": "ymdToDisplay",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 68,
     "description": ""
   },
   {
-    "name": "query",
-    "file": "src/pages/AdminBookingControl.jsx",
-    "line": 70,
-    "description": ""
-  },
-  {
-    "name": "collection",
-    "file": "src/pages/AdminBookingControl.jsx",
-    "line": 71,
-    "description": ""
-  },
-  {
-    "name": "where",
-    "file": "src/pages/AdminBookingControl.jsx",
-    "line": 72,
-    "description": ""
-  },
-  {
-    "name": "getDocs",
+    "name": "resetPaging",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 74,
     "description": ""
   },
   {
-    "name": "batch",
+    "name": "setRows",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 75,
     "description": ""
   },
   {
-    "name": "deleteDoc",
-    "file": "src/pages/AdminBookingControl.jsx",
-    "line": 76,
-    "description": ""
-  },
-  {
-    "name": "all",
+    "name": "fetchPage",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 78,
     "description": ""
   },
   {
-    "name": "success",
-    "file": "src/pages/AdminBookingControl.jsx",
-    "line": 79,
-    "description": ""
-  },
-  {
-    "name": "catch",
+    "name": "if",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 80,
-    "description": ""
+    "description": "ודא טווח תקין"
   },
   {
     "name": "error",
@@ -8688,33 +8850,735 @@
     "description": ""
   },
   {
-    "name": "error",
-    "file": "src/pages/AdminBookingControl.jsx",
-    "line": 82,
-    "description": ""
-  },
-  {
     "name": "setLoading",
     "file": "src/pages/AdminBookingControl.jsx",
-    "line": 84,
+    "line": 85,
     "description": ""
   },
   {
-    "name": "return",
+    "name": "collection",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 87,
     "description": ""
   },
   {
-    "name": "setDateToDelete",
+    "name": "where",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 89,
+    "description": ""
+  },
+  {
+    "name": "where",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 92,
+    "description": ""
+  },
+  {
+    "name": "where",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 93,
+    "description": ""
+  },
+  {
+    "name": "orderBy",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 94,
+    "description": ""
+  },
+  {
+    "name": "limit",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 95,
+    "description": ""
+  },
+  {
+    "name": "query",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 98,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 99,
+    "description": ""
+  },
+  {
+    "name": "query",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 100,
+    "description": ""
+  },
+  {
+    "name": "getDocs",
     "file": "src/pages/AdminBookingControl.jsx",
     "line": 103,
     "description": ""
   },
   {
-    "name": "setUserIdToDelete",
+    "name": "map",
     "file": "src/pages/AdminBookingControl.jsx",
-    "line": 124,
+    "line": 104,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 107,
+    "description": "Fallback למסמכים ישנים ללא dayKey – רק כאשר טוענים עמוד ראשון וטווח הוא יום יחיד"
+  },
+  {
+    "name": "ymdToDDMMYYYY",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 109,
+    "description": ""
+  },
+  {
+    "name": "query",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 110,
+    "description": ""
+  },
+  {
+    "name": "getDocs",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 111,
+    "description": ""
+  },
+  {
+    "name": "oldList",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 112,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 115,
+    "description": ""
+  },
+  {
+    "name": "warn",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 117,
+    "description": "מתעלמים אם אין נתונים ישנים"
+  },
+  {
+    "name": "list",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 123,
+    "description": ""
+  },
+  {
+    "name": "setRows",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 125,
+    "description": ""
+  },
+  {
+    "name": "setNextCursor",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 126,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 127,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 128,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 129,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 131,
+    "description": ""
+  },
+  {
+    "name": "useEffect",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 136,
+    "description": "auto load on filters change"
+  },
+  {
+    "name": "resetPaging",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 137,
+    "description": ""
+  },
+  {
+    "name": "fetchPage",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 138,
+    "description": ""
+  },
+  {
+    "name": "filteredRows",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 142,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 143,
+    "description": ""
+  },
+  {
+    "name": "toLowerCase",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 144,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 145,
+    "description": ""
+  },
+  {
+    "name": "toLowerCase",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 147,
+    "description": ""
+  },
+  {
+    "name": "includes",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 148,
+    "description": ""
+  },
+  {
+    "name": "toLowerCase",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 149,
+    "description": ""
+  },
+  {
+    "name": "toggleSelectAll",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 154,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 155,
+    "description": ""
+  },
+  {
+    "name": "setSelected",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 156,
+    "description": ""
+  },
+  {
+    "name": "forEach",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 159,
+    "description": ""
+  },
+  {
+    "name": "setSelected",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 160,
+    "description": ""
+  },
+  {
+    "name": "toggleOne",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 163,
+    "description": ""
+  },
+  {
+    "name": "setSelected",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 164,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 166,
+    "description": ""
+  },
+  {
+    "name": "cancelOne",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 172,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 173,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 174,
+    "description": ""
+  },
+  {
+    "name": "confirm",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 175,
+    "description": ""
+  },
+  {
+    "name": "ymdToDisplay",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 177,
+    "description": ""
+  },
+  {
+    "name": "bulkCancel",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 182,
+    "description": ""
+  },
+  {
+    "name": "deleteOne",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 185,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 186,
+    "description": ""
+  },
+  {
+    "name": "bulkDelete",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 187,
+    "description": ""
+  },
+  {
+    "name": "bulkCancel",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 190,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 191,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 193,
+    "description": ""
+  },
+  {
+    "name": "for",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 195,
+    "description": "באצ'ים: עדכון סטטוס + החזרת מקום"
+  },
+  {
+    "name": "slice",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 196,
+    "description": ""
+  },
+  {
+    "name": "writeBatch",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 197,
+    "description": ""
+  },
+  {
+    "name": "forEach",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 198,
+    "description": ""
+  },
+  {
+    "name": "doc",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 199,
+    "description": ""
+  },
+  {
+    "name": "update",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 200,
+    "description": ""
+  },
+  {
+    "name": "serverTimestamp",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 202,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 205,
+    "description": ""
+  },
+  {
+    "name": "doc",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 206,
+    "description": ""
+  },
+  {
+    "name": "update",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 207,
+    "description": ""
+  },
+  {
+    "name": "commit",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 210,
+    "description": ""
+  },
+  {
+    "name": "success",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 212,
+    "description": ""
+  },
+  {
+    "name": "setSelected",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 214,
+    "description": "רענון"
+  },
+  {
+    "name": "resetPaging",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 215,
+    "description": ""
+  },
+  {
+    "name": "fetchPage",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 216,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 217,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 218,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 219,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 221,
+    "description": ""
+  },
+  {
+    "name": "bulkDelete",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 225,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 226,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 228,
+    "description": ""
+  },
+  {
+    "name": "for",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 229,
+    "description": ""
+  },
+  {
+    "name": "slice",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 230,
+    "description": ""
+  },
+  {
+    "name": "writeBatch",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 231,
+    "description": ""
+  },
+  {
+    "name": "forEach",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 232,
+    "description": ""
+  },
+  {
+    "name": "doc",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 234,
+    "description": "ארכוב לסל מחזור"
+  },
+  {
+    "name": "set",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 235,
+    "description": ""
+  },
+  {
+    "name": "serverTimestamp",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 238,
+    "description": ""
+  },
+  {
+    "name": "doc",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 241,
+    "description": "מחיקה אמיתית"
+  },
+  {
+    "name": "delete",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 242,
+    "description": ""
+  },
+  {
+    "name": "commit",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 245,
+    "description": ""
+  },
+  {
+    "name": "success",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 247,
+    "description": ""
+  },
+  {
+    "name": "setSelected",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 248,
+    "description": ""
+  },
+  {
+    "name": "resetPaging",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 249,
+    "description": ""
+  },
+  {
+    "name": "fetchPage",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 250,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 251,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 252,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 253,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 255,
+    "description": ""
+  },
+  {
+    "name": "selectedList",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 259,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 262,
+    "description": ""
+  },
+  {
+    "name": "setFrom",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 277,
+    "description": ""
+  },
+  {
+    "name": "setTo",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 286,
+    "description": ""
+  },
+  {
+    "name": "setFrom",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 293,
+    "description": ""
+  },
+  {
+    "name": "setTo",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 294,
+    "description": ""
+  },
+  {
+    "name": "setFrom",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 302,
+    "description": ""
+  },
+  {
+    "name": "setTo",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 303,
+    "description": ""
+  },
+  {
+    "name": "setStatus",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 314,
+    "description": ""
+  },
+  {
+    "name": "setQText",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 327,
+    "description": ""
+  },
+  {
+    "name": "keys",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 346,
+    "description": ""
+  },
+  {
+    "name": "bulkCancel",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 355,
+    "description": ""
+  },
+  {
+    "name": "bulkDelete",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 363,
+    "description": ""
+  },
+  {
+    "name": "Table",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 375,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 392,
+    "description": ""
+  },
+  {
+    "name": "toggleOne",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 395,
+    "description": ""
+  },
+  {
+    "name": "ymdToDisplay",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 397,
+    "description": ""
+  },
+  {
+    "name": "cancelOne",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 413,
+    "description": ""
+  },
+  {
+    "name": "deleteOne",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 419,
+    "description": ""
+  },
+  {
+    "name": "Cards",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 439,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 441,
+    "description": ""
+  },
+  {
+    "name": "toggleOne",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 445,
+    "description": ""
+  },
+  {
+    "name": "ymdToDisplay",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 448,
+    "description": ""
+  },
+  {
+    "name": "cancelOne",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 455,
+    "description": ""
+  },
+  {
+    "name": "deleteOne",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 461,
+    "description": ""
+  },
+  {
+    "name": "fetchPage",
+    "file": "src/pages/AdminBookingControl.jsx",
+    "line": 474,
     "description": ""
   },
   {
