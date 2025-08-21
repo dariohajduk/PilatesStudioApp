@@ -2342,182 +2342,116 @@
   {
     "name": "resizeImage",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 21,
+    "line": 24,
     "description": ""
   },
   {
     "name": "Promise",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 22,
+    "line": 25,
     "description": ""
   },
   {
     "name": "Image",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 23,
+    "line": 26,
     "description": ""
   },
   {
     "name": "FileReader",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 24,
+    "line": 27,
     "description": ""
   },
   {
     "name": "createElement",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 27,
+    "line": 30,
     "description": ""
   },
   {
     "name": "getContext",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 31,
+    "line": 34,
     "description": ""
   },
   {
     "name": "drawImage",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 32,
+    "line": 35,
     "description": ""
   },
   {
     "name": "toDataURL",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 33,
+    "line": 36,
     "description": ""
   },
   {
     "name": "resolve",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 34,
+    "line": 37,
     "description": ""
   },
   {
     "name": "readAsDataURL",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 38,
+    "line": 41,
     "description": ""
   },
   {
-    "name": "AdminUsersPanel",
+    "name": "useDebouncedValue",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 42,
-    "description": ""
-  },
-  {
-    "name": "useNavigate",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 43,
+    "line": 45,
     "description": ""
   },
   {
     "name": "useState",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 46,
-    "description": "UI"
+    "description": ""
   },
   {
-    "name": "useState",
+    "name": "useEffect",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 47,
     "description": ""
   },
   {
-    "name": "useState",
+    "name": "id",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 48,
     "description": ""
   },
   {
-    "name": "useState",
+    "name": "return",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 51,
-    "description": "נתוני משתמשים"
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 52,
+    "line": 49,
     "description": ""
   },
   {
-    "name": "useState",
+    "name": "SkeletonCard",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 55,
-    "description": "טופס"
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 56,
     "description": ""
   },
   {
-    "name": "useState",
+    "name": "AdminUsersPanel",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 57,
+    "line": 67,
     "description": ""
   },
   {
-    "name": "useState",
+    "name": "useNavigate",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 58,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 59,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 60,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 63,
-    "description": "העדפות"
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 64,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 65,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 66,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 69,
-    "description": "חתימה"
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 70,
+    "line": 68,
     "description": ""
   },
   {
     "name": "useState",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 71,
-    "description": ""
+    "description": "UI"
   },
   {
     "name": "useState",
@@ -2526,373 +2460,499 @@
     "description": ""
   },
   {
-    "name": "fetchUsers",
+    "name": "useState",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 73,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 74,
+    "description": ""
+  },
+  {
+    "name": "useState",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 75,
-    "description": "שליפת כל המשתמשים (לא מדריכים/מנהלים) והעשרת החתימה מתוך employees"
-  },
-  {
-    "name": "getDocs",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 77,
     "description": ""
   },
   {
-    "name": "for",
+    "name": "useState",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 76,
+    "description": ""
+  },
+  {
+    "name": "useState",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 79,
-    "description": ""
+    "description": "נתוני משתמשים"
   },
   {
-    "name": "data",
+    "name": "useState",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 80,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "useDebouncedValue",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 81,
     "description": ""
   },
   {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 83,
-    "description": "משיכת חתימה מ-employees לפי phone"
-  },
-  {
-    "name": "getDoc",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 84,
-    "description": ""
-  },
-  {
-    "name": "if",
+    "name": "useRef",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 85,
     "description": ""
   },
   {
-    "name": "data",
+    "name": "useState",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 86,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "useState",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 87,
     "description": ""
   },
   {
-    "name": "push",
+    "name": "useState",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 94,
-    "description": "ודא שכל השדות קיימים (גם אם לא היו)"
+    "line": 90,
+    "description": "טופס"
   },
   {
-    "name": "Date",
+    "name": "useState",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 91,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 92,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 93,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 94,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 95,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 98,
+    "description": "העדפות"
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 99,
+    "description": ""
+  },
+  {
+    "name": "useState",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 100,
     "description": ""
   },
   {
-    "name": "String",
+    "name": "useState",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 101,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 104,
+    "description": "חתימה"
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 105,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 106,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 107,
+    "description": ""
+  },
+  {
+    "name": "assertValidUser",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 110,
+    "description": "שמירה: עוזר ל־QA — ולידציה בסיסית"
+  },
+  {
+    "name": "assert",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 111,
     "description": ""
   },
   {
-    "name": "String",
+    "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 112,
     "description": ""
   },
   {
-    "name": "setUsers",
+    "name": "assert",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 116,
+    "line": 113,
     "description": ""
   },
   {
-    "name": "catch",
+    "name": "exist",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 117,
+    "line": 115,
     "description": ""
   },
   {
-    "name": "error",
+    "name": "fetchFirstPage",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 118,
+    "line": 121,
     "description": ""
   },
   {
-    "name": "useEffect",
+    "name": "setLoading",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 122,
     "description": ""
   },
   {
-    "name": "fetchUsers",
+    "name": "setServerSearchActive",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 123,
     "description": ""
   },
   {
-    "name": "handleSaveUser",
+    "name": "query",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 127,
-    "description": "שמירה/עדכון משתמש – כולל כל השדות + מחיקה מותנית של weeklyLimit"
+    "line": 126,
+    "description": "נטען רק לקוחות (ננסה לסנן בשרת אם יש שדות; אם חסר, נסנן בצד לקוח)"
   },
   {
-    "name": "if",
+    "name": "collection",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 127,
+    "description": ""
+  },
+  {
+    "name": "orderBy",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 128,
     "description": ""
   },
   {
-    "name": "setMessage",
+    "name": "fbLimit",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 129,
     "description": ""
   },
   {
-    "name": "existingUser",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 133,
-    "description": ""
-  },
-  {
-    "name": "parseInt",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 134,
-    "description": ""
-  },
-  {
-    "name": "String",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 140,
-    "description": ""
-  },
-  {
-    "name": "deleteField",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 141,
-    "description": ""
-  },
-  {
-    "name": "doc",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 144,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 150,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 165,
-    "description": ""
-  },
-  {
-    "name": "setDoc",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 169,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 171,
-    "description": ""
-  },
-  {
-    "name": "registerToMatchingClasses",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 172,
-    "description": ""
-  },
-  {
-    "name": "setMessage",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 178,
-    "description": ""
-  },
-  {
-    "name": "clearForm",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 179,
-    "description": ""
-  },
-  {
-    "name": "fetchUsers",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 180,
-    "description": ""
-  },
-  {
-    "name": "catch",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 181,
-    "description": ""
-  },
-  {
-    "name": "error",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 182,
-    "description": ""
-  },
-  {
-    "name": "setMessage",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 183,
-    "description": ""
-  },
-  {
-    "name": "registerToMatchingClasses",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 188,
-    "description": "רישום אוטומטי (לוגיקה שלך נשמרה 1:1)"
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 194,
-    "description": ""
-  },
-  {
-    "name": "setMessage",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 195,
-    "description": ""
-  },
-  {
     "name": "getDocs",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 199,
-    "description": ""
-  },
-  {
-    "name": "allClasses",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 200,
-    "description": ""
-  },
-  {
-    "name": "data",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 202,
-    "description": ""
-  },
-  {
-    "name": "query",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 205,
-    "description": ""
-  },
-  {
-    "name": "collection",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 206,
-    "description": ""
-  },
-  {
-    "name": "where",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 207,
-    "description": ""
-  },
-  {
-    "name": "getDocs",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 209,
-    "description": ""
-  },
-  {
-    "name": "userBookings",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 210,
-    "description": ""
-  },
-  {
-    "name": "data",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 212,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 215,
-    "description": ""
-  },
-  {
-    "name": "setHours",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 216,
-    "description": ""
-  },
-  {
-    "name": "futureClasses",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 217,
-    "description": ""
-  },
-  {
-    "name": "split",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 219,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 220,
-    "description": ""
-  },
-  {
-    "name": "setHours",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 221,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 233,
+    "line": 131,
     "description": ""
   },
   {
     "name": "forEach",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 234,
+    "line": 134,
     "description": ""
   },
   {
-    "name": "split",
+    "name": "data",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 235,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 236,
+    "line": 135,
     "description": ""
   },
   {
     "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 137,
+    "description": "סינון לקוחות בלבד בצד לקוח (למקרה וחסרים שדות בדאטה):"
+  },
+  {
+    "name": "push",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 139,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 145,
+    "description": ""
+  },
+  {
+    "name": "toLowerCase",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 148,
+    "description": ""
+  },
+  {
+    "name": "String",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 157,
+    "description": ""
+  },
+  {
+    "name": "String",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 158,
+    "description": ""
+  },
+  {
+    "name": "setUsers",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 162,
+    "description": ""
+  },
+  {
+    "name": "setHasMore",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 164,
+    "description": ""
+  },
+  {
+    "name": "setUpdatedAt",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 165,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 166,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 167,
+    "description": ""
+  },
+  {
+    "name": "setMessage",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 168,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 170,
+    "description": ""
+  },
+  {
+    "name": "fetchNextPage",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 175,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 176,
+    "description": ""
+  },
+  {
+    "name": "setLoadingMore",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 177,
+    "description": ""
+  },
+  {
+    "name": "query",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 179,
+    "description": ""
+  },
+  {
+    "name": "collection",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 180,
+    "description": ""
+  },
+  {
+    "name": "orderBy",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 181,
+    "description": ""
+  },
+  {
+    "name": "startAfter",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 182,
+    "description": ""
+  },
+  {
+    "name": "fbLimit",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 183,
+    "description": ""
+  },
+  {
+    "name": "getDocs",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 185,
+    "description": ""
+  },
+  {
+    "name": "forEach",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 187,
+    "description": ""
+  },
+  {
+    "name": "data",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 188,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 189,
+    "description": ""
+  },
+  {
+    "name": "push",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 190,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 196,
+    "description": ""
+  },
+  {
+    "name": "toLowerCase",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 199,
+    "description": ""
+  },
+  {
+    "name": "String",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 208,
+    "description": ""
+  },
+  {
+    "name": "String",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 209,
+    "description": ""
+  },
+  {
+    "name": "setUsers",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 212,
+    "description": ""
+  },
+  {
+    "name": "setHasMore",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 214,
+    "description": ""
+  },
+  {
+    "name": "setUpdatedAt",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 215,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 216,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 217,
+    "description": ""
+  },
+  {
+    "name": "setMessage",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 218,
+    "description": ""
+  },
+  {
+    "name": "setLoadingMore",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 220,
+    "description": ""
+  },
+  {
+    "name": "refreshAll",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 225,
+    "description": ""
+  },
+  {
+    "name": "setMessage",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 226,
+    "description": ""
+  },
+  {
+    "name": "fetchFirstPage",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 228,
+    "description": ""
+  },
+  {
+    "name": "useEffect",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 231,
+    "description": ""
+  },
+  {
+    "name": "fetchFirstPage",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 232,
+    "description": ""
+  },
+  {
+    "name": "useEffect",
+    "file": "src/pages/AdminUsersPanel.jsx",
     "line": 237,
     "description": ""
   },
   {
-    "name": "getWeekNumber",
+    "name": "doServerSearch",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 238,
     "description": ""
@@ -2900,53 +2960,65 @@
   {
     "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 239,
+    "description": ""
+  },
+  {
+    "name": "setServerSearchActive",
+    "file": "src/pages/AdminUsersPanel.jsx",
     "line": 240,
     "description": ""
   },
   {
-    "name": "push",
+    "name": "refreshAll",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 241,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "setLoading",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 243,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "setServerSearchActive",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 244,
+    "description": ""
+  },
+  {
+    "name": "setHasMore",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 245,
     "description": ""
   },
   {
-    "name": "push",
+    "name": "Map",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 246,
+    "line": 247,
     "description": ""
   },
   {
-    "name": "forEach",
+    "name": "query",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 250,
-    "description": ""
+    "description": "1) טלפון מדויק"
   },
   {
-    "name": "split",
+    "name": "getDocs",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 251,
     "description": ""
   },
   {
-    "name": "Date",
+    "name": "forEach",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 252,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "data",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 253,
     "description": ""
@@ -2954,251 +3026,269 @@
   {
     "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 254,
+    "description": ""
+  },
+  {
+    "name": "set",
+    "file": "src/pages/AdminUsersPanel.jsx",
     "line": 255,
     "description": ""
   },
   {
-    "name": "getWeekNumber",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 256,
-    "description": ""
-  },
-  {
-    "name": "if",
+    "name": "prefix",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 258,
     "description": ""
   },
   {
-    "name": "push",
+    "name": "toLowerCase",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 259,
-    "description": ""
+    "description": "2) nameLower prefix (דורש שנכתוב nameLower בשמירה/ייבוא)"
   },
   {
-    "name": "if",
+    "name": "query",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 261,
+    "description": "הערה: כדי שה־orderBy nameLower יעבוד, יש לוודא שהשדה קיים במסמכים או שיהיה אינדקס"
+  },
+  {
+    "name": "collection",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 262,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "orderBy",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 263,
     "description": ""
   },
   {
-    "name": "push",
+    "name": "startAt",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 264,
     "description": ""
   },
   {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 273,
-    "description": ""
-  },
-  {
-    "name": "split",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 278,
-    "description": ""
-  },
-  {
-    "name": "split",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 279,
-    "description": ""
-  },
-  {
-    "name": "split",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 280,
-    "description": ""
-  },
-  {
-    "name": "for",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 284,
-    "description": ""
-  },
-  {
-    "name": "split",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 286,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 287,
-    "description": ""
-  },
-  {
-    "name": "getWeekNumber",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 288,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 292,
-    "description": ""
-  },
-  {
-    "name": "Number",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 296,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 297,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 300,
-    "description": ""
-  },
-  {
-    "name": "Number",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 304,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 305,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 308,
-    "description": ""
-  },
-  {
-    "name": "getDay",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 315,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 316,
-    "description": ""
-  },
-  {
-    "name": "split",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 317,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 319,
-    "description": ""
-  },
-  {
-    "name": "query",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 320,
-    "description": ""
-  },
-  {
-    "name": "collection",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 321,
-    "description": ""
-  },
-  {
-    "name": "where",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 322,
-    "description": ""
-  },
-  {
-    "name": "where",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 323,
-    "description": ""
-  },
-  {
     "name": "getDocs",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 325,
+    "line": 269,
+    "description": ""
+  },
+  {
+    "name": "forEach",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 270,
+    "description": ""
+  },
+  {
+    "name": "data",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 271,
     "description": ""
   },
   {
     "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 326,
+    "line": 272,
     "description": ""
   },
   {
-    "name": "addDoc",
+    "name": "String",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 327,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 334,
-    "description": ""
-  },
-  {
-    "name": "setDoc",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 338,
+    "line": 274,
     "description": ""
   },
   {
     "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 344,
+    "line": 275,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "set",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 348,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 354,
+    "line": 276,
     "description": ""
   },
   {
     "name": "catch",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 358,
+    "line": 279,
+    "description": ""
+  },
+  {
+    "name": "warn",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 281,
+    "description": "אם אין אינדקס / שגיאה — נתעלם ונמשיך לסינון לקוח (למטה)"
+  },
+  {
+    "name": "from",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 284,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 290,
+    "description": ""
+  },
+  {
+    "name": "toLowerCase",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 293,
+    "description": ""
+  },
+  {
+    "name": "String",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 302,
+    "description": ""
+  },
+  {
+    "name": "String",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 303,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 307,
+    "description": "אם לא החזיר — ננסה סינון לוקאלי על מה שכבר נטען"
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 308,
+    "description": ""
+  },
+  {
+    "name": "toLowerCase",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 310,
+    "description": ""
+  },
+  {
+    "name": "includes",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 311,
+    "description": ""
+  },
+  {
+    "name": "setUsers",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 315,
+    "description": ""
+  },
+  {
+    "name": "setUpdatedAt",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 316,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 317,
     "description": ""
   },
   {
     "name": "error",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 359,
+    "line": 318,
+    "description": ""
+  },
+  {
+    "name": "setMessage",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 319,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 321,
+    "description": ""
+  },
+  {
+    "name": "doServerSearch",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 325,
+    "description": ""
+  },
+  {
+    "name": "handleSaveUser",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 330,
+    "description": ""
+  },
+  {
+    "name": "setMessage",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 331,
     "description": ""
   },
   {
     "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 363,
+    "line": 332,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "setMessage",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 333,
+    "description": ""
+  },
+  {
+    "name": "parseInt",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 336,
+    "description": ""
+  },
+  {
+    "name": "String",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 339,
+    "description": ""
+  },
+  {
+    "name": "deleteField",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 340,
+    "description": ""
+  },
+  {
+    "name": "doc",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 343,
+    "description": ""
+  },
+  {
+    "name": "String",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 348,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 349,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 361,
+    "description": ""
+  },
+  {
+    "name": "assertValidUser",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 364,
     "description": ""
@@ -3210,19 +3300,43 @@
     "description": ""
   },
   {
-    "name": "doc",
+    "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 366,
+    "line": 368,
+    "description": "רישום אוטומטי — נשמר 1:1"
+  },
+  {
+    "name": "registerToMatchingClasses",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 369,
     "description": ""
   },
   {
     "name": "setMessage",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 373,
+    "line": 374,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "clearForm",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 375,
+    "description": ""
+  },
+  {
+    "name": "refreshAll",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 376,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 377,
+    "description": ""
+  },
+  {
+    "name": "error",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 378,
     "description": ""
@@ -3234,21 +3348,15 @@
     "description": ""
   },
   {
+    "name": "registerToMatchingClasses",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 384,
+    "description": ""
+  },
+  {
     "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 382,
-    "description": ""
-  },
-  {
-    "name": "setMessage",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 383,
-    "description": ""
-  },
-  {
-    "name": "setMessage",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 388,
+    "line": 390,
     "description": ""
   },
   {
@@ -3258,346 +3366,298 @@
     "description": ""
   },
   {
-    "name": "catch",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 393,
-    "description": ""
-  },
-  {
-    "name": "error",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 394,
-    "description": ""
-  },
-  {
-    "name": "setMessage",
+    "name": "getDocs",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 395,
     "description": ""
   },
   {
-    "name": "getWeekNumber",
+    "name": "allClasses",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 400,
-    "description": "עזר – מספר שבוע בשנה"
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 401,
+    "line": 396,
     "description": ""
   },
   {
-    "name": "Date",
+    "name": "query",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 398,
+    "description": ""
+  },
+  {
+    "name": "collection",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 399,
+    "description": ""
+  },
+  {
+    "name": "where",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 400,
+    "description": ""
+  },
+  {
+    "name": "getDocs",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 402,
     "description": ""
   },
   {
-    "name": "floor",
+    "name": "userBookings",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 403,
     "description": ""
   },
   {
-    "name": "ceil",
+    "name": "Date",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 404,
+    "line": 405,
     "description": ""
   },
   {
-    "name": "clearForm",
+    "name": "setHours",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 408,
-    "description": "ניקוי טופס"
+    "line": 406,
+    "description": ""
   },
   {
-    "name": "setPhone",
+    "name": "futureClasses",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 407,
+    "description": ""
+  },
+  {
+    "name": "split",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 409,
     "description": ""
   },
   {
-    "name": "setName",
+    "name": "Date",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 410,
     "description": ""
   },
   {
-    "name": "setMembershipType",
+    "name": "setHours",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 411,
     "description": ""
   },
   {
-    "name": "setRemainingLessons",
+    "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 412,
+    "line": 422,
     "description": ""
   },
   {
-    "name": "setWeeklyLimit",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 413,
-    "description": ""
-  },
-  {
-    "name": "setEditingUserId",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 414,
-    "description": ""
-  },
-  {
-    "name": "setPreferredDays",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 415,
-    "description": ""
-  },
-  {
-    "name": "setPreferredStartTime",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 416,
-    "description": ""
-  },
-  {
-    "name": "setPreferredEndTime",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 417,
-    "description": ""
-  },
-  {
-    "name": "setAutoJoin",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 418,
-    "description": ""
-  },
-  {
-    "name": "setSignature",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 419,
-    "description": ""
-  },
-  {
-    "name": "handleEditUser",
+    "name": "forEach",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 423,
-    "description": "✅ עריכת משתמש – מלא, כולל פתיחת הטופס"
+    "description": ""
   },
   {
-    "name": "if",
+    "name": "split",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 424,
     "description": ""
   },
   {
-    "name": "setPhone",
+    "name": "Date",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 425,
+    "description": ""
+  },
+  {
+    "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 426,
     "description": ""
   },
   {
-    "name": "setName",
+    "name": "getWeekNumber",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 427,
     "description": ""
   },
   {
-    "name": "setMembershipType",
+    "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 428,
+    "line": 429,
     "description": ""
   },
   {
-    "name": "setRemainingLessons",
+    "name": "push",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 429,
+    "line": 430,
     "description": ""
   },
   {
     "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 432,
-    "description": "weeklyLimit לפי סוג מנוי"
-  },
-  {
-    "name": "setWeeklyLimit",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 433,
     "description": ""
   },
   {
-    "name": "String",
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 434,
+    "description": ""
+  },
+  {
+    "name": "push",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 435,
     "description": ""
   },
   {
-    "name": "String",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 436,
-    "description": ""
-  },
-  {
-    "name": "setWeeklyLimit",
+    "name": "forEach",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 439,
     "description": ""
   },
   {
-    "name": "setPreferredDays",
+    "name": "split",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 440,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 441,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 442,
+    "description": ""
+  },
+  {
+    "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 443,
-    "description": "העדפות ימים"
+    "description": ""
+  },
+  {
+    "name": "getWeekNumber",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 444,
+    "description": ""
   },
   {
     "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 446,
-    "description": "שעות – פירוק preferredTimeRange אם קיים"
+    "description": ""
   },
   {
-    "name": "split",
+    "name": "push",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 447,
     "description": ""
   },
   {
-    "name": "setPreferredStartTime",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 448,
-    "description": ""
-  },
-  {
-    "name": "setPreferredEndTime",
+    "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 449,
     "description": ""
   },
   {
-    "name": "setPreferredStartTime",
+    "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 451,
     "description": ""
   },
   {
-    "name": "setPreferredEndTime",
+    "name": "push",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 452,
     "description": ""
   },
   {
-    "name": "setAutoJoin",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 456,
-    "description": "רישום אוטומטי וחתימה"
-  },
-  {
-    "name": "setSignature",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 457,
-    "description": ""
-  },
-  {
-    "name": "setEditingUserId",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 460,
-    "description": "מזהה עריכה + פתיחת טופס"
-  },
-  {
-    "name": "setShowForm",
+    "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 461,
     "description": ""
   },
   {
-    "name": "handleDeleteUser",
+    "name": "split",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 465,
-    "description": "מחיקה"
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 466,
+    "line": 462,
     "description": ""
   },
   {
-    "name": "deleteDoc",
+    "name": "split",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 463,
+    "description": ""
+  },
+  {
+    "name": "split",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 464,
+    "description": ""
+  },
+  {
+    "name": "for",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 468,
     "description": ""
   },
   {
-    "name": "setMessage",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 469,
-    "description": ""
-  },
-  {
-    "name": "fetchUsers",
+    "name": "split",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 470,
     "description": ""
   },
   {
-    "name": "catch",
+    "name": "Date",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 471,
     "description": ""
   },
   {
-    "name": "error",
+    "name": "getWeekNumber",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 472,
     "description": ""
   },
   {
-    "name": "setMessage",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 473,
-    "description": ""
-  },
-  {
-    "name": "handleShowSignature",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 478,
-    "description": "הצגת חתימה במודל"
-  },
-  {
     "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 479,
+    "line": 476,
     "description": ""
   },
   {
-    "name": "alert",
+    "name": "Number",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 480,
     "description": ""
   },
   {
-    "name": "setCurrentUser",
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 481,
+    "description": ""
+  },
+  {
+    "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 483,
     "description": ""
   },
   {
-    "name": "setCurrentSignature",
+    "name": "Number",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 484,
+    "line": 487,
     "description": ""
   },
   {
-    "name": "setShowSignature",
+    "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 485,
+    "line": 488,
     "description": ""
-  },
-  {
-    "name": "handleCreatePDF",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 489,
-    "description": "יצירת PDF"
   },
   {
     "name": "if",
@@ -3606,543 +3666,1119 @@
     "description": ""
   },
   {
-    "name": "jsPDF",
+    "name": "getDay",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 492,
     "description": ""
   },
   {
-    "name": "setFont",
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 493,
+    "description": ""
+  },
+  {
+    "name": "split",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 494,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 496,
+    "description": ""
+  },
+  {
+    "name": "query",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 497,
     "description": ""
   },
   {
-    "name": "setFontSize",
+    "name": "collection",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 498,
     "description": ""
   },
   {
-    "name": "text",
+    "name": "where",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 499,
     "description": ""
   },
   {
-    "name": "setFont",
+    "name": "where",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 501,
+    "line": 500,
     "description": ""
   },
   {
-    "name": "setFontSize",
+    "name": "getDocs",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 502,
     "description": ""
   },
   {
-    "name": "text",
+    "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 503,
     "description": ""
   },
   {
-    "name": "text",
+    "name": "addDoc",
     "file": "src/pages/AdminUsersPanel.jsx",
     "line": 504,
     "description": ""
   },
   {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 506,
-    "description": ""
-  },
-  {
     "name": "Date",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 507,
-    "description": ""
-  },
-  {
-    "name": "toLocaleDateString",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 508,
-    "description": ""
-  },
-  {
-    "name": "text",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 509,
-    "description": ""
-  },
-  {
-    "name": "setFont",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 512,
-    "description": ""
-  },
-  {
-    "name": "text",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 513,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 515,
-    "description": ""
-  },
-  {
-    "name": "addImage",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 516,
-    "description": ""
-  },
-  {
-    "name": "save",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 526,
-    "description": ""
-  },
-  {
-    "name": "catch",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 527,
-    "description": ""
-  },
-  {
-    "name": "error",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 528,
-    "description": ""
-  },
-  {
-    "name": "handleCloseSignature",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 532,
-    "description": ""
-  },
-  {
-    "name": "setShowSignature",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 533,
-    "description": ""
-  },
-  {
-    "name": "setTimeout",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 534,
-    "description": ""
-  },
-  {
-    "name": "setCurrentSignature",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 535,
-    "description": ""
-  },
-  {
-    "name": "setCurrentUser",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 536,
-    "description": ""
-  },
-  {
-    "name": "filter",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 541,
-    "description": "חיפוש"
-  },
-  {
-    "name": "toLowerCase",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 543,
-    "description": ""
-  },
-  {
-    "name": "includes",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 544,
-    "description": ""
-  },
-  {
-    "name": "handleUploadJSON",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 550,
-    "description": "העלאת JSON – תשלים שדות חסרים ותעדכן/תמחק weeklyLimit לפי סוג מנוי"
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 552,
-    "description": ""
-  },
-  {
-    "name": "FileReader",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 555,
-    "description": ""
-  },
-  {
-    "name": "async",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 556,
-    "description": ""
-  },
-  {
-    "name": "parse",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 557,
-    "description": ""
-  },
-  {
-    "name": "isArray",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 558,
-    "description": ""
-  },
-  {
-    "name": "values",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 560,
-    "description": ""
-  },
-  {
-    "name": "for",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 562,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 563,
-    "description": ""
-  },
-  {
-    "name": "doc",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 564,
+    "line": 511,
     "description": ""
   },
   {
     "name": "setDoc",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 570,
+    "line": 514,
     "description": ""
   },
   {
-    "name": "String",
+    "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 579,
+    "line": 516,
     "description": ""
   },
   {
-    "name": "deleteField",
+    "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 580,
+    "line": 519,
     "description": ""
   },
   {
-    "name": "Date",
+    "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 589,
-    "description": ""
-  },
-  {
-    "name": "setMessage",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 595,
-    "description": ""
-  },
-  {
-    "name": "fetchUsers",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 596,
-    "description": ""
-  },
-  {
-    "name": "readAsText",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 598,
+    "line": 522,
     "description": ""
   },
   {
     "name": "catch",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 599,
+    "line": 526,
     "description": ""
   },
   {
     "name": "error",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 600,
+    "line": 527,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 531,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 532,
+    "description": ""
+  },
+  {
+    "name": "setDoc",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 533,
+    "description": ""
+  },
+  {
+    "name": "doc",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 534,
     "description": ""
   },
   {
     "name": "setMessage",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 601,
-    "description": ""
-  },
-  {
-    "name": "checkAdmin",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 606,
-    "description": "(מעקף זמני – גישה פתוחה)"
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 608,
-    "description": ""
-  },
-  {
-    "name": "return",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 609,
-    "description": ""
-  },
-  {
-    "name": "return",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 617,
-    "description": ""
-  },
-  {
-    "name": "setShowForm",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 632,
+    "line": 538,
     "description": ""
   },
   {
     "name": "if",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 633,
+    "line": 541,
     "description": ""
   },
   {
-    "name": "navigate",
+    "name": "setMessage",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 641,
+    "line": 542,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 543,
+    "description": ""
+  },
+  {
+    "name": "setMessage",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 544,
+    "description": ""
+  },
+  {
+    "name": "setMessage",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 547,
+    "description": ""
+  },
+  {
+    "name": "setMessage",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 550,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 552,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 553,
+    "description": ""
+  },
+  {
+    "name": "setMessage",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 554,
+    "description": ""
+  },
+  {
+    "name": "getWeekNumber",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 558,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 559,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 560,
+    "description": ""
+  },
+  {
+    "name": "floor",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 561,
+    "description": ""
+  },
+  {
+    "name": "ceil",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 562,
+    "description": ""
+  },
+  {
+    "name": "clearForm",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 565,
     "description": ""
   },
   {
     "name": "setPhone",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 669,
+    "line": 566,
     "description": ""
   },
   {
     "name": "setName",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 676,
+    "line": 567,
     "description": ""
   },
   {
     "name": "setMembershipType",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 684,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 686,
+    "line": 568,
     "description": ""
   },
   {
     "name": "setRemainingLessons",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 687,
+    "line": 569,
     "description": ""
   },
   {
     "name": "setWeeklyLimit",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 688,
+    "line": 570,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "setEditingUserId",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 690,
-    "description": ""
-  },
-  {
-    "name": "setRemainingLessons",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 691,
-    "description": ""
-  },
-  {
-    "name": "setWeeklyLimit",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 692,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 694,
-    "description": ""
-  },
-  {
-    "name": "setRemainingLessons",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 695,
-    "description": ""
-  },
-  {
-    "name": "setWeeklyLimit",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 696,
-    "description": ""
-  },
-  {
-    "name": "setRemainingLessons",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 713,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 714,
-    "description": ""
-  },
-  {
-    "name": "setWeeklyLimit",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 715,
-    "description": ""
-  },
-  {
-    "name": "setShowAdvanced",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 723,
-    "description": ""
-  },
-  {
-    "name": "map",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 745,
-    "description": ""
-  },
-  {
-    "name": "includes",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 750,
-    "description": ""
-  },
-  {
-    "name": "includes",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 758,
-    "description": ""
-  },
-  {
-    "name": "includes",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 760,
+    "line": 571,
     "description": ""
   },
   {
     "name": "setPreferredDays",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 761,
-    "description": ""
-  },
-  {
-    "name": "filter",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 762,
-    "description": ""
-  },
-  {
-    "name": "setPreferredDays",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 764,
+    "line": 572,
     "description": ""
   },
   {
     "name": "setPreferredStartTime",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 779,
+    "line": 573,
     "description": ""
   },
   {
     "name": "setPreferredEndTime",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 788,
+    "line": 574,
     "description": ""
   },
   {
     "name": "setAutoJoin",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 798,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 810,
-    "description": ""
-  },
-  {
-    "name": "resizeImage",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 811,
+    "line": 575,
     "description": ""
   },
   {
     "name": "setSignature",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 812,
-    "description": ""
-  },
-  {
-    "name": "setSearch",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 836,
-    "description": ""
-  },
-  {
-    "name": "map",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 841,
-    "description": ""
-  },
-  {
-    "name": "String",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 857,
-    "description": ""
-  },
-  {
-    "name": "map",
-    "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 865,
+    "line": 576,
     "description": ""
   },
   {
     "name": "handleEditUser",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 873,
+    "line": 580,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 581,
+    "description": ""
+  },
+  {
+    "name": "setPhone",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 582,
+    "description": ""
+  },
+  {
+    "name": "setName",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 583,
+    "description": ""
+  },
+  {
+    "name": "setMembershipType",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 584,
+    "description": ""
+  },
+  {
+    "name": "setRemainingLessons",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 585,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 586,
+    "description": ""
+  },
+  {
+    "name": "setWeeklyLimit",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 587,
+    "description": ""
+  },
+  {
+    "name": "String",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 588,
+    "description": ""
+  },
+  {
+    "name": "setWeeklyLimit",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 591,
+    "description": ""
+  },
+  {
+    "name": "setPreferredDays",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 593,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 594,
+    "description": ""
+  },
+  {
+    "name": "split",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 595,
+    "description": ""
+  },
+  {
+    "name": "setPreferredStartTime",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 596,
+    "description": ""
+  },
+  {
+    "name": "setPreferredEndTime",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 597,
+    "description": ""
+  },
+  {
+    "name": "setPreferredStartTime",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 599,
+    "description": ""
+  },
+  {
+    "name": "setPreferredEndTime",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 600,
+    "description": ""
+  },
+  {
+    "name": "setAutoJoin",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 602,
+    "description": ""
+  },
+  {
+    "name": "setSignature",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 603,
+    "description": ""
+  },
+  {
+    "name": "setEditingUserId",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 604,
+    "description": ""
+  },
+  {
+    "name": "setShowForm",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 605,
+    "description": ""
+  },
+  {
+    "name": "scrollTo",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 606,
     "description": ""
   },
   {
     "name": "handleDeleteUser",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 879,
+    "line": 610,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 611,
+    "description": ""
+  },
+  {
+    "name": "deleteDoc",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 613,
+    "description": ""
+  },
+  {
+    "name": "setMessage",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 614,
+    "description": ""
+  },
+  {
+    "name": "refreshAll",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 615,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 616,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 617,
+    "description": ""
+  },
+  {
+    "name": "setMessage",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 618,
+    "description": ""
+  },
+  {
+    "name": "handleShowSignature",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 623,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 624,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 628,
+    "description": ""
+  },
+  {
+    "name": "getDoc",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 630,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 631,
+    "description": ""
+  },
+  {
+    "name": "data",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 632,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 636,
+    "description": ""
+  },
+  {
+    "name": "warn",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 637,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 641,
+    "description": ""
+  },
+  {
+    "name": "alert",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 642,
+    "description": ""
+  },
+  {
+    "name": "setCurrentUser",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 645,
+    "description": ""
+  },
+  {
+    "name": "setCurrentSignature",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 646,
+    "description": ""
+  },
+  {
+    "name": "setShowSignature",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 647,
     "description": ""
   },
   {
     "name": "handleCreatePDF",
     "file": "src/pages/AdminUsersPanel.jsx",
-    "line": 901,
+    "line": 651,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 652,
+    "description": ""
+  },
+  {
+    "name": "jsPDF",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 654,
+    "description": ""
+  },
+  {
+    "name": "setFont",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 659,
+    "description": ""
+  },
+  {
+    "name": "setFontSize",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 660,
+    "description": ""
+  },
+  {
+    "name": "text",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 661,
+    "description": ""
+  },
+  {
+    "name": "setFont",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 663,
+    "description": ""
+  },
+  {
+    "name": "setFontSize",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 664,
+    "description": ""
+  },
+  {
+    "name": "text",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 665,
+    "description": ""
+  },
+  {
+    "name": "text",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 666,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 668,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 669,
+    "description": ""
+  },
+  {
+    "name": "toLocaleDateString",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 670,
+    "description": ""
+  },
+  {
+    "name": "text",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 671,
+    "description": ""
+  },
+  {
+    "name": "setFont",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 674,
+    "description": ""
+  },
+  {
+    "name": "text",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 675,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 677,
+    "description": ""
+  },
+  {
+    "name": "addImage",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 678,
+    "description": ""
+  },
+  {
+    "name": "save",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 681,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 682,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 683,
+    "description": ""
+  },
+  {
+    "name": "handleCloseSignature",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 687,
+    "description": ""
+  },
+  {
+    "name": "setShowSignature",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 688,
+    "description": ""
+  },
+  {
+    "name": "setTimeout",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 689,
+    "description": ""
+  },
+  {
+    "name": "setCurrentSignature",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 690,
+    "description": ""
+  },
+  {
+    "name": "setCurrentUser",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 691,
+    "description": ""
+  },
+  {
+    "name": "handleUploadJSON",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 696,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 698,
+    "description": ""
+  },
+  {
+    "name": "FileReader",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 700,
+    "description": ""
+  },
+  {
+    "name": "async",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 701,
+    "description": ""
+  },
+  {
+    "name": "parse",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 702,
+    "description": ""
+  },
+  {
+    "name": "isArray",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 703,
+    "description": ""
+  },
+  {
+    "name": "for",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 704,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 705,
+    "description": ""
+  },
+  {
+    "name": "doc",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 706,
+    "description": ""
+  },
+  {
+    "name": "setDoc",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 710,
+    "description": ""
+  },
+  {
+    "name": "String",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 716,
+    "description": ""
+  },
+  {
+    "name": "String",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 719,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 728,
+    "description": ""
+  },
+  {
+    "name": "setMessage",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 733,
+    "description": ""
+  },
+  {
+    "name": "refreshAll",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 734,
+    "description": ""
+  },
+  {
+    "name": "readAsText",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 736,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 737,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 738,
+    "description": ""
+  },
+  {
+    "name": "setMessage",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 739,
+    "description": ""
+  },
+  {
+    "name": "checkAdmin",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 743,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 744,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 745,
+    "description": ""
+  },
+  {
+    "name": "filteredUsers",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 756,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 757,
+    "description": ""
+  },
+  {
+    "name": "toLowerCase",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 758,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 759,
+    "description": ""
+  },
+  {
+    "name": "toLowerCase",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 760,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 764,
+    "description": ""
+  },
+  {
+    "name": "setShowForm",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 773,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 774,
+    "description": ""
+  },
+  {
+    "name": "navigate",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 799,
+    "description": ""
+  },
+  {
+    "name": "setSearch",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 813,
+    "description": ""
+  },
+  {
+    "name": "toLocaleTimeString",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 819,
+    "description": ""
+  },
+  {
+    "name": "setPhone",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 840,
+    "description": ""
+  },
+  {
+    "name": "setName",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 847,
+    "description": ""
+  },
+  {
+    "name": "setMembershipType",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 855,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 856,
+    "description": ""
+  },
+  {
+    "name": "setRemainingLessons",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 857,
+    "description": ""
+  },
+  {
+    "name": "setWeeklyLimit",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 858,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 860,
+    "description": ""
+  },
+  {
+    "name": "setRemainingLessons",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 861,
+    "description": ""
+  },
+  {
+    "name": "setWeeklyLimit",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 862,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 864,
+    "description": ""
+  },
+  {
+    "name": "setRemainingLessons",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 865,
+    "description": ""
+  },
+  {
+    "name": "setWeeklyLimit",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 866,
+    "description": ""
+  },
+  {
+    "name": "setRemainingLessons",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 883,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 884,
+    "description": ""
+  },
+  {
+    "name": "setWeeklyLimit",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 885,
+    "description": ""
+  },
+  {
+    "name": "setShowAdvanced",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 893,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 915,
+    "description": ""
+  },
+  {
+    "name": "includes",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 919,
+    "description": ""
+  },
+  {
+    "name": "includes",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 927,
+    "description": ""
+  },
+  {
+    "name": "includes",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 929,
+    "description": ""
+  },
+  {
+    "name": "setPreferredDays",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 930,
+    "description": ""
+  },
+  {
+    "name": "setPreferredDays",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 931,
+    "description": ""
+  },
+  {
+    "name": "setPreferredStartTime",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 945,
+    "description": ""
+  },
+  {
+    "name": "setPreferredEndTime",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 954,
+    "description": ""
+  },
+  {
+    "name": "setAutoJoin",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 961,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 972,
+    "description": ""
+  },
+  {
+    "name": "resizeImage",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 973,
+    "description": ""
+  },
+  {
+    "name": "from",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1001,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1007,
+    "description": ""
+  },
+  {
+    "name": "String",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1023,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1031,
+    "description": ""
+  },
+  {
+    "name": "handleShowSignature",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1039,
+    "description": ""
+  },
+  {
+    "name": "handleEditUser",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1045,
+    "description": ""
+  },
+  {
+    "name": "handleDeleteUser",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1051,
+    "description": ""
+  },
+  {
+    "name": "handleCreatePDF",
+    "file": "src/pages/AdminUsersPanel.jsx",
+    "line": 1087,
     "description": ""
   },
   {
