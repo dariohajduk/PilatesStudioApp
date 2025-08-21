@@ -5646,231 +5646,627 @@
     "description": ""
   },
   {
-    "name": "AdminHealthDeclarations",
+    "name": "isManager",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 8,
+    "line": 25,
     "description": ""
   },
   {
-    "name": "useState",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 9,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 10,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 11,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 12,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 13,
-    "description": ""
-  },
-  {
-    "name": "useEffect",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 15,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 16,
-    "description": ""
-  },
-  {
-    "name": "fetchUsersAndDeclarations",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 18,
-    "description": ""
-  },
-  {
-    "name": "getDocs",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 21,
-    "description": "שלב 1: טען את כל המשתמשים שאינם מנהלים או מדריכים"
-  },
-  {
-    "name": "map",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 23,
-    "description": ""
-  },
-  {
-    "name": "filter",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 24,
-    "description": ""
-  },
-  {
-    "name": "getDocs",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 27,
-    "description": "שלב 2: טען את כל העובדים עם הצהרה חתומה"
-  },
-  {
-    "name": "employees",
+    "name": "fmtDate",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 28,
     "description": ""
   },
   {
-    "name": "data",
+    "name": "if",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 30,
     "description": ""
   },
   {
-    "name": "map",
+    "name": "toDate",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 35,
+    "line": 32,
     "description": ""
   },
   {
-    "name": "employeeDoc",
+    "name": "toLocaleString",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 36,
+    "line": 33,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "debounce",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 37,
+    "line": 39,
     "description": ""
   },
   {
-    "name": "filter",
+    "name": "return",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 46,
+    "line": 41,
     "description": ""
   },
   {
-    "name": "filter",
+    "name": "clearTimeout",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 48,
+    "line": 42,
     "description": ""
   },
   {
-    "name": "find",
+    "name": "setTimeout",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 49,
+    "line": 43,
     "description": ""
   },
   {
-    "name": "setSignedUsers",
+    "name": "CardSkeleton",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 52,
+    "line": 50,
     "description": ""
   },
   {
-    "name": "setUnsignedUsers",
+    "name": "AdminHealthDeclarations",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 53,
+    "line": 58,
     "description": ""
   },
   {
-    "name": "catch",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 54,
-    "description": ""
-  },
-  {
-    "name": "error",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 55,
-    "description": ""
-  },
-  {
-    "name": "error",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 56,
-    "description": ""
-  },
-  {
-    "name": "fetchUsersAndDeclarations",
+    "name": "useState",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 60,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "useState",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 61,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 62,
+    "description": ""
+  },
+  {
+    "name": "useState",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 63,
     "description": ""
   },
   {
-    "name": "return",
+    "name": "useState",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 64,
     "description": ""
   },
   {
-    "name": "filter",
+    "name": "useState",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 71,
+    "line": 65,
     "description": ""
   },
   {
-    "name": "toLowerCase",
+    "name": "useState",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 66,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 67,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 68,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 69,
+    "description": ""
+  },
+  {
+    "name": "useEffect",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 72,
     "description": ""
   },
   {
-    "name": "return",
+    "name": "if",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 73,
+    "description": ""
+  },
+  {
+    "name": "run",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 74,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 75,
     "description": ""
   },
   {
-    "name": "setShowUnsigned",
+    "name": "getDocs",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 94,
-    "description": ""
-  },
-  {
-    "name": "setSearchTerm",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 108,
+    "line": 77,
     "description": ""
   },
   {
     "name": "map",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 115,
+    "line": 79,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 80,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 81,
+    "description": ""
+  },
+  {
+    "name": "setUsersRaw",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 88,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 89,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 90,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 91,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 93,
+    "description": ""
+  },
+  {
+    "name": "run",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 96,
+    "description": ""
+  },
+  {
+    "name": "useEffect",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 100,
+    "description": "Debounce לחיפוש"
+  },
+  {
+    "name": "d",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 101,
+    "description": ""
+  },
+  {
+    "name": "d",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 102,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 103,
+    "description": ""
+  },
+  {
+    "name": "useMemo",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 107,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 108,
+    "description": ""
+  },
+  {
+    "name": "useMemo",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 111,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 112,
+    "description": ""
+  },
+  {
+    "name": "filtered",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 117,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 118,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 119,
+    "description": ""
+  },
+  {
+    "name": "toLowerCase",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 121,
+    "description": ""
+  },
+  {
+    "name": "includes",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 122,
+    "description": ""
+  },
+  {
+    "name": "useMemo",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 126,
+    "description": ""
+  },
+  {
+    "name": "slice",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 127,
+    "description": ""
+  },
+  {
+    "name": "useEffect",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 131,
+    "description": ""
+  },
+  {
+    "name": "setVisibleCount",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 133,
+    "description": "כשמשנים לשונית/חיפוש – לאפס פאגינציה"
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 136,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 137,
+    "description": ""
+  },
+  {
+    "name": "refresh",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 147,
+    "description": "רענון מלא (Users בלבד)"
+  },
+  {
+    "name": "setRefreshing",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 148,
+    "description": ""
+  },
+  {
+    "name": "getDocs",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 150,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 152,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 153,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 154,
+    "description": ""
+  },
+  {
+    "name": "setUsersRaw",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 161,
+    "description": ""
+  },
+  {
+    "name": "success",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 162,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 163,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 164,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 165,
+    "description": ""
+  },
+  {
+    "name": "setRefreshing",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 167,
+    "description": ""
+  },
+  {
+    "name": "openDeclaration",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 174,
+    "description": "אם אין — נטען employees/{phone} נקודתית ונציג; אופציונלי: קאש חזרה ל-Users."
+  },
+  {
+    "name": "setSelectedUserName",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 175,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 177,
+    "description": "קודם לבדוק האם יש כבר ב-Users"
+  },
+  {
+    "name": "setSelectedImage",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 178,
+    "description": ""
+  },
+  {
+    "name": "setHydrating",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 182,
+    "description": "טעינה נקודתית מ-employees"
+  },
+  {
+    "name": "doc",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 184,
+    "description": ""
+  },
+  {
+    "name": "getDoc",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 185,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 186,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 187,
+    "description": ""
+  },
+  {
+    "name": "setHydrating",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 188,
+    "description": ""
+  },
+  {
+    "name": "data",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 191,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 194,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 195,
+    "description": ""
+  },
+  {
+    "name": "setHydrating",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 196,
+    "description": ""
+  },
+  {
+    "name": "setSelectedImage",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 200,
+    "description": "פותחים תצוגה"
+  },
+  {
+    "name": "Users",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 202,
+    "description": ""
+  },
+  {
+    "name": "setDoc",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 204,
+    "description": ""
+  },
+  {
+    "name": "doc",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 205,
     "description": ""
   },
   {
     "name": "Date",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 130,
+    "line": 208,
+    "description": ""
+  },
+  {
+    "name": "setUsersRaw",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 213,
+    "description": "עדכון לוקאלי ברשימה (כדי לעדכן מיידית בטבלת \"חתומים\")"
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 214,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 215,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 218,
+    "description": ""
+  },
+  {
+    "name": "warn",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 219,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 221,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 222,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 223,
+    "description": ""
+  },
+  {
+    "name": "setHydrating",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 225,
+    "description": ""
+  },
+  {
+    "name": "loadMore",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 229,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 232,
+    "description": ""
+  },
+  {
+    "name": "setTab",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 249,
+    "description": ""
+  },
+  {
+    "name": "setTab",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 263,
+    "description": ""
+  },
+  {
+    "name": "setQ",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 284,
+    "description": ""
+  },
+  {
+    "name": "from",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 327,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 335,
+    "description": ""
+  },
+  {
+    "name": "fmtDate",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 361,
+    "description": ""
+  },
+  {
+    "name": "openDeclaration",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 366,
     "description": ""
   },
   {
     "name": "setSelectedImage",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 135,
-    "description": ""
-  },
-  {
-    "name": "setSelectedImage",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 154,
+    "line": 402,
     "description": ""
   },
   {
@@ -7896,753 +8292,1863 @@
     "description": ""
   },
   {
-    "name": "AdminCancellationsPage",
+    "name": "pad",
     "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 26,
+    "line": 37,
     "description": ""
   },
   {
-    "name": "useState",
+    "name": "toYMD",
     "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 28,
-    "description": "סטייטים כלליים"
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 29,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 30,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 31,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 32,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 33,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 34,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 35,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 36,
-    "description": ""
-  },
-  {
-    "name": "useEffect",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 39,
-    "description": "שליפת הנתונים מ-Firestore וקיבוץ לפי תאריך שיעור"
-  },
-  {
-    "name": "fetchCancellations",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 40,
-    "description": ""
-  },
-  {
-    "name": "getDocs",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 41,
-    "description": ""
-  },
-  {
-    "name": "getDocs",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 42,
-    "description": ""
-  },
-  {
-    "name": "Set",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 44,
-    "description": ""
-  },
-  {
-    "name": "forEach",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 47,
-    "description": ""
-  },
-  {
-    "name": "data",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 48,
-    "description": ""
-  },
-  {
-    "name": "forEach",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 51,
-    "description": ""
-  },
-  {
-    "name": "data",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 52,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 54,
-    "description": ""
-  },
-  {
-    "name": "parse",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 55,
+    "line": 38,
     "description": ""
   },
   {
     "name": "getFullYear",
     "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 56,
+    "line": 39,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "fromDaysAgo",
     "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 58,
-    "description": ""
-  },
-  {
-    "name": "getWeek",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 59,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 61,
-    "description": ""
-  },
-  {
-    "name": "getMonth",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 62,
-    "description": ""
-  },
-  {
-    "name": "format",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 64,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 66,
-    "description": ""
-  },
-  {
-    "name": "push",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 67,
-    "description": ""
-  },
-  {
-    "name": "toDate",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 72,
-    "description": ""
-  },
-  {
-    "name": "add",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 77,
-    "description": ""
-  },
-  {
-    "name": "keys",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 80,
-    "description": ""
-  },
-  {
-    "name": "sort",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 81,
-    "description": ""
-  },
-  {
-    "name": "parse",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 82,
+    "line": 40,
     "description": ""
   },
   {
     "name": "Date",
     "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 85,
+    "line": 41,
     "description": ""
   },
   {
-    "name": "parse",
+    "name": "setDate",
     "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 87,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 90,
-    "description": ""
-  },
-  {
-    "name": "setUsersMap",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 96,
-    "description": ""
-  },
-  {
-    "name": "setUsersWithCancellations",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 97,
-    "description": ""
-  },
-  {
-    "name": "setCancellationsByGroup",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 98,
-    "description": ""
-  },
-  {
-    "name": "setLoading",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 99,
-    "description": ""
-  },
-  {
-    "name": "fetchCancellations",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 102,
-    "description": ""
-  },
-  {
-    "name": "filteredResults",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 106,
-    "description": "סינון תוצאות לפי שם או סיבה"
-  },
-  {
-    "name": "filter",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 107,
-    "description": ""
-  },
-  {
-    "name": "toLowerCase",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 109,
-    "description": ""
-  },
-  {
-    "name": "toLowerCase",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 110,
-    "description": ""
-  },
-  {
-    "name": "handleEditReason",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 114,
-    "description": "✅ פונקציית עריכה בסיסית לסיבה"
-  },
-  {
-    "name": "prompt",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 115,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 116,
-    "description": ""
-  },
-  {
-    "name": "updateDoc",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 118,
-    "description": ""
-  },
-  {
-    "name": "success",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 119,
-    "description": ""
-  },
-  {
-    "name": "setCancellationsByGroup",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 120,
-    "description": ""
-  },
-  {
-    "name": "for",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 122,
-    "description": ""
-  },
-  {
-    "name": "map",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 123,
-    "description": ""
-  },
-  {
-    "name": "catch",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 129,
-    "description": ""
-  },
-  {
-    "name": "error",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 130,
-    "description": ""
-  },
-  {
-    "name": "handleDeleteCancellation",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 135,
-    "description": "✅ מחיקה מלאה של הביטול"
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 136,
-    "description": ""
-  },
-  {
-    "name": "deleteDoc",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 138,
-    "description": ""
-  },
-  {
-    "name": "success",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 139,
-    "description": ""
-  },
-  {
-    "name": "setCancellationsByGroup",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 140,
-    "description": ""
-  },
-  {
-    "name": "for",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 142,
-    "description": ""
-  },
-  {
-    "name": "filtered",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 143,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 144,
-    "description": ""
-  },
-  {
-    "name": "catch",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 148,
-    "description": ""
-  },
-  {
-    "name": "error",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 149,
-    "description": ""
-  },
-  {
-    "name": "return",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 153,
-    "description": ""
-  },
-  {
-    "name": "setFilterType",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 165,
-    "description": ""
-  },
-  {
-    "name": "setSelectedUser",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 174,
-    "description": ""
-  },
-  {
-    "name": "map",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 177,
-    "description": ""
-  },
-  {
-    "name": "setSearchTerm",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 188,
-    "description": ""
-  },
-  {
-    "name": "entries",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 197,
-    "description": ""
-  },
-  {
-    "name": "split",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 202,
-    "description": ""
-  },
-  {
-    "name": "split",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 204,
-    "description": ""
-  },
-  {
-    "name": "filteredResults",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 222,
-    "description": ""
-  },
-  {
-    "name": "includes",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 235,
-    "description": ""
-  },
-  {
-    "name": "formatDistanceToNow",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 245,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 246,
-    "description": ""
-  },
-  {
-    "name": "handleEditReason",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 260,
-    "description": ""
-  },
-  {
-    "name": "handleDeleteCancellation",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 267,
-    "description": ""
-  },
-  {
-    "name": "filteredResults",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 284,
-    "description": ""
-  },
-  {
-    "name": "handleEditReason",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 299,
-    "description": ""
-  },
-  {
-    "name": "handleDeleteCancellation",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 305,
-    "description": ""
-  },
-  {
-    "name": "formatDistanceToNow",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 323,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/AdminCancellationsPage.jsx",
-    "line": 324,
-    "description": ""
-  },
-  {
-    "name": "AdminBookingOverview",
-    "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 26,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 27,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 28,
-    "description": ""
-  },
-  {
-    "name": "useEffect",
-    "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 30,
-    "description": ""
-  },
-  {
-    "name": "fetchData",
-    "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 31,
-    "description": ""
-  },
-  {
-    "name": "setLoading",
-    "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 32,
-    "description": ""
-  },
-  {
-    "name": "getDocs",
-    "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 33,
-    "description": ""
-  },
-  {
-    "name": "getDocs",
-    "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 34,
-    "description": ""
-  },
-  {
-    "name": "forEach",
-    "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 37,
-    "description": ""
-  },
-  {
-    "name": "data",
-    "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 38,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminBookingOverview.jsx",
     "line": 42,
-    "description": "תומך גם ב-Firebase Timestamp וגם במחרוזת"
+    "description": ""
   },
   {
-    "name": "toDate",
-    "file": "src/pages/AdminBookingOverview.jsx",
+    "name": "setHours",
+    "file": "src/pages/AdminCancellationsPage.jsx",
     "line": 43,
     "description": ""
   },
   {
-    "name": "if",
-    "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 44,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 45,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminBookingOverview.jsx",
+    "name": "todayEnd",
+    "file": "src/pages/AdminCancellationsPage.jsx",
     "line": 46,
     "description": ""
   },
   {
-    "name": "String",
-    "file": "src/pages/AdminBookingOverview.jsx",
+    "name": "Date",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 47,
+    "description": ""
+  },
+  {
+    "name": "setHours",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 48,
+    "description": ""
+  },
+  {
+    "name": "parseDMY",
+    "file": "src/pages/AdminCancellationsPage.jsx",
     "line": 51,
     "description": ""
   },
   {
     "name": "if",
-    "file": "src/pages/AdminBookingOverview.jsx",
+    "file": "src/pages/AdminCancellationsPage.jsx",
     "line": 52,
     "description": ""
   },
   {
+    "name": "parse",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 54,
+    "description": ""
+  },
+  {
+    "name": "isNaN",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 55,
+    "description": ""
+  },
+  {
+    "name": "weekKey",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 60,
+    "description": ""
+  },
+  {
+    "name": "monthKey",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 61,
+    "description": ""
+  },
+  {
+    "name": "doc",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 65,
+    "description": ""
+  },
+  {
+    "name": "AdminCancellationsPage",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 72,
+    "description": ""
+  },
+  {
+    "name": "Filters",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 73,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 74,
+    "description": "Filters (טווח לפי תאריך שיעור – לא לפי cancelledAt)"
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 75,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 77,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 78,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 79,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 80,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 83,
+    "description": "Data"
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 84,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 85,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 86,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 87,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 89,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 90,
+    "description": "Users map (id -> name)"
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 91,
+    "description": ""
+  },
+  {
+    "name": "once",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 93,
+    "description": ""
+  },
+  {
+    "name": "useEffect",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 94,
+    "description": "---------- Load users once (names) ----------"
+  },
+  {
+    "name": "loadUsers",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 95,
+    "description": ""
+  },
+  {
+    "name": "getDocs",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 97,
+    "description": ""
+  },
+  {
     "name": "forEach",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 99,
+    "description": ""
+  },
+  {
+    "name": "setUsersMap",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 100,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 101,
+    "description": ""
+  },
+  {
+    "name": "warn",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 102,
+    "description": ""
+  },
+  {
+    "name": "loadUsers",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 105,
+    "description": ""
+  },
+  {
+    "name": "cancelFrom",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 110,
+    "description": "כדי למשוך הכל אבל לא להגזים, נמתח את חלון ה-cancelledAt מעט מסביב לטווח השיעור"
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 111,
+    "description": ""
+  },
+  {
+    "name": "setDate",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 112,
+    "description": ""
+  },
+  {
+    "name": "setHours",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 113,
+    "description": ""
+  },
+  {
+    "name": "cancelTo",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 117,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 118,
+    "description": ""
+  },
+  {
+    "name": "setDate",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 119,
+    "description": ""
+  },
+  {
+    "name": "setHours",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 120,
+    "description": ""
+  },
+  {
+    "name": "resetPaging",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 124,
+    "description": ""
+  },
+  {
+    "name": "setRows",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 125,
+    "description": ""
+  },
+  {
+    "name": "setNextCursor",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 126,
+    "description": ""
+  },
+  {
+    "name": "setLegacyUsed",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 127,
+    "description": ""
+  },
+  {
+    "name": "cancelledAt",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 130,
+    "description": ""
+  },
+  {
+    "name": "fetchPage",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 131,
+    "description": "---------- Fetch page using cancelledAt (no composite index needed) ----------"
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 133,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 134,
+    "description": ""
+  },
+  {
+    "name": "resetPaging",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 135,
+    "description": ""
+  },
+  {
+    "name": "setLoadingMore",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 137,
+    "description": ""
+  },
+  {
+    "name": "collection",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 140,
+    "description": ""
+  },
+  {
+    "name": "where",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 142,
+    "description": ""
+  },
+  {
+    "name": "where",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 143,
+    "description": ""
+  },
+  {
+    "name": "orderBy",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 144,
+    "description": ""
+  },
+  {
+    "name": "limit",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 145,
+    "description": ""
+  },
+  {
+    "name": "query",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 147,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 148,
+    "description": ""
+  },
+  {
+    "name": "query",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 149,
+    "description": ""
+  },
+  {
+    "name": "getDocs",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 152,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 153,
+    "description": ""
+  },
+  {
+    "name": "cancelledAt",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 155,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 156,
+    "description": "אופציונלי: להביא עוד עד 500 מסמכים חסרי cancelledAt (ישנים), ולסנן לקליינט"
+  },
+  {
+    "name": "setLegacyUsed",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 157,
+    "description": ""
+  },
+  {
+    "name": "getDocs",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 158,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 160,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 161,
+    "description": ""
+  },
+  {
+    "name": "seen",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 163,
+    "description": "ממזגים בלי כפילויות"
+  },
+  {
+    "name": "forEach",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 164,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 165,
+    "description": ""
+  },
+  {
+    "name": "setRows",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 170,
+    "description": "טוענים"
+  },
+  {
+    "name": "setNextCursor",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 171,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 172,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 173,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 174,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 176,
+    "description": ""
+  },
+  {
+    "name": "setLoadingMore",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 177,
+    "description": ""
+  },
+  {
+    "name": "useEffect",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 181,
+    "description": ""
+  },
+  {
+    "name": "fetchPage",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 182,
+    "description": ""
+  },
+  {
+    "name": "filteredRows",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 187,
+    "description": "---------- Client filtering by lesson date range, search, chosen user ----------"
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 188,
+    "description": ""
+  },
+  {
+    "name": "setHours",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 189,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 190,
+    "description": ""
+  },
+  {
+    "name": "setHours",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 191,
+    "description": ""
+  },
+  {
+    "name": "trim",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 193,
+    "description": ""
+  },
+  {
+    "name": "out",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 195,
+    "description": ""
+  },
+  {
+    "name": "parseDMY",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 197,
+    "description": "מסמכים ללא date → מוציאים"
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 198,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 199,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 201,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 203,
+    "description": ""
+  },
+  {
+    "name": "toLowerCase",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 204,
+    "description": ""
+  },
+  {
+    "name": "toLowerCase",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 205,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 206,
+    "description": ""
+  },
+  {
+    "name": "usersWithCancellations",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 212,
+    "description": ""
+  },
+  {
+    "name": "Set",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 213,
+    "description": "populate usersWithCancellations (לפי התוצאות בפועל)"
+  },
+  {
+    "name": "forEach",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 214,
+    "description": ""
+  },
+  {
+    "name": "setUsersWithCancellations",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 215,
+    "description": ""
+  },
+  {
+    "name": "groups",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 221,
+    "description": "---------- Grouping ----------"
+  },
+  {
+    "name": "forEach",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 223,
+    "description": ""
+  },
+  {
+    "name": "parseDMY",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 224,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 225,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 227,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 228,
+    "description": ""
+  },
+  {
+    "name": "format",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 229,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 230,
+    "description": ""
+  },
+  {
+    "name": "push",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 231,
+    "description": ""
+  },
+  {
+    "name": "keys",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 234,
+    "description": "סדר בתוך קבוצה (לפי date+time יורד)"
+  },
+  {
+    "name": "sort",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 235,
+    "description": ""
+  },
+  {
+    "name": "parse",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 236,
+    "description": ""
+  },
+  {
+    "name": "parse",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 237,
+    "description": ""
+  },
+  {
+    "name": "useMemo",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 244,
+    "description": ""
+  },
+  {
+    "name": "users",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 247,
+    "description": ""
+  },
+  {
+    "name": "handleEditReason",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 253,
+    "description": "---------- Actions ----------"
+  },
+  {
+    "name": "prompt",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 254,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 255,
+    "description": ""
+  },
+  {
+    "name": "updateDoc",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 257,
+    "description": ""
+  },
+  {
+    "name": "success",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 258,
+    "description": ""
+  },
+  {
+    "name": "setRows",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 259,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 260,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 261,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 262,
+    "description": ""
+  },
+  {
+    "name": "handleDeleteCancellation",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 266,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 267,
+    "description": ""
+  },
+  {
+    "name": "deleteDoc",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 269,
+    "description": ""
+  },
+  {
+    "name": "success",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 270,
+    "description": ""
+  },
+  {
+    "name": "setRows",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 271,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 272,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 273,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 274,
+    "description": ""
+  },
+  {
+    "name": "exportCSV",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 278,
+    "description": ""
+  },
+  {
+    "name": "join",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 280,
+    "description": ""
+  },
+  {
+    "name": "forEach",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 281,
+    "description": ""
+  },
+  {
+    "name": "toDate",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 284,
+    "description": ""
+  },
+  {
+    "name": "push",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 285,
+    "description": ""
+  },
+  {
+    "name": "replace",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 289,
+    "description": ""
+  },
+  {
+    "name": "replace",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 290,
+    "description": ""
+  },
+  {
+    "name": "join",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 292,
+    "description": ""
+  },
+  {
+    "name": "Blob",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 295,
+    "description": ""
+  },
+  {
+    "name": "createObjectURL",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 296,
+    "description": ""
+  },
+  {
+    "name": "createElement",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 297,
+    "description": ""
+  },
+  {
+    "name": "click",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 300,
+    "description": ""
+  },
+  {
+    "name": "revokeObjectURL",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 301,
+    "description": ""
+  },
+  {
+    "name": "loadMore",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 304,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 307,
+    "description": ""
+  },
+  {
+    "name": "setLessonFrom",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 323,
+    "description": ""
+  },
+  {
+    "name": "setLessonTo",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 333,
+    "description": ""
+  },
+  {
+    "name": "setGroupBy",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 342,
+    "description": ""
+  },
+  {
+    "name": "setSelectedUser",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 356,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 359,
+    "description": ""
+  },
+  {
+    "name": "setQText",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 373,
+    "description": ""
+  },
+  {
+    "name": "setIncludeLegacyNoCancelledAt",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 386,
+    "description": ""
+  },
+  {
+    "name": "fetchPage",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 392,
+    "description": ""
+  },
+  {
+    "name": "Set",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 410,
+    "description": ""
+  },
+  {
+    "name": "entries",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 427,
+    "description": ""
+  },
+  {
+    "name": "split",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 431,
+    "description": ""
+  },
+  {
+    "name": "split",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 433,
+    "description": ""
+  },
+  {
+    "name": "Table",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 438,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 452,
+    "description": ""
+  },
+  {
+    "name": "toDate",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 456,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 458,
+    "description": ""
+  },
+  {
+    "name": "includes",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 466,
+    "description": ""
+  },
+  {
+    "name": "formatDistanceToNow",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 474,
+    "description": ""
+  },
+  {
+    "name": "handleEditReason",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 485,
+    "description": ""
+  },
+  {
+    "name": "handleDeleteCancellation",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 491,
+    "description": ""
+  },
+  {
+    "name": "Cards",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 507,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 509,
+    "description": ""
+  },
+  {
+    "name": "toDate",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 513,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 515,
+    "description": ""
+  },
+  {
+    "name": "handleEditReason",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 526,
+    "description": ""
+  },
+  {
+    "name": "handleDeleteCancellation",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 532,
+    "description": ""
+  },
+  {
+    "name": "formatDistanceToNow",
+    "file": "src/pages/AdminCancellationsPage.jsx",
+    "line": 547,
+    "description": ""
+  },
+  {
+    "name": "pad",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 28,
+    "description": ""
+  },
+  {
+    "name": "lastNMonths",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 31,
+    "description": "month value: 'YYYY-MM'"
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 33,
+    "description": ""
+  },
+  {
+    "name": "setDate",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 34,
+    "description": ""
+  },
+  {
+    "name": "for",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 35,
+    "description": ""
+  },
+  {
+    "name": "getFullYear",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 36,
+    "description": ""
+  },
+  {
+    "name": "getMonth",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 37,
+    "description": ""
+  },
+  {
+    "name": "unshift",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 38,
+    "description": ""
+  },
+  {
+    "name": "setMonth",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 39,
+    "description": ""
+  },
+  {
+    "name": "monthLabel",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 43,
+    "description": ""
+  },
+  {
+    "name": "split",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 44,
+    "description": ""
+  },
+  {
+    "name": "pad",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 45,
+    "description": ""
+  },
+  {
+    "name": "firstDayYMD",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 47,
+    "description": ""
+  },
+  {
+    "name": "lastDayYMD",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 48,
+    "description": ""
+  },
+  {
+    "name": "split",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 49,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 50,
+    "description": ""
+  },
+  {
+    "name": "pad",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 51,
+    "description": ""
+  },
+  {
+    "name": "parseDMY",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 54,
+    "description": "Parse \"dd/MM/yyyy\" safely"
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 55,
+    "description": ""
+  },
+  {
+    "name": "split",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 56,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 57,
+    "description": ""
+  },
+  {
+    "name": "Date",
     "file": "src/pages/AdminBookingOverview.jsx",
     "line": 58,
     "description": ""
   },
   {
-    "name": "data",
+    "name": "isNaN",
     "file": "src/pages/AdminBookingOverview.jsx",
     "line": 59,
     "description": ""
   },
   {
-    "name": "if",
-    "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 60,
-    "description": ""
-  },
-  {
-    "name": "parse",
+    "name": "toMonthKey",
     "file": "src/pages/AdminBookingOverview.jsx",
     "line": 61,
     "description": ""
   },
   {
-    "name": "String",
+    "name": "RowSkeleton",
     "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 62,
-    "description": ""
+    "line": 64,
+    "description": "Skeleton row for table"
   },
   {
-    "name": "if",
-    "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 63,
-    "description": ""
-  },
-  {
-    "name": "from",
-    "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 67,
-    "description": ""
-  },
-  {
-    "name": "keys",
-    "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 68,
-    "description": ""
-  },
-  {
-    "name": "keys",
-    "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 69,
-    "description": ""
-  },
-  {
-    "name": "sort",
-    "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 70,
-    "description": ""
-  },
-  {
-    "name": "split",
-    "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 71,
-    "description": ""
-  },
-  {
-    "name": "split",
+    "name": "AdminBookingOverview",
     "file": "src/pages/AdminBookingOverview.jsx",
     "line": 72,
     "description": ""
   },
   {
-    "name": "merged",
+    "name": "useState",
     "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 76,
+    "line": 74,
+    "description": "Controls"
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 75,
     "description": ""
   },
   {
-    "name": "setMonthlyData",
+    "name": "useState",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 77,
+    "description": "Data"
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 78,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 79,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 80,
+    "description": ""
+  },
+  {
+    "name": "monthsRange",
     "file": "src/pages/AdminBookingOverview.jsx",
     "line": 82,
     "description": ""
   },
   {
-    "name": "setLoading",
+    "name": "split",
     "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 83,
+    "line": 84,
+    "description": "build inclusive months between fromMonth and toMonth"
+  },
+  {
+    "name": "split",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 85,
     "description": ""
   },
   {
-    "name": "fetchData",
+    "name": "Date",
     "file": "src/pages/AdminBookingOverview.jsx",
     "line": 86,
     "description": ""
   },
   {
-    "name": "CustomTooltip",
+    "name": "Date",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 87,
+    "description": ""
+  },
+  {
+    "name": "Date",
     "file": "src/pages/AdminBookingOverview.jsx",
     "line": 89,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "while",
     "file": "src/pages/AdminBookingOverview.jsx",
     "line": 90,
     "description": ""
   },
   {
-    "name": "return",
+    "name": "push",
     "file": "src/pages/AdminBookingOverview.jsx",
     "line": 91,
     "description": ""
   },
   {
-    "name": "find",
+    "name": "setMonth",
     "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 94,
+    "line": 92,
     "description": ""
   },
   {
-    "name": "find",
+    "name": "totals",
     "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 95,
+    "line": 97,
     "description": ""
   },
   {
-    "name": "return",
+    "name": "users",
     "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 102,
+    "line": 98,
+    "description": ""
+  },
+  {
+    "name": "bookings",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 99,
+    "description": ""
+  },
+  {
+    "name": "load",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 103,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 104,
+    "description": ""
+  },
+  {
+    "name": "setFallbackUsed",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 105,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 107,
+    "description": ""
+  },
+  {
+    "name": "getDocs",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 108,
+    "description": "---- Users: single read + client filter (supports Timestamp/ISO) ----"
+  },
+  {
+    "name": "users",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 109,
+    "description": ""
+  },
+  {
+    "name": "for",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 111,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 113,
+    "description": ""
+  },
+  {
+    "name": "toDate",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 114,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 115,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 116,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 117,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 119,
+    "description": ""
+  },
+  {
+    "name": "toMonthKey",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 120,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 122,
+    "description": "keep only in requested range"
+  },
+  {
+    "name": "dayKey",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 126,
+    "description": ""
+  },
+  {
+    "name": "firstDayYMD",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 127,
+    "description": "---- Bookings: prefer server filtering by dayKey (YYYY-MM-DD) ----"
+  },
+  {
+    "name": "lastDayYMD",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 128,
+    "description": ""
+  },
+  {
+    "name": "query",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 132,
+    "description": "Single-field where + orderBy on same field – לא דורש אינדקס מרוכב"
+  },
+  {
+    "name": "collection",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 133,
+    "description": ""
+  },
+  {
+    "name": "where",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 134,
+    "description": ""
+  },
+  {
+    "name": "where",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 135,
+    "description": ""
+  },
+  {
+    "name": "orderBy",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 136,
+    "description": ""
+  },
+  {
+    "name": "getDocs",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 138,
     "description": ""
   },
   {
     "name": "map",
     "file": "src/pages/AdminBookingOverview.jsx",
-    "line": 123,
+    "line": 139,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 140,
+    "description": ""
+  },
+  {
+    "name": "warn",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 142,
+    "description": "אם אין dayKey / או טעות – מפעילים Fallback"
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 146,
+    "description": ""
+  },
+  {
+    "name": "for",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 148,
+    "description": "Aggregate via dayKey"
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 150,
+    "description": ""
+  },
+  {
+    "name": "slice",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 152,
+    "description": "dayKey: YYYY-MM-DD"
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 153,
+    "description": ""
+  },
+  {
+    "name": "parseDMY",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 154,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 155,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 157,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 158,
+    "description": ""
+  },
+  {
+    "name": "bookings",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 162,
+    "description": ""
+  },
+  {
+    "name": "setFallbackUsed",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 163,
+    "description": "Fallback – קורא את כל ה-bookings (או עד תקרה) ומחשב מקומית"
+  },
+  {
+    "name": "getDocs",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 164,
+    "description": ""
+  },
+  {
+    "name": "query",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 166,
+    "description": "אם יש הרבה מאוד מסמכים, אפשר להעלות/להוריד את התקרה"
+  },
+  {
+    "name": "all",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 168,
+    "description": ""
+  },
+  {
+    "name": "for",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 169,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 171,
+    "description": ""
+  },
+  {
+    "name": "slice",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 172,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 173,
+    "description": ""
+  },
+  {
+    "name": "parseDMY",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 174,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 175,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 177,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 178,
+    "description": ""
+  },
+  {
+    "name": "merged",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 184,
+    "description": "---- Merge to array for table & chart ----"
+  },
+  {
+    "name": "monthLabel",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 186,
+    "description": ""
+  },
+  {
+    "name": "setMonthlyData",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 191,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 192,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 193,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 194,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 196,
+    "description": ""
+  },
+  {
+    "name": "useEffect",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 200,
+    "description": ""
+  },
+  {
+    "name": "load",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 202,
+    "description": "auto load on range change"
+  },
+  {
+    "name": "refresh",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 206,
+    "description": ""
+  },
+  {
+    "name": "setRefreshing",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 207,
+    "description": ""
+  },
+  {
+    "name": "load",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 208,
+    "description": ""
+  },
+  {
+    "name": "setRefreshing",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 209,
+    "description": ""
+  },
+  {
+    "name": "exportCSV",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 212,
+    "description": ""
+  },
+  {
+    "name": "forEach",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 214,
+    "description": ""
+  },
+  {
+    "name": "csv",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 215,
+    "description": ""
+  },
+  {
+    "name": "Blob",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 216,
+    "description": ""
+  },
+  {
+    "name": "createObjectURL",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 217,
+    "description": ""
+  },
+  {
+    "name": "createElement",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 218,
+    "description": ""
+  },
+  {
+    "name": "click",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 221,
+    "description": ""
+  },
+  {
+    "name": "revokeObjectURL",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 222,
+    "description": ""
+  },
+  {
+    "name": "CustomTooltip",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 225,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 226,
+    "description": ""
+  },
+  {
+    "name": "getVal",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 227,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 228,
+    "description": ""
+  },
+  {
+    "name": "getVal",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 231,
+    "description": ""
+  },
+  {
+    "name": "getVal",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 232,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 239,
+    "description": ""
+  },
+  {
+    "name": "setFromMonth",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 259,
+    "description": ""
+  },
+  {
+    "name": "setToMonth",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 269,
+    "description": ""
+  },
+  {
+    "name": "lastNMonths",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 277,
+    "description": ""
+  },
+  {
+    "name": "setFromMonth",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 278,
+    "description": ""
+  },
+  {
+    "name": "setToMonth",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 279,
+    "description": ""
+  },
+  {
+    "name": "Fallback",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 319,
+    "description": ""
+  },
+  {
+    "name": "from",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 337,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminBookingOverview.jsx",
+    "line": 338,
     "description": ""
   },
   {
