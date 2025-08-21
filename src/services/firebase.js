@@ -16,72 +16,7 @@ const firebaseConfig = {
   measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
 
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
-/**
- * TODO: תאר את הפונקציה initializeApp
- */
+
 const app = initializeApp(firebaseConfig);
 
 export const db = getFirestore(app);

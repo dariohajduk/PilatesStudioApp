@@ -6,820 +6,820 @@
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L48) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:48)
 
 - **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L414) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:414)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L52) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:52)
 
 - **for** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L415) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:415)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L53) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:53)
 
 - **addDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L416) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:416)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L54) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:54)
 
 - **log** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L417) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:417)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L55) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:55)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L419) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:419)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L57) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:57)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L420) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:420)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L58) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:58)
 
 - **uploadBookings** – פונקציה להעלאת ההזמנות ל-Collection בשם "bookings"
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L425) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:425)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L63) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:63)
 
 - **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L427) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:427)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L65) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:65)
 
 - **for** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L428) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:428)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L66) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:66)
 
 - **addDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L429) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:429)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L67) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:67)
 
 - **log** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L430) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:430)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L68) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:68)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L432) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:432)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L70) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:70)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L433) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:433)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L71) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:71)
 
 - **runUpload** – קריאה לפונקציות (מריץ את הכל)
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L438) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:438)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L76) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:76)
 
 - **uploadClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L439) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:439)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L77) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:77)
 
 - **uploadBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L440) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:440)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L78) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:78)
 
 - **runUpload** – מריץ בפועל
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L444) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:444)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/uploadSampleData.js#L82) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\uploadSampleData.js:82)
 
 - **initializeApp** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/firebase.js#L85) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\firebase.js:85)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/firebase.js#L20) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\firebase.js:20)
 
 - **getFirestore** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/firebase.js#L87) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\firebase.js:87)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/firebase.js#L22) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\firebase.js:22)
 
 - **getStorage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/firebase.js#L88) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\firebase.js:88)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/firebase.js#L23) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\firebase.js:23)
 
 - **getMessaging** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/firebase.js#L89) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\firebase.js:89)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/services/firebase.js#L24) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\services\firebase.js:24)
 
 - **SplashScreen** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SplashScreen.jsx#L202) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SplashScreen.jsx:202)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SplashScreen.jsx#L5) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SplashScreen.jsx:5)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SplashScreen.jsx#L203) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SplashScreen.jsx:203)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SplashScreen.jsx#L6) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SplashScreen.jsx:6)
 
 - **SendNotification** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L997) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:997)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L7) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:7)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L998) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:998)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L8) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:8)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L999) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:999)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L9) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:9)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1000) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1000)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L10) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:10)
 
 - **handleSendNotification** – שליחת ההתראה
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1003) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1003)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L13) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:13)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1004) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1004)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L14) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:14)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1005) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1005)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L15) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:15)
 
 - **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1009) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1009)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L19) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:19)
 
 - **doc** – שליפת ה־FCM Token מה־Firestore לפי מספר הטלפון
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1013) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1013)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L23) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:23)
 
 - **getDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1014) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1014)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L24) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:24)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1016) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1016)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L26) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:26)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1017) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1017)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L27) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:27)
 
 - **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1018) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1018)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L28) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:28)
 
 - **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1022) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1022)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L32) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:32)
 
 - **fetch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1025) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1025)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L35) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:35)
 
 - **stringify** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1028) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1028)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L38) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:38)
 
 - **json** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1031) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1031)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L41) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:41)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1033) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1033)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L43) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:43)
 
 - **success** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1034) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1034)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L44) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:44)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1036) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1036)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L46) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:46)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1038) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1038)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L48) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:48)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1039) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1039)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L49) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:49)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1040) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1040)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L50) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:50)
 
 - **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1043) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1043)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L53) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:53)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1048) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1048)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L58) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:58)
 
 - **setPhone** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1058) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1058)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L68) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:68)
 
 - **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L1068) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:1068)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L78) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:78)
 
 - **SchedulePage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L523) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:523)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L20) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:20)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L524) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:524)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L21) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:21)
 
 - **useUser** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L525) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:525)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L22) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:22)
 
 - **formatDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L527) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:527)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L24) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:24)
 
 - **getDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L528) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:528)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L25) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:25)
 
 - **getMonth** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L529) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:529)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L26) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:26)
 
 - **getFullYear** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L530) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:530)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L27) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:27)
 
 - **getStartOfWeek** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L534) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:534)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L31) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:31)
 
 - **getDay** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L535) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:535)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L32) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:32)
 
 - **getDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L536) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:536)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L33) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:33)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L537) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:537)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L34) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:34)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L540) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:540)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L37) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:37)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L541) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:541)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L38) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:38)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L542) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:542)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L39) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:39)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L543) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:543)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L40) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:40)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L544) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:544)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L41) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:41)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L545) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:545)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L42) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:42)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L546) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:546)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L43) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:43)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L547) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:547)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L44) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:44)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L548) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:548)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L45) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:45)
 
 - **openParticipantsPopup** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L550) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:550)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L47) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:47)
 
 - **query** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L552) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:552)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L49) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:49)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L553) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:553)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L50) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:50)
 
 - **userIds** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L554) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:554)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L51) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:51)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L556) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:556)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L53) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:53)
 
 - **forEach** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L558) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:558)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L55) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:55)
 
 - **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L559) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:559)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L56) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:56)
 
 - **fullParticipants** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L563) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:563)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L60) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:60)
 
 - **setParticipants** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L569) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:569)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L66) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:66)
 
 - **setShowParticipantsModal** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L570) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:570)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L67) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:67)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L571) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:571)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L68) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:68)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L572) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:572)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L69) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:69)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L573) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:573)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L70) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:70)
 
 - **fetchClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L577) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:577)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L74) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:74)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L579) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:579)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L76) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:76)
 
 - **setClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L580) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:580)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L77) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:77)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L581) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:581)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L78) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:78)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L582) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:582)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L79) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:79)
 
 - **fetchCustomers** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L586) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:586)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L83) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:83)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L588) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:588)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L85) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:85)
 
 - **usersList** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L589) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:589)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L86) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:86)
 
 - **setCustomers** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L590) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:590)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L87) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:87)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L591) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:591)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L88) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:88)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L592) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:592)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L89) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:89)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L593) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:593)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L90) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:90)
 
 - **fetchUserBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L597) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:597)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L94) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:94)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L598) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:598)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L95) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:95)
 
 - **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L600) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:600)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L97) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:97)
 
 - **query** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L601) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:601)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L98) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:98)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L602) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:602)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L99) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:99)
 
 - **setBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L603) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:603)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L100) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:100)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L604) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:604)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L101) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:101)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L605) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:605)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L102) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:102)
 
 - **useEffect** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L609) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:609)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L106) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:106)
 
 - **loadData** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L610) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:610)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L107) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:107)
 
 - **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L611) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:611)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L108) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:108)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L613) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:613)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L110) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:110)
 
 - **Boolean** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L614) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:614)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L111) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:111)
 
 - **setIsAdmin** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L620) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:620)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L117) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:117)
 
 - **fetchClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L623) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:623)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L120) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:120)
 
 - **fetchUserBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L624) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:624)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L121) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:121)
 
 - **fetchCustomers** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L625) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:625)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L122) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:122)
 
 - **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L626) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:626)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L123) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:123)
 
 - **loadData** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L628) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:628)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L125) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:125)
 
 - **handlePrevWeek** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L631) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:631)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L128) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:128)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L632) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:632)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L129) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:129)
 
 - **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L633) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:633)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L130) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:130)
 
 - **setCurrentWeekStart** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L634) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:634)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L131) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:131)
 
 - **setSelectedDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L635) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:635)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L132) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:132)
 
 - **handleNextWeek** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L638) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:638)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L135) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:135)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L639) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:639)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L136) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:136)
 
 - **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L640) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:640)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L137) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:137)
 
 - **setCurrentWeekStart** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L641) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:641)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L138) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:138)
 
 - **setSelectedDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L642) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:642)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L139) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:139)
 
 - **goToCurrentWeek** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L645) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:645)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L142) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:142)
 
 - **setCurrentWeekStart** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L646) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:646)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L143) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:143)
 
 - **setSelectedDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L647) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:647)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L144) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:144)
 
 - **isAlreadyBooked** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L650) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:650)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L147) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:147)
 
 - **some** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L651) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:651)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L148) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:148)
 
 - **isPastClass** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L653) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:653)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L150) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:150)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L654) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:654)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L151) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:151)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L655) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:655)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L152) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:152)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L658) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:658)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L155) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:155)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L659) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:659)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L156) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:156)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L666) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:666)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L163) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:163)
 
 - **formatDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L676) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:676)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L173) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:173)
 
 - **from** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L689) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:689)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L186) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:186)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L690) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:690)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L187) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:187)
 
 - **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L691) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:691)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L188) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:188)
 
 - **formatDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L692) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:692)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L189) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:189)
 
 - **formatDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L694) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:694)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L191) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:191)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L697) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:697)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L194) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:194)
 
 - **setSelectedDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L700) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:700)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L197) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:197)
 
 - **getDay** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L710) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:710)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L207) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:207)
 
 - **getDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L712) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:712)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L209) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:209)
 
 - **getMonth** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L713) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:713)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L210) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:210)
 
 - **filter** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L724) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:724)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L221) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:221)
 
 - **filter** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L731) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:731)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L228) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:228)
 
 - **sort** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L732) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:732)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L229) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:229)
 
 - **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L733) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:733)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L230) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:230)
 
 - **isAlreadyBooked** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L739) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:739)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L236) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:236)
 
 - **isPastClass** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L741) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:741)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L238) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:238)
 
 - **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L754) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:754)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L251) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:251)
 
 - **setShowParticipantsModal** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L760) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:760)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L257) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:257)
 
 - **AdminClassesTable** – טבלת שיעורים עבור מנהל ומדריך
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L19) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:19)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1386) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1386)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L22) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:22)
 
 - **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1397) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1397)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L33) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:33)
 
 - **onRowClick** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1401) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1401)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L37) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:37)
 
 - **AdminClassModal** – מודל ניהול שיעור למנהל/מדריך: מחיקה ו-הסרת משתתף
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1415) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1415)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L51) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:51)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1416) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1416)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L52) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:52)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1418) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1418)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L54) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:54)
 
 - **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1430) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1430)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L66) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:66)
 
 - **handleRemoveParticipant** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1435) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1435)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L71) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:71)
 
 - **HomePage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1455) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1455)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L91) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:91)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1456) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1456)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L92) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:92)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1457) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1457)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L93) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:93)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1458) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1458)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L94) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:94)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1459) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1459)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L95) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:95)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1460) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1460)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L96) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:96)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1461) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1461)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L97) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:97)
 
 - **useUser** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1463) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1463)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L99) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:99)
 
 - **useEffect** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1473) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1473)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L109) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:109)
 
 - **loadAllData** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1474) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1474)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L110) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:110)
 
 - **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1475) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1475)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L111) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:111)
 
 - **fetchClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1476) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1476)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L112) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:112)
 
 - **fetchUserBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1477) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1477)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L113) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:113)
 
 - **fetchAllParticipants** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1478) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1478)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L114) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:114)
 
 - **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1479) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1479)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L115) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:115)
 
 - **loadAllData** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1481) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1481)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L117) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:117)
 
 - **fetchClasses** – טעינת כל השיעורים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1485) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1485)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L121) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:121)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1487) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1487)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L123) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:123)
 
 - **classesData** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1488) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1488)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L124) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:124)
 
 - **setAllClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1489) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1489)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L125) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:125)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1490) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1490)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L126) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:126)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1491) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1491)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L127) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:127)
 
 - **fetchUserBookings** – טעינת כל ההרשמות (למשתמש או לכולם בהתאם לתפקיד)
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1496) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1496)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L132) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:132)
 
 - **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1498) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1498)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L134) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:134)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1500) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1500)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L136) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:136)
 
 - **query** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1501) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1501)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L137) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:137)
 
 - **query** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1503) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1503)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L139) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:139)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1505) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1505)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L141) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:141)
 
 - **bookingsData** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1506) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1506)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L142) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:142)
 
 - **setBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1507) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1507)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L143) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:143)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1508) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1508)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L144) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:144)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1509) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1509)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L145) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:145)
 
 - **fetchAllParticipants** – מיפוי שיעורים לנרשמים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1514) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1514)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L150) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:150)
 
 - **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1516) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1516)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L152) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:152)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1517) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1517)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L153) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:153)
 
 - **bookingsData** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1518) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1518)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L154) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:154)
 
 - **for** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1521) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1521)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L157) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:157)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1522) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1522)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L158) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:158)
 
 - **push** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1523) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1523)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L159) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:159)
 
 - **setParticipantsMap** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1526) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1526)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L162) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:162)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1527) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1527)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L163) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:163)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1528) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1528)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L164) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:164)
 
 - **handleCancelBooking** – ביטול הרשמה (למתאמנים)
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1533) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1533)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L169) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:169)
 
 - **deleteDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1535) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1535)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L171) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:171)
 
 - **success** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1536) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1536)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L172) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:172)
 
 - **setRefreshFlag** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1537) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1537)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L173) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:173)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1538) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1538)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L174) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:174)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1539) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1539)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L175) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:175)
 
 - **handleRemoveParticipant** – הסרת משתתף מהשיעור (למנהל ומדריך)
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1544) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1544)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L180) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:180)
 
 - **deleteDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1546) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1546)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L182) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:182)
 
 - **success** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1547) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1547)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L183) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:183)
 
 - **setRefreshFlag** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1548) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1548)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L184) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:184)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1549) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1549)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L185) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:185)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1550) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1550)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L186) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:186)
 
 - **isClassInCurrentOrNextWeek** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1553) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1553)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L189) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:189)
 
 - **split** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1554) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1554)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L190) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:190)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1555) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1555)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L191) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:191)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1557) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1557)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L193) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:193)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1558) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1558)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L194) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:194)
 
 - **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1559) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1559)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L195) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:195)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1561) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1561)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L197) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:197)
 
 - **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1562) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1562)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L198) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:198)
 
 - **filter** – סינון שיעורים לפי תפקיד
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1569) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1569)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L205) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:205)
 
 - **isClassInCurrentOrNextWeek** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1570) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1570)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L206) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:206)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1572) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1572)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L208) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:208)
 
 - **filter** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1573) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1573)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L209) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:209)
 
 - **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1581) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1581)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L217) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:217)
 
 - **sort** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1586) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1586)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L222) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:222)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1587) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1587)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L223) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:223)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1588) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1588)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L224) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:224)
 
 - **userBookingClassIds** – למתאמנים: לסנן רק שיעורים שהם רשומים אליהם
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1594) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1594)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L230) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:230)
 
 - **userBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1595) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1595)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L231) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:231)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1597) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1597)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L233) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:233)
 
 - **setSelectedClass** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1615) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1615)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L251) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:251)
 
 - **setRefreshFlag** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1616) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1616)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L252) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:252)
 
 - **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1626) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1626)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L262) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:262)
 
 - **find** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1635) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1635)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L271) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:271)
 
 - **setRefreshFlag** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1639) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1639)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L275) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:275)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1641) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1641)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L277) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:277)
 
 - **split** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1642) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1642)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L278) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:278)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1644) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1644)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L280) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:280)
 
 - **handleCancelBooking** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L1646) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:1646)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L282) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:282)
 
 - **HealthDeclaration** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1460) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1460)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L9) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:9)
 
 - **useRef** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1461) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1461)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L10) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:10)
 
 - **useRef** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1462) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1462)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L11) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:11)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1463) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1463)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L12) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:12)
 
 - **useEffect** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1468) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1468)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L17) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:17)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1469) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1469)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L18) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:18)
 
 - **toast** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1470) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1470)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L19) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:19)
 
 - **handleSubmit** – שליחת הטופס ושמירה ל־Firestore
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1475) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1475)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L24) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:24)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1476) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1476)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L25) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:25)
 
 - **alert** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1477) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1477)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L26) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:26)
 
 - **setIsSubmitting** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1481) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1481)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L30) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:30)
 
 - **html2canvas** – 1. צילום כל הטופס
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1485) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1485)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L34) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:34)
 
 - **toDataURL** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1490) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1490)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L39) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:39)
 
 - **toDataURL** – 2. שמירת החתימה בנפרד (אם תרצה בעתיד להשתמש)
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1493) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1493)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L42) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:42)
 
 - **doc** – 3. שמירה ל-Firestore
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1496) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1496)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L45) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:45)
 
 - **setDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1497) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1497)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L46) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:46)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1504) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1504)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L53) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:53)
 
 - **success** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1509) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1509)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L58) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:58)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1510) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1510)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L59) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:59)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1511) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1511)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L60) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:60)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1512) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1512)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L61) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:61)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1513) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1513)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L62) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:62)
 
 - **setIsSubmitting** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1516) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1516)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L65) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:65)
 
 - **handleClear** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1519) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1519)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L68) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:68)
 
 - **clear** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1520) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1520)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L69) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:69)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1523) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1523)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L72) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:72)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L1525) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:1525)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HealthDeclaration.jsx#L74) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HealthDeclaration.jsx:74)
 
 - **EmployeeLogin** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/EmployeeLogin.jsx#L9) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\EmployeeLogin.jsx:9)
@@ -918,259 +918,259 @@
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/EmployeeLogin.jsx#L95) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\EmployeeLogin.jsx:95)
 
 - **BookingsPage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L273) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:273)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L19) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:19)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L274) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:274)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L20) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:20)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L275) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:275)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L21) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:21)
 
 - **fetchBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L277) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:277)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L23) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:23)
 
 - **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L278) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:278)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L24) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:24)
 
 - **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L280) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:280)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L26) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:26)
 
 - **query** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L281) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:281)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L27) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:27)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L282) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:282)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L28) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:28)
 
 - **bookingsList** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L284) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:284)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L30) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:30)
 
 - **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L286) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:286)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L32) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:32)
 
 - **setBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L289) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:289)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L35) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:35)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L290) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:290)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L36) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:36)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L291) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:291)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L37) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:37)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L292) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:292)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L38) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:38)
 
 - **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L294) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:294)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L40) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:40)
 
 - **useEffect** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L297) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:297)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L43) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:43)
 
 - **fetchBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L298) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:298)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L44) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:44)
 
 - **getWeeklyBookingsCount** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L300) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:300)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L46) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:46)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L301) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:301)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L47) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:47)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L302) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:302)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L48) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:48)
 
 - **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L303) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:303)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L49) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:49)
 
 - **setHours** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L304) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:304)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L50) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:50)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L306) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:306)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L52) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:52)
 
 - **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L307) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:307)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L53) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:53)
 
 - **setHours** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L308) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:308)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L54) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:54)
 
 - **query** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L310) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:310)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L56) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:56)
 
 - **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L311) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:311)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L57) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:57)
 
 - **where** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L312) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:312)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L58) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:58)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L315) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:315)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L61) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:61)
 
 - **weeklyBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L316) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:316)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L62) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:62)
 
 - **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L317) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:317)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L63) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:63)
 
 - **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L318) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:318)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L64) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:64)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L319) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:319)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L65) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:65)
 
 - **async** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L326) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:326)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L72) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:72)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L332) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:332)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L78) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:78)
 
 - **split** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L333) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:333)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L79) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:79)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L335) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:335)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L81) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:81)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L338) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:338)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L84) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:84)
 
 - **toast** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L339) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:339)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L85) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:85)
 
 - **prompt** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L343) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:343)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L89) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:89)
 
 - **deleteDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L346) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:346)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L92) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:92)
 
 - **doc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L348) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:348)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L94) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:94)
 
 - **getDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L349) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:349)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L95) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:95)
 
 - **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L350) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:350)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L96) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:96)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L352) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:352)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L98) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:98)
 
 - **updateDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L353) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:353)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L99) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:99)
 
 - **setDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L358) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:358)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L104) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:104)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L364) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:364)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L110) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:110)
 
 - **success** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L367) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:367)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L113) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:113)
 
 - **fetchBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L368) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:368)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L114) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:114)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L369) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:369)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L115) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:115)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L370) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:370)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L116) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:116)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L371) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:371)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L117) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:117)
 
 - **handleBooking** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L375) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:375)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L121) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:121)
 
 - **selectedUser** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L376) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:376)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L122) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:122)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L377) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:377)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L123) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:123)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L378) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:378)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L124) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:124)
 
 - **if** – Check if the user has remaining lessons
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L382) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:382)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L128) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:128)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L383) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:383)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L129) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:129)
 
 - **addDoc** – Proceed with booking
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L388) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:388)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L134) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:134)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L396) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:396)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L142) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:142)
 
 - **doc** – Decrease the user's remaining lessons
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L400) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:400)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L146) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:146)
 
 - **updateDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L401) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:401)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L147) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:147)
 
 - **success** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L405) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:405)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L151) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:151)
 
 - **onClose** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L407) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:407)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L153) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:153)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L408) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:408)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L154) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:154)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L409) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:409)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L155) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:155)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L410) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:410)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L156) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:156)
 
 - **isPastClass** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L414) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:414)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L160) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:160)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L415) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:415)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L161) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:161)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L416) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:416)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L162) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:162)
 
 - **filter** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L420) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:420)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L166) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:166)
 
 - **sort** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L421) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:421)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L167) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:167)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L422) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:422)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L168) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:168)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L423) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:423)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L169) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:169)
 
 - **filter** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L428) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:428)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L174) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:174)
 
 - **sort** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L429) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:429)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L175) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:175)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L430) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:430)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L176) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:176)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L431) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:431)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L177) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:177)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L435) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:435)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L181) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:181)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L436) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:436)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L182) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:182)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L443) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:443)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L189) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:189)
 
 - **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L457) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:457)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L203) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:203)
 
 - **handleCancelBooking** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L472) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:472)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L218) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:218)
 
 - **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L495) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:495)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/BookingsPage.jsx#L241) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\BookingsPage.jsx:241)
 
 - **resizeImage** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminUsersPanel.jsx#L21) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminUsersPanel.jsx:21)
@@ -2076,2305 +2076,2383 @@
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminUsersPanel.jsx#L901) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminUsersPanel.jsx:901)
 
 - **AdminUsersPanel** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1820) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1820)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L6) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:6)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1821) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1821)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L7) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:7)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1822) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1822)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L8) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:8)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1823) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1823)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L9) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:9)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1824) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1824)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L10) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:10)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1825) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1825)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L11) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:11)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1826) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1826)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L12) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:12)
 
 - **fetchUsers** – טוען את רשימת המשתמשים מ-DB
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1829) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1829)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L15) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:15)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1831) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1831)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L17) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:17)
 
 - **usersData** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1832) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1832)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L18) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:18)
 
 - **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1834) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1834)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L20) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:20)
 
 - **setUsers** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1836) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1836)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L22) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:22)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1837) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1837)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L23) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:23)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1838) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1838)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L24) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:24)
 
 - **useEffect** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1842) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1842)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L28) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:28)
 
 - **fetchUsers** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1843) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1843)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L29) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:29)
 
 - **handleAddUser** – הוספת משתמש חדש
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1847) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1847)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L33) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:33)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1848) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1848)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L34) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:34)
 
 - **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1849) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1849)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L35) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:35)
 
 - **doc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1854) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1854)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L40) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:40)
 
 - **setDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1855) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1855)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L41) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:41)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1862) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1862)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L48) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:48)
 
 - **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1866) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1866)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L52) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:52)
 
 - **setPhone** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1867) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1867)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L53) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:53)
 
 - **setName** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1868) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1868)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L54) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:54)
 
 - **setMembershipType** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1869) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1869)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L55) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:55)
 
 - **fetchUsers** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1870) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1870)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L56) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:56)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1871) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1871)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L57) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:57)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1872) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1872)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L58) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:58)
 
 - **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1873) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1873)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L59) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:59)
 
 - **handleDeleteUser** – מחיקת משתמש
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1878) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1878)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L64) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:64)
 
 - **deleteDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1880) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1880)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L66) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:66)
 
 - **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1881) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1881)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L67) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:67)
 
 - **fetchUsers** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1882) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1882)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L68) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:68)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1883) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1883)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L69) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:69)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1884) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1884)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L70) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:70)
 
 - **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1885) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1885)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L71) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:71)
 
 - **filter** – סינון לפי חיפוש
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1890) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1890)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L76) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:76)
 
 - **includes** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1892) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1892)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L78) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:78)
 
 - **if** – אם לא מנהל - חסום גישה
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1896) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1896)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L82) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:82)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1897) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1897)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L83) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:83)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1905) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1905)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L91) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:91)
 
 - **setPhone** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1915) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1915)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L101) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:101)
 
 - **setName** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1923) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1923)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L109) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:109)
 
 - **setMembershipType** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1929) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1929)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L115) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:115)
 
 - **setSearch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1953) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1953)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L139) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:139)
 
 - **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1961) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1961)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L147) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:147)
 
 - **handleDeleteUser** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L1968) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:1968)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminPanel.jsx#L154) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminPanel.jsx:154)
 
 - **AdminInstructorsPanel** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1935) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1935)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L16) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:16)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1936) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1936)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L17) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:17)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1937) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1937)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L18) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:18)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1938) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1938)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L19) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:19)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1939) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1939)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L20) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:20)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1940) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1940)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L21) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:21)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1941) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1941)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L22) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:22)
 
 - **log** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1942) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1942)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L23) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:23)
 
 - **fetchInstructors** – שליפת כל המדריכים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1946) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1946)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L27) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:27)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1948) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1948)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L29) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:29)
 
 - **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1950) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1950)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L31) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:31)
 
 - **filter** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1951) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1951)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L32) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:32)
 
 - **setInstructors** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1953) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1953)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L34) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:34)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1954) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1954)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L35) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:35)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1955) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1955)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L36) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:36)
 
 - **useEffect** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1959) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1959)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L40) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:40)
 
 - **fetchInstructors** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1960) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1960)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L41) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:41)
 
 - **handleSaveInstructor** – הוספה/עדכון מדריך
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1964) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1964)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L45) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:45)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1965) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1965)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L46) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:46)
 
 - **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1966) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1966)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L47) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:47)
 
 - **replace** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1971) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1971)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L52) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:52)
 
 - **doc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1973) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1973)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L54) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:54)
 
 - **doc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1974) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1974)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L55) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:55)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1983) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1983)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L64) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:64)
 
 - **setDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1988) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1988)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L69) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:69)
 
 - **setDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1989) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1989)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L70) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:70)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1993) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1993)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L74) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:74)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1995) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1995)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L76) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:76)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1996) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1996)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L77) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:77)
 
 - **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L1997) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:1997)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L78) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:78)
 
 - **clearForm** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2002) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2002)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L83) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:83)
 
 - **setPhone** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2003) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2003)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L84) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:84)
 
 - **setName** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2004) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2004)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L85) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:85)
 
 - **setEditingInstructorId** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2005) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2005)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L86) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:86)
 
 - **handleEditInstructor** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2008) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2008)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L89) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:89)
 
 - **setPhone** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2009) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2009)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L90) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:90)
 
 - **setName** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2010) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2010)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L91) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:91)
 
 - **setEditingInstructorId** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2011) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2011)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L92) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:92)
 
 - **handleDeleteInstructor** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2014) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2014)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L95) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:95)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2015) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2015)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L96) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:96)
 
 - **deleteDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2018) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2018)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L99) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:99)
 
 - **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2019) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2019)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L100) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:100)
 
 - **fetchInstructors** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2020) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2020)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L101) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:101)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2021) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2021)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L102) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:102)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2022) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2022)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L103) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:103)
 
 - **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2023) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2023)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L104) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:104)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2027) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2027)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L108) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:108)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2029) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2029)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L110) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:110)
 
 - **filter** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2037) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2037)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L118) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:118)
 
 - **includes** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2038) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2038)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L119) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:119)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2041) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2041)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L122) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:122)
 
 - **setPhone** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2055) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2055)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L136) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:136)
 
 - **setName** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2063) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2063)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L144) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:144)
 
 - **setSearch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2082) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2082)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L163) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:163)
 
 - **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2090) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2090)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L171) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:171)
 
 - **handleEditInstructor** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2102) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2102)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L183) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:183)
 
 - **handleDeleteInstructor** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L2109) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:2109)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminInstructorsPanel.jsx#L190) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminInstructorsPanel.jsx:190)
 
 - **AdminHealthDeclarations** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L862) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:862)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L8) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:8)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L863) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:863)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L9) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:9)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L864) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:864)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L10) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:10)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L865) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:865)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L11) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:11)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L866) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:866)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L12) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:12)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L867) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:867)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L13) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:13)
 
 - **useEffect** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L869) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:869)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L15) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:15)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L870) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:870)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L16) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:16)
 
 - **fetchUsersAndDeclarations** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L872) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:872)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L18) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:18)
 
 - **getDocs** – שלב 1: טען את כל המשתמשים שאינם מנהלים או מדריכים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L875) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:875)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L21) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:21)
 
 - **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L877) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:877)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L23) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:23)
 
 - **filter** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L878) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:878)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L24) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:24)
 
 - **getDocs** – שלב 2: טען את כל העובדים עם הצהרה חתומה
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L881) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:881)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L27) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:27)
 
 - **employees** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L882) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:882)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L28) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:28)
 
 - **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L884) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:884)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L30) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:30)
 
 - **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L889) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:889)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L35) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:35)
 
 - **employeeDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L890) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:890)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L36) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:36)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L891) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:891)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L37) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:37)
 
 - **filter** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L900) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:900)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L46) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:46)
 
 - **filter** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L902) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:902)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L48) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:48)
 
 - **find** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L903) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:903)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L49) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:49)
 
 - **setSignedUsers** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L906) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:906)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L52) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:52)
 
 - **setUnsignedUsers** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L907) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:907)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L53) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:53)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L908) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:908)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L54) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:54)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L909) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:909)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L55) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:55)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L910) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:910)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L56) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:56)
 
 - **fetchUsersAndDeclarations** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L914) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:914)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L60) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:60)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L917) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:917)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L63) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:63)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L918) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:918)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L64) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:64)
 
 - **filter** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L925) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:925)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L71) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:71)
 
 - **toLowerCase** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L926) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:926)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L72) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:72)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L929) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:929)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L75) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:75)
 
 - **setShowUnsigned** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L948) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:948)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L94) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:94)
 
 - **setSearchTerm** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L962) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:962)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L108) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:108)
 
 - **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L969) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:969)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L115) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:115)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L984) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:984)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L130) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:130)
 
 - **setSelectedImage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L989) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:989)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L135) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:135)
 
 - **setSelectedImage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L1008) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:1008)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminHealthDeclarations.jsx#L154) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminHealthDeclarations.jsx:154)
 
 - **AdminDashboard** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminDashboard.jsx#L1125) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminDashboard.jsx:1125)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminDashboard.jsx#L16) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminDashboard.jsx:16)
 
 - **useNavigate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminDashboard.jsx#L1126) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminDashboard.jsx:1126)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminDashboard.jsx#L17) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminDashboard.jsx:17)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminDashboard.jsx#L1128) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminDashboard.jsx:1128)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminDashboard.jsx#L19) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminDashboard.jsx:19)
 
 - **navigate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminDashboard.jsx#L1148) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminDashboard.jsx:1148)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminDashboard.jsx#L39) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminDashboard.jsx:39)
 
 - **navigate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminDashboard.jsx#L1159) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminDashboard.jsx:1159)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminDashboard.jsx#L50) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminDashboard.jsx:50)
 
 - **navigate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminDashboard.jsx#L1170) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminDashboard.jsx:1170)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminDashboard.jsx#L61) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminDashboard.jsx:61)
 
 - **navigate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminDashboard.jsx#L1181) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminDashboard.jsx:1181)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminDashboard.jsx#L72) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminDashboard.jsx:72)
 
 - **navigate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminDashboard.jsx#L1194) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminDashboard.jsx:1194)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminDashboard.jsx#L85) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminDashboard.jsx:85)
 
 - **navigate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminDashboard.jsx#L1205) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminDashboard.jsx:1205)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminDashboard.jsx#L96) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminDashboard.jsx:96)
 
 - **navigate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminDashboard.jsx#L1218) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminDashboard.jsx:1218)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminDashboard.jsx#L109) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminDashboard.jsx:109)
 
 - **AdminClassesPanel** – ==================== קומפוננטת פאנל ניהול שיעורים ====================
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L21) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:21)
 
-- **useState** – משתני State לניהול השיעורים
+- **useState** – ---------------- מצב כללי ----------------
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L23) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:23)
+
+- **useState** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L24) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:24)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5067) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5067)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L25) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:25)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5068) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5068)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L26) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:26)
+
+- **useState** – מחיקה מרובה
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L29) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:29)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5069) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5069)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L30) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:30)
 
-- **useState** – משתני State למחיקה מרובה
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5072) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5072)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5073) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5073)
-
-- **useState** – משתני State לטופס הוספת/עריכת שיעור
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5076) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5076)
+- **useState** – טופס הוספה/עריכה
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L33) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:33)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5077) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5077)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L34) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:34)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5078) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5078)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L35) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:35)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5079) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5079)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L36) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:36)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5080) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5080)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L37) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:37)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5081) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5081)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L38) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:38)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5082) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5082)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L39) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:39)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5083) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5083)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L40) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:40)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5084) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5084)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L41) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:41)
 
-- **useState** – משתני State לשיעורים מחזוריים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5087) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5087)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5088) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5088)
+- **useState** – שיעורים מחזוריים
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L44) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:44)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5089) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5089)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L45) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:45)
 
-- **useEffect** – טעינת נתונים בעת טעינת הקומפוננטה
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5093) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5093)
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L46) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:46)
+
+- **useState** – סינון/חיפוש
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L49) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:49)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L50) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:50)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L51) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:51)
+
+- **useState** – תפוסה לפי שיעור (classId -> count)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L54) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:54)
+
+- **useEffect** – ==================== אפקטים ====================
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L57) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:57)
 
 - **fetchClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5094) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5094)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L58) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:58)
 
 - **fetchInstructors** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5095) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5095)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L59) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:59)
 
-- **formatDateToDDMMYYYY** – פונקציה להמרת תאריך לפורמט DD/MM/YYYY
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5100) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5100)
+- **fetchOccupancyMap** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L60) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:60)
+
+- **useEffect** – להעמסת QA hooks קטנים לדפדפן
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L64) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:64)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5101) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5101)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L65) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:65)
 
-- **format** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5102) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5102)
-
-- **clearForm** – פונקציה לאיפוס הטופס
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5106) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5106)
-
-- **setName** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5107) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5107)
-
-- **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5108) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5108)
-
-- **setTime** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5109) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5109)
-
-- **setSpots** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5110) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5110)
-
-- **setInstructorId** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5111) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5111)
-
-- **setEditingClassId** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5112) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5112)
-
-- **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5113) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5113)
-
-- **setIsRecurring** – איפוס משתני שיעורים מחזוריים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5116) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5116)
-
-- **setRecurrenceEndDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5117) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5117)
-
-- **setSelectedDays** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5118) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5118)
-
-- **fetchClasses** – פונקציה לשליפת כל השיעורים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5123) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5123)
-
-- **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5124) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5124)
-
-- **getDocs** – שליפת כל השיעורים ממסד הנתונים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5127) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5127)
-
-- **classesData** – המרת התוצאות למערך אובייקטים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5129) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5129)
-
-- **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5131) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5131)
-
-- **setClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5133) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5133)
-
-- **setSelectedClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5134) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5134)
-
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5135) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5135)
-
-- **error** – טיפול בשגיאות
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5137) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5137)
-
-- **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5139) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5139)
-
-- **fetchInstructors** – פונקציה לשליפת כל המדריכים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5143) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5143)
-
-- **query** – שליפת משתמשים שהם מדריכים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5146) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5146)
-
-- **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5147) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5147)
-
-- **where** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5148) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5148)
-
-- **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5150) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5150)
-
-- **instructorsData** – המרת התוצאות למערך אובייקטים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5152) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5152)
-
-- **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5154) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5154)
-
-- **log** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5156) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5156)
-
-- **setInstructors** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5158) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5158)
-
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5159) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5159)
-
-- **error** – טיפול בשגיאות
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5161) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5161)
-
-- **openModalForEdit** – פתיחת מודל לעריכת שיעור קיים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5167) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5167)
-
-- **setName** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5168) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5168)
-
-- **if** – טיפול בתאריך השיעור
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5171) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5171)
-
-- **split** – פירוק תאריך בפורמט DD/MM/YYYY
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5173) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5173)
-
-- **Date** – יצירת אובייקט תאריך
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5175) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5175)
-
-- **if** – בדיקה שהתאריך חוקי
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5178) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5178)
-
-- **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5179) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5179)
-
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5181) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5181)
-
-- **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5182) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5182)
-
-- **warn** – התראה אם אין תאריך בשיעור
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5186) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5186)
-
-- **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5187) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5187)
-
-- **setTime** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5190) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5190)
-
-- **setSpots** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5191) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5191)
-
-- **setInstructorId** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5192) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5192)
-
-- **setEditingClassId** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5193) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5193)
-
-- **setIsModalOpen** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5194) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5194)
-
-- **createRecurringClasses** – עדכון פונקציית createRecurringClasses
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5199) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5199)
-
-- **if** – וידוא שנבחרו כל הנתונים הדרושים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5201) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5201)
-
-- **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5202) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5202)
-
-- **Date** – מעבר על כל התאריכים בטווח ויצירת שיעורים לימים הנבחרים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5207) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5207)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5208) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5208)
-
-- **while** – המשך כל עוד התאריך הנוכחי לפני או שווה לתאריך הסיום
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5214) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5214)
-
-- **getDay** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5215) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5215)
-
-- **if** – אם היום הנוכחי נמצא ברשימת הימים הנבחרים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5218) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5218)
-
-- **formatDateToDDMMYYYY** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5222) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5222)
-
-- **addDoc** – הוספת השיעור למסד הנתונים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5226) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5226)
-
-- **autoRegisterUsersForClass** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5230) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5230)
-
-- **addDays** – מעבר ליום הבא
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5239) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5239)
-
-- **log** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5242) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5242)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5246) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5246)
-
-- **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5247) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5247)
-
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5253) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5253)
-
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5254) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5254)
-
-- **handleSaveClass** – שמירת שיעור חדש או עדכון שיעור קיים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5261) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5261)
-
-- **if** – בדיקת תקינות הנתונים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5263) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5263)
-
-- **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5264) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5264)
-
-- **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5268) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5268)
-
-- **instructor** – מציאת אובייקט המדריך לפי מזהה
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5272) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5272)
-
-- **formatDateToDDMMYYYY** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5276) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5276)
-
-- **parseInt** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5280) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5280)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5281) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5281)
-
-- **if** – בדיקה האם מדובר בשיעור מחזורי או שיעור רגיל
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5285) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5285)
-
-- **createRecurringClasses** – יצירת שיעורים מחזוריים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5287) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5287)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5289) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5289)
-
-- **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5290) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5290)
-
-- **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5294) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5294)
-
-- **if** – בדיקה האם מדובר בעריכה או ביצירה
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5300) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5300)
-
-- **updateDoc** – עדכון שיעור קיים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5302) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5302)
-
-- **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5304) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5304)
-
-- **addDoc** – יצירת שיעור חדש
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5307) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5307)
-
-- **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5309) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5309)
-
-- **autoRegisterUsersForClass** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5313) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5313)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5317) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5317)
-
-- **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5318) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5318)
-
-- **clearForm** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5325) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5325)
-
-- **fetchClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5326) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5326)
-
-- **if** – סגירת המודל אם צוין שיש לסגור אחרי שמירה
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5329) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5329)
-
-- **setIsModalOpen** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5330) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5330)
-
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5332) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5332)
-
-- **error** – טיפול בשגיאות
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5334) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5334)
-
-- **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5335) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5335)
-
-- **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5338) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5338)
-
-- **handleClassSelection** – טיפול בשינוי בחירת שיעור לפעולות מרובות
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5343) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5343)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5344) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5344)
-
-- **setSelectedClasses** – אם השיעור כבר נבחר - מסיר אותו
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5346) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5346)
-
-- **setSelectedClasses** – אם השיעור לא נבחר - מוסיף אותו
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5349) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5349)
-
-- **selectAllClasses** – פונקציה לבחירת כל השיעורים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5354) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5354)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5355) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5355)
-
-- **setSelectedClasses** – אם כל השיעורים כבר נבחרו - מסיר את כולם
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5357) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5357)
-
-- **setSelectedClasses** – בוחר את כל השיעורים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5360) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5360)
-
-- **confirmDeleteClass** – פונקציה להצגת חלון אישור מחיקת שיעור בודד
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5365) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5365)
-
-- **setDeleteClassId** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5366) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5366)
-
-- **setShowDeleteConfirm** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5367) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5367)
-
-- **handleDeleteClass** – פונקציה למחיקת שיעור בודד
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5371) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5371)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5372) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5372)
-
-- **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5374) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5374)
-
-- **deleteDoc** – מחיקת השיעור ממסד הנתונים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5378) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5378)
-
-- **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5379) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5379)
-
-- **fetchClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5380) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5380)
-
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5381) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5381)
-
-- **error** – טיפול בשגיאות
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5383) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5383)
-
-- **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5384) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5384)
-
-- **setShowDeleteConfirm** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5387) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5387)
-
-- **setDeleteClassId** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5388) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5388)
-
-- **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5389) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5389)
-
-- **handleBulkDelete** – פונקציה למחיקת מספר שיעורים יחד
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5393) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5393)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5394) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5394)
-
-- **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5396) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5396)
-
-- **for** – מעבר על כל השיעורים המסומנים ומחיקתם
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5400) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5400)
-
-- **deleteDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5401) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5401)
-
-- **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5404) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5404)
-
-- **fetchClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5405) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5405)
-
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5406) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5406)
-
-- **error** – טיפול בשגיאות
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5408) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5408)
-
-- **setMessage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5409) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5409)
-
-- **setShowBulkDeleteConfirm** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5412) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5412)
-
-- **setSelectedClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5413) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5413)
-
-- **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5414) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5414)
-
-- **handleDayToggle** – פונקציה לטיפול בשינוי בחירת יום בשבוע
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5419) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5419)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5420) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5420)
-
-- **setSelectedDays** – אם היום כבר נבחר - מסיר אותו
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5422) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5422)
-
-- **setSelectedDays** – אם היום לא נבחר - מוסיף אותו
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5425) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5425)
-
-- **parseDateStringForSorting** – פונקציה להמרת תאריך בפורמט DD/MM/YYYY למבנה השוואה
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5431) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5431)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5432) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5432)
-
-- **split** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5433) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5433)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5434) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5434)
-
-- **sortClasses** – פונקציה למיון שיעורים לפי תאריך ושעה
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5438) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5438)
-
-- **sort** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5439) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5439)
-
-- **parseDateStringForSorting** – השוואת תאריכים קודם
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5441) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5441)
-
-- **parseDateStringForSorting** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5442) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5442)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5444) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5444)
-
-- **localeCompare** – אם התאריכים זהים, השוואה לפי שעה
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5449) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5449)
-
-- **autoRegisterUsersForClass** – פונקציה חדשה לרישום אוטומטי של משתמשים לשיעור חדש
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5454) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5454)
-
-- **log** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5456) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5456)
-
-- **query** – שליפת כל המשתמשים שסימנו רישום אוטומטי והגדירו העדפות
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5462) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5462)
-
-- **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5463) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5463)
-
-- **where** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5464) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5464)
-
-- **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5466) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5466)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5468) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5468)
-
-- **log** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5469) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5469)
-
-- **split** – המרת תאריך השיעור לאובייקט Date
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5474) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5474)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5475) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5475)
-
-- **getDay** – חישוב היום בשבוע (0-6)
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5478) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5478)
-
-- **split** – חישוב השעה בדקות מתחילת היום
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5481) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5481)
-
-- **log** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5484) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5484)
-
-- **for** – עיבוד כל משתמש
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5491) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5491)
-
-- **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5492) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5492)
-
-- **log** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5494) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5494)
-
-- **if** – וידוא שיש למשתמש העדפות ימים ושעות
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5499) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5499)
-
-- **log** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5504) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5504)
-
-- **if** – בדיקה האם היום מתאים להעדפות המשתמש
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5509) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5509)
-
-- **log** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5510) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5510)
-
-- **split** – בדיקת התאמת שעה
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5515) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5515)
-
-- **split** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5516) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5516)
-
-- **split** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5517) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5517)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5521) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5521)
-
-- **log** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5525) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5525)
-
-- **query** – בדיקה שהמשתמש לא כבר רשום לשיעור זה
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5534) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5534)
-
-- **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5535) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5535)
-
-- **where** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5536) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5536)
-
-- **where** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5537) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5537)
-
-- **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5539) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5539)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5541) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5541)
-
-- **log** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5542) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5542)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5551) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5551)
-
-- **log** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5552) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5552)
-
-- **if** – עבור מנוי שבועי, בדוק מספר הרשמות לשבוע זה
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5557) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5557)
-
-- **getWeekNumber** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5558) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5558)
-
-- **query** – בדיקת כמה שיעורים המשתמש כבר רשום אליהם באותו שבוע
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5562) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5562)
-
-- **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5563) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5563)
-
-- **where** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5564) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5564)
-
-- **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5566) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5566)
-
-- **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5570) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5570)
-
-- **filter** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5571) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5571)
-
-- **split** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5574) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5574)
-
-- **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5575) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5575)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5576) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5576)
-
-- **getWeekNumber** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5577) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5577)
-
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5580) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5580)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5585) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5585)
-
-- **log** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5586) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5586)
-
-- **if** – עבור מנוי חודשי, בדוק מספר הרשמות לחודש זה
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5594) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5594)
-
-- **query** – בדיקת כמה שיעורים המשתמש כבר רשום אליהם באותו חודש
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5598) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5598)
-
-- **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5599) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5599)
-
-- **where** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5600) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5600)
-
-- **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5602) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5602)
-
-- **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5606) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5606)
-
-- **filter** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5607) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5607)
-
-- **split** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5610) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5610)
-
-- **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5611) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5611)
-
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5614) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5614)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5619) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5619)
-
-- **log** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5620) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5620)
-
-- **log** – תנאים להרשמה מתקיימים - הוספת הרשמה חדשה
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5628) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5628)
-
-- **addDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5633) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5633)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5640) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5640)
-
-- **updateDoc** – עדכון מספר המקומות הפנויים בשיעור
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5645) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5645)
-
-- **if** – עדכון מספר השיעורים הנותרים למשתמש (רק עבור כרטיסייה)
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5650) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5650)
-
-- **updateDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5651) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5651)
-
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5657) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5657)
-
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5658) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5658)
-
-- **log** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5662) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5662)
-
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5664) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5664)
-
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5665) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5665)
-
-- **getWeekNumber** – פונקציה לחישוב מספר השבוע בשנה
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5671) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5671)
-
-- **Date** – יצירת עותק של התאריך כדי לא לשנות את המקורי
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5673) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5673)
-
-- **Date** – תחילת השנה (1 בינואר של אותה שנה)
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5675) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5675)
-
-- **floor** – מספר הימים שעברו מתחילת השנה
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5677) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5677)
-
-- **ceil** – מספר השבוע (מחושב לפי 7 ימים בשבוע)
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5679) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5679)
-
-- **return** – ========== רינדור ממשק המשתמש ==========
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5683) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5683)
-
-- **clearForm** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5691) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5691)
-
-- **setIsModalOpen** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5692) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5692)
-
-- **setShowBulkDeleteConfirm** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5714) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5714)
-
-- **sortClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5731) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5731)
-
-- **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5734) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5734)
-
-- **includes** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5739) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5739)
-
-- **includes** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5751) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5751)
-
-- **handleClassSelection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5752) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5752)
-
-- **openModalForEdit** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5791) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5791)
-
-- **confirmDeleteClass** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5799) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5799)
-
-- **setName** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5827) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5827)
-
-- **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5837) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5837)
-
-- **setTime** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5845) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5845)
-
-- **setSpots** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5860) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5860)
-
-- **setInstructorId** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5870) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5870)
-
-- **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5874) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5874)
-
-- **setIsRecurring** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5890) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5890)
-
-- **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5915) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5915)
-
-- **includes** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5922) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5922)
-
-- **handleDayToggle** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5923) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5923)
-
-- **setRecurrenceEndDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5937) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5937)
-
-- **setIsModalOpen** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5962) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5962)
-
-- **handleSaveClass** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5970) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5970)
-
-- **handleSaveClass** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L5983) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:5983)
-
-- **setShowDeleteConfirm** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L6004) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:6004)
-
-- **setShowBulkDeleteConfirm** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L6044) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:6044)
-
-- **AdminCancellationsPage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L662) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:662)
-
-- **useState** – סטייטים כלליים
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L664) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:664)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L665) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:665)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L666) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:666)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L667) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:667)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L668) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:668)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L669) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:669)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L670) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:670)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L671) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:671)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L672) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:672)
-
-- **useEffect** – שליפת הנתונים מ-Firestore וקיבוץ לפי תאריך שיעור
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L675) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:675)
-
-- **fetchCancellations** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L676) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:676)
-
-- **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L677) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:677)
-
-- **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L678) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:678)
-
-- **Set** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L680) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:680)
+- **checkNoOverCapacity** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L67) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:67)
 
 - **forEach** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L683) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:683)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L69) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:69)
 
-- **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L684) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:684)
+- **Number** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L70) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:70)
 
-- **forEach** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L687) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:687)
-
-- **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L688) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:688)
+- **Number** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L71) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:71)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L690) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:690)
-
-- **parse** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L691) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:691)
-
-- **getFullYear** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L692) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:692)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L694) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:694)
-
-- **getWeek** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L695) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:695)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L697) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:697)
-
-- **getMonth** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L698) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:698)
-
-- **format** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L700) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:700)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L702) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:702)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L72) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:72)
 
 - **push** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L703) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:703)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L73) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:73)
 
-- **toDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L708) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:708)
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L76) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:76)
 
-- **add** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L713) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:713)
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L77) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:77)
 
-- **keys** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L716) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:716)
+- **info** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L80) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:80)
+
+- **checkSpotsPositive** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L83) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:83)
+
+- **bad** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L84) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:84)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L85) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:85)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L86) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:86)
+
+- **info** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L89) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:89)
+
+- **formatDateToDDMMYYYY** – ==================== עזרי תאריכים/תצוגה ====================
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L96) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:96)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L97) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:97)
+
+- **format** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L98) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:98)
+
+- **parseDateStringForSorting** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L101) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:101)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L102) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:102)
+
+- **split** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L103) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:103)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L104) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:104)
+
+- **isFutureClass** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L107) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:107)
+
+- **split** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L108) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:108)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L109) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:109)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L110) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:110)
+
+- **sortClasses** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L113) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:113)
 
 - **sort** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L717) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:717)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L114) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:114)
 
-- **parse** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L718) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:718)
+- **parseDateStringForSorting** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L115) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:115)
 
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L721) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:721)
-
-- **parse** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L723) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:723)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L726) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:726)
-
-- **setUsersMap** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L732) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:732)
-
-- **setUsersWithCancellations** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L733) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:733)
-
-- **setCancellationsByGroup** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L734) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:734)
-
-- **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L735) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:735)
-
-- **fetchCancellations** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L738) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:738)
-
-- **filteredResults** – סינון תוצאות לפי שם או סיבה
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L742) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:742)
-
-- **filter** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L743) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:743)
-
-- **toLowerCase** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L745) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:745)
-
-- **toLowerCase** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L746) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:746)
-
-- **handleEditReason** – ✅ פונקציית עריכה בסיסית לסיבה
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L750) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:750)
-
-- **prompt** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L751) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:751)
+- **parseDateStringForSorting** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L116) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:116)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L752) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:752)
-
-- **updateDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L754) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:754)
-
-- **success** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L755) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:755)
-
-- **setCancellationsByGroup** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L756) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:756)
-
-- **for** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L758) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:758)
-
-- **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L759) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:759)
-
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L765) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:765)
-
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L766) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:766)
-
-- **handleDeleteCancellation** – ✅ מחיקה מלאה של הביטול
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L771) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:771)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L772) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:772)
-
-- **deleteDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L774) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:774)
-
-- **success** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L775) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:775)
-
-- **setCancellationsByGroup** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L776) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:776)
-
-- **for** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L778) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:778)
-
-- **filtered** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L779) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:779)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L780) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:780)
-
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L784) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:784)
-
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L785) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:785)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L117) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:117)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L789) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:789)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L118) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:118)
 
-- **setFilterType** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L801) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:801)
+- **passesFilters** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L122) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:122)
 
-- **setSelectedUser** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L810) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:810)
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L123) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:123)
 
-- **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L813) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:813)
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L124) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:124)
 
-- **setSearchTerm** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L824) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:824)
+- **trim** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L125) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:125)
 
-- **entries** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L833) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:833)
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L126) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:126)
 
-- **split** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L838) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:838)
+- **return** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L127) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:127)
 
-- **split** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L840) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:840)
+- **toLowerCase** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L128) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:128)
 
-- **filteredResults** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L858) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:858)
+- **toLowerCase** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L129) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:129)
 
-- **includes** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L871) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:871)
+- **groupByDateSorted** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L133) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:133)
 
-- **formatDistanceToNow** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L881) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:881)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L882) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:882)
-
-- **handleEditReason** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L896) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:896)
-
-- **handleDeleteCancellation** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L903) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:903)
-
-- **filteredResults** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L920) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:920)
-
-- **handleEditReason** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L935) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:935)
-
-- **handleDeleteCancellation** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L941) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:941)
-
-- **formatDistanceToNow** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L959) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:959)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L960) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:960)
-
-- **AdminBookingOverview** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L161) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:161)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L162) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:162)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L163) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:163)
-
-- **useEffect** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L165) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:165)
-
-- **fetchData** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L166) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:166)
-
-- **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L167) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:167)
-
-- **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L168) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:168)
-
-- **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L169) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:169)
+- **Map** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L134) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:134)
 
 - **forEach** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L172) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:172)
-
-- **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L173) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:173)
-
-- **if** – תומך גם ב-Firebase Timestamp וגם במחרוזת
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L177) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:177)
-
-- **toDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L178) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:178)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L135) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:135)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L179) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:179)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L137) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:137)
 
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L180) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:180)
+- **get** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L138) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:138)
 
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L181) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:181)
+- **for** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L140) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:140)
 
-- **String** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L186) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:186)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L187) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:187)
-
-- **forEach** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L193) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:193)
-
-- **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L194) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:194)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L195) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:195)
-
-- **parse** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L196) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:196)
-
-- **String** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L197) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:197)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L198) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:198)
+- **set** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L141) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:141)
 
 - **from** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L202) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:202)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L143) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:143)
 
-- **keys** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L203) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:203)
+- **parseDateStringForSorting** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L144) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:144)
 
-- **keys** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L204) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:204)
+- **visible** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L148) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:148)
 
-- **sort** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L205) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:205)
+- **grouped** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L149) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:149)
 
-- **split** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L206) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:206)
-
-- **split** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L207) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:207)
-
-- **merged** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L211) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:211)
-
-- **setMonthlyData** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L217) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:217)
+- **fetchClasses** – ==================== שליפות ====================
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L152) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:152)
 
 - **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L218) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:218)
-
-- **fetchData** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L221) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:221)
-
-- **CustomTooltip** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L224) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:224)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L225) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:225)
-
-- **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L226) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:226)
-
-- **find** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L229) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:229)
-
-- **find** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L230) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:230)
-
-- **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L237) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:237)
-
-- **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L258) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:258)
-
-- **AdminBookingControl** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L156) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:156)
-
-- **useNavigate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L157) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:157)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L158) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:158)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L159) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:159)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L160) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:160)
-
-- **handleDeleteAll** – מחיקת כל ההרשמות
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L163) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:163)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L164) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:164)
-
-- **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L166) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:166)
-
-- **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L168) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:168)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L153) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:153)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L169) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:169)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L155) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:155)
 
-- **batch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L170) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:170)
+- **data** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L156) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:156)
 
-- **deleteDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L171) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:171)
+- **setClasses** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L157) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:157)
 
-- **all** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L173) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:173)
-
-- **success** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L174) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:174)
+- **setSelectedClasses** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L158) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:158)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L175) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:175)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L159) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:159)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L176) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:176)
-
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L177) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:177)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L160) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:160)
 
 - **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L179) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:179)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L162) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:162)
 
-- **handleDeleteByDate** – מחיקה לפי תאריך
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L183) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:183)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L184) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:184)
-
-- **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L186) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:186)
+- **fetchInstructors** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L165) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:165)
 
 - **query** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L188) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:188)
-
-- **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L189) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:189)
-
-- **where** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L190) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:190)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L167) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:167)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L192) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:192)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L168) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:168)
 
-- **batch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L193) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:193)
+- **data** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L169) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:169)
 
-- **deleteDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L194) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:194)
-
-- **all** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L196) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:196)
-
-- **success** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L197) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:197)
+- **setInstructors** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L170) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:170)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L198) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:198)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L171) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:171)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L199) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:199)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L172) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:172)
 
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L200) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:200)
-
-- **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L202) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:202)
-
-- **handleDeleteByUser** – מחיקה לפי מזהה משתמש
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L206) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:206)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L207) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:207)
-
-- **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L209) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:209)
-
-- **query** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L211) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:211)
-
-- **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L212) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:212)
-
-- **where** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L213) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:213)
+- **fetchOccupancyMap** – שליפה מרוכזת של כל ההזמנות כדי לחשב תפוסה לכל שיעור
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L177) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:177)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L215) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:215)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L179) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:179)
 
-- **batch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L216) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:216)
+- **forEach** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L181) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:181)
 
-- **deleteDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L217) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:217)
+- **data** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L182) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:182)
 
-- **all** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L219) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:219)
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L184) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:184)
 
-- **success** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L220) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:220)
+- **setOccupancyMap** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L187) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:187)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L221) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:221)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L188) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:188)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L222) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:222)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L189) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:189)
 
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L223) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:223)
+- **clearForm** – ==================== טופס/מודל ====================
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L194) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:194)
 
-- **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L225) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:225)
-
-- **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L228) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:228)
-
-- **setDateToDelete** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L244) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:244)
-
-- **setUserIdToDelete** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L265) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:265)
-
-- **TopHeader** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L771) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:771)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L772) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:772)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L773) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:773)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L774) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:774)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L775) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:775)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L776) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:776)
-
-- **useEffect** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L789) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:789)
-
-- **normalizePhone** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L790) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:790)
-
-- **fetchStats** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L792) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:792)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L793) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:793)
-
-- **normalizePhone** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L796) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:796)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L797) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:797)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L799) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:799)
+- **setName** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L195) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:195)
 
 - **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L800) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:800)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L196) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:196)
 
-- **setHours** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L801) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:801)
+- **setTime** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L197) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:197)
+
+- **setSpots** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L198) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:198)
+
+- **setInstructorId** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L199) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:199)
+
+- **setEditingClassId** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L200) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:200)
+
+- **setMessage** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L201) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:201)
+
+- **setIsRecurring** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L202) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:202)
+
+- **setRecurrenceEndDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L203) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:203)
+
+- **setSelectedDays** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L204) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:204)
+
+- **openModalForEdit** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L207) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:207)
+
+- **setName** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L208) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:208)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L209) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:209)
+
+- **split** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L210) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:210)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L803) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:803)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L211) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:211)
 
 - **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L804) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:804)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L212) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:212)
 
-- **setHours** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L805) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:805)
+- **setDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L214) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:214)
 
-- **getFullYear** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L807) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:807)
+- **setTime** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L216) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:216)
 
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L808) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:808)
+- **setSpots** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L217) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:217)
 
-- **setHours** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L809) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:809)
+- **setInstructorId** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L218) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:218)
 
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L811) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:811)
+- **setEditingClassId** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L219) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:219)
 
-- **setHours** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L812) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:812)
+- **setIsModalOpen** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L220) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:220)
 
-- **classesThisWeek** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L814) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:814)
+- **handleDayToggle** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L223) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:223)
 
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L815) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:815)
-
-- **normalizePhone** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L816) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:816)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L817) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:817)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L818) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:818)
-
-- **split** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L819) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:819)
-
-- **setWeeklyCount** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L823) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:823)
-
-- **classesThisMonth** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L825) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:825)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L826) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:826)
-
-- **normalizePhone** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L827) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:827)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L828) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:828)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L829) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:829)
-
-- **split** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L830) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:830)
-
-- **setMonthlyCount** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L834) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:834)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L836) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:836)
-
-- **setUniqueParticipantsCount** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L837) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:837)
-
-- **classIds** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L841) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:841)
-
-- **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L844) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:844)
-
-- **allBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L845) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:845)
-
-- **relevantBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L846) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:846)
+- **setSelectedDays** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L224) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:224)
 
 - **includes** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L847) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:847)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L225) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:225)
 
-- **Set** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L850) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:850)
-
-- **setUniqueParticipantsCount** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L852) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:852)
-
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L853) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:853)
-
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L854) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:854)
-
-- **setUniqueParticipantsCount** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L855) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:855)
-
-- **fetchStats** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L859) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:859)
-
-- **useEffect** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L862) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:862)
-
-- **fetchUserStats** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L863) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:863)
-
-- **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L865) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:865)
-
-- **users** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L866) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:866)
-
-- **nonAdminUsers** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L867) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:867)
-
-- **filter** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L868) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:868)
-
-- **filter** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L871) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:871)
-
-- **setUserCount** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L874) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:874)
-
-- **setInstructorCount** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L875) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:875)
-
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L876) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:876)
-
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L877) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:877)
+- **handleSaveClass** – ==================== יצירת/עדכון שיעורים ====================
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L230) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:230)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L881) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:881)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L231) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:231)
 
-- **log** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L883) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:883)
+- **setMessage** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L232) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:232)
 
-- **log** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L884) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:884)
+- **setLoading** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L236) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:236)
 
-- **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L886) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:886)
+- **instructor** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L238) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:238)
 
-- **rgba** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L891) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:891)
+- **formatDateToDDMMYYYY** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L241) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:241)
 
-- **rgba** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L899) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:899)
+- **parseInt** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L245) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:245)
 
-- **MainLayout** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/MainLayout.jsx#L140) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\MainLayout.jsx:140)
-
-- **charAt** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/MainLayout.jsx#L142) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\MainLayout.jsx:142)
-
-- **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/MainLayout.jsx#L144) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\MainLayout.jsx:144)
-
-- **useInstallPrompt** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L401) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:401)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L402) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:402)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L403) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:403)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L404) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:404)
-
-- **useEffect** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L406) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:406)
-
-- **matchMedia** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L407) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:407)
-
-- **setIsStandalone** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L408) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:408)
-
-- **toLowerCase** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L410) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:410)
-
-- **setIsIOS** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L411) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:411)
-
-- **handler** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L413) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:413)
-
-- **preventDefault** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L414) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:414)
-
-- **setDeferredPrompt** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L415) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:415)
-
-- **addEventListener** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L418) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:418)
-
-- **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L419) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:419)
-
-- **triggerInstall** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L422) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:422)
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L246) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:246)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L423) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:423)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L249) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:249)
 
-- **prompt** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L424) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:424)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L426) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:426)
-
-- **success** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L427) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:427)
-
-- **setItem** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L428) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:428)
-
-- **setDeferredPrompt** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L430) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:430)
-
-- **Header** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1446) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1446)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1447) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1447)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1448) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1448)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1449) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1449)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1450) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1450)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1451) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1451)
-
-- **useEffect** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1455) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1455)
+- **createRecurringClasses** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L250) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:250)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1456) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1456)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L251) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:251)
 
-- **fetchUserData** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1458) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1458)
+- **setMessage** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L252) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:252)
 
-- **doc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1460) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1460)
-
-- **getDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1461) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1461)
+- **setMessage** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L254) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:254)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1463) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1463)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L257) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:257)
 
-- **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1464) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1464)
+- **updateDoc** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L258) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:258)
 
-- **setUserData** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1465) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1465)
+- **setMessage** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L259) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:259)
 
-- **setMaxLessons** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1466) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1466)
+- **addDoc** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L261) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:261)
 
-- **listenToBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1467) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1467)
+- **autoRegisterUsersForClass** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L263) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:263)
 
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1469) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1469)
+- **setMessage** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L264) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:264)
 
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1470) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1470)
+- **clearForm** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L272) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:272)
 
 - **fetchClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1473) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1473)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L273) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:273)
 
-- **setIsLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1474) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1474)
-
-- **fetchUserData** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1477) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1477)
-
-- **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1479) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1479)
+- **fetchOccupancyMap** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L274) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:274)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1480) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1480)
-
-- **unsubscribeFromBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1481) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1481)
-
-- **fetchClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1486) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1486)
-
-- **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1488) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1488)
-
-- **classes** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1489) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1489)
-
-- **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1490) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1490)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1491) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1491)
-
-- **warn** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1492) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1492)
-
-- **setAllClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1499) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1499)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L276) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:276)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1500) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1500)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L277) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:277)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1501) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1501)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L278) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:278)
 
-- **setAllClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1502) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1502)
+- **setMessage** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L279) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:279)
 
-- **listenToBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1506) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1506)
+- **setLoading** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L281) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:281)
+
+- **createRecurringClasses** – שיעורים מחזוריים
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L285) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:285)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1507) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1507)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L286) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:286)
 
-- **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1509) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1509)
+- **setMessage** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L287) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:287)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L290) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:290)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L291) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:291)
+
+- **while** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L296) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:296)
+
+- **getDay** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L297) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:297)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L298) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:298)
+
+- **formatDateToDDMMYYYY** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L301) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:301)
+
+- **addDoc** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L303) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:303)
+
+- **autoRegisterUsersForClass** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L305) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:305)
+
+- **addDays** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L309) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:309)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L311) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:311)
+
+- **setMessage** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L312) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:312)
+
+- **catch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L317) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:317)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L318) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:318)
+
+- **autoRegisterUsersForClass** – רישום אוטומטי – ללא שינוי מנגנון המנויים שלך, רק דואג לא לחרוג מקיבולת ולשמור spots קבוע
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L324) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:324)
 
 - **query** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1510) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1510)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L326) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:326)
 
-- **onSnapshot** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1512) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1512)
-
-- **allBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1513) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1513)
-
-- **calculateRemainingLessons** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1514) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1514)
-
-- **calculateRemainingLessons** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1518) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1518)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1519) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1519)
+- **getDocs** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L327) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:327)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1522) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1522)
-
-- **currentWeekBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1523) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1523)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L328) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:328)
 
 - **split** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1524) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1524)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L330) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:330)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1525) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1525)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L331) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:331)
 
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1527) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1527)
-
-- **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1528) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1528)
-
-- **setHours** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1529) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1529)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1531) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1531)
-
-- **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1532) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1532)
-
-- **setHours** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1533) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1533)
-
-- **setRemainingLessons** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1539) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1539)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1542) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1542)
-
-- **currentMonthBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1543) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1543)
+- **getDay** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L332) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:332)
 
 - **split** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1544) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1544)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L333) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:333)
+
+- **Number** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L338) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:338)
+
+- **for** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L340) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:340)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L341) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:341)
+
+- **data** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L343) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:343)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L344) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:344)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L345) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:345)
+
+- **split** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L347) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:347)
+
+- **split** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L348) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:348)
+
+- **split** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L349) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:349)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L352) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:352)
+
+- **query** – לא כבר רשום לשיעור הזה
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L357) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:357)
+
+- **collection** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L358) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:358)
+
+- **where** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L359) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:359)
+
+- **where** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L360) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:360)
+
+- **getDocs** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L362) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:362)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L363) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:363)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L370) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:370)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L372) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:372)
+
+- **getWeekNumber** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L373) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:373)
+
+- **query** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L375) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:375)
+
+- **getDocs** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L376) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:376)
+
+- **map** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L378) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:378)
+
+- **filter** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L379) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:379)
+
+- **split** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L381) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:381)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1545) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1545)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L382) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:382)
 
-- **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1547) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1547)
-
-- **getMonth** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1548) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1548)
-
-- **getFullYear** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1549) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1549)
-
-- **setRemainingLessons** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1554) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1554)
+- **getWeekNumber** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L383) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:383)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1557) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1557)
-
-- **setRemainingLessons** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1558) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1558)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L388) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:388)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1562) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1562)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L391) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:391)
+
+- **query** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L393) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:393)
+
+- **getDocs** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L394) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:394)
+
+- **map** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L396) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:396)
+
+- **filter** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L397) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:397)
+
+- **split** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L399) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:399)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L405) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:405)
+
+- **if** – אכיפת קיבולת לפני ההכנסה
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L409) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:409)
+
+- **addDoc** – הוספת הרשמה
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L412) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:412)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L419) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:419)
+
+- **if** – לא משנים spots! נשמר קבוע. רק נספור מקומית.
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L424) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:424)
+
+- **updateDoc** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L426) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:426)
+
+- **catch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L439) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:439)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L440) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:440)
+
+- **getWeekNumber** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L445) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:445)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L446) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:446)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L447) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:447)
+
+- **floor** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L448) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:448)
+
+- **ceil** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L449) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:449)
+
+- **handleClassSelection** – ==================== בחירה/מחיקה ====================
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L453) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:453)
+
+- **setSelectedClasses** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L454) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:454)
+
+- **includes** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L455) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:455)
+
+- **selectAllClasses** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L459) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:459)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L460) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:460)
+
+- **setSelectedClasses** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L461) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:461)
+
+- **setSelectedClasses** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L463) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:463)
+
+- **confirmDeleteClass** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L467) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:467)
+
+- **setDeleteClassId** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L468) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:468)
+
+- **setShowDeleteConfirm** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L469) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:469)
+
+- **handleDeleteClass** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L472) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:472)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L473) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:473)
+
+- **setLoading** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L474) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:474)
+
+- **deleteDoc** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L476) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:476)
+
+- **setMessage** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L477) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:477)
+
+- **fetchClasses** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L478) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:478)
+
+- **fetchOccupancyMap** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L479) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:479)
+
+- **catch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L480) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:480)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L481) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:481)
+
+- **setMessage** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L482) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:482)
+
+- **setShowDeleteConfirm** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L484) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:484)
+
+- **setDeleteClassId** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L485) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:485)
+
+- **setLoading** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L486) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:486)
+
+- **handleBulkDelete** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L489) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:489)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L490) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:490)
+
+- **setLoading** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L491) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:491)
+
+- **for** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L493) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:493)
+
+- **deleteDoc** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L494) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:494)
+
+- **setMessage** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L496) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:496)
+
+- **fetchClasses** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L497) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:497)
+
+- **fetchOccupancyMap** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L498) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:498)
+
+- **catch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L499) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:499)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L500) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:500)
+
+- **setMessage** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L501) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:501)
+
+- **setShowBulkDeleteConfirm** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L503) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:503)
+
+- **setSelectedClasses** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L504) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:504)
+
+- **setLoading** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L505) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:505)
+
+- **return** – ==================== UI ====================
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L509) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:509)
+
+- **setSearch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L520) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:520)
+
+- **setInstructorFilter** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L528) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:528)
+
+- **map** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L533) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:533)
+
+- **setShowUpcomingOnly** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L544) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:544)
+
+- **setShowBulkDeleteConfirm** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L561) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:561)
+
+- **clearForm** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L570) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:570)
+
+- **setIsModalOpen** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L571) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:571)
+
+- **map** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L587) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:587)
+
+- **map** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L594) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:594)
+
+- **Number** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L596) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:596)
+
+- **Number** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L597) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:597)
+
+- **min** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L599) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:599)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L1564) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:1564)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L601) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:601)
 
-- **DarkModeToggle** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/DarkModeToggle.jsx#L270) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\DarkModeToggle.jsx:270)
+- **includes** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L605) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:605)
+
+- **handleClassSelection** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L606) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:606)
+
+- **openModalForEdit** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L644) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:644)
+
+- **confirmDeleteClass** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L652) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:652)
+
+- **setIsModalOpen** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L670) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:670)
+
+- **setIsModalOpen** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L679) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:679)
+
+- **setName** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L693) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:693)
+
+- **setDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L702) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:702)
+
+- **setTime** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L710) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:710)
+
+- **setSpots** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L724) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:724)
+
+- **setInstructorId** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L734) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:734)
+
+- **map** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L738) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:738)
+
+- **setIsRecurring** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L753) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:753)
+
+- **map** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L774) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:774)
+
+- **includes** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L778) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:778)
+
+- **handleDayToggle** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L779) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:779)
+
+- **setRecurrenceEndDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L792) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:792)
+
+- **setIsModalOpen** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L810) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:810)
+
+- **handleSaveClass** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L815) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:815)
+
+- **handleSaveClass** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L822) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:822)
+
+- **setShowDeleteConfirm** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L842) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:842)
+
+- **setShowBulkDeleteConfirm** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminClassesPanel.jsx#L869) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminClassesPanel.jsx:869)
+
+- **AdminCancellationsPage** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L26) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:26)
+
+- **useState** – סטייטים כלליים
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L28) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:28)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/DarkModeToggle.jsx#L271) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\DarkModeToggle.jsx:271)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L29) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:29)
 
-- **useEffect** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/DarkModeToggle.jsx#L273) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\DarkModeToggle.jsx:273)
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L30) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:30)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L31) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:31)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L32) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:32)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L33) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:33)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L34) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:34)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L35) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:35)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L36) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:36)
+
+- **useEffect** – שליפת הנתונים מ-Firestore וקיבוץ לפי תאריך שיעור
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L39) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:39)
+
+- **fetchCancellations** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L40) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:40)
+
+- **getDocs** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L41) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:41)
+
+- **getDocs** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L42) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:42)
+
+- **Set** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L44) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:44)
+
+- **forEach** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L47) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:47)
+
+- **data** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L48) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:48)
+
+- **forEach** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L51) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:51)
+
+- **data** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L52) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:52)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/DarkModeToggle.jsx#L275) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\DarkModeToggle.jsx:275)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L54) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:54)
+
+- **parse** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L55) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:55)
+
+- **getFullYear** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L56) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:56)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L58) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:58)
+
+- **getWeek** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L59) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:59)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L61) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:61)
+
+- **getMonth** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L62) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:62)
+
+- **format** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L64) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:64)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L66) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:66)
+
+- **push** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L67) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:67)
+
+- **toDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L72) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:72)
 
 - **add** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/DarkModeToggle.jsx#L276) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\DarkModeToggle.jsx:276)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L77) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:77)
 
-- **remove** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/DarkModeToggle.jsx#L278) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\DarkModeToggle.jsx:278)
+- **keys** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L80) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:80)
+
+- **sort** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L81) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:81)
+
+- **parse** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L82) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:82)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L85) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:85)
+
+- **parse** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L87) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:87)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L90) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:90)
+
+- **setUsersMap** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L96) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:96)
+
+- **setUsersWithCancellations** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L97) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:97)
+
+- **setCancellationsByGroup** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L98) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:98)
+
+- **setLoading** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L99) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:99)
+
+- **fetchCancellations** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L102) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:102)
+
+- **filteredResults** – סינון תוצאות לפי שם או סיבה
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L106) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:106)
+
+- **filter** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L107) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:107)
+
+- **toLowerCase** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L109) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:109)
+
+- **toLowerCase** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L110) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:110)
+
+- **handleEditReason** – ✅ פונקציית עריכה בסיסית לסיבה
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L114) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:114)
+
+- **prompt** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L115) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:115)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L116) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:116)
+
+- **updateDoc** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L118) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:118)
+
+- **success** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L119) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:119)
+
+- **setCancellationsByGroup** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L120) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:120)
+
+- **for** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L122) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:122)
+
+- **map** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L123) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:123)
+
+- **catch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L129) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:129)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L130) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:130)
+
+- **handleDeleteCancellation** – ✅ מחיקה מלאה של הביטול
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L135) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:135)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L136) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:136)
+
+- **deleteDoc** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L138) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:138)
+
+- **success** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L139) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:139)
+
+- **setCancellationsByGroup** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L140) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:140)
+
+- **for** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L142) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:142)
+
+- **filtered** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L143) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:143)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L144) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:144)
+
+- **catch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L148) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:148)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L149) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:149)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/DarkModeToggle.jsx#L282) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\DarkModeToggle.jsx:282)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L153) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:153)
+
+- **setFilterType** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L165) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:165)
+
+- **setSelectedUser** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L174) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:174)
+
+- **map** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L177) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:177)
+
+- **setSearchTerm** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L188) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:188)
+
+- **entries** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L197) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:197)
+
+- **split** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L202) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:202)
+
+- **split** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L204) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:204)
+
+- **filteredResults** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L222) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:222)
+
+- **includes** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L235) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:235)
+
+- **formatDistanceToNow** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L245) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:245)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L246) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:246)
+
+- **handleEditReason** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L260) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:260)
+
+- **handleDeleteCancellation** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L267) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:267)
+
+- **filteredResults** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L284) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:284)
+
+- **handleEditReason** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L299) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:299)
+
+- **handleDeleteCancellation** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L305) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:305)
+
+- **formatDistanceToNow** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L323) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:323)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminCancellationsPage.jsx#L324) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminCancellationsPage.jsx:324)
+
+- **AdminBookingOverview** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L26) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:26)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L27) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:27)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L28) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:28)
+
+- **useEffect** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L30) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:30)
+
+- **fetchData** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L31) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:31)
+
+- **setLoading** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L32) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:32)
+
+- **getDocs** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L33) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:33)
+
+- **getDocs** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L34) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:34)
+
+- **forEach** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L37) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:37)
+
+- **data** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L38) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:38)
+
+- **if** – תומך גם ב-Firebase Timestamp וגם במחרוזת
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L42) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:42)
+
+- **toDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L43) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:43)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L44) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:44)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L45) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:45)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L46) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:46)
+
+- **String** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L51) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:51)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L52) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:52)
+
+- **forEach** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L58) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:58)
+
+- **data** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L59) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:59)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L60) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:60)
+
+- **parse** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L61) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:61)
+
+- **String** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L62) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:62)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L63) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:63)
+
+- **from** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L67) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:67)
+
+- **keys** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L68) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:68)
+
+- **keys** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L69) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:69)
+
+- **sort** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L70) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:70)
+
+- **split** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L71) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:71)
+
+- **split** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L72) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:72)
+
+- **merged** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L76) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:76)
+
+- **setMonthlyData** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L82) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:82)
+
+- **setLoading** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L83) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:83)
+
+- **fetchData** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L86) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:86)
+
+- **CustomTooltip** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L89) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:89)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L90) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:90)
+
+- **return** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L91) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:91)
+
+- **find** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L94) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:94)
+
+- **find** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L95) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:95)
+
+- **return** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L102) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:102)
+
+- **map** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingOverview.jsx#L123) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingOverview.jsx:123)
+
+- **AdminBookingControl** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L15) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:15)
+
+- **useNavigate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L16) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:16)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L17) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:17)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L18) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:18)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L19) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:19)
+
+- **handleDeleteAll** – מחיקת כל ההרשמות
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L22) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:22)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L23) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:23)
+
+- **setLoading** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L25) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:25)
+
+- **collection** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L27) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:27)
+
+- **getDocs** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L28) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:28)
+
+- **batch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L29) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:29)
+
+- **deleteDoc** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L30) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:30)
+
+- **all** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L32) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:32)
+
+- **success** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L33) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:33)
+
+- **catch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L34) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:34)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L35) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:35)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L36) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:36)
+
+- **setLoading** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L38) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:38)
+
+- **handleDeleteByDate** – מחיקה לפי תאריך
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L42) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:42)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L43) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:43)
+
+- **setLoading** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L45) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:45)
+
+- **query** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L47) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:47)
+
+- **collection** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L48) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:48)
+
+- **where** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L49) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:49)
+
+- **getDocs** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L51) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:51)
+
+- **batch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L52) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:52)
+
+- **deleteDoc** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L53) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:53)
+
+- **all** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L55) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:55)
+
+- **success** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L56) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:56)
+
+- **catch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L57) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:57)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L58) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:58)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L59) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:59)
+
+- **setLoading** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L61) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:61)
+
+- **handleDeleteByUser** – מחיקה לפי מזהה משתמש
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L65) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:65)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L66) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:66)
+
+- **setLoading** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L68) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:68)
+
+- **query** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L70) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:70)
+
+- **collection** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L71) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:71)
+
+- **where** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L72) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:72)
+
+- **getDocs** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L74) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:74)
+
+- **batch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L75) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:75)
+
+- **deleteDoc** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L76) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:76)
+
+- **all** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L78) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:78)
+
+- **success** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L79) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:79)
+
+- **catch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L80) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:80)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L81) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:81)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L82) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:82)
+
+- **setLoading** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L84) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:84)
+
+- **return** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L87) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:87)
+
+- **setDateToDelete** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L103) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:103)
+
+- **setUserIdToDelete** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/AdminBookingControl.jsx#L124) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\AdminBookingControl.jsx:124)
+
+- **TopHeader** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L7) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:7)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L8) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:8)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L9) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:9)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L10) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:10)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L11) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:11)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L12) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:12)
+
+- **useEffect** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L25) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:25)
+
+- **normalizePhone** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L26) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:26)
+
+- **fetchStats** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L28) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:28)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L29) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:29)
+
+- **normalizePhone** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L32) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:32)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L33) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:33)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L35) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:35)
+
+- **setDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L36) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:36)
+
+- **setHours** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L37) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:37)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L39) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:39)
+
+- **setDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L40) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:40)
+
+- **setHours** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L41) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:41)
+
+- **getFullYear** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L43) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:43)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L44) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:44)
+
+- **setHours** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L45) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:45)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L47) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:47)
+
+- **setHours** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L48) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:48)
+
+- **classesThisWeek** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L50) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:50)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L51) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:51)
+
+- **normalizePhone** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L52) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:52)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L53) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:53)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L54) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:54)
+
+- **split** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L55) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:55)
+
+- **setWeeklyCount** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L59) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:59)
+
+- **classesThisMonth** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L61) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:61)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L62) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:62)
+
+- **normalizePhone** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L63) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:63)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L64) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:64)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L65) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:65)
+
+- **split** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L66) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:66)
+
+- **setMonthlyCount** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L70) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:70)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L72) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:72)
+
+- **setUniqueParticipantsCount** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L73) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:73)
+
+- **classIds** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L77) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:77)
+
+- **getDocs** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L80) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:80)
+
+- **allBookings** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L81) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:81)
+
+- **relevantBookings** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L82) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:82)
+
+- **includes** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L83) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:83)
+
+- **Set** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L86) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:86)
+
+- **setUniqueParticipantsCount** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L88) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:88)
+
+- **catch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L89) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:89)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L90) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:90)
+
+- **setUniqueParticipantsCount** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L91) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:91)
+
+- **fetchStats** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L95) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:95)
+
+- **useEffect** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L98) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:98)
+
+- **fetchUserStats** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L99) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:99)
+
+- **getDocs** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L101) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:101)
+
+- **users** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L102) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:102)
+
+- **nonAdminUsers** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L103) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:103)
+
+- **filter** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L104) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:104)
+
+- **filter** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L107) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:107)
+
+- **setUserCount** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L110) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:110)
+
+- **setInstructorCount** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L111) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:111)
+
+- **catch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L112) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:112)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L113) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:113)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L117) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:117)
+
+- **log** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L119) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:119)
+
+- **log** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L120) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:120)
+
+- **return** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L122) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:122)
+
+- **rgba** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L127) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:127)
+
+- **rgba** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/TopHeader.jsx#L135) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\TopHeader.jsx:135)
+
+- **MainLayout** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/MainLayout.jsx#L6) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\MainLayout.jsx:6)
+
+- **charAt** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/MainLayout.jsx#L8) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\MainLayout.jsx:8)
+
+- **return** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/MainLayout.jsx#L10) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\MainLayout.jsx:10)
+
+- **useInstallPrompt** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L5) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:5)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L6) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:6)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L7) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:7)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L8) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:8)
+
+- **useEffect** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L10) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:10)
+
+- **matchMedia** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L11) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:11)
+
+- **setIsStandalone** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L12) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:12)
+
+- **toLowerCase** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L14) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:14)
+
+- **setIsIOS** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L15) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:15)
+
+- **handler** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L17) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:17)
+
+- **preventDefault** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L18) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:18)
+
+- **setDeferredPrompt** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L19) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:19)
+
+- **addEventListener** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L22) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:22)
+
+- **return** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L23) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:23)
+
+- **triggerInstall** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L26) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:26)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L27) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:27)
+
+- **prompt** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L28) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:28)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L30) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:30)
+
+- **success** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L31) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:31)
+
+- **setItem** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L32) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:32)
+
+- **setDeferredPrompt** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/InstallPromptManager.jsx#L34) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\InstallPromptManager.jsx:34)
+
+- **Header** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L16) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:16)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L17) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:17)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L18) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:18)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L19) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:19)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L20) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:20)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L21) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:21)
+
+- **useEffect** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L25) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:25)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L26) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:26)
+
+- **fetchUserData** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L28) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:28)
+
+- **doc** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L30) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:30)
+
+- **getDoc** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L31) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:31)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L33) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:33)
+
+- **data** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L34) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:34)
+
+- **setUserData** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L35) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:35)
+
+- **setMaxLessons** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L36) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:36)
+
+- **listenToBookings** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L37) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:37)
+
+- **catch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L39) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:39)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L40) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:40)
+
+- **fetchClasses** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L43) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:43)
+
+- **setIsLoading** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L44) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:44)
+
+- **fetchUserData** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L47) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:47)
+
+- **return** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L49) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:49)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L50) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:50)
+
+- **unsubscribeFromBookings** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L51) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:51)
+
+- **fetchClasses** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L56) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:56)
+
+- **getDocs** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L58) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:58)
+
+- **classes** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L59) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:59)
+
+- **data** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L60) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:60)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L61) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:61)
+
+- **warn** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L62) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:62)
+
+- **setAllClasses** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L69) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:69)
+
+- **catch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L70) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:70)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L71) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:71)
+
+- **setAllClasses** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L72) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:72)
+
+- **listenToBookings** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L76) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:76)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L77) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:77)
+
+- **collection** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L79) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:79)
+
+- **query** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L80) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:80)
+
+- **onSnapshot** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L82) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:82)
+
+- **allBookings** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L83) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:83)
+
+- **calculateRemainingLessons** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L84) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:84)
+
+- **calculateRemainingLessons** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L88) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:88)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L89) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:89)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L92) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:92)
+
+- **currentWeekBookings** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L93) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:93)
+
+- **split** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L94) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:94)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L95) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:95)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L97) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:97)
+
+- **setDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L98) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:98)
+
+- **setHours** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L99) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:99)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L101) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:101)
+
+- **setDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L102) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:102)
+
+- **setHours** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L103) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:103)
+
+- **setRemainingLessons** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L109) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:109)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L112) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:112)
+
+- **currentMonthBookings** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L113) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:113)
+
+- **split** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L114) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:114)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L115) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:115)
+
+- **return** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L117) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:117)
+
+- **getMonth** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L118) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:118)
+
+- **getFullYear** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L119) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:119)
+
+- **setRemainingLessons** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L124) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:124)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L127) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:127)
+
+- **setRemainingLessons** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L128) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:128)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L132) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:132)
+
+- **return** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/Header.jsx#L134) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\Header.jsx:134)
+
+- **DarkModeToggle** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/DarkModeToggle.jsx#L7) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\DarkModeToggle.jsx:7)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/DarkModeToggle.jsx#L8) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\DarkModeToggle.jsx:8)
+
+- **useEffect** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/DarkModeToggle.jsx#L10) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\DarkModeToggle.jsx:10)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/DarkModeToggle.jsx#L12) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\DarkModeToggle.jsx:12)
+
+- **add** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/DarkModeToggle.jsx#L13) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\DarkModeToggle.jsx:13)
+
+- **remove** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/DarkModeToggle.jsx#L15) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\DarkModeToggle.jsx:15)
+
+- **return** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/DarkModeToggle.jsx#L19) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\DarkModeToggle.jsx:19)
 
 - **setDarkMode** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/DarkModeToggle.jsx#L284) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\DarkModeToggle.jsx:284)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/DarkModeToggle.jsx#L21) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\DarkModeToggle.jsx:21)
 
 - **useState** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L28) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:28)
@@ -4692,307 +4770,307 @@
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/ClassCard.jsx#L337) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\ClassCard.jsx:337)
 
 - **BookingModal** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L288) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:288)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L7) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:7)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L289) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:289)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L8) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:8)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L290) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:290)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L9) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:9)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L291) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:291)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L10) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:10)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L292) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:292)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L11) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:11)
 
 - **useEffect** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L294) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:294)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L13) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:13)
 
 - **fetchUsers** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L295) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:295)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L14) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:14)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L296) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:296)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L15) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:15)
 
 - **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L298) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:298)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L17) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:17)
 
 - **filter** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L299) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:299)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L18) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:18)
 
 - **setUsers** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L300) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:300)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L19) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:19)
 
 - **setFilteredUsers** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L301) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:301)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L20) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:20)
 
 - **fetchUsers** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L303) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:303)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L22) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:22)
 
 - **useEffect** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L306) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:306)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L25) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:25)
 
 - **toLowerCase** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L307) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:307)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L26) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:26)
 
 - **setFilteredUsers** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L308) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:308)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L27) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:27)
 
 - **handleBooking** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L311) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:311)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L30) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:30)
 
 - **selectedUser** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L312) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:312)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L31) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:31)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L313) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:313)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L32) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:32)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L314) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:314)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L33) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:33)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L325) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:325)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L44) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:44)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L326) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:326)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L45) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:45)
 
 - **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L327) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:327)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L46) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:46)
 
 - **setHours** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L328) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:328)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L47) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:47)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L330) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:330)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L49) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:49)
 
 - **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L331) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:331)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L50) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:50)
 
 - **setHours** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L332) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:332)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L51) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:51)
 
 - **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L334) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:334)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L53) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:53)
 
 - **query** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L335) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:335)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L54) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:54)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L336) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:336)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L55) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:55)
 
 - **some** – בדיקה אם כבר רשום לאותו יום
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L339) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:339)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L58) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:58)
 
 - **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L340) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:340)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L59) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:59)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L342) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:342)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L61) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:61)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L343) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:343)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L62) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:62)
 
 - **weeklyBookings** – בדיקה אם עבר את מגבלת השיעורים השבועית
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L347) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:347)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L66) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:66)
 
 - **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L348) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:348)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L67) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:67)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L349) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:349)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L68) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:68)
 
 - **split** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L350) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:350)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L69) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:69)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L356) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:356)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L75) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:75)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L357) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:357)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L76) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:76)
 
 - **addDoc** – הרשמה בפועל
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L361) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:361)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L80) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:80)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L369) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:369)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L88) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:88)
 
 - **success** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L372) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:372)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L91) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:91)
 
 - **onClose** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L374) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:374)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L93) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:93)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L375) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:375)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L94) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:94)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L376) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:376)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L95) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:95)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L377) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:377)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L96) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:96)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L381) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:381)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L100) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:100)
 
 - **setSearchTerm** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L390) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:390)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L109) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:109)
 
 - **setSelectedPhone** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L397) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:397)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L116) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:116)
 
 - **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L400) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:400)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BookingModal.jsx#L119) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BookingModal.jsx:119)
 
 - **BackToDashboardButton** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BackToDashboardButton.jsx#L35) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BackToDashboardButton.jsx:35)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BackToDashboardButton.jsx#L5) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BackToDashboardButton.jsx:5)
 
 - **useNavigate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BackToDashboardButton.jsx#L36) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BackToDashboardButton.jsx:36)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BackToDashboardButton.jsx#L6) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BackToDashboardButton.jsx:6)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BackToDashboardButton.jsx#L38) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BackToDashboardButton.jsx:38)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BackToDashboardButton.jsx#L8) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BackToDashboardButton.jsx:8)
 
 - **navigate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BackToDashboardButton.jsx#L40) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BackToDashboardButton.jsx:40)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BackToDashboardButton.jsx#L10) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BackToDashboardButton.jsx:10)
 
 - **BackToAdminButton** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BackToAdminButton.jsx#L43) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BackToAdminButton.jsx:43)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BackToAdminButton.jsx#L7) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BackToAdminButton.jsx:7)
 
 - **useNavigate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BackToAdminButton.jsx#L44) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BackToAdminButton.jsx:44)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BackToAdminButton.jsx#L8) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BackToAdminButton.jsx:8)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BackToAdminButton.jsx#L46) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BackToAdminButton.jsx:46)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BackToAdminButton.jsx#L10) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BackToAdminButton.jsx:10)
 
 - **navigate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BackToAdminButton.jsx#L48) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BackToAdminButton.jsx:48)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/BackToAdminButton.jsx#L12) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\BackToAdminButton.jsx:12)
 
 - **AdminClassModal** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L300) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:300)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L18) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:18)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L301) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:301)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L19) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:19)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L302) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:302)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L20) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:20)
 
 - **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L303) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:303)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L21) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:21)
 
 - **useEffect** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L305) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:305)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L23) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:23)
 
 - **fetchParticipants** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L306) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:306)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L24) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:24)
 
 - **query** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L308) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:308)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L26) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:26)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L309) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:309)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L27) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:27)
 
 - **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L311) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:311)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L29) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:29)
 
 - **setParticipants** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L312) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:312)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L30) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:30)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L313) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:313)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L31) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:31)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L314) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:314)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L32) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:32)
 
 - **fetchParticipants** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L317) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:317)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L35) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:35)
 
 - **handleAddParticipant** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L320) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:320)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L38) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:38)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L321) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:321)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L39) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:39)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L322) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:322)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L40) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:40)
 
 - **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L326) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:326)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L44) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:44)
 
 - **trim** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L327) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:327)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L45) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:45)
 
 - **query** – בדיקה אם כבר רשום לשיעור
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L331) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:331)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L49) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:49)
 
 - **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L332) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:332)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L50) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:50)
 
 - **where** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L333) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:333)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L51) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:51)
 
 - **where** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L334) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:334)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L52) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:52)
 
 - **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L336) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:336)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L54) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:54)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L339) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:339)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L57) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:57)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L340) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:340)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L58) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:58)
 
 - **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L341) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:341)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L59) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:59)
 
 - **doc** – שלב חדש: טעינת שם המשתמש מאוסף Users
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L346) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:346)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L64) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:64)
 
 - **getDoc** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L347) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:347)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L65) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:65)
 
 - **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L350) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:350)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L68) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:68)
 
 - **data** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L351) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:351)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L69) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:69)
 
 - **addDoc** – הוספת המשתמש לשיעור כולל userName
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L355) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:355)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L73) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:73)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L363) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:363)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L81) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:81)
 
 - **success** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L366) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:366)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L84) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:84)
 
 - **setUserToAddPhone** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L367) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:367)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L85) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:85)
 
 - **refresh** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L368) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:368)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L86) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:86)
 
 - **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L369) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:369)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L87) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:87)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L370) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:370)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L88) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:88)
 
 - **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L371) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:371)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L89) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:89)
 
 - **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L374) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:374)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L92) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:92)
 
 - **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L377) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:377)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L95) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:95)
 
 - **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L401) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:401)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L119) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:119)
 
 - **handleRemoveParticipant** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L405) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:405)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L123) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:123)
 
 - **setUserToAddPhone** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L423) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:423)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/components/AdminClassModal.jsx#L141) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\components\AdminClassModal.jsx:141)

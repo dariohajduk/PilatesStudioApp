@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+// AdminClassesPanel.jsx
+import React, { useEffect, useMemo, useState } from "react";
 import { db } from "../services/firebase";
 import {
   collection,
@@ -13,5828 +14,692 @@ import {
 import { format, addDays } from "date-fns";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import { Trash2, Edit, Check, X } from "lucide-react"; // אייקונים
+import { Trash2, Edit, Check, X } from "lucide-react";
 import BackToAdminButton from "../components/BackToAdminButton";
-import { useNavigate } from "react-router-dom";
 
 // ==================== קומפוננטת פאנל ניהול שיעורים ====================
 const AdminClassesPanel = ({ employee }) => {
-  // ========== מצב (State) ==========
-  // משתני State לניהול השיעורים
-  const [classes, setClasses] = useState([]); // רשימת כל השיעורים
+  // ---------------- מצב כללי ----------------
+  const [classes, setClasses] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [message, setMessage] = useState("");
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
+  // מחיקה מרובה
+  const [selectedClasses, setSelectedClasses] = useState([]);
+  const [showBulkDeleteConfirm, setShowBulkDeleteConfirm] = useState(false);
 
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-/**
- * TODO: תאר את הפונקציה useState
- */
-  const [loading, setLoading] = useState(true); // אינדיקטור לטעינה
-  const [message, setMessage] = useState(""); // הודעת מערכת למשתמש
-  const [isModalOpen, setIsModalOpen] = useState(false); // האם חלון המודל פתוח
+  // טופס הוספה/עריכה
+  const [name, setName] = useState("");
+  const [date, setDate] = useState(null);
+  const [time, setTime] = useState("");
+  const [spots, setSpots] = useState(6); // קיבולת קבועה
+  const [instructorId, setInstructorId] = useState("");
+  const [instructors, setInstructors] = useState([]);
+  const [editingClassId, setEditingClassId] = useState(null);
+  const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
+  const [deleteClassId, setDeleteClassId] = useState(null);
 
-  // משתני State למחיקה מרובה
-  const [selectedClasses, setSelectedClasses] = useState([]); // רשימת שיעורים מסומנים למחיקה
-  const [showBulkDeleteConfirm, setShowBulkDeleteConfirm] = useState(false); // האם להציג חלון אישור מחיקה מרובה
+  // שיעורים מחזוריים
+  const [isRecurring, setIsRecurring] = useState(false);
+  const [recurrenceEndDate, setRecurrenceEndDate] = useState(null);
+  const [selectedDays, setSelectedDays] = useState([]); // ערכים 0..6 (0=ראשון)
 
-  // משתני State לטופס הוספת/עריכת שיעור
-  const [name, setName] = useState(""); // שם השיעור
-  const [date, setDate] = useState(null); // תאריך השיעור
-  const [time, setTime] = useState(""); // שעת השיעור
-  const [spots, setSpots] = useState(6); // מספר מקומות פנויים
-  const [instructorId, setInstructorId] = useState(""); // מזהה המדריך
-  const [instructors, setInstructors] = useState([]); // רשימת המדריכים
-  const [editingClassId, setEditingClassId] = useState(null); // מזהה השיעור שנערך כעת
-  const [showDeleteConfirm, setShowDeleteConfirm] = useState(false); // האם להציג חלון אישור מחיקה
-  const [deleteClassId, setDeleteClassId] = useState(null); // מזהה השיעור למחיקה
+  // סינון/חיפוש
+  const [search, setSearch] = useState("");
+  const [instructorFilter, setInstructorFilter] = useState("");
+  const [showUpcomingOnly, setShowUpcomingOnly] = useState(true);
 
-  // משתני State לשיעורים מחזוריים
-  const [isRecurring, setIsRecurring] = useState(false); // האם השיעור מחזורי
-  const [recurrenceEndDate, setRecurrenceEndDate] = useState(null); // תאריך סיום המחזוריות
-  const [selectedDays, setSelectedDays] = useState([]); // הימים הנבחרים בשבוע
+  // תפוסה לפי שיעור (classId -> count)
+  const [occupancyMap, setOccupancyMap] = useState({});
 
-  // ========== אפקטים ==========
-  // טעינת נתונים בעת טעינת הקומפוננטה
+  // ==================== אפקטים ====================
   useEffect(() => {
-    fetchClasses(); // טעינת רשימת השיעורים
-    fetchInstructors(); // טעינת רשימת המדריכים
+    fetchClasses();
+    fetchInstructors();
+    fetchOccupancyMap();
   }, []);
 
-  // ========== פונקציות עזר ==========
-  // פונקציה להמרת תאריך לפורמט DD/MM/YYYY
-  const formatDateToDDMMYYYY = (date) => {
-    if (!date) return "";
-    return format(date, "dd/MM/yyyy");
+  // להעמסת QA hooks קטנים לדפדפן
+  useEffect(() => {
+    if (!window.__qa) window.__qa = {};
+    window.__qa.classesPanel = {
+      checkNoOverCapacity: () => {
+        const errors = [];
+        classes.forEach((cls) => {
+          const occ = Number(occupancyMap[cls.id] || 0);
+          const cap = Number(cls.spots || 0);
+          if (cap > 0 && occ > cap) {
+            errors.push({ classId: cls.id, occ, cap, name: cls.name });
+          }
+        });
+        if (errors.length) {
+          console.error("Over capacity detected:", errors);
+          return { ok: false, errors };
+        }
+        console.info("Capacity OK");
+        return { ok: true };
+      },
+      checkSpotsPositive: () => {
+        const bad = classes.filter((c) => Number(c.spots) < 1);
+        if (bad.length) {
+          console.error("Found classes with spots < 1:", bad);
+          return { ok: false, bad };
+        }
+        console.info("All classes have spots >= 1");
+        return { ok: true };
+      },
+    };
+  }, [classes, occupancyMap]);
+
+  // ==================== עזרי תאריכים/תצוגה ====================
+  const formatDateToDDMMYYYY = (dateObj) => {
+    if (!dateObj) return "";
+    return format(dateObj, "dd/MM/yyyy");
   };
 
-  // פונקציה לאיפוס הטופס
-  const clearForm = () => {
-    setName("פילאטיס"); // איפוס שם השיעור
-    setDate(null); // איפוס תאריך
-    setTime(""); // איפוס שעה
-    setSpots(6); // איפוס מספר מקומות לברירת מחדל
-    setInstructorId(""); // איפוס מזהה מדריך
-    setEditingClassId(null); // איפוס מזהה שיעור לעריכה
-    setMessage(""); // איפוס הודעת מערכת
+  const parseDateStringForSorting = (dateStr) => {
+    if (!dateStr) return new Date(0);
+    const [day, month, year] = dateStr.split("/");
+    return new Date(`${year}-${month}-${day}`);
+  };
 
-    // איפוס משתני שיעורים מחזוריים
+  const isFutureClass = (cls) => {
+    const [d, m, y] = (cls.date || "").split("/");
+    const dateObj = new Date(`${y}-${m}-${d}T${cls.time || "00:00"}:00`);
+    return dateObj >= new Date();
+  };
+
+  const sortClasses = (arr) => {
+    return [...arr].sort((a, b) => {
+      const da = parseDateStringForSorting(a.date);
+      const db = parseDateStringForSorting(b.date);
+      if (da.getTime() !== db.getTime()) return da - db;
+      return (a.time || "").localeCompare(b.time || "");
+    });
+  };
+
+  const passesFilters = (cls) => {
+    if (showUpcomingOnly && !isFutureClass(cls)) return false;
+    if (instructorFilter && cls.instructorId !== instructorFilter) return false;
+    const q = search.trim().toLowerCase();
+    if (!q) return true;
+    return (
+      (cls.name || "").toLowerCase().includes(q) ||
+      (cls.instructor || "").toLowerCase().includes(q)
+    );
+  };
+
+  const groupByDateSorted = (arr) => {
+    const groups = new Map();
+    arr.forEach((cls) => {
+      const key = cls.date || "ללא תאריך";
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(cls);
+    });
+    for (const [k, list] of groups) {
+      groups.set(k, sortClasses(list));
+    }
+    return Array.from(groups.entries()).sort(
+      ([a], [b]) => parseDateStringForSorting(a) - parseDateStringForSorting(b)
+    );
+  };
+
+  const visible = useMemo(() => classes.filter(passesFilters), [classes, search, instructorFilter, showUpcomingOnly]);
+  const grouped = useMemo(() => groupByDateSorted(visible), [visible]);
+
+  // ==================== שליפות ====================
+  const fetchClasses = async () => {
+    setLoading(true);
+    try {
+      const snapshot = await getDocs(collection(db, "classes"));
+      const data = snapshot.docs.map((d) => ({ id: d.id, ...d.data() }));
+      setClasses(data);
+      setSelectedClasses([]);
+    } catch (err) {
+      console.error("❌ שגיאה בטעינת השיעורים:", err);
+    }
+    setLoading(false);
+  };
+
+  const fetchInstructors = async () => {
+    try {
+      const qUsers = query(collection(db, "Users"), where("isInstructor", "==", true));
+      const snapshot = await getDocs(qUsers);
+      const data = snapshot.docs.map((d) => ({ id: d.id, ...d.data() }));
+      setInstructors(data);
+    } catch (err) {
+      console.error("❌ שגיאה בטעינת המדריכים:", err);
+    }
+  };
+
+  // שליפה מרוכזת של כל ההזמנות כדי לחשב תפוסה לכל שיעור
+  const fetchOccupancyMap = async () => {
+    try {
+      const snapshot = await getDocs(collection(db, "bookings"));
+      const map = {};
+      snapshot.docs.forEach((d) => {
+        const b = d.data();
+        const cId = b.classId;
+        if (!cId) return;
+        map[cId] = (map[cId] || 0) + 1;
+      });
+      setOccupancyMap(map);
+    } catch (err) {
+      console.error("❌ שגיאה בחישוב תפוסה:", err);
+    }
+  };
+
+  // ==================== טופס/מודל ====================
+  const clearForm = () => {
+    setName("פילאטיס");
+    setDate(null);
+    setTime("");
+    setSpots(6);
+    setInstructorId("");
+    setEditingClassId(null);
+    setMessage("");
     setIsRecurring(false);
     setRecurrenceEndDate(null);
     setSelectedDays([]);
   };
 
-  // ========== פונקציות שליפת נתונים ==========
-  // פונקציה לשליפת כל השיעורים
-  const fetchClasses = async () => {
-    setLoading(true); // הפעלת אינדיקטור טעינה
-    try {
-      // שליפת כל השיעורים ממסד הנתונים
-      const querySnapshot = await getDocs(collection(db, "classes"));
-      // המרת התוצאות למערך אובייקטים
-      const classesData = querySnapshot.docs.map((doc) => ({
-        id: doc.id, // הוספת מזהה המסמך
-        ...doc.data(), // הוספת כל הנתונים מהמסמך
-      }));
-      setClasses(classesData); // עדכון מצב רשימת השיעורים
-      setSelectedClasses([]); // איפוס רשימת השיעורים המסומנים
-    } catch (error) {
-      // טיפול בשגיאות
-      console.error("❌ שגיאה בטעינת השיעורים:", error);
-    }
-    setLoading(false); // כיבוי אינדיקטור טעינה
-  };
-
-  // פונקציה לשליפת כל המדריכים
-  const fetchInstructors = async () => {
-    try {
-      // שליפת משתמשים שהם מדריכים
-      const q = query(
-        collection(db, "Users"),
-        where("isInstructor", "==", true)
-      );
-      const querySnapshot = await getDocs(q);
-      // המרת התוצאות למערך אובייקטים
-      const instructorsData = querySnapshot.docs.map((doc) => ({
-        id: doc.id, // מזהה המדריך (מספר טלפון)
-        ...doc.data(), // נתוני המדריך
-      }));
-      console.log("📋 מדריכים שהתקבלו:", instructorsData);
-
-      setInstructors(instructorsData); // עדכון מצב רשימת המדריכים
-    } catch (error) {
-      // טיפול בשגיאות
-      console.error("❌ שגיאה בטעינת המדריכים:", error);
-    }
-  };
-
-  // ========== פונקציות טיפול במודל ==========
-  // פתיחת מודל לעריכת שיעור קיים
   const openModalForEdit = (cls) => {
-    setName(cls.name); // הגדרת שם השיעור
-
-    // טיפול בתאריך השיעור
+    setName(cls.name || "");
     if (cls.date) {
-      // פירוק תאריך בפורמט DD/MM/YYYY
       const [day, month, year] = cls.date.split("/");
-      // יצירת אובייקט תאריך
-      const parsedDate = new Date(`${year}-${month}-${day}`);
-
-      // בדיקה שהתאריך חוקי
-      if (!isNaN(parsedDate.getTime())) {
-        setDate(parsedDate); // הגדרת תאריך השיעור
-      } else {
-        console.error("תאריך לא חוקי:", cls.date);
-        setDate(null); // איפוס תאריך במקרה של תאריך לא חוקי
-      }
+      const parsed = new Date(`${year}-${month}-${day}`);
+      setDate(isNaN(parsed.getTime()) ? null : parsed);
     } else {
-      // התראה אם אין תאריך בשיעור
-      console.warn("אין תאריך בשיעור:", cls);
-      setDate(null); // איפוס תאריך
+      setDate(null);
     }
-
-    setTime(cls.time); // הגדרת שעת השיעור
-    setSpots(cls.spots); // הגדרת מספר המקומות הפנויים
-    setInstructorId(cls.instructorId); // הגדרת מזהה המדריך
-    setEditingClassId(cls.id); // הגדרת מזהה השיעור הנערך
-    setIsModalOpen(true); // פתיחת המודל
+    setTime(cls.time || "");
+    setSpots(cls.spots ?? 6);
+    setInstructorId(cls.instructorId || "");
+    setEditingClassId(cls.id);
+    setIsModalOpen(true);
   };
 
-  // ========== פונקציות טיפול בשיעורים מחזוריים ==========
-  // עדכון פונקציית createRecurringClasses
+  const handleDayToggle = (dayIndex) => {
+    setSelectedDays((prev) =>
+      prev.includes(dayIndex) ? prev.filter((d) => d !== dayIndex) : [...prev, dayIndex]
+    );
+  };
+
+  // ==================== יצירת/עדכון שיעורים ====================
+  const handleSaveClass = async (closeAfterSave = false) => {
+    if (!name || !date || !time || !instructorId || Number(spots) < 1) {
+      setMessage("אנא מלא את כל השדות הנדרשים");
+      return;
+    }
+
+    setLoading(true);
+    try {
+      const instructor = instructors.find((i) => i.id === instructorId);
+      const classData = {
+        name,
+        date: formatDateToDDMMYYYY(date),
+        time,
+        instructor: instructor?.name || "",
+        instructorId,
+        spots: parseInt(spots, 10), // קיבולת קבועה
+        createdAt: new Date().toISOString(),
+      };
+
+      if (isRecurring && !editingClassId) {
+        const successCount = await createRecurringClasses(classData);
+        if (successCount) {
+          setMessage(`✔️ נוצרו ${successCount} שיעורים מחזוריים בהצלחה!`);
+        } else {
+          setMessage("❌ שגיאה ביצירת שיעורים מחזוריים");
+        }
+      } else {
+        if (editingClassId) {
+          await updateDoc(doc(db, "classes", editingClassId), classData);
+          setMessage("✔️ שיעור עודכן בהצלחה!");
+        } else {
+          const docRef = await addDoc(collection(db, "classes"), classData);
+          const classWithId = { ...classData, id: docRef.id };
+          const autoRegistrations = await autoRegisterUsersForClass(classWithId);
+          setMessage(
+            `✔️ שיעור נוסף בהצלחה!${
+              autoRegistrations > 0 ? ` ${autoRegistrations} משתמשים נרשמו אוטומטית.` : ""
+            }`
+          );
+        }
+      }
+
+      clearForm();
+      await fetchClasses();
+      await fetchOccupancyMap();
+
+      if (closeAfterSave) setIsModalOpen(false);
+    } catch (err) {
+      console.error("❌ שגיאה בשמירת השיעור:", err);
+      setMessage("❌ שגיאה בשמירת השיעור, נסה שוב");
+    }
+    setLoading(false);
+  };
+
+  // שיעורים מחזוריים
   const createRecurringClasses = async (baseClassData) => {
-    // וידוא שנבחרו כל הנתונים הדרושים
     if (!date || !recurrenceEndDate || selectedDays.length === 0) {
-      setMessage("אנא בחר תאריך התחלה, תאריך סיום וימים בשבוע"); // הודעת שגיאה
+      setMessage("אנא בחר תאריך התחלה, תאריך סיום וימים בשבוע");
       return false;
     }
-
-    // מעבר על כל התאריכים בטווח ויצירת שיעורים לימים הנבחרים
     let currentDate = new Date(date);
     const endDate = new Date(recurrenceEndDate);
-    let successCount = 0; // ספירת שיעורים שנוצרו בהצלחה
-    let totalAutoRegistrations = 0; // ספירת רישומים אוטומטיים
+    let successCount = 0;
+    let totalAutoRegistrations = 0;
 
     try {
-      // המשך כל עוד התאריך הנוכחי לפני או שווה לתאריך הסיום
       while (currentDate <= endDate) {
-        const dayOfWeek = currentDate.getDay(); // מספר היום בשבוע (0=ראשון, 1=שני, וכו')
-
-        // אם היום הנוכחי נמצא ברשימת הימים הנבחרים
-        if (selectedDays.includes(dayOfWeek)) {
-          // יצירת אובייקט שיעור חדש
-          const newClassData = {
+        const dow = currentDate.getDay(); // 0=ראשון
+        if (selectedDays.includes(dow)) {
+          const newClass = {
             ...baseClassData,
-            date: formatDateToDDMMYYYY(new Date(currentDate)), // הגדרת התאריך הנוכחי
+            date: formatDateToDDMMYYYY(new Date(currentDate)),
           };
-
-          // הוספת השיעור למסד הנתונים
-          const docRef = await addDoc(collection(db, "classes"), newClassData);
-
-          // רישום אוטומטי למשתמשים
-          const classWithId = { ...newClassData, id: docRef.id };
-          const autoRegistrations = await autoRegisterUsersForClass(
-            classWithId
-          );
-          totalAutoRegistrations += autoRegistrations;
-
+          const docRef = await addDoc(collection(db, "classes"), newClass);
+          const classWithId = { ...newClass, id: docRef.id };
+          const autoRegs = await autoRegisterUsersForClass(classWithId);
+          totalAutoRegistrations += autoRegs;
           successCount++;
         }
-
-        // מעבר ליום הבא
         currentDate = addDays(currentDate, 1);
       }
-
-      console.log(
-        `נוצרו ${successCount} שיעורים מחזוריים עם ${totalAutoRegistrations} רישומים אוטומטיים`
-      );
-
       if (totalAutoRegistrations > 0) {
         setMessage(
           `✔️ נוצרו ${successCount} שיעורים מחזוריים בהצלחה עם ${totalAutoRegistrations} רישומים אוטומטיים!`
         );
       }
-
-      return successCount; // החזרת מספר השיעורים שנוצרו
-    } catch (error) {
-      console.error("❌ שגיאה ביצירת שיעורים מחזוריים:", error);
+      return successCount;
+    } catch (err) {
+      console.error("❌ שגיאה ביצירת שיעורים מחזוריים:", err);
       return false;
     }
   };
 
-  // ========== פונקציות טיפול בשיעורים ==========
-  // שמירת שיעור חדש או עדכון שיעור קיים
-  const handleSaveClass = async (closeAfterSave = false) => {
-    // בדיקת תקינות הנתונים
-    if (!name || !date || !time || !instructorId || spots < 1) {
-      setMessage("אנא מלא את כל השדות הנדרשים"); // הצגת הודעת שגיאה
-      return; // עצירת הפונקציה אם יש שדות חסרים
-    }
-
-    setLoading(true); // הפעלת אינדיקטור טעינה
-
-    try {
-      // מציאת אובייקט המדריך לפי מזהה
-      const instructor = instructors.find((i) => i.id === instructorId);
-      // בניית אובייקט נתוני השיעור
-      const classData = {
-        name, // שם השיעור
-        date: formatDateToDDMMYYYY(date), // תאריך בפורמט DD/MM/YYYY
-        time, // שעת השיעור
-        instructor: instructor?.name || "", // שם המדריך
-        instructorId, // מזהה המדריך
-        spots: parseInt(spots), // מספר מקומות (המרה למספר)
-        createdAt: new Date().toISOString(), // זמן יצירה
-      };
-
-      // בדיקה האם מדובר בשיעור מחזורי או שיעור רגיל
-      if (isRecurring && !editingClassId) {
-        // יצירת שיעורים מחזוריים
-        const successCount = await createRecurringClasses(classData);
-
-        if (successCount) {
-          setMessage(`✔️ נוצרו ${successCount} שיעורים מחזוריים בהצלחה!`); // הודעת הצלחה
-
-          // רישום אוטומטי למשתמשים יבוצע בתוך createRecurringClasses
-        } else {
-          setMessage("❌ שגיאה ביצירת שיעורים מחזוריים"); // הודעת שגיאה
-        }
-      } else {
-        let newClassId;
-
-        // בדיקה האם מדובר בעריכה או ביצירה
-        if (editingClassId) {
-          // עדכון שיעור קיים
-          await updateDoc(doc(db, "classes", editingClassId), classData);
-          newClassId = editingClassId;
-          setMessage("✔️ שיעור עודכן בהצלחה!"); // הודעת הצלחה
-        } else {
-          // יצירת שיעור חדש
-          const docRef = await addDoc(collection(db, "classes"), classData);
-          newClassId = docRef.id;
-          setMessage("✔️ שיעור נוסף בהצלחה!"); // הודעת הצלחה
-
-          // רישום אוטומטי למשתמשים לשיעור החדש
-          const classWithId = { ...classData, id: newClassId };
-          const autoRegistrations = await autoRegisterUsersForClass(
-            classWithId
-          );
-
-          if (autoRegistrations > 0) {
-            setMessage(
-              `✔️ שיעור נוסף בהצלחה! ${autoRegistrations} משתמשים נרשמו אוטומטית.`
-            );
-          }
-        }
-      }
-
-      clearForm(); // איפוס הטופס
-      fetchClasses(); // רענון רשימת השיעורים
-
-      // סגירת המודל אם צוין שיש לסגור אחרי שמירה
-      if (closeAfterSave) {
-        setIsModalOpen(false);
-      }
-    } catch (error) {
-      // טיפול בשגיאות
-      console.error("❌ שגיאה בשמירת השיעור:", error);
-      setMessage("❌ שגיאה בשמירת השיעור, נסה שוב"); // הודעת שגיאה
-    }
-
-    setLoading(false); // כיבוי אינדיקטור טעינה
-  };
-
-  // ========== פונקציות טיפול בבחירת שיעורים ומחיקה ==========
-  // טיפול בשינוי בחירת שיעור לפעולות מרובות
-  const handleClassSelection = (classId) => {
-    if (selectedClasses.includes(classId)) {
-      // אם השיעור כבר נבחר - מסיר אותו
-      setSelectedClasses(selectedClasses.filter((id) => id !== classId));
-    } else {
-      // אם השיעור לא נבחר - מוסיף אותו
-      setSelectedClasses([...selectedClasses, classId]);
-    }
-  };
-
-  // פונקציה לבחירת כל השיעורים
-  const selectAllClasses = () => {
-    if (selectedClasses.length === classes.length) {
-      // אם כל השיעורים כבר נבחרו - מסיר את כולם
-      setSelectedClasses([]);
-    } else {
-      // בוחר את כל השיעורים
-      setSelectedClasses(classes.map((cls) => cls.id));
-    }
-  };
-
-  // פונקציה להצגת חלון אישור מחיקת שיעור בודד
-  const confirmDeleteClass = (classId) => {
-    setDeleteClassId(classId); // הגדרת מזהה השיעור למחיקה
-    setShowDeleteConfirm(true); // הצגת חלון אישור המחיקה
-  };
-
-  // פונקציה למחיקת שיעור בודד
-  const handleDeleteClass = async () => {
-    if (!deleteClassId) return; // בדיקה שיש מזהה שיעור למחיקה
-
-    setLoading(true); // הפעלת אינדיקטור טעינה
-
-    try {
-      // מחיקת השיעור ממסד הנתונים
-      await deleteDoc(doc(db, "classes", deleteClassId));
-      setMessage("✔️ שיעור נמחק בהצלחה!"); // הודעת הצלחה
-      fetchClasses(); // רענון רשימת השיעורים
-    } catch (error) {
-      // טיפול בשגיאות
-      console.error("❌ שגיאה במחיקת השיעור:", error);
-      setMessage("❌ שגיאה במחיקת השיעור, נסה שוב"); // הודעת שגיאה
-    }
-
-    setShowDeleteConfirm(false); // סגירת חלון אישור המחיקה
-    setDeleteClassId(null); // איפוס מזהה השיעור למחיקה
-    setLoading(false); // כיבוי אינדיקטור טעינה
-  };
-
-  // פונקציה למחיקת מספר שיעורים יחד
-  const handleBulkDelete = async () => {
-    if (selectedClasses.length === 0) return; // בדיקה שיש שיעורים מסומנים
-
-    setLoading(true); // הפעלת אינדיקטור טעינה
-
-    try {
-      // מעבר על כל השיעורים המסומנים ומחיקתם
-      for (const classId of selectedClasses) {
-        await deleteDoc(doc(db, "classes", classId));
-      }
-
-      setMessage(`✔️ ${selectedClasses.length} שיעורים נמחקו בהצלחה!`); // הודעת הצלחה
-      fetchClasses(); // רענון רשימת השיעורים
-    } catch (error) {
-      // טיפול בשגיאות
-      console.error("❌ שגיאה במחיקת שיעורים:", error);
-      setMessage("❌ שגיאה במחיקת השיעורים, נסה שוב"); // הודעת שגיאה
-    }
-
-    setShowBulkDeleteConfirm(false); // סגירת חלון אישור המחיקה המרובה
-    setSelectedClasses([]); // איפוס רשימת השיעורים המסומנים
-    setLoading(false); // כיבוי אינדיקטור טעינה
-  };
-
-  // ========== פונקציה לטיפול בבחירת ימים בשבוע ==========
-  // פונקציה לטיפול בשינוי בחירת יום בשבוע
-  const handleDayToggle = (dayIndex) => {
-    if (selectedDays.includes(dayIndex)) {
-      // אם היום כבר נבחר - מסיר אותו
-      setSelectedDays(selectedDays.filter((day) => day !== dayIndex));
-    } else {
-      // אם היום לא נבחר - מוסיף אותו
-      setSelectedDays([...selectedDays, dayIndex]);
-    }
-  };
-
-  // ========== פונקציות מיון ==========
-  // פונקציה להמרת תאריך בפורמט DD/MM/YYYY למבנה השוואה
-  const parseDateStringForSorting = (dateStr) => {
-    if (!dateStr) return new Date(0); // ערך ברירת מחדל לתאריכים ריקים
-    const [day, month, year] = dateStr.split("/");
-    return new Date(`${year}-${month}-${day}`);
-  };
-
-  // פונקציה למיון שיעורים לפי תאריך ושעה
-  const sortClasses = (classesArray) => {
-    return [...classesArray].sort((a, b) => {
-      // השוואת תאריכים קודם
-      const dateA = parseDateStringForSorting(a.date);
-      const dateB = parseDateStringForSorting(b.date);
-
-      if (dateA.getTime() !== dateB.getTime()) {
-        return dateA - dateB; // מיון לפי תאריך אם התאריכים שונים
-      }
-
-      // אם התאריכים זהים, השוואה לפי שעה
-      return a.time.localeCompare(b.time);
-    });
-  };
-
-  // פונקציה חדשה לרישום אוטומטי של משתמשים לשיעור חדש
+  // רישום אוטומטי – ללא שינוי מנגנון המנויים שלך, רק דואג לא לחרוג מקיבולת ולשמור spots קבוע
   const autoRegisterUsersForClass = async (classData) => {
     try {
-      console.log(
-        "⚙️ התחלת תהליך רישום אוטומטי למשתמשים עבור שיעור חדש:",
-        classData.name
-      );
-
-      // שליפת כל המשתמשים שסימנו רישום אוטומטי והגדירו העדפות
-      const usersQuery = query(
-        collection(db, "Users"),
-        where("autoJoin", "==", true)
-      );
+      const usersQuery = query(collection(db, "Users"), where("autoJoin", "==", true));
       const usersSnapshot = await getDocs(usersQuery);
+      if (usersSnapshot.empty) return 0;
 
-      if (usersSnapshot.empty) {
-        console.log("לא נמצאו משתמשים עם רישום אוטומטי מופעל");
-        return 0;
-      }
-
-      // המרת תאריך השיעור לאובייקט Date
       const [day, month, year] = classData.date.split("/").map(Number);
       const classDate = new Date(year, month - 1, day);
-
-      // חישוב היום בשבוע (0-6)
       const dayOfWeek = classDate.getDay();
-
-      // חישוב השעה בדקות מתחילת היום
-      const [classHours, classMinutes] = classData.time.split(":").map(Number);
-      const classTimeInMinutes = classHours * 60 + classMinutes;
-
-      console.log(
-        `פרטי השיעור: יום ${dayOfWeek}, שעה ${classData.time} (${classTimeInMinutes} דקות)`
-      );
+      const [hh, mm] = classData.time.split(":").map(Number);
+      const classTimeInMinutes = hh * 60 + mm;
 
       let registrationCount = 0;
+      let localOccupancy = 0; // תפוסה מקומית עבור השיעור החדש
+      const capacity = Number(classData.spots || 0);
 
-      // עיבוד כל משתמש
       for (const userDoc of usersSnapshot.docs) {
+        if (capacity > 0 && localOccupancy >= capacity) break; // הקיבולת מלאה—עצור
+
         const user = { id: userDoc.id, ...userDoc.data() };
+        if (!user.preferredDays?.length || !user.preferredTimeRange) continue;
+        if (!user.preferredDays.includes(dayOfWeek)) continue;
 
-        console.log(
-          `בדיקת התאמה למשתמש: ${user.name}, טלפון: ${user.phone || user.id}`
-        );
-
-        // וידוא שיש למשתמש העדפות ימים ושעות
-        if (
-          !user.preferredDays ||
-          !user.preferredDays.length ||
-          !user.preferredTimeRange
-        ) {
-          console.log(`❌ למשתמש ${user.name} אין העדפות מוגדרות מלאות`);
-          continue;
-        }
-
-        // בדיקה האם היום מתאים להעדפות המשתמש
-        if (!user.preferredDays.includes(dayOfWeek)) {
-          console.log(`❌ היום ${dayOfWeek} לא מתאים להעדפות המשתמש`);
-          continue;
-        }
-
-        // בדיקת התאמת שעה
         const [startTime, endTime] = user.preferredTimeRange.split("-");
-        const startParts = startTime.split(":").map(Number);
-        const endParts = endTime.split(":").map(Number);
-        const startMinutes = startParts[0] * 60 + startParts[1];
-        const endMinutes = endParts[0] * 60 + endParts[1];
-
-        if (
-          classTimeInMinutes < startMinutes ||
-          classTimeInMinutes > endMinutes
-        ) {
-          console.log(
-            `❌ השעה ${classData.time} לא בטווח המועדף ${startTime}-${endTime}`
-          );
-          continue;
-        }
+        const [sh, sm] = startTime.split(":").map(Number);
+        const [eh, em] = endTime.split(":").map(Number);
+        const startMinutes = sh * 60 + sm;
+        const endMinutes = eh * 60 + em;
+        if (classTimeInMinutes < startMinutes || classTimeInMinutes > endMinutes) continue;
 
         const userId = user.phone || user.id;
 
-        // בדיקה שהמשתמש לא כבר רשום לשיעור זה
+        // לא כבר רשום לשיעור הזה
         const bookingsQuery = query(
           collection(db, "bookings"),
           where("userId", "==", userId),
           where("classId", "==", classData.id)
         );
         const existingBookings = await getDocs(bookingsQuery);
+        if (!existingBookings.empty) continue;
 
-        if (!existingBookings.empty) {
-          console.log(`❌ המשתמש כבר רשום לשיעור זה`);
-          continue;
-        }
-
-        // בדיקת מגבלות לפי סוג המנוי
+        // בדיקות מנוי (כפי בקוד המקורי)
         const isWeeklySubscription = user.membershipType === "שבועי";
         const isMonthlySubscription = user.membershipType === "חודשי";
         const isCardSubscription = user.membershipType === "כרטיסייה";
 
-        if (isCardSubscription && user.remainingLessons <= 0) {
-          console.log(`❌ אין למשתמש שיעורים נותרים בכרטיסייה`);
-          continue;
-        }
+        if (isCardSubscription && user.remainingLessons <= 0) continue;
 
-        // עבור מנוי שבועי, בדוק מספר הרשמות לשבוע זה
         if (isWeeklySubscription) {
           const weekNumber = getWeekNumber(classDate);
           const weekKey = `${year}-${weekNumber}`;
-
-          // בדיקת כמה שיעורים המשתמש כבר רשום אליהם באותו שבוע
-          const userWeeklyBookingsQuery = query(
-            collection(db, "bookings"),
-            where("userId", "==", userId)
-          );
-          const userBookingsSnapshot = await getDocs(userWeeklyBookingsQuery);
-
-          // סינון רק הרשמות לאותו שבוע
+          const userWeeklyQ = query(collection(db, "bookings"), where("userId", "==", userId));
+          const userBookingsSnapshot = await getDocs(userWeeklyQ);
           const weeklyBookings = userBookingsSnapshot.docs
-            .map((doc) => ({ id: doc.id, ...doc.data() }))
-            .filter((booking) => {
+            .map((d) => ({ id: d.id, ...d.data() }))
+            .filter((b) => {
               try {
-                const [bDay, bMonth, bYear] = booking.date
-                  .split("/")
-                  .map(Number);
-                const bookingDate = new Date(bYear, bMonth - 1, bDay);
-                const bookingWeekNumber = getWeekNumber(bookingDate);
-                const bookingWeekKey = `${bYear}-${bookingWeekNumber}`;
-                return bookingWeekKey === weekKey;
-              } catch (error) {
+                const [bd, bm, by] = b.date.split("/").map(Number);
+                const bookingDate = new Date(by, bm - 1, bd);
+                return `${by}-${getWeekNumber(bookingDate)}` === weekKey;
+              } catch {
                 return false;
               }
             });
-
-          if (weeklyBookings.length >= user.remainingLessons) {
-            console.log(
-              `❌ המשתמש כבר רשום למקסימום שיעורים (${user.remainingLessons}) בשבוע ${weekKey}`
-            );
-            continue;
-          }
+          if (weeklyBookings.length >= (user.remainingLessons || 0)) continue;
         }
 
-        // עבור מנוי חודשי, בדוק מספר הרשמות לחודש זה
         if (isMonthlySubscription) {
           const monthKey = `${year}-${month}`;
-
-          // בדיקת כמה שיעורים המשתמש כבר רשום אליהם באותו חודש
-          const userMonthlyBookingsQuery = query(
-            collection(db, "bookings"),
-            where("userId", "==", userId)
-          );
-          const userBookingsSnapshot = await getDocs(userMonthlyBookingsQuery);
-
-          // סינון רק הרשמות לאותו חודש
+          const userMonthlyQ = query(collection(db, "bookings"), where("userId", "==", userId));
+          const userBookingsSnapshot = await getDocs(userMonthlyQ);
           const monthlyBookings = userBookingsSnapshot.docs
-            .map((doc) => ({ id: doc.id, ...doc.data() }))
-            .filter((booking) => {
+            .map((d) => ({ id: d.id, ...d.data() }))
+            .filter((b) => {
               try {
-                const [bDay, bMonth, bYear] = booking.date
-                  .split("/")
-                  .map(Number);
-                const bookingMonthKey = `${bYear}-${bMonth}`;
-                return bookingMonthKey === monthKey;
-              } catch (error) {
+                const [bd, bm, by] = b.date.split("/").map(Number);
+                return `${by}-${bm}` === monthKey;
+              } catch {
                 return false;
               }
             });
-
-          if (monthlyBookings.length >= user.remainingLessons) {
-            console.log(
-              `❌ המשתמש כבר רשום למקסימום שיעורים (${user.remainingLessons}) בחודש ${monthKey}`
-            );
-            continue;
-          }
+          if (monthlyBookings.length >= (user.remainingLessons || 0)) continue;
         }
 
-        // תנאים להרשמה מתקיימים - הוספת הרשמה חדשה
-        console.log(
-          `✅ רושם את ${user.name} לשיעור ${classData.name} בתאריך ${classData.date}`
-        );
+        // אכיפת קיבולת לפני ההכנסה
+        if (capacity > 0 && localOccupancy >= capacity) break;
 
-        try {
-          await addDoc(collection(db, "bookings"), {
-            classId: classData.id,
-            userId: userId,
-            className: classData.name,
-            date: classData.date,
-            time: classData.time,
-            bookedBy: "אוטומטית",
-            bookedAt: new Date().toISOString(),
-            autoBooked: true,
-          });
+        // הוספת הרשמה
+        await addDoc(collection(db, "bookings"), {
+          classId: classData.id,
+          userId,
+          className: classData.name,
+          date: classData.date,
+          time: classData.time,
+          bookedBy: "אוטומטית",
+          bookedAt: new Date().toISOString(),
+          autoBooked: true,
+        });
 
-          // עדכון מספר המקומות הפנויים בשיעור
-          await updateDoc(doc(db, "classes", classData.id), {
-            spots: classData.spots - 1,
-          });
-
-          // עדכון מספר השיעורים הנותרים למשתמש (רק עבור כרטיסייה)
-          if (isCardSubscription) {
+        // לא משנים spots! נשמר קבוע. רק נספור מקומית.
+        if (isCardSubscription) {
+          try {
             await updateDoc(doc(db, "Users", user.id), {
-              remainingLessons: user.remainingLessons - 1,
+              remainingLessons: (user.remainingLessons || 0) - 1,
             });
+          } catch {
+            // בולעים שגיאה נקודתית כדי לא להפיל את כל התהליך
           }
-
-          registrationCount++;
-        } catch (error) {
-          console.error(`❌ שגיאה ברישום המשתמש ${user.name} לשיעור:`, error);
         }
+
+        localOccupancy += 1;
+        registrationCount += 1;
       }
 
-      console.log(`🎉 סה"כ נרשמו ${registrationCount} משתמשים לשיעור`);
       return registrationCount;
-    } catch (error) {
-      console.error("❌ שגיאה ברישום אוטומטי למשתמשים:", error);
+    } catch (err) {
+      console.error("❌ שגיאה ברישום אוטומטי למשתמשים:", err);
       return 0;
     }
   };
 
-  // פונקציה לחישוב מספר השבוע בשנה
-  const getWeekNumber = (date) => {
-    // יצירת עותק של התאריך כדי לא לשנות את המקורי
-    const d = new Date(date);
-    // תחילת השנה (1 בינואר של אותה שנה)
+  const getWeekNumber = (dateObj) => {
+    const d = new Date(dateObj);
     const startOfYear = new Date(d.getFullYear(), 0, 1);
-    // מספר הימים שעברו מתחילת השנה
     const days = Math.floor((d - startOfYear) / (24 * 60 * 60 * 1000));
-    // מספר השבוע (מחושב לפי 7 ימים בשבוע)
     return Math.ceil((days + startOfYear.getDay() + 1) / 7);
   };
 
-  // ========== רינדור ממשק המשתמש ==========
+  // ==================== בחירה/מחיקה ====================
+  const handleClassSelection = (classId) => {
+    setSelectedClasses((prev) =>
+      prev.includes(classId) ? prev.filter((id) => id !== classId) : [...prev, classId]
+    );
+  };
+
+  const selectAllClasses = () => {
+    if (selectedClasses.length === classes.length) {
+      setSelectedClasses([]);
+    } else {
+      setSelectedClasses(classes.map((c) => c.id));
+    }
+  };
+
+  const confirmDeleteClass = (classId) => {
+    setDeleteClassId(classId);
+    setShowDeleteConfirm(true);
+  };
+
+  const handleDeleteClass = async () => {
+    if (!deleteClassId) return;
+    setLoading(true);
+    try {
+      await deleteDoc(doc(db, "classes", deleteClassId));
+      setMessage("✔️ שיעור נמחק בהצלחה!");
+      await fetchClasses();
+      await fetchOccupancyMap();
+    } catch (err) {
+      console.error("❌ שגיאה במחיקת השיעור:", err);
+      setMessage("❌ שגיאה במחיקת השיעור, נסה שוב");
+    }
+    setShowDeleteConfirm(false);
+    setDeleteClassId(null);
+    setLoading(false);
+  };
+
+  const handleBulkDelete = async () => {
+    if (selectedClasses.length === 0) return;
+    setLoading(true);
+    try {
+      for (const classId of selectedClasses) {
+        await deleteDoc(doc(db, "classes", classId));
+      }
+      setMessage(`✔️ ${selectedClasses.length} שיעורים נמחקו בהצלחה!`);
+      await fetchClasses();
+      await fetchOccupancyMap();
+    } catch (err) {
+      console.error("❌ שגיאה במחיקת שיעורים:", err);
+      setMessage("❌ שגיאה במחיקת השיעורים, נסה שוב");
+    }
+    setShowBulkDeleteConfirm(false);
+    setSelectedClasses([]);
+    setLoading(false);
+  };
+
+  // ==================== UI ====================
   return (
     <div className="p-4">
       <h1 className="text-xl font-bold mb-4">ניהול שיעורים</h1>
       <BackToAdminButton />
-      <div className="flex flex-wrap gap-2 mb-4">
-        {/* כפתור להוספת שיעור חדש */}
-        <button
-          onClick={() => {
-            clearForm(); // איפוס הטופס לפני פתיחתו
-            setIsModalOpen(true); // פתיחת המודל
-          }}
-          className="bg-blue-600 text-white px-4 py-2 rounded"
-        >
-          + הוסף שיעור חדש
-        </button>
 
-        {/* כפתור לבחירת כל השיעורים */}
-        {classes.length > 0 && (
+      {/* סרגל בקרה סטיקי */}
+      <div className="sticky top-0 z-10 bg-white pb-3 pt-2 border-b mb-4">
+        <div className="flex flex-wrap gap-2 items-center">
+          <input
+            type="text"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="חפש לפי שם שיעור / מדריך"
+            className="border p-2 rounded w-full sm:w-64"
+            aria-label="חיפוש"
+          />
+
+          <select
+            value={instructorFilter}
+            onChange={(e) => setInstructorFilter(e.target.value)}
+            className="border p-2 rounded w-full sm:w-56"
+            aria-label="פילטר מדריך"
+          >
+            <option value="">כל המדריכים</option>
+            {instructors.map((i) => (
+              <option key={i.id} value={i.id}>
+                {i.name}
+              </option>
+            ))}
+          </select>
+
+          <label className="flex items-center gap-2 text-sm bg-gray-100 px-3 py-2 rounded">
+            <input
+              type="checkbox"
+              checked={showUpcomingOnly}
+              onChange={(e) => setShowUpcomingOnly(e.target.checked)}
+              className="accent-blue-600"
+              aria-label="רק שיעורים עתידיים"
+            />
+            רק שיעורים עתידיים
+          </label>
+
           <button
             onClick={selectAllClasses}
-            className="bg-gray-200 text-gray-800 px-4 py-2 rounded"
+            className="bg-gray-200 text-gray-800 px-3 py-2 rounded"
           >
-            {selectedClasses.length === classes.length
-              ? "בטל בחירת הכל"
-              : "בחר הכל"}
+            {selectedClasses.length === classes.length ? "בטל בחירת הכל" : "בחר הכל"}
           </button>
-        )}
 
-        {/* כפתור למחיקת שיעורים מסומנים */}
-        {selectedClasses.length > 0 && (
-          <button
-            onClick={() => setShowBulkDeleteConfirm(true)}
-            className="bg-red-500 text-white px-4 py-2 rounded flex items-center"
-          >
-            <Trash2 size={18} className="mr-1" />
-            מחק {selectedClasses.length} שיעורים מסומנים
-          </button>
-        )}
+          <div className="ml-auto flex gap-2">
+            {selectedClasses.length > 0 && (
+              <button
+                onClick={() => setShowBulkDeleteConfirm(true)}
+                className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded flex items-center"
+              >
+                <Trash2 size={18} className="mr-1" />
+                מחק {selectedClasses.length}
+              </button>
+            )}
+            <button
+              onClick={() => {
+                clearForm();
+                setIsModalOpen(true);
+              }}
+              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded"
+            >
+              + הוסף שיעור חדש
+            </button>
+          </div>
+        </div>
       </div>
 
-      {/* הודעת מערכת */}
-      {message && <div className="my-2 text-blue-500">{message}</div>}
-
-      {/* אינדיקטור טעינה */}
+      {/* הודעות/טעינה */}
+      {message && <div className="my-2 text-blue-600">{message}</div>}
       {loading && <p className="text-gray-500">טוען...</p>}
 
-      {/* רשימת השיעורים */}
-      <div className="space-y-3">
-        {sortClasses(classes).map((cls) => {
-          const isCancelled = cls.cancelled === true;
+      {/* רשימה מקובצת לפי תאריך */}
+      <div className="space-y-6 lg:pr-[420px]">
+        {grouped.map(([dateKey, items]) => (
+          <section key={dateKey}>
+            <header className="sticky top-[56px] bg-white z-[5] border-b mb-2">
+              <h3 className="text-sm font-bold text-gray-700 py-2">{dateKey}</h3>
+            </header>
 
-          return (
-            <div
-              key={cls.id}
-              className={`shadow rounded p-4 border-r-4 flex flex-col md:flex-row md:items-center justify-between
-        ${
-          selectedClasses.includes(cls.id)
-            ? "border-green-500 bg-green-50"
-            : isCancelled
-            ? "border-red-500 bg-red-50"
-            : "border-blue-500"
-        }
-      `}
-            >
-              <div className="flex items-start">
-                {/* תיבת סימון */}
-                <input
-                  type="checkbox"
-                  checked={selectedClasses.includes(cls.id)}
-                  onChange={() => handleClassSelection(cls.id)}
-                  className="mt-1 mr-3 h-5 w-5 cursor-pointer accent-blue-500"
-                  disabled={isCancelled} // אפשר גם למנוע סימון של שיעור מבוטל
-                />
-                <div className="flex-1">
-                  <h2
-                    className={`text-lg font-bold ${
-                      isCancelled ? "line-through text-red-600" : ""
-                    }`}
-                  >
-                    {cls.name}
-                  </h2>
-                  <div className="flex flex-wrap gap-x-6 mt-1 text-gray-600">
-                    <p>
-                      <span className="font-medium">תאריך:</span> {cls.date}
-                    </p>
-                    <p>
-                      <span className="font-medium">שעה:</span> {cls.time}
-                    </p>
-                    <p>
-                      <span className="font-medium">מדריך:</span>{" "}
-                      {cls.instructor}
-                    </p>
-                    <p>
-                      <span className="font-medium">מקומות:</span> {cls.spots}
-                    </p>
-                    {isCancelled && (
-                      <p className="text-red-600 font-semibold">
-                        ביטול: {cls.cancelReason || "חוסר מתאמנות"}
-                      </p>
-                    )}
+            <div className="divide-y rounded border">
+              {items.map((cls) => {
+                const isCancelled = cls.cancelled === true;
+                const cap = Number(cls.spots || 0);
+                const occ = Number(occupancyMap[cls.id] || 0);
+                const isFull = cap > 0 && occ >= cap;
+                const percent = cap > 0 ? Math.min(100, Math.round((occ / cap) * 100)) : 0;
+
+                return (
+                  <div key={cls.id} className={`p-3 flex items-center gap-3 ${isCancelled ? "bg-red-50" : ""}`}>
+                    <input
+                      type="checkbox"
+                      checked={selectedClasses.includes(cls.id)}
+                      onChange={() => handleClassSelection(cls.id)}
+                      className="h-4 w-4 accent-blue-600"
+                      disabled={isCancelled}
+                      aria-label={`בחר שיעור ${cls.name}`}
+                    />
+
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-2">
+                        <span className="truncate font-medium">{cls.name}</span>
+                        {isFull && <span className="text-[11px] bg-gray-800 text-white px-2 py-0.5 rounded">מלא</span>}
+                        {isCancelled && (
+                          <span className="text-[11px] bg-red-600 text-white px-2 py-0.5 rounded">מבוטל</span>
+                        )}
+                      </div>
+
+                      <div className="text-xs text-gray-600 mt-0.5 flex flex-wrap gap-x-4">
+                        <span>שעה: {cls.time}</span>
+                        <span>מדריך: {cls.instructor}</span>
+                        <span title="תפוסה">נרשמו {occ}/{cap}</span>
+                        {isCancelled && (
+                          <span className="text-red-600 font-semibold">
+                            ביטול: {cls.cancelReason || "חוסר מתאמנות"}
+                          </span>
+                        )}
+                      </div>
+
+                      <div className="mt-2 w-full max-w-xs">
+                        <div className="h-1.5 bg-gray-200 rounded">
+                          <div
+                            className={`h-1.5 rounded ${isFull ? "bg-gray-500" : "bg-blue-500"}`}
+                            style={{ width: `${percent}%` }}
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-2 shrink-0">
+                      <button
+                        onClick={() => openModalForEdit(cls)}
+                        className="bg-blue-100 text-blue-700 hover:bg-blue-200 px-2 py-1 rounded text-sm flex items-center"
+                        disabled={isCancelled}
+                      >
+                        <Edit size={16} className="mr-1" />
+                        ערוך
+                      </button>
+                      <button
+                        onClick={() => confirmDeleteClass(cls.id)}
+                        className="bg-red-100 text-red-600 hover:bg-red-200 px-2 py-1 rounded text-sm flex items-center"
+                      >
+                        <Trash2 size={16} className="mr-1" />
+                        מחק
+                      </button>
+                    </div>
                   </div>
-                </div>
-              </div>
-
-              {/* כפתורי עריכה ומחיקה */}
-              <div className="mt-3 md:mt-0 flex space-x-2">
-                {/* אם השיעור מבוטל אפשר למנוע עריכה/מחיקה לפי צורך */}
-                <button
-                  onClick={() => openModalForEdit(cls)}
-                  className="bg-blue-100 text-blue-600 px-3 py-1 rounded hover:bg-blue-200 flex items-center"
-                  disabled={isCancelled}
-                >
-                  <Edit size={16} className="mr-1" />
-                  ערוך
-                </button>
-                <button
-                  onClick={() => confirmDeleteClass(cls.id)}
-                  className="bg-red-100 text-red-600 px-3 py-1 rounded hover:bg-red-200 flex items-center"
-                >
-                  <Trash2 size={16} className="mr-1" />
-                  מחק
-                </button>
-              </div>
+                );
+              })}
             </div>
-          );
-        })}
+          </section>
+        ))}
       </div>
 
-      {/* מודל להוספה/עריכת שיעור */}
+      {/* Drawer צדדי (במקום מודל חוסם) */}
       {isModalOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50 overflow-y-auto">
-          <div className="bg-white rounded-lg p-6 w-full max-w-md max-ה-[90vh] flex flex-col">
-            <h2 className="text-xl font-bold mb-4">
-              {editingClassId ? "עריכת שיעור" : "הוספת שיעור חדש"}
-            </h2>
+        <>
+          <div className="fixed inset-0 bg-black/30 z-40" onClick={() => setIsModalOpen(false)} />
+          <aside
+            className="fixed inset-y-0 right-0 z-50 w-full sm:max-w-md bg-white shadow-xl flex flex-col"
+            role="dialog"
+            aria-modal="true"
+          >
+            <div className="p-4 border-b flex items-center justify-between">
+              <h2 className="text-lg font-bold">{editingClassId ? "עריכת שיעור" : "הוספת שיעור חדש"}</h2>
+              <button
+                onClick={() => setIsModalOpen(false)}
+                className="text-gray-600 hover:text-black"
+                aria-label="סגור"
+              >
+                <X size={20} />
+              </button>
+            </div>
 
-            {/* טופס להוספה/עריכת שיעור עם גלילה */}
-            <div className="overflow-y-auto flex-1">
-              {/* שם השיעור */}
+            <div className="p-4 overflow-y-auto flex-1 space-y-3">
               <div>
                 <label className="block mb-1">שם השיעור:</label>
                 <input
                   type="text"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="w-full rounded"
+                  className="w-full rounded border p-2"
                 />
               </div>
 
-              {/*שעת השיעור+ תאריך השיעור */}
               <div>
                 <label className="block mb-1">תאריך ושעת האימון:</label>
                 <DatePicker
                   selected={date}
-                  onChange={(date) => setDate(date)}
+                  onChange={(d) => setDate(d)}
                   dateFormat="dd/MM/yyyy"
                   className="border p-2 rounded w-full mb-2"
                   placeholderText="בחר תאריך"
@@ -5843,16 +708,15 @@ const AdminClassesPanel = ({ employee }) => {
                   type="time"
                   value={time}
                   onChange={(e) => setTime(e.target.value)}
-                  className="border p-2 rounded"
+                  className="border p-2 rounded w-full"
                   step="60"
                   min="00:00"
                   max="23:59"
                 />
               </div>
 
-              {/* מספר מקומות */}
-              <div className="mt-4">
-                <label className="block mb-1">מקומות:</label>
+              <div>
+                <label className="block mb-1">מקומות (קיבולת):</label>
                 <input
                   type="number"
                   min="1"
@@ -5860,10 +724,10 @@ const AdminClassesPanel = ({ employee }) => {
                   onChange={(e) => setSpots(e.target.value)}
                   className="w-full border p-2 rounded"
                 />
+                <p className="text-xs text-gray-500 mt-1">הקיבולת קבועה; התפוסה מחושבת מרישומים.</p>
               </div>
 
-              {/* בחירת מדריך */}
-              <div className="mt-4">
+              <div>
                 <label className="block mb-1">מדריך:</label>
                 <select
                   value={instructorId}
@@ -5879,9 +743,8 @@ const AdminClassesPanel = ({ employee }) => {
                 </select>
               </div>
 
-              {/* אפשרות לשיעור מחזורי - רק ביצירת שיעור חדש */}
               {!editingClassId && (
-                <div className="border-t pt-3 mt-4">
+                <div className="border-t pt-3">
                   <div className="flex items-center mb-2">
                     <input
                       type="checkbox"
@@ -5895,14 +758,10 @@ const AdminClassesPanel = ({ employee }) => {
                     </label>
                   </div>
 
-                  {/* אפשרויות שיעור מחזורי */}
                   {isRecurring && (
                     <div className="bg-gray-50 p-3 rounded space-y-3">
-                      {/* בחירת ימים בשבוע */}
                       <div>
-                        <label className="block mb-2 font-medium">
-                          בחר ימים בשבוע:
-                        </label>
+                        <label className="block mb-2 font-medium">בחר ימים בשבוע:</label>
                         <div className="flex flex-wrap gap-2">
                           {[
                             { index: 0, name: "ראשון" },
@@ -5913,10 +772,7 @@ const AdminClassesPanel = ({ employee }) => {
                             { index: 5, name: "שישי" },
                             { index: 6, name: "שבת" },
                           ].map((day) => (
-                            <label
-                              key={day.index}
-                              className="flex items-center bg-white px-2 py-1 rounded border"
-                            >
+                            <label key={day.index} className="flex items-center bg-white px-2 py-1 rounded border">
                               <input
                                 type="checkbox"
                                 checked={selectedDays.includes(day.index)}
@@ -5929,76 +785,58 @@ const AdminClassesPanel = ({ employee }) => {
                         </div>
                       </div>
 
-                      {/* תאריך סיום המחזוריות */}
                       <div>
                         <label className="block mb-1">תאריך סיום:</label>
                         <DatePicker
                           selected={recurrenceEndDate}
-                          onChange={(date) => setRecurrenceEndDate(date)}
+                          onChange={(d) => setRecurrenceEndDate(d)}
                           dateFormat="dd/MM/yyyy"
                           className="w-full border p-2 rounded"
                           placeholderText="בחר תאריך סיום"
-                          minDate={date} // לא ניתן לבחור תאריך לפני תאריך ההתחלה
+                          minDate={date}
                         />
                       </div>
 
-                      {/* הסבר למשתמש */}
-                      <p className="text-sm text-gray-500">
-                        יצירת שיעור מחזורי תוסיף שיעורים נפרדים בימים הנבחרים
-                        בין תאריך ההתחלה לסיום.
-                      </p>
+                      <p className="text-sm text-gray-500">ייווצרו שיעורים נפרדים בימים שנבחרו בטווח התאריכים.</p>
                     </div>
                   )}
                 </div>
               )}
 
-              {/* הודעת מערכת */}
-              {message && <div className="text-blue-500 my-2">{message}</div>}
+              {message && <div className="text-blue-500">{message}</div>}
             </div>
 
-            {/* כפתורי פעולה - קבועים בתחתית המודל */}
-            <div className="flex justify-between mt-6 pt-4 border-t sticky bottom-0 bg-white">
-              <button
-                onClick={() => setIsModalOpen(false)}
-                className="bg-gray-200 px-4 py-2 rounded"
-              >
+            <div className="p-4 border-t flex justify-between">
+              <button onClick={() => setIsModalOpen(false)} className="bg-gray-200 px-4 py-2 rounded">
                 ביטול
               </button>
-
-              <div className="flex space-x-2">
+              <div className="flex gap-2">
                 <button
                   onClick={() => handleSaveClass(true)}
-                  className="bg-blue-600 text-white px-2 py-2 rounded"
+                  className="bg-blue-600 text-white px-3 py-2 rounded"
                   disabled={loading}
                 >
-                  {loading
-                    ? "שומר..."
-                    : isRecurring && !editingClassId
-                    ? "צור וסגור"
-                    : "שמור וסגור"}
+                  {loading ? "שומר..." : isRecurring && !editingClassId ? "צור וסגור" : "שמור וסגור"}
                 </button>
-              </div>
-              <div className="flex space-x-2">
                 <button
                   onClick={() => handleSaveClass(false)}
-                  className="bg-blue-500 text-white px-5 py-2 rounded"
+                  className="bg-blue-500 text-white px-4 py-2 rounded"
                   disabled={loading}
                 >
                   {loading ? "שומר..." : "שמור"}
                 </button>
               </div>
             </div>
-          </div>
-        </div>
+          </aside>
+        </>
       )}
 
       {/* חלון אישור מחיקה */}
       {showDeleteConfirm && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
           <div className="bg-white rounded-lg p-6 w-full max-w-sm">
             <h2 className="text-xl font-bold mb-4">אישור מחיקה</h2>
             <p>האם אתה בטוח שברצונך למחוק את השיעור?</p>
-
             <div className="flex justify-between mt-6">
               <button
                 onClick={() => setShowDeleteConfirm(false)}
@@ -6012,14 +850,7 @@ const AdminClassesPanel = ({ employee }) => {
                 className="bg-red-600 text-white px-4 py-2 rounded flex items-center"
                 disabled={loading}
               >
-                {loading ? (
-                  "מוחק..."
-                ) : (
-                  <>
-                    <Trash2 size={18} className="mr-1" />
-                    מחק
-                  </>
-                )}
+                {loading ? "מוחק..." : (<><Trash2 size={18} className="mr-1" />מחק</>)}
               </button>
             </div>
           </div>
@@ -6028,17 +859,11 @@ const AdminClassesPanel = ({ employee }) => {
 
       {/* חלון אישור מחיקה מרובה */}
       {showBulkDeleteConfirm && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
           <div className="bg-white rounded-lg p-6 w-full max-w-sm">
             <h2 className="text-xl font-bold mb-4">אישור מחיקה מרובה</h2>
-            <p>
-              האם אתה בטוח שברצונך למחוק {selectedClasses.length} שיעורים
-              מסומנים?
-            </p>
-            <p className="text-red-500 text-sm mt-2">
-              שים לב: פעולה זו אינה ניתנת לביטול!
-            </p>
-
+            <p>האם אתה בטוח שברצונך למחוק {selectedClasses.length} שיעורים מסומנים?</p>
+            <p className="text-red-500 text-sm mt-2">שים לב: פעולה זו אינה ניתנת לביטול!</p>
             <div className="flex justify-between mt-6">
               <button
                 onClick={() => setShowBulkDeleteConfirm(false)}
@@ -6052,14 +877,7 @@ const AdminClassesPanel = ({ employee }) => {
                 className="bg-red-600 text-white px-4 py-2 rounded flex items-center"
                 disabled={loading}
               >
-                {loading ? (
-                  "מוחק..."
-                ) : (
-                  <>
-                    <Check size={18} className="mr-1" />
-                    מחק {selectedClasses.length} שיעורים
-                  </>
-                )}
+                {loading ? "מוחק..." : (<><Check size={18} className="mr-1" />מחק {selectedClasses.length} שיעורים</>)}
               </button>
             </div>
           </div>
