@@ -930,453 +930,603 @@
     "description": ""
   },
   {
-    "name": "AdminClassesTable",
+    "name": "isFutureClass",
     "file": "src/pages/HomePage.jsx",
-    "line": 19,
-    "description": "טבלת שיעורים עבור מנהל ומדריך"
-  },
-  {
-    "name": "return",
-    "file": "src/pages/HomePage.jsx",
-    "line": 22,
+    "line": 27,
     "description": ""
   },
   {
-    "name": "map",
+    "name": "buildStartAtFromClass",
+    "file": "src/pages/HomePage.jsx",
+    "line": 28,
+    "description": ""
+  },
+  {
+    "name": "getTime",
+    "file": "src/pages/HomePage.jsx",
+    "line": 29,
+    "description": ""
+  },
+  {
+    "name": "occupancyFrom",
+    "file": "src/pages/HomePage.jsx",
+    "line": 32,
+    "description": "---- Occupancy helpers ----"
+  },
+  {
+    "name": "Number",
     "file": "src/pages/HomePage.jsx",
     "line": 33,
     "description": ""
   },
   {
-    "name": "onRowClick",
+    "name": "Number",
     "file": "src/pages/HomePage.jsx",
-    "line": 37,
+    "line": 34,
     "description": ""
   },
   {
-    "name": "AdminClassModal",
+    "name": "max",
     "file": "src/pages/HomePage.jsx",
-    "line": 51,
-    "description": "מודל ניהול שיעור למנהל/מדריך: מחיקה ו-הסרת משתתף"
+    "line": 35,
+    "description": ""
+  },
+  {
+    "name": "min",
+    "file": "src/pages/HomePage.jsx",
+    "line": 36,
+    "description": ""
+  },
+  {
+    "name": "toLocalISODate",
+    "file": "src/pages/HomePage.jsx",
+    "line": 41,
+    "description": ""
+  },
+  {
+    "name": "getFullYear",
+    "file": "src/pages/HomePage.jsx",
+    "line": 42,
+    "description": ""
+  },
+  {
+    "name": "pad2",
+    "file": "src/pages/HomePage.jsx",
+    "line": 45,
+    "description": "פונקציות עזר"
+  },
+  {
+    "name": "parseHebDate",
+    "file": "src/pages/HomePage.jsx",
+    "line": 46,
+    "description": ""
   },
   {
     "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 48,
+    "description": "// המרת תאריך \"dd/MM/yyyy\" לאובייקט Date"
+  },
+  {
+    "name": "split",
+    "file": "src/pages/HomePage.jsx",
+    "line": 49,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 50,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/HomePage.jsx",
+    "line": 51,
+    "description": ""
+  },
+  {
+    "name": "isNaN",
     "file": "src/pages/HomePage.jsx",
     "line": 52,
     "description": ""
   },
   {
-    "name": "return",
+    "name": "toISOyyyy_mm_dd",
     "file": "src/pages/HomePage.jsx",
     "line": 54,
     "description": ""
   },
   {
-    "name": "map",
+    "name": "parseHebDate",
+    "file": "src/pages/HomePage.jsx",
+    "line": 56,
+    "description": "// המרת \"dd/MM/yyyy\" ל‑\"yyyy-MM-dd\""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 57,
+    "description": ""
+  },
+  {
+    "name": "getFullYear",
+    "file": "src/pages/HomePage.jsx",
+    "line": 58,
+    "description": ""
+  },
+  {
+    "name": "fromISOToHeb",
+    "file": "src/pages/HomePage.jsx",
+    "line": 60,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 62,
+    "description": "// המרת \"yyyy-MM-dd\" חזרה ל‑\"dd/MM/yyyy\""
+  },
+  {
+    "name": "split",
+    "file": "src/pages/HomePage.jsx",
+    "line": 63,
+    "description": ""
+  },
+  {
+    "name": "addDays",
     "file": "src/pages/HomePage.jsx",
     "line": 66,
     "description": ""
   },
   {
-    "name": "handleRemoveParticipant",
+    "name": "Date",
     "file": "src/pages/HomePage.jsx",
-    "line": 71,
+    "line": 68,
+    "description": "// הוספת ימים לתאריך"
+  },
+  {
+    "name": "setDate",
+    "file": "src/pages/HomePage.jsx",
+    "line": 69,
     "description": ""
   },
   {
-    "name": "HomePage",
+    "name": "now",
+    "file": "src/pages/HomePage.jsx",
+    "line": 72,
+    "description": ""
+  },
+  {
+    "name": "sundayThisWeek",
+    "file": "src/pages/HomePage.jsx",
+    "line": 75,
+    "description": "ראשון של השבוע הנוכחי (אזור זמן מקומי)"
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/HomePage.jsx",
+    "line": 76,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/HomePage.jsx",
+    "line": 77,
+    "description": ""
+  },
+  {
+    "name": "setDate",
+    "file": "src/pages/HomePage.jsx",
+    "line": 78,
+    "description": ""
+  },
+  {
+    "name": "setHours",
+    "file": "src/pages/HomePage.jsx",
+    "line": 79,
+    "description": ""
+  },
+  {
+    "name": "sundayNextWeek",
+    "file": "src/pages/HomePage.jsx",
+    "line": 82,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/HomePage.jsx",
+    "line": 83,
+    "description": ""
+  },
+  {
+    "name": "setDate",
+    "file": "src/pages/HomePage.jsx",
+    "line": 84,
+    "description": ""
+  },
+  {
+    "name": "saturdayEndOfNextWeek",
+    "file": "src/pages/HomePage.jsx",
+    "line": 87,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/HomePage.jsx",
+    "line": 89,
+    "description": "// שבת של שבוע הבא (סוף טווח)"
+  },
+  {
+    "name": "setDate",
+    "file": "src/pages/HomePage.jsx",
+    "line": 90,
+    "description": ""
+  },
+  {
+    "name": "setHours",
     "file": "src/pages/HomePage.jsx",
     "line": 91,
     "description": ""
   },
   {
-    "name": "useState",
-    "file": "src/pages/HomePage.jsx",
-    "line": 92,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/HomePage.jsx",
-    "line": 93,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/HomePage.jsx",
-    "line": 94,
-    "description": ""
-  },
-  {
-    "name": "useState",
+    "name": "isDateInCurrentOrNextWeek",
     "file": "src/pages/HomePage.jsx",
     "line": 95,
     "description": ""
   },
   {
-    "name": "useState",
-    "file": "src/pages/HomePage.jsx",
-    "line": 96,
-    "description": ""
-  },
-  {
-    "name": "useState",
+    "name": "parseHebDate",
     "file": "src/pages/HomePage.jsx",
     "line": 97,
+    "description": "// בדיקה אם תאריך (כמחרוזת) נמצא בשבוע נוכחי/בא"
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 98,
     "description": ""
   },
   {
-    "name": "useUser",
+    "name": "Date",
     "file": "src/pages/HomePage.jsx",
     "line": 99,
     "description": ""
   },
   {
-    "name": "useEffect",
+    "name": "Date",
+    "file": "src/pages/HomePage.jsx",
+    "line": 100,
+    "description": ""
+  },
+  {
+    "name": "buildStartAtFromClass",
+    "file": "src/pages/HomePage.jsx",
+    "line": 104,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 107,
+    "description": "// מצפה ל‑cls.date בפורמט dd/MM/yyyy ול‑cls.time בפורמט HH:mm"
+  },
+  {
+    "name": "toISOyyyy_mm_dd",
+    "file": "src/pages/HomePage.jsx",
+    "line": 108,
+    "description": ""
+  },
+  {
+    "name": "if",
     "file": "src/pages/HomePage.jsx",
     "line": 109,
     "description": ""
   },
   {
-    "name": "loadAllData",
-    "file": "src/pages/HomePage.jsx",
-    "line": 110,
-    "description": ""
-  },
-  {
-    "name": "setLoading",
+    "name": "Date",
     "file": "src/pages/HomePage.jsx",
     "line": 111,
-    "description": ""
+    "description": "הערה: אין לנו TZ אקספליציטי; נניח Asia/Jerusalem כמקומי, JavaScript מתרגם לפי זמן מערכת"
   },
   {
-    "name": "fetchClasses",
+    "name": "isNaN",
     "file": "src/pages/HomePage.jsx",
     "line": 112,
     "description": ""
   },
   {
-    "name": "fetchUserBookings",
-    "file": "src/pages/HomePage.jsx",
-    "line": 113,
-    "description": ""
-  },
-  {
-    "name": "fetchAllParticipants",
-    "file": "src/pages/HomePage.jsx",
-    "line": 114,
-    "description": ""
-  },
-  {
-    "name": "setLoading",
+    "name": "minutesFromNow",
     "file": "src/pages/HomePage.jsx",
     "line": 115,
     "description": ""
   },
   {
-    "name": "loadAllData",
+    "name": "if",
     "file": "src/pages/HomePage.jsx",
     "line": 117,
+    "description": "// כמה דקות נשארו מרגע זה לתאריך/זמן נתון"
+  },
+  {
+    "name": "round",
+    "file": "src/pages/HomePage.jsx",
+    "line": 118,
     "description": ""
   },
   {
-    "name": "fetchClasses",
+    "name": "downloadICSForClass",
     "file": "src/pages/HomePage.jsx",
-    "line": 121,
-    "description": "טעינת כל השיעורים"
+    "line": 122,
+    "description": "יצירת קובץ ICS והורדתו"
   },
   {
-    "name": "getDocs",
-    "file": "src/pages/HomePage.jsx",
-    "line": 123,
-    "description": ""
-  },
-  {
-    "name": "classesData",
+    "name": "buildStartAtFromClass",
     "file": "src/pages/HomePage.jsx",
     "line": 124,
-    "description": ""
+    "description": "// בונה קובץ ICS בסיסי על בסיס פרטי שיעור"
   },
   {
-    "name": "setAllClasses",
+    "name": "if",
     "file": "src/pages/HomePage.jsx",
     "line": 125,
     "description": ""
   },
   {
-    "name": "catch",
+    "name": "error",
     "file": "src/pages/HomePage.jsx",
     "line": 126,
     "description": ""
   },
   {
-    "name": "error",
+    "name": "Date",
     "file": "src/pages/HomePage.jsx",
-    "line": 127,
+    "line": 129,
     "description": ""
   },
   {
-    "name": "fetchUserBookings",
+    "name": "getTime",
     "file": "src/pages/HomePage.jsx",
-    "line": 132,
-    "description": "טעינת כל ההרשמות (למשתמש או לכולם בהתאם לתפקיד)"
+    "line": 130,
+    "description": ""
   },
   {
-    "name": "collection",
+    "name": "dtToICS",
+    "file": "src/pages/HomePage.jsx",
+    "line": 132,
+    "description": ""
+  },
+  {
+    "name": "getUTCFullYear",
+    "file": "src/pages/HomePage.jsx",
+    "line": 133,
+    "description": ""
+  },
+  {
+    "name": "getUTCDate",
     "file": "src/pages/HomePage.jsx",
     "line": 134,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "pad2",
     "file": "src/pages/HomePage.jsx",
-    "line": 136,
+    "line": 135,
     "description": ""
   },
   {
-    "name": "query",
-    "file": "src/pages/HomePage.jsx",
-    "line": 137,
-    "description": ""
-  },
-  {
-    "name": "query",
-    "file": "src/pages/HomePage.jsx",
-    "line": 139,
-    "description": ""
-  },
-  {
-    "name": "getDocs",
-    "file": "src/pages/HomePage.jsx",
-    "line": 141,
-    "description": ""
-  },
-  {
-    "name": "bookingsData",
-    "file": "src/pages/HomePage.jsx",
-    "line": 142,
-    "description": ""
-  },
-  {
-    "name": "setBookings",
+    "name": "random",
     "file": "src/pages/HomePage.jsx",
     "line": 143,
     "description": ""
   },
   {
-    "name": "catch",
+    "name": "dtToICS",
     "file": "src/pages/HomePage.jsx",
     "line": 144,
     "description": ""
   },
   {
-    "name": "error",
+    "name": "dtToICS",
     "file": "src/pages/HomePage.jsx",
     "line": 145,
     "description": ""
   },
   {
-    "name": "fetchAllParticipants",
+    "name": "dtToICS",
     "file": "src/pages/HomePage.jsx",
-    "line": 150,
-    "description": "מיפוי שיעורים לנרשמים"
-  },
-  {
-    "name": "collection",
-    "file": "src/pages/HomePage.jsx",
-    "line": 152,
+    "line": 146,
     "description": ""
   },
   {
-    "name": "getDocs",
+    "name": "replace",
     "file": "src/pages/HomePage.jsx",
-    "line": 153,
+    "line": 147,
     "description": ""
   },
   {
-    "name": "bookingsData",
+    "name": "join",
     "file": "src/pages/HomePage.jsx",
     "line": 154,
     "description": ""
   },
   {
-    "name": "for",
+    "name": "Blob",
+    "file": "src/pages/HomePage.jsx",
+    "line": 155,
+    "description": ""
+  },
+  {
+    "name": "createObjectURL",
+    "file": "src/pages/HomePage.jsx",
+    "line": 156,
+    "description": ""
+  },
+  {
+    "name": "createElement",
     "file": "src/pages/HomePage.jsx",
     "line": 157,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "click",
     "file": "src/pages/HomePage.jsx",
-    "line": 158,
+    "line": 160,
     "description": ""
   },
   {
-    "name": "push",
+    "name": "revokeObjectURL",
     "file": "src/pages/HomePage.jsx",
-    "line": 159,
+    "line": 161,
     "description": ""
   },
   {
-    "name": "setParticipantsMap",
-    "file": "src/pages/HomePage.jsx",
-    "line": 162,
-    "description": ""
-  },
-  {
-    "name": "catch",
-    "file": "src/pages/HomePage.jsx",
-    "line": 163,
-    "description": ""
-  },
-  {
-    "name": "error",
+    "name": "openGoogleCalendarForClass",
     "file": "src/pages/HomePage.jsx",
     "line": 164,
     "description": ""
   },
   {
-    "name": "handleCancelBooking",
+    "name": "buildStartAtFromClass",
     "file": "src/pages/HomePage.jsx",
-    "line": 169,
-    "description": "ביטול הרשמה (למתאמנים)"
+    "line": 166,
+    "description": "// פתיחת Google Calendar עם אירוע מוכן לעריכה"
   },
   {
-    "name": "deleteDoc",
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 167,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/HomePage.jsx",
+    "line": 168,
+    "description": ""
+  },
+  {
+    "name": "Date",
     "file": "src/pages/HomePage.jsx",
     "line": 171,
     "description": ""
   },
   {
-    "name": "success",
+    "name": "getTime",
     "file": "src/pages/HomePage.jsx",
     "line": 172,
     "description": ""
   },
   {
-    "name": "setRefreshFlag",
-    "file": "src/pages/HomePage.jsx",
-    "line": 173,
-    "description": ""
-  },
-  {
-    "name": "catch",
+    "name": "fmt",
     "file": "src/pages/HomePage.jsx",
     "line": 174,
     "description": ""
   },
   {
-    "name": "error",
+    "name": "getUTCFullYear",
     "file": "src/pages/HomePage.jsx",
     "line": 175,
     "description": ""
   },
   {
-    "name": "handleRemoveParticipant",
+    "name": "getUTCDate",
+    "file": "src/pages/HomePage.jsx",
+    "line": 176,
+    "description": ""
+  },
+  {
+    "name": "pad2",
+    "file": "src/pages/HomePage.jsx",
+    "line": 177,
+    "description": ""
+  },
+  {
+    "name": "URLSearchParams",
+    "file": "src/pages/HomePage.jsx",
+    "line": 178,
+    "description": ""
+  },
+  {
+    "name": "fmt",
     "file": "src/pages/HomePage.jsx",
     "line": 180,
-    "description": "הסרת משתתף מהשיעור (למנהל ומדריך)"
-  },
-  {
-    "name": "deleteDoc",
-    "file": "src/pages/HomePage.jsx",
-    "line": 182,
     "description": ""
   },
   {
-    "name": "success",
-    "file": "src/pages/HomePage.jsx",
-    "line": 183,
-    "description": ""
-  },
-  {
-    "name": "setRefreshFlag",
+    "name": "open",
     "file": "src/pages/HomePage.jsx",
     "line": 184,
     "description": ""
   },
   {
-    "name": "catch",
+    "name": "toString",
     "file": "src/pages/HomePage.jsx",
     "line": 185,
     "description": ""
   },
   {
-    "name": "error",
-    "file": "src/pages/HomePage.jsx",
-    "line": 186,
-    "description": ""
-  },
-  {
-    "name": "isClassInCurrentOrNextWeek",
-    "file": "src/pages/HomePage.jsx",
-    "line": 189,
-    "description": ""
-  },
-  {
-    "name": "split",
+    "name": "tryShareClass",
     "file": "src/pages/HomePage.jsx",
     "line": 190,
     "description": ""
   },
   {
-    "name": "Date",
+    "name": "buildStartAtFromClass",
     "file": "src/pages/HomePage.jsx",
-    "line": 191,
-    "description": ""
+    "line": 192,
+    "description": "// שיתוף מהיר (Web Share API) או נפילה לעותק טקסטי"
   },
   {
-    "name": "Date",
-    "file": "src/pages/HomePage.jsx",
-    "line": 193,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/HomePage.jsx",
-    "line": 194,
-    "description": ""
-  },
-  {
-    "name": "setDate",
+    "name": "trim",
     "file": "src/pages/HomePage.jsx",
     "line": 195,
     "description": ""
   },
   {
-    "name": "Date",
+    "name": "if",
     "file": "src/pages/HomePage.jsx",
     "line": 197,
     "description": ""
   },
   {
-    "name": "setDate",
+    "name": "share",
     "file": "src/pages/HomePage.jsx",
-    "line": 198,
+    "line": 199,
     "description": ""
   },
   {
-    "name": "filter",
+    "name": "catch",
     "file": "src/pages/HomePage.jsx",
-    "line": 205,
-    "description": "סינון שיעורים לפי תפקיד"
-  },
-  {
-    "name": "isClassInCurrentOrNextWeek",
-    "file": "src/pages/HomePage.jsx",
-    "line": 206,
+    "line": 200,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "writeText",
     "file": "src/pages/HomePage.jsx",
-    "line": 208,
+    "line": 202,
     "description": ""
   },
   {
-    "name": "filter",
+    "name": "success",
     "file": "src/pages/HomePage.jsx",
-    "line": 209,
+    "line": 203,
+    "description": ""
+  },
+  {
+    "name": "DayStrip",
+    "file": "src/pages/HomePage.jsx",
+    "line": 210,
+    "description": "==========================="
+  },
+  {
+    "name": "items",
+    "file": "src/pages/HomePage.jsx",
+    "line": 211,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/HomePage.jsx",
+    "line": 212,
     "description": ""
   },
   {
@@ -1386,93 +1536,1251 @@
     "description": ""
   },
   {
-    "name": "sort",
+    "name": "toLocalISODate",
     "file": "src/pages/HomePage.jsx",
-    "line": 222,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/HomePage.jsx",
-    "line": 223,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/HomePage.jsx",
-    "line": 224,
-    "description": ""
-  },
-  {
-    "name": "userBookingClassIds",
-    "file": "src/pages/HomePage.jsx",
-    "line": 230,
-    "description": "למתאמנים: לסנן רק שיעורים שהם רשומים אליהם"
-  },
-  {
-    "name": "userBookings",
-    "file": "src/pages/HomePage.jsx",
-    "line": 231,
+    "line": 218,
     "description": ""
   },
   {
     "name": "return",
     "file": "src/pages/HomePage.jsx",
+    "line": 220,
+    "description": ""
+  },
+  {
+    "name": "getDay",
+    "file": "src/pages/HomePage.jsx",
+    "line": 230,
+    "description": ""
+  },
+  {
+    "name": "getDate",
+    "file": "src/pages/HomePage.jsx",
+    "line": 231,
+    "description": ""
+  },
+  {
+    "name": "pad2",
+    "file": "src/pages/HomePage.jsx",
+    "line": 232,
+    "description": ""
+  },
+  {
+    "name": "getDay",
+    "file": "src/pages/HomePage.jsx",
     "line": 233,
     "description": ""
   },
   {
-    "name": "setSelectedClass",
+    "name": "getMonth",
     "file": "src/pages/HomePage.jsx",
-    "line": 251,
+    "line": 234,
     "description": ""
   },
   {
-    "name": "setRefreshFlag",
+    "name": "getDay",
     "file": "src/pages/HomePage.jsx",
-    "line": 252,
+    "line": 238,
+    "description": ""
+  },
+  {
+    "name": "pad2",
+    "file": "src/pages/HomePage.jsx",
+    "line": 241,
+    "description": ""
+  },
+  {
+    "name": "CompactClassCard",
+    "file": "src/pages/HomePage.jsx",
+    "line": 253,
+    "description": "==========================="
+  },
+  {
+    "name": "occupancyFrom",
+    "file": "src/pages/HomePage.jsx",
+    "line": 266,
+    "description": "// חישובי תפוסה"
+  },
+  {
+    "name": "return",
+    "file": "src/pages/HomePage.jsx",
+    "line": 268,
+    "description": ""
+  },
+  {
+    "name": "stopPropagation",
+    "file": "src/pages/HomePage.jsx",
+    "line": 317,
+    "description": ""
+  },
+  {
+    "name": "onCta",
+    "file": "src/pages/HomePage.jsx",
+    "line": 318,
+    "description": ""
+  },
+  {
+    "name": "AdminClassesTable",
+    "file": "src/pages/HomePage.jsx",
+    "line": 337,
+    "description": "==========================="
+  },
+  {
+    "name": "return",
+    "file": "src/pages/HomePage.jsx",
+    "line": 338,
     "description": ""
   },
   {
     "name": "map",
     "file": "src/pages/HomePage.jsx",
-    "line": 262,
+    "line": 353,
     "description": ""
   },
   {
-    "name": "find",
+    "name": "occupancyFrom",
     "file": "src/pages/HomePage.jsx",
-    "line": 271,
+    "line": 354,
     "description": ""
   },
   {
-    "name": "setRefreshFlag",
+    "name": "return",
     "file": "src/pages/HomePage.jsx",
-    "line": 275,
+    "line": 359,
+    "description": ""
+  },
+  {
+    "name": "min",
+    "file": "src/pages/HomePage.jsx",
+    "line": 376,
+    "description": ""
+  },
+  {
+    "name": "AdminClassModal",
+    "file": "src/pages/HomePage.jsx",
+    "line": 406,
+    "description": "==========================="
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/HomePage.jsx",
+    "line": 412,
+    "description": ""
+  },
+  {
+    "name": "filtered",
+    "file": "src/pages/HomePage.jsx",
+    "line": 414,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 416,
+    "description": "// סינון משתתפים לפי שם/טלפון/ID"
+  },
+  {
+    "name": "toLowerCase",
+    "file": "src/pages/HomePage.jsx",
+    "line": 417,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/HomePage.jsx",
+    "line": 418,
+    "description": ""
+  },
+  {
+    "name": "toLowerCase",
+    "file": "src/pages/HomePage.jsx",
+    "line": 420,
+    "description": ""
+  },
+  {
+    "name": "includes",
+    "file": "src/pages/HomePage.jsx",
+    "line": 421,
+    "description": ""
+  },
+  {
+    "name": "includes",
+    "file": "src/pages/HomePage.jsx",
+    "line": 422,
+    "description": ""
+  },
+  {
+    "name": "exportCSV",
+    "file": "src/pages/HomePage.jsx",
+    "line": 426,
+    "description": ""
+  },
+  {
+    "name": "CSV",
+    "file": "src/pages/HomePage.jsx",
+    "line": 427,
+    "description": ""
+  },
+  {
+    "name": "rows",
+    "file": "src/pages/HomePage.jsx",
+    "line": 429,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/HomePage.jsx",
+    "line": 436,
+    "description": ""
+  },
+  {
+    "name": "join",
+    "file": "src/pages/HomePage.jsx",
+    "line": 437,
+    "description": ""
+  },
+  {
+    "name": "Blob",
+    "file": "src/pages/HomePage.jsx",
+    "line": 438,
+    "description": ""
+  },
+  {
+    "name": "createObjectURL",
+    "file": "src/pages/HomePage.jsx",
+    "line": 439,
+    "description": ""
+  },
+  {
+    "name": "createElement",
+    "file": "src/pages/HomePage.jsx",
+    "line": 440,
+    "description": ""
+  },
+  {
+    "name": "click",
+    "file": "src/pages/HomePage.jsx",
+    "line": 443,
+    "description": ""
+  },
+  {
+    "name": "revokeObjectURL",
+    "file": "src/pages/HomePage.jsx",
+    "line": 444,
+    "description": ""
+  },
+  {
+    "name": "copyPhones",
+    "file": "src/pages/HomePage.jsx",
+    "line": 447,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/HomePage.jsx",
+    "line": 450,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/HomePage.jsx",
+    "line": 451,
+    "description": ""
+  },
+  {
+    "name": "join",
+    "file": "src/pages/HomePage.jsx",
+    "line": 452,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 453,
+    "description": ""
+  },
+  {
+    "name": "toast",
+    "file": "src/pages/HomePage.jsx",
+    "line": 454,
+    "description": ""
+  },
+  {
+    "name": "writeText",
+    "file": "src/pages/HomePage.jsx",
+    "line": 457,
+    "description": ""
+  },
+  {
+    "name": "success",
+    "file": "src/pages/HomePage.jsx",
+    "line": 458,
+    "description": ""
+  },
+  {
+    "name": "shareClass",
+    "file": "src/pages/HomePage.jsx",
+    "line": 461,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 463,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/HomePage.jsx",
+    "line": 465,
+    "description": ""
+  },
+  {
+    "name": "setQ",
+    "file": "src/pages/HomePage.jsx",
+    "line": 504,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/HomePage.jsx",
+    "line": 542,
+    "description": ""
+  },
+  {
+    "name": "ClassSkeleton",
+    "file": "src/pages/HomePage.jsx",
+    "line": 586,
+    "description": "==========================="
+  },
+  {
+    "name": "return",
+    "file": "src/pages/HomePage.jsx",
+    "line": 587,
+    "description": ""
+  },
+  {
+    "name": "HomePage",
+    "file": "src/pages/HomePage.jsx",
+    "line": 599,
+    "description": "==========================="
+  },
+  {
+    "name": "useUser",
+    "file": "src/pages/HomePage.jsx",
+    "line": 600,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/HomePage.jsx",
+    "line": 616,
+    "description": "סטייטים לנתונים"
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/HomePage.jsx",
+    "line": 617,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/HomePage.jsx",
+    "line": 618,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/HomePage.jsx",
+    "line": 621,
+    "description": "סטייטים ל‑UI"
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/HomePage.jsx",
+    "line": 622,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/HomePage.jsx",
+    "line": 623,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/HomePage.jsx",
+    "line": 624,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/HomePage.jsx",
+    "line": 625,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/HomePage.jsx",
+    "line": 626,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/HomePage.jsx",
+    "line": 627,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/HomePage.jsx",
+    "line": 628,
+    "description": ""
+  },
+  {
+    "name": "useRef",
+    "file": "src/pages/HomePage.jsx",
+    "line": 631,
+    "description": "רפרנס לטיימר רענון"
+  },
+  {
+    "name": "useEffect",
+    "file": "src/pages/HomePage.jsx",
+    "line": 634,
+    "description": "טעינת נתונים"
+  },
+  {
+    "name": "loadAll",
+    "file": "src/pages/HomePage.jsx",
+    "line": 636,
+    "description": "// שימוש בגישה הקיימת (לא שובר UI/דאטה): נשלוף את כל ה‑classes ונחסום לפי שבוע נוכחי+בא"
+  },
+  {
+    "name": "setLoading",
+    "file": "src/pages/HomePage.jsx",
+    "line": 637,
+    "description": ""
+  },
+  {
+    "name": "getDocs",
+    "file": "src/pages/HomePage.jsx",
+    "line": 640,
+    "description": "1) classes"
+  },
+  {
+    "name": "classesRaw",
+    "file": "src/pages/HomePage.jsx",
+    "line": 641,
+    "description": ""
+  },
+  {
+    "name": "data",
+    "file": "src/pages/HomePage.jsx",
+    "line": 643,
+    "description": ""
+  },
+  {
+    "name": "classes",
+    "file": "src/pages/HomePage.jsx",
+    "line": 645,
+    "description": ""
+  },
+  {
+    "name": "isDateInCurrentOrNextWeek",
+    "file": "src/pages/HomePage.jsx",
+    "line": 646,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 651,
+    "description": ""
+  },
+  {
+    "name": "query",
+    "file": "src/pages/HomePage.jsx",
+    "line": 652,
+    "description": ""
+  },
+  {
+    "name": "collection",
+    "file": "src/pages/HomePage.jsx",
+    "line": 653,
+    "description": ""
+  },
+  {
+    "name": "where",
+    "file": "src/pages/HomePage.jsx",
+    "line": 654,
+    "description": ""
+  },
+  {
+    "name": "getDocs",
+    "file": "src/pages/HomePage.jsx",
+    "line": 656,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/HomePage.jsx",
+    "line": 657,
+    "description": ""
+  },
+  {
+    "name": "getDocs",
+    "file": "src/pages/HomePage.jsx",
+    "line": 660,
+    "description": "מנהל/מדריך: להביא את כל ההזמנות לשבועי התצוגה (נשאר קוד פשוט – אפשר לייעל בהמשך ל‑in)"
+  },
+  {
+    "name": "map",
+    "file": "src/pages/HomePage.jsx",
+    "line": 661,
+    "description": ""
+  },
+  {
+    "name": "for",
+    "file": "src/pages/HomePage.jsx",
+    "line": 666,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 667,
+    "description": ""
+  },
+  {
+    "name": "push",
+    "file": "src/pages/HomePage.jsx",
+    "line": 668,
+    "description": ""
+  },
+  {
+    "name": "setAllClasses",
+    "file": "src/pages/HomePage.jsx",
+    "line": 671,
+    "description": ""
+  },
+  {
+    "name": "setBookings",
+    "file": "src/pages/HomePage.jsx",
+    "line": 672,
+    "description": ""
+  },
+  {
+    "name": "setParticipantsMap",
+    "file": "src/pages/HomePage.jsx",
+    "line": 673,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
+    "file": "src/pages/HomePage.jsx",
+    "line": 674,
+    "description": ""
+  },
+  {
+    "name": "loadAll",
+    "file": "src/pages/HomePage.jsx",
+    "line": 677,
+    "description": ""
+  },
+  {
+    "name": "useEffect",
+    "file": "src/pages/HomePage.jsx",
+    "line": 682,
+    "description": "רענון אוטומטי עדין (polling)"
+  },
+  {
+    "name": "setInterval",
+    "file": "src/pages/HomePage.jsx",
+    "line": 684,
+    "description": "// מרענן נתונים כל 45 שניות בעדינות"
+  },
+  {
+    "name": "return",
+    "file": "src/pages/HomePage.jsx",
+    "line": 685,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 686,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 692,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/HomePage.jsx",
+    "line": 693,
+    "description": ""
+  },
+  {
+    "name": "classesWithCounts",
+    "file": "src/pages/HomePage.jsx",
+    "line": 699,
+    "description": "הוספת משתתפים ומיון לפי תאריך/שעה"
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/HomePage.jsx",
+    "line": 701,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/HomePage.jsx",
+    "line": 702,
+    "description": ""
+  },
+  {
+    "name": "sort",
+    "file": "src/pages/HomePage.jsx",
+    "line": 707,
     "description": ""
   },
   {
     "name": "Date",
     "file": "src/pages/HomePage.jsx",
-    "line": 277,
-    "description": ""
-  },
-  {
-    "name": "split",
-    "file": "src/pages/HomePage.jsx",
-    "line": 278,
+    "line": 708,
     "description": ""
   },
   {
     "name": "Date",
     "file": "src/pages/HomePage.jsx",
-    "line": 280,
+    "line": 709,
+    "description": ""
+  },
+  {
+    "name": "instructorOptions",
+    "file": "src/pages/HomePage.jsx",
+    "line": 715,
+    "description": "אוסף ערכי מדריכים/סוגים לפילטרים"
+  },
+  {
+    "name": "Set",
+    "file": "src/pages/HomePage.jsx",
+    "line": 716,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/HomePage.jsx",
+    "line": 718,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/HomePage.jsx",
+    "line": 719,
+    "description": ""
+  },
+  {
+    "name": "from",
+    "file": "src/pages/HomePage.jsx",
+    "line": 721,
+    "description": ""
+  },
+  {
+    "name": "typeOptions",
+    "file": "src/pages/HomePage.jsx",
+    "line": 723,
+    "description": ""
+  },
+  {
+    "name": "set",
+    "file": "src/pages/HomePage.jsx",
+    "line": 724,
+    "description": ""
+  },
+  {
+    "name": "from",
+    "file": "src/pages/HomePage.jsx",
+    "line": 725,
+    "description": ""
+  },
+  {
+    "name": "dayAndFilters",
+    "file": "src/pages/HomePage.jsx",
+    "line": 729,
+    "description": "פילטר יום + פתוחים בלבד + סוג + מדריך"
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 732,
+    "description": "סינון לפי \"השבוע/שבוע הבא\" בעזרת DayStrip"
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/HomePage.jsx",
+    "line": 733,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 736,
+    "description": "פתוחים בלבד"
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/HomePage.jsx",
+    "line": 737,
+    "description": ""
+  },
+  {
+    "name": "occupancyFrom",
+    "file": "src/pages/HomePage.jsx",
+    "line": 738,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 743,
+    "description": "סוג שיעור (אם יש)"
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/HomePage.jsx",
+    "line": 744,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 747,
+    "description": "מדריך"
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/HomePage.jsx",
+    "line": 748,
+    "description": ""
+  },
+  {
+    "name": "userBookings",
+    "file": "src/pages/HomePage.jsx",
+    "line": 763,
+    "description": "הזמנות משתמש רגיל (מסודרות בזמן)"
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 764,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/HomePage.jsx",
+    "line": 766,
+    "description": ""
+  },
+  {
+    "name": "c",
+    "file": "src/pages/HomePage.jsx",
+    "line": 767,
+    "description": ""
+  },
+  {
+    "name": "buildStartAtFromClass",
+    "file": "src/pages/HomePage.jsx",
+    "line": 771,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/HomePage.jsx",
+    "line": 774,
+    "description": ""
+  },
+  {
+    "name": "getTime",
+    "file": "src/pages/HomePage.jsx",
+    "line": 776,
+    "description": ""
+  },
+  {
+    "name": "sort",
+    "file": "src/pages/HomePage.jsx",
+    "line": 778,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/HomePage.jsx",
+    "line": 779,
+    "description": ""
+  },
+  {
+    "name": "occupancyFrom",
+    "file": "src/pages/HomePage.jsx",
+    "line": 782,
+    "description": "---- Occupancy helpers ----"
+  },
+  {
+    "name": "Number",
+    "file": "src/pages/HomePage.jsx",
+    "line": 783,
+    "description": ""
+  },
+  {
+    "name": "Number",
+    "file": "src/pages/HomePage.jsx",
+    "line": 784,
+    "description": ""
+  },
+  {
+    "name": "max",
+    "file": "src/pages/HomePage.jsx",
+    "line": 785,
+    "description": ""
+  },
+  {
+    "name": "min",
+    "file": "src/pages/HomePage.jsx",
+    "line": 786,
+    "description": ""
+  },
+  {
+    "name": "nextBooking",
+    "file": "src/pages/HomePage.jsx",
+    "line": 793,
+    "description": "השיעור הבא ל‑Hero"
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 794,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/HomePage.jsx",
+    "line": 796,
+    "description": ""
+  },
+  {
+    "name": "c",
+    "file": "src/pages/HomePage.jsx",
+    "line": 797,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/HomePage.jsx",
+    "line": 800,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/HomePage.jsx",
+    "line": 804,
+    "description": ""
+  },
+  {
+    "name": "sort",
+    "file": "src/pages/HomePage.jsx",
+    "line": 805,
     "description": ""
   },
   {
     "name": "handleCancelBooking",
     "file": "src/pages/HomePage.jsx",
-    "line": 282,
+    "line": 809,
+    "description": "פעולות"
+  },
+  {
+    "name": "buildStartAtFromClass",
+    "file": "src/pages/HomePage.jsx",
+    "line": 813,
+    "description": "בדיקת cutoff: אם כבר מאוחר מדי – נחסום"
+  },
+  {
+    "name": "minutesFromNow",
+    "file": "src/pages/HomePage.jsx",
+    "line": 814,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 815,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/HomePage.jsx",
+    "line": 816,
+    "description": ""
+  },
+  {
+    "name": "deleteDoc",
+    "file": "src/pages/HomePage.jsx",
+    "line": 821,
+    "description": ""
+  },
+  {
+    "name": "success",
+    "file": "src/pages/HomePage.jsx",
+    "line": 822,
+    "description": ""
+  },
+  {
+    "name": "setRefreshFlag",
+    "file": "src/pages/HomePage.jsx",
+    "line": 823,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/HomePage.jsx",
+    "line": 824,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/HomePage.jsx",
+    "line": 825,
+    "description": ""
+  },
+  {
+    "name": "handleRemoveParticipant",
+    "file": "src/pages/HomePage.jsx",
+    "line": 829,
+    "description": ""
+  },
+  {
+    "name": "deleteDoc",
+    "file": "src/pages/HomePage.jsx",
+    "line": 832,
+    "description": ""
+  },
+  {
+    "name": "success",
+    "file": "src/pages/HomePage.jsx",
+    "line": 833,
+    "description": ""
+  },
+  {
+    "name": "setRefreshFlag",
+    "file": "src/pages/HomePage.jsx",
+    "line": 834,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/HomePage.jsx",
+    "line": 835,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/HomePage.jsx",
+    "line": 836,
+    "description": ""
+  },
+  {
+    "name": "kpis",
+    "file": "src/pages/HomePage.jsx",
+    "line": 841,
+    "description": "KPI למנהל/מדריך"
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 842,
+    "description": ""
+  },
+  {
+    "name": "Set",
+    "file": "src/pages/HomePage.jsx",
+    "line": 856,
+    "description": ""
+  },
+  {
+    "name": "for",
+    "file": "src/pages/HomePage.jsx",
+    "line": 862,
+    "description": ""
+  },
+  {
+    "name": "occupancyFrom",
+    "file": "src/pages/HomePage.jsx",
+    "line": 863,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 868,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 869,
+    "description": ""
+  },
+  {
+    "name": "add",
+    "file": "src/pages/HomePage.jsx",
+    "line": 870,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 871,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 875,
+    "description": ""
+  },
+  {
+    "name": "buildStartAtFromClass",
+    "file": "src/pages/HomePage.jsx",
+    "line": 876,
+    "description": ""
+  },
+  {
+    "name": "minutesFromNow",
+    "file": "src/pages/HomePage.jsx",
+    "line": 877,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 878,
+    "description": ""
+  },
+  {
+    "name": "round",
+    "file": "src/pages/HomePage.jsx",
+    "line": 881,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/HomePage.jsx",
+    "line": 894,
+    "description": "UI"
+  },
+  {
+    "name": "setRefreshFlag",
+    "file": "src/pages/HomePage.jsx",
+    "line": 908,
+    "description": ""
+  },
+  {
+    "name": "setActiveStrip",
+    "file": "src/pages/HomePage.jsx",
+    "line": 922,
+    "description": ""
+  },
+  {
+    "name": "setSelectedDayISO",
+    "file": "src/pages/HomePage.jsx",
+    "line": 923,
+    "description": ""
+  },
+  {
+    "name": "setActiveStrip",
+    "file": "src/pages/HomePage.jsx",
+    "line": 935,
+    "description": ""
+  },
+  {
+    "name": "setSelectedDayISO",
+    "file": "src/pages/HomePage.jsx",
+    "line": 936,
+    "description": ""
+  },
+  {
+    "name": "setActiveStrip",
+    "file": "src/pages/HomePage.jsx",
+    "line": 948,
+    "description": ""
+  },
+  {
+    "name": "setSelectedDayISO",
+    "file": "src/pages/HomePage.jsx",
+    "line": 949,
+    "description": ""
+  },
+  {
+    "name": "setOpenOnly",
+    "file": "src/pages/HomePage.jsx",
+    "line": 966,
+    "description": ""
+  },
+  {
+    "name": "setTypeFilter",
+    "file": "src/pages/HomePage.jsx",
+    "line": 976,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/HomePage.jsx",
+    "line": 979,
+    "description": ""
+  },
+  {
+    "name": "setInstructorFilter",
+    "file": "src/pages/HomePage.jsx",
+    "line": 992,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/HomePage.jsx",
+    "line": 995,
+    "description": ""
+  },
+  {
+    "name": "handleCancelBooking",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1034,
+    "description": ""
+  },
+  {
+    "name": "encodeURIComponent",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1043,
+    "description": ""
+  },
+  {
+    "name": "downloadICSForClass",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1055,
+    "description": ""
+  },
+  {
+    "name": "openGoogleCalendarForClass",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1064,
+    "description": ""
+  },
+  {
+    "name": "tryShareClass",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1073,
+    "description": ""
+  },
+  {
+    "name": "from",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1085,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1093,
+    "description": ""
+  },
+  {
+    "name": "c",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1094,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1095,
+    "description": ""
+  },
+  {
+    "name": "minutesFromNow",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1098,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1100,
+    "description": ""
+  },
+  {
+    "name": "handleCancelBooking",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1116,
+    "description": ""
+  },
+  {
+    "name": "reduce",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1143,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1153,
+    "description": ""
+  },
+  {
+    "name": "occupancyFrom",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1154,
+    "description": ""
+  },
+  {
+    "name": "Set",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1167,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1168,
+    "description": ""
+  },
+  {
+    "name": "from",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1188,
+    "description": ""
+  },
+  {
+    "name": "from",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1202,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1205,
+    "description": ""
+  },
+  {
+    "name": "setSelectedClass",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1214,
+    "description": ""
+  },
+  {
+    "name": "setSelectedClass",
+    "file": "src/pages/HomePage.jsx",
+    "line": 1224,
     "description": ""
   },
   {
@@ -5646,627 +6954,1005 @@
     "description": ""
   },
   {
-    "name": "isManager",
+    "name": "pad2",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 23,
+    "description": ""
+  },
+  {
+    "name": "parseHebDate",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 24,
+    "description": ""
+  },
+  {
+    "name": "if",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 25,
     "description": ""
   },
   {
-    "name": "fmtDate",
+    "name": "split",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 26,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 27,
+    "description": ""
+  },
+  {
+    "name": "Date",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 28,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "isNaN",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 30,
+    "line": 29,
     "description": ""
   },
   {
-    "name": "toDate",
+    "name": "toISOyyyy_mm_dd",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 31,
+    "description": ""
+  },
+  {
+    "name": "parseHebDate",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 32,
     "description": ""
   },
   {
-    "name": "toLocaleString",
+    "name": "if",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 33,
     "description": ""
   },
   {
-    "name": "debounce",
+    "name": "getFullYear",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 39,
+    "line": 34,
     "description": ""
   },
   {
-    "name": "return",
+    "name": "fromISOToHeb",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 36,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 37,
+    "description": ""
+  },
+  {
+    "name": "split",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 38,
+    "description": ""
+  },
+  {
+    "name": "sundayThisWeek",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 41,
     "description": ""
   },
   {
-    "name": "clearTimeout",
+    "name": "Date",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 42,
     "description": ""
   },
   {
-    "name": "setTimeout",
+    "name": "Date",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 43,
     "description": ""
   },
   {
-    "name": "CardSkeleton",
+    "name": "setDate",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 44,
+    "description": ""
+  },
+  {
+    "name": "setHours",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 45,
+    "description": ""
+  },
+  {
+    "name": "sundayNextWeek",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 48,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 49,
+    "description": ""
+  },
+  {
+    "name": "setDate",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 50,
     "description": ""
   },
   {
-    "name": "AdminHealthDeclarations",
+    "name": "addDays",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 53,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 54,
+    "description": ""
+  },
+  {
+    "name": "setDate",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 55,
+    "description": ""
+  },
+  {
+    "name": "isDateInCurrentOrNextWeek",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 58,
     "description": ""
   },
   {
-    "name": "useState",
+    "name": "parseHebDate",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 59,
+    "description": ""
+  },
+  {
+    "name": "if",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 60,
     "description": ""
   },
   {
-    "name": "useState",
+    "name": "Date",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 61,
     "description": ""
   },
   {
-    "name": "useState",
+    "name": "addDays",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 62,
     "description": ""
   },
   {
-    "name": "useState",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 63,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 64,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 65,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 66,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 67,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 68,
-    "description": ""
-  },
-  {
-    "name": "useState",
+    "name": "DayStrip",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 69,
     "description": ""
   },
   {
-    "name": "useEffect",
+    "name": "items",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 72,
+    "line": 70,
     "description": ""
   },
   {
-    "name": "if",
+    "name": "return",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 71,
+    "description": ""
+  },
+  {
+    "name": "map",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 73,
     "description": ""
   },
   {
-    "name": "run",
+    "name": "toISOString",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 74,
     "description": ""
   },
   {
-    "name": "setLoading",
+    "name": "return",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 75,
+    "line": 76,
     "description": ""
   },
   {
-    "name": "getDocs",
+    "name": "getDay",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 77,
+    "line": 87,
     "description": ""
   },
   {
-    "name": "map",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 79,
-    "description": ""
-  },
-  {
-    "name": "filter",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 80,
-    "description": ""
-  },
-  {
-    "name": "map",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 81,
-    "description": ""
-  },
-  {
-    "name": "setUsersRaw",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 88,
-    "description": ""
-  },
-  {
-    "name": "catch",
+    "name": "pad2",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 89,
     "description": ""
   },
   {
-    "name": "error",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 90,
-    "description": ""
-  },
-  {
-    "name": "error",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 91,
-    "description": ""
-  },
-  {
-    "name": "setLoading",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 93,
-    "description": ""
-  },
-  {
-    "name": "run",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 96,
-    "description": ""
-  },
-  {
-    "name": "useEffect",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 100,
-    "description": "Debounce לחיפוש"
-  },
-  {
-    "name": "d",
+    "name": "CompactClassCard",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 101,
     "description": ""
   },
   {
-    "name": "d",
+    "name": "min",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 102,
+    "line": 115,
     "description": ""
   },
   {
     "name": "return",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 103,
-    "description": ""
-  },
-  {
-    "name": "useMemo",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 107,
-    "description": ""
-  },
-  {
-    "name": "filter",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 108,
-    "description": ""
-  },
-  {
-    "name": "useMemo",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 111,
-    "description": ""
-  },
-  {
-    "name": "filter",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 112,
-    "description": ""
-  },
-  {
-    "name": "filtered",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 117,
-    "description": ""
-  },
-  {
-    "name": "if",
     "file": "src/pages/AdminHealthDeclarations.jsx",
     "line": 118,
     "description": ""
   },
   {
-    "name": "filter",
+    "name": "stopPropagation",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 119,
+    "line": 159,
+    "description": ""
+  },
+  {
+    "name": "onCta",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 160,
+    "description": ""
+  },
+  {
+    "name": "AdminClassesTable",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 179,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 180,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 192,
+    "description": ""
+  },
+  {
+    "name": "round",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 198,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 200,
+    "description": ""
+  },
+  {
+    "name": "min",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 217,
+    "description": ""
+  },
+  {
+    "name": "AdminClassModal",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 247,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 253,
+    "description": ""
+  },
+  {
+    "name": "filtered",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 255,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 256,
     "description": ""
   },
   {
     "name": "toLowerCase",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 121,
-    "description": ""
-  },
-  {
-    "name": "includes",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 122,
-    "description": ""
-  },
-  {
-    "name": "useMemo",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 126,
-    "description": ""
-  },
-  {
-    "name": "slice",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 127,
-    "description": ""
-  },
-  {
-    "name": "useEffect",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 131,
-    "description": ""
-  },
-  {
-    "name": "setVisibleCount",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 133,
-    "description": "כשמשנים לשונית/חיפוש – לאפס פאגינציה"
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 136,
-    "description": ""
-  },
-  {
-    "name": "return",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 137,
-    "description": ""
-  },
-  {
-    "name": "refresh",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 147,
-    "description": "רענון מלא (Users בלבד)"
-  },
-  {
-    "name": "setRefreshing",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 148,
-    "description": ""
-  },
-  {
-    "name": "getDocs",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 150,
-    "description": ""
-  },
-  {
-    "name": "map",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 152,
+    "line": 257,
     "description": ""
   },
   {
     "name": "filter",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 153,
+    "line": 258,
+    "description": ""
+  },
+  {
+    "name": "toLowerCase",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 260,
+    "description": ""
+  },
+  {
+    "name": "includes",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 261,
+    "description": ""
+  },
+  {
+    "name": "includes",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 262,
+    "description": ""
+  },
+  {
+    "name": "exportCSV",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 266,
+    "description": ""
+  },
+  {
+    "name": "rows",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 268,
     "description": ""
   },
   {
     "name": "map",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 154,
+    "line": 275,
     "description": ""
   },
   {
-    "name": "setUsersRaw",
+    "name": "Blob",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 161,
+    "line": 276,
     "description": ""
   },
   {
-    "name": "success",
+    "name": "createObjectURL",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 162,
+    "line": 277,
     "description": ""
   },
   {
-    "name": "catch",
+    "name": "createElement",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 163,
+    "line": 278,
     "description": ""
   },
   {
-    "name": "error",
+    "name": "click",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 164,
+    "line": 281,
     "description": ""
   },
   {
-    "name": "error",
+    "name": "revokeObjectURL",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 165,
-    "description": ""
-  },
-  {
-    "name": "setRefreshing",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 167,
-    "description": ""
-  },
-  {
-    "name": "openDeclaration",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 174,
-    "description": "אם אין — נטען employees/{phone} נקודתית ונציג; אופציונלי: קאש חזרה ל-Users."
-  },
-  {
-    "name": "setSelectedUserName",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 175,
+    "line": 282,
     "description": ""
   },
   {
     "name": "if",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 177,
-    "description": "קודם לבדוק האם יש כבר ב-Users"
-  },
-  {
-    "name": "setSelectedImage",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 178,
-    "description": ""
-  },
-  {
-    "name": "setHydrating",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 182,
-    "description": "טעינה נקודתית מ-employees"
-  },
-  {
-    "name": "doc",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 184,
-    "description": ""
-  },
-  {
-    "name": "getDoc",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 185,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 186,
-    "description": ""
-  },
-  {
-    "name": "error",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 187,
-    "description": ""
-  },
-  {
-    "name": "setHydrating",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 188,
-    "description": ""
-  },
-  {
-    "name": "data",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 191,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 194,
-    "description": ""
-  },
-  {
-    "name": "error",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 195,
-    "description": ""
-  },
-  {
-    "name": "setHydrating",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 196,
-    "description": ""
-  },
-  {
-    "name": "setSelectedImage",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 200,
-    "description": "פותחים תצוגה"
-  },
-  {
-    "name": "Users",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 202,
-    "description": ""
-  },
-  {
-    "name": "setDoc",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 204,
-    "description": ""
-  },
-  {
-    "name": "doc",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 205,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 208,
-    "description": ""
-  },
-  {
-    "name": "setUsersRaw",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 213,
-    "description": "עדכון לוקאלי ברשימה (כדי לעדכן מיידית בטבלת \"חתומים\")"
-  },
-  {
-    "name": "map",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 214,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 215,
-    "description": ""
-  },
-  {
-    "name": "catch",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 218,
-    "description": ""
-  },
-  {
-    "name": "warn",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 219,
-    "description": ""
-  },
-  {
-    "name": "catch",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 221,
-    "description": ""
-  },
-  {
-    "name": "error",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 222,
-    "description": ""
-  },
-  {
-    "name": "error",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 223,
-    "description": ""
-  },
-  {
-    "name": "setHydrating",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 225,
-    "description": ""
-  },
-  {
-    "name": "loadMore",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 229,
+    "line": 285,
     "description": ""
   },
   {
     "name": "return",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 232,
-    "description": ""
-  },
-  {
-    "name": "setTab",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 249,
-    "description": ""
-  },
-  {
-    "name": "setTab",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 263,
+    "line": 287,
     "description": ""
   },
   {
     "name": "setQ",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 284,
-    "description": ""
-  },
-  {
-    "name": "from",
-    "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 327,
+    "line": 314,
     "description": ""
   },
   {
     "name": "map",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 335,
+    "line": 333,
     "description": ""
   },
   {
-    "name": "fmtDate",
+    "name": "ClassSkeleton",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 361,
+    "line": 373,
     "description": ""
   },
   {
-    "name": "openDeclaration",
+    "name": "return",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 366,
+    "line": 374,
     "description": ""
   },
   {
-    "name": "setSelectedImage",
+    "name": "HomePage",
     "file": "src/pages/AdminHealthDeclarations.jsx",
-    "line": 402,
+    "line": 386,
+    "description": ""
+  },
+  {
+    "name": "useUser",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 387,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 399,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 400,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 401,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 403,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 404,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 407,
+    "description": "UI Filters"
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 408,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 409,
+    "description": ""
+  },
+  {
+    "name": "useEffect",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 412,
+    "description": "Load data"
+  },
+  {
+    "name": "loadAll",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 413,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 414,
+    "description": ""
+  },
+  {
+    "name": "classes",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 416,
+    "description": ""
+  },
+  {
+    "name": "getDocs",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 417,
+    "description": "1) classes (מעמיסים רק שבוע נוכחי+בא)"
+  },
+  {
+    "name": "classesRaw",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 418,
+    "description": ""
+  },
+  {
+    "name": "classes",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 419,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 423,
+    "description": ""
+  },
+  {
+    "name": "query",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 424,
+    "description": ""
+  },
+  {
+    "name": "getDocs",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 425,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 426,
+    "description": ""
+  },
+  {
+    "name": "getDocs",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 428,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 429,
+    "description": ""
+  },
+  {
+    "name": "for",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 434,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 435,
+    "description": ""
+  },
+  {
+    "name": "push",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 436,
+    "description": ""
+  },
+  {
+    "name": "setAllClasses",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 439,
+    "description": ""
+  },
+  {
+    "name": "setBookings",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 440,
+    "description": ""
+  },
+  {
+    "name": "setParticipantsMap",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 441,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 442,
+    "description": ""
+  },
+  {
+    "name": "loadAll",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 444,
+    "description": ""
+  },
+  {
+    "name": "classes",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 448,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 450,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 451,
+    "description": ""
+  },
+  {
+    "name": "classesWithCounts",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 455,
+    "description": "Add participants counts"
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 457,
+    "description": ""
+  },
+  {
+    "name": "sort",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 462,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 463,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 464,
+    "description": ""
+  },
+  {
+    "name": "dayFiltered",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 470,
+    "description": "Day filter"
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 471,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 472,
+    "description": ""
+  },
+  {
+    "name": "toISOyyyy_mm_dd",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 473,
+    "description": ""
+  },
+  {
+    "name": "bookings",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 477,
+    "description": ""
+  },
+  {
+    "name": "userBookings",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 478,
+    "description": "User bookings (for regular users)"
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 479,
+    "description": ""
+  },
+  {
+    "name": "ids",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 480,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 482,
+    "description": ""
+  },
+  {
+    "name": "sort",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 483,
+    "description": ""
+  },
+  {
+    "name": "ca",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 484,
+    "description": ""
+  },
+  {
+    "name": "cb",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 485,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 486,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 487,
+    "description": ""
+  },
+  {
+    "name": "nextBooking",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 493,
+    "description": "Next booking for hero"
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 494,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 496,
+    "description": ""
+  },
+  {
+    "name": "c",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 497,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 500,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 504,
+    "description": ""
+  },
+  {
+    "name": "sort",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 505,
+    "description": ""
+  },
+  {
+    "name": "handleCancelBooking",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 509,
+    "description": ""
+  },
+  {
+    "name": "deleteDoc",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 511,
+    "description": ""
+  },
+  {
+    "name": "success",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 512,
+    "description": ""
+  },
+  {
+    "name": "setRefreshFlag",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 513,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 514,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 515,
+    "description": ""
+  },
+  {
+    "name": "handleRemoveParticipant",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 518,
+    "description": ""
+  },
+  {
+    "name": "deleteDoc",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 520,
+    "description": ""
+  },
+  {
+    "name": "success",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 521,
+    "description": ""
+  },
+  {
+    "name": "setRefreshFlag",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 522,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 523,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 524,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 529,
+    "description": ""
+  },
+  {
+    "name": "setActiveStrip",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 541,
+    "description": ""
+  },
+  {
+    "name": "setSelectedDayISO",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 542,
+    "description": ""
+  },
+  {
+    "name": "setActiveStrip",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 552,
+    "description": ""
+  },
+  {
+    "name": "setSelectedDayISO",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 553,
+    "description": ""
+  },
+  {
+    "name": "setActiveStrip",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 563,
+    "description": ""
+  },
+  {
+    "name": "setSelectedDayISO",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 564,
+    "description": ""
+  },
+  {
+    "name": "handleCancelBooking",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 600,
+    "description": ""
+  },
+  {
+    "name": "encodeURIComponent",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 606,
+    "description": ""
+  },
+  {
+    "name": "from",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 620,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 627,
+    "description": ""
+  },
+  {
+    "name": "c",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 628,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 629,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 631,
+    "description": ""
+  },
+  {
+    "name": "handleCancelBooking",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 647,
+    "description": ""
+  },
+  {
+    "name": "reduce",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 669,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 675,
+    "description": ""
+  },
+  {
+    "name": "Set",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 681,
+    "description": ""
+  },
+  {
+    "name": "from",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 689,
+    "description": ""
+  },
+  {
+    "name": "from",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 703,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 704,
+    "description": ""
+  },
+  {
+    "name": "setSelectedClass",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 713,
+    "description": ""
+  },
+  {
+    "name": "setSelectedClass",
+    "file": "src/pages/AdminHealthDeclarations.jsx",
+    "line": 723,
     "description": ""
   },
   {
