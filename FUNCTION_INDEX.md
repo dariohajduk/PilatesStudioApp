@@ -155,317 +155,338 @@
 - **setMessage** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SendNotification.jsx#L78) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SendNotification.jsx:78)
 
-- **SchedulePage** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L20) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:20)
+- **formatDate** – פורמט תאריך dd/MM/yyyy
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L15) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:15)
 
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L21) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:21)
+- **String** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L16) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:16)
 
-- **useUser** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L22) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:22)
-
-- **formatDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L24) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:24)
-
-- **getDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L25) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:25)
-
-- **getMonth** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L26) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:26)
+- **String** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L17) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:17)
 
 - **getFullYear** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L27) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:27)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L18) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:18)
 
-- **getStartOfWeek** – 
+- **getStartOfWeek** – יום ראשון של השבוע, 00:00
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L22) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:22)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L23) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:23)
+
+- **getDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L24) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:24)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L25) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:25)
+
+- **setHours** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L26) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:26)
+
+- **isPastClass** – האם השיעור בעבר (לפי תאריך/שעה מקומיים)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L30) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:30)
+
+- **split** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L31) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:31)
 
-- **getDay** – 
+- **Date** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L32) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:32)
 
-- **getDate** – 
+- **getTime** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L33) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:33)
 
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L34) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:34)
-
-- **useState** – 
+- **ClassSkeleton** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L37) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:37)
 
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L38) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:38)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L39) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:39)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L40) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:40)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L41) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:41)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L42) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:42)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L43) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:43)
-
-- **useState** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L44) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:44)
-
-- **useState** – 
+- **SchedulePage** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L45) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:45)
 
-- **openParticipantsPopup** – 
+- **useUser** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L46) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:46)
+
+- **today** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L47) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:47)
 
-- **query** – 
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L48) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:48)
+
+- **setHours** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L49) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:49)
 
-- **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L50) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:50)
+- **useState** – סטייטים עיקריים
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L54) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:54)
 
-- **userIds** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L51) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:51)
-
-- **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L53) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:53)
-
-- **forEach** – 
+- **useState** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L55) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:55)
 
-- **data** – 
+- **useState** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L56) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:56)
 
-- **fullParticipants** – 
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L57) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:57)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L58) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:58)
+
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L59) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:59)
+
+- **useState** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L60) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:60)
 
-- **setParticipants** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L66) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:66)
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L61) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:61)
 
-- **setShowParticipantsModal** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L67) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:67)
+- **useState** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L62) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:62)
 
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L68) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:68)
-
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L69) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:69)
-
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L70) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:70)
-
-- **fetchClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L74) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:74)
-
-- **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L76) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:76)
-
-- **setClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L77) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:77)
-
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L78) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:78)
-
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L79) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:79)
-
-- **fetchCustomers** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L83) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:83)
-
-- **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L85) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:85)
-
-- **usersList** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L86) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:86)
-
-- **setCustomers** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L87) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:87)
-
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L88) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:88)
-
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L89) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:89)
-
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L90) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:90)
-
-- **fetchUserBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L94) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:94)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L95) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:95)
-
-- **collection** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L97) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:97)
-
-- **query** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L98) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:98)
-
-- **getDocs** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L99) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:99)
-
-- **setBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L100) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:100)
-
-- **catch** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L101) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:101)
-
-- **error** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L102) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:102)
-
-- **useEffect** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L106) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:106)
-
-- **loadData** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L107) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:107)
-
-- **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L108) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:108)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L110) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:110)
-
-- **Boolean** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L111) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:111)
-
-- **setIsAdmin** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L117) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:117)
-
-- **fetchClasses** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L120) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:120)
-
-- **fetchUserBookings** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L121) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:121)
-
-- **fetchCustomers** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L122) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:122)
-
-- **setLoading** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L123) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:123)
-
-- **loadData** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L125) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:125)
-
-- **handlePrevWeek** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L128) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:128)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L129) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:129)
-
-- **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L130) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:130)
-
-- **setCurrentWeekStart** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L131) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:131)
-
-- **setSelectedDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L132) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:132)
-
-- **handleNextWeek** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L135) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:135)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L136) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:136)
-
-- **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L137) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:137)
-
-- **setCurrentWeekStart** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L138) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:138)
-
-- **setSelectedDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L139) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:139)
-
-- **goToCurrentWeek** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L142) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:142)
-
-- **setCurrentWeekStart** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L143) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:143)
-
-- **setSelectedDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L144) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:144)
-
-- **isAlreadyBooked** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L147) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:147)
-
-- **some** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L148) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:148)
-
-- **isPastClass** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L150) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:150)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L151) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:151)
-
-- **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L152) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:152)
-
-- **if** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L155) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:155)
-
-- **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L156) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:156)
-
-- **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L163) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:163)
-
-- **formatDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L173) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:173)
+- **weekDays** – נגזרות לתצוגה
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L65) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:65)
 
 - **from** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L186) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:186)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L66) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:66)
 
 - **Date** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L187) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:187)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L67) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:67)
 
 - **setDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L188) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:188)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L68) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:68)
 
-- **formatDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L189) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:189)
+- **fetchClasses** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L76) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:76)
 
-- **formatDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L191) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:191)
+- **getDocs** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L78) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:78)
 
-- **return** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L194) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:194)
+- **list** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L79) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:79)
 
-- **setSelectedDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L197) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:197)
+- **setClasses** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L80) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:80)
 
-- **getDay** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L207) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:207)
+- **catch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L81) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:81)
 
-- **getDate** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L209) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:209)
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L82) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:82)
 
-- **getMonth** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L210) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:210)
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L83) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:83)
 
-- **filter** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L221) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:221)
+- **fetchCustomers** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L87) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:87)
 
-- **filter** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L228) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:228)
+- **getDocs** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L89) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:89)
 
-- **sort** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L229) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:229)
+- **usersList** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L90) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:90)
 
-- **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L230) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:230)
+- **setCustomers** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L91) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:91)
 
-- **isAlreadyBooked** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L236) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:236)
+- **catch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L92) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:92)
 
-- **isPastClass** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L238) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:238)
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L93) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:93)
 
-- **map** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L251) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:251)
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L94) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:94)
+
+- **fetchUserBookings** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L98) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:98)
+
+- **if** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L99) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:99)
+
+- **collection** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L101) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:101)
+
+- **query** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L102) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:102)
+
+- **getDocs** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L103) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:103)
+
+- **setBookings** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L104) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:104)
+
+- **catch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L105) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:105)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L106) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:106)
+
+- **openParticipantsPopup** – פופאפ משתתפים (נשמר – לא משנה את הזרימה שלך)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L111) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:111)
+
+- **query** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L113) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:113)
+
+- **getDocs** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L114) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:114)
+
+- **userIds** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L115) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:115)
+
+- **getDocs** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L117) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:117)
+
+- **forEach** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L119) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:119)
+
+- **data** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L120) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:120)
+
+- **fullParticipants** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L124) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:124)
+
+- **setParticipants** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L130) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:130)
 
 - **setShowParticipantsModal** – 
-  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L257) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:257)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L131) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:131)
+
+- **catch** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L132) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:132)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L133) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:133)
+
+- **error** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L134) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:134)
+
+- **useEffect** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L138) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:138)
+
+- **loadData** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L139) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:139)
+
+- **setLoading** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L140) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:140)
+
+- **employee** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L141) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:141)
+
+- **if** – קביעת הרשאות לפי employee (זהה ללוגיקה שלך)
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L142) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:142)
+
+- **setIsAdmin** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L148) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:148)
+
+- **all** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L150) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:150)
+
+- **setLoading** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L151) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:151)
+
+- **loadData** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L153) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:153)
+
+- **handlePrevWeek** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L158) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:158)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L159) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:159)
+
+- **setDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L160) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:160)
+
+- **setCurrentWeekStart** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L161) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:161)
+
+- **setSelectedDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L162) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:162)
+
+- **handleNextWeek** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L165) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:165)
+
+- **Date** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L166) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:166)
+
+- **setDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L167) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:167)
+
+- **setCurrentWeekStart** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L168) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:168)
+
+- **setSelectedDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L169) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:169)
+
+- **goToCurrentWeek** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L172) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:172)
+
+- **getStartOfWeek** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L173) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:173)
+
+- **setCurrentWeekStart** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L174) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:174)
+
+- **setSelectedDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L175) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:175)
+
+- **isAlreadyBooked** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L179) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:179)
+
+- **dayClasses** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L182) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:182)
+
+- **filter** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L184) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:184)
+
+- **sort** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L185) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:185)
+
+- **return** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L190) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:190)
+
+- **formatDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L210) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:210)
+
+- **map** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L233) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:233)
+
+- **formatDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L234) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:234)
+
+- **formatDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L236) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:236)
+
+- **return** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L237) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:237)
+
+- **setSelectedDate** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L241) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:241)
+
+- **join** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L249) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:249)
+
+- **getDay** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L253) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:253)
+
+- **String** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L255) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:255)
+
+- **from** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L271) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:271)
+
+- **map** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L284) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:284)
+
+- **isAlreadyBooked** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L290) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:290)
+
+- **isPastClass** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L292) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:292)
+
+- **openParticipantsPopup** – אם תרצה לפתוח מודאל משתתפים מהכרטיס:
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L296) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:296)
+
+- **map** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L308) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:308)
+
+- **setShowParticipantsModal** – 
+  - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/SchedulePage.jsx#L315) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\SchedulePage.jsx:315)
 
 - **isFutureClass** – 
   - [GitHub](https://github.com/dariohajduk/PilatesStudioApp/blob/main/src/pages/HomePage.jsx#L27) | [VS Code](vscode://file/C:\Users\hajduk\Downloads\PilatesStudioApp\src\pages\HomePage.jsx:27)

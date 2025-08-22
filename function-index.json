@@ -306,627 +306,669 @@
     "description": ""
   },
   {
-    "name": "SchedulePage",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 20,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 21,
-    "description": ""
-  },
-  {
-    "name": "useUser",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 22,
-    "description": ""
-  },
-  {
     "name": "formatDate",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 24,
+    "line": 15,
+    "description": "פורמט תאריך dd/MM/yyyy"
+  },
+  {
+    "name": "String",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 16,
     "description": ""
   },
   {
-    "name": "getDate",
+    "name": "String",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 25,
-    "description": ""
-  },
-  {
-    "name": "getMonth",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 26,
+    "line": 17,
     "description": ""
   },
   {
     "name": "getFullYear",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 27,
+    "line": 18,
     "description": ""
   },
   {
     "name": "getStartOfWeek",
     "file": "src/pages/SchedulePage.jsx",
+    "line": 22,
+    "description": "יום ראשון של השבוע, 00:00"
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 23,
+    "description": ""
+  },
+  {
+    "name": "getDate",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 24,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 25,
+    "description": ""
+  },
+  {
+    "name": "setHours",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 26,
+    "description": ""
+  },
+  {
+    "name": "isPastClass",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 30,
+    "description": "האם השיעור בעבר (לפי תאריך/שעה מקומיים)"
+  },
+  {
+    "name": "split",
+    "file": "src/pages/SchedulePage.jsx",
     "line": 31,
     "description": ""
   },
   {
-    "name": "getDay",
+    "name": "Date",
     "file": "src/pages/SchedulePage.jsx",
     "line": 32,
     "description": ""
   },
   {
-    "name": "getDate",
+    "name": "getTime",
     "file": "src/pages/SchedulePage.jsx",
     "line": 33,
     "description": ""
   },
   {
-    "name": "Date",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 34,
-    "description": ""
-  },
-  {
-    "name": "useState",
+    "name": "ClassSkeleton",
     "file": "src/pages/SchedulePage.jsx",
     "line": 37,
     "description": ""
   },
   {
-    "name": "useState",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 38,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 39,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 40,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 41,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 42,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 43,
-    "description": ""
-  },
-  {
-    "name": "useState",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 44,
-    "description": ""
-  },
-  {
-    "name": "useState",
+    "name": "SchedulePage",
     "file": "src/pages/SchedulePage.jsx",
     "line": 45,
     "description": ""
   },
   {
-    "name": "openParticipantsPopup",
+    "name": "useUser",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 46,
+    "description": ""
+  },
+  {
+    "name": "today",
     "file": "src/pages/SchedulePage.jsx",
     "line": 47,
     "description": ""
   },
   {
-    "name": "query",
+    "name": "Date",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 48,
+    "description": ""
+  },
+  {
+    "name": "setHours",
     "file": "src/pages/SchedulePage.jsx",
     "line": 49,
     "description": ""
   },
   {
-    "name": "getDocs",
+    "name": "useState",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 50,
-    "description": ""
+    "line": 54,
+    "description": "סטייטים עיקריים"
   },
   {
-    "name": "userIds",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 51,
-    "description": ""
-  },
-  {
-    "name": "getDocs",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 53,
-    "description": ""
-  },
-  {
-    "name": "forEach",
+    "name": "useState",
     "file": "src/pages/SchedulePage.jsx",
     "line": 55,
     "description": ""
   },
   {
-    "name": "data",
+    "name": "useState",
     "file": "src/pages/SchedulePage.jsx",
     "line": 56,
     "description": ""
   },
   {
-    "name": "fullParticipants",
+    "name": "useState",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 57,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 58,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 59,
+    "description": ""
+  },
+  {
+    "name": "useState",
     "file": "src/pages/SchedulePage.jsx",
     "line": 60,
     "description": ""
   },
   {
-    "name": "setParticipants",
+    "name": "useState",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 61,
+    "description": ""
+  },
+  {
+    "name": "useState",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 62,
+    "description": ""
+  },
+  {
+    "name": "weekDays",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 65,
+    "description": "נגזרות לתצוגה"
+  },
+  {
+    "name": "from",
     "file": "src/pages/SchedulePage.jsx",
     "line": 66,
     "description": ""
   },
   {
-    "name": "setShowParticipantsModal",
+    "name": "Date",
     "file": "src/pages/SchedulePage.jsx",
     "line": 67,
     "description": ""
   },
   {
-    "name": "catch",
+    "name": "setDate",
     "file": "src/pages/SchedulePage.jsx",
     "line": 68,
     "description": ""
   },
   {
-    "name": "error",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 69,
-    "description": ""
-  },
-  {
-    "name": "error",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 70,
-    "description": ""
-  },
-  {
     "name": "fetchClasses",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 74,
-    "description": ""
-  },
-  {
-    "name": "getDocs",
     "file": "src/pages/SchedulePage.jsx",
     "line": 76,
     "description": ""
   },
   {
-    "name": "setClasses",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 77,
-    "description": ""
-  },
-  {
-    "name": "catch",
+    "name": "getDocs",
     "file": "src/pages/SchedulePage.jsx",
     "line": 78,
     "description": ""
   },
   {
-    "name": "error",
+    "name": "list",
     "file": "src/pages/SchedulePage.jsx",
     "line": 79,
     "description": ""
   },
   {
-    "name": "fetchCustomers",
+    "name": "setClasses",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 80,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 81,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 82,
+    "description": ""
+  },
+  {
+    "name": "error",
     "file": "src/pages/SchedulePage.jsx",
     "line": 83,
     "description": ""
   },
   {
-    "name": "getDocs",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 85,
-    "description": ""
-  },
-  {
-    "name": "usersList",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 86,
-    "description": ""
-  },
-  {
-    "name": "setCustomers",
+    "name": "fetchCustomers",
     "file": "src/pages/SchedulePage.jsx",
     "line": 87,
     "description": ""
   },
   {
-    "name": "catch",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 88,
-    "description": ""
-  },
-  {
-    "name": "error",
+    "name": "getDocs",
     "file": "src/pages/SchedulePage.jsx",
     "line": 89,
     "description": ""
   },
   {
-    "name": "error",
+    "name": "usersList",
     "file": "src/pages/SchedulePage.jsx",
     "line": 90,
     "description": ""
   },
   {
-    "name": "fetchUserBookings",
+    "name": "setCustomers",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 94,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 95,
-    "description": ""
-  },
-  {
-    "name": "collection",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 97,
-    "description": ""
-  },
-  {
-    "name": "query",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 98,
-    "description": ""
-  },
-  {
-    "name": "getDocs",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 99,
-    "description": ""
-  },
-  {
-    "name": "setBookings",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 100,
+    "line": 91,
     "description": ""
   },
   {
     "name": "catch",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 101,
+    "line": 92,
     "description": ""
   },
   {
     "name": "error",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 102,
+    "line": 93,
     "description": ""
   },
   {
-    "name": "useEffect",
+    "name": "error",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 106,
-    "description": ""
-  },
-  {
-    "name": "loadData",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 107,
-    "description": ""
-  },
-  {
-    "name": "setLoading",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 108,
-    "description": ""
-  },
-  {
-    "name": "if",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 110,
-    "description": ""
-  },
-  {
-    "name": "Boolean",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 111,
-    "description": ""
-  },
-  {
-    "name": "setIsAdmin",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 117,
-    "description": ""
-  },
-  {
-    "name": "fetchClasses",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 120,
+    "line": 94,
     "description": ""
   },
   {
     "name": "fetchUserBookings",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 121,
-    "description": ""
-  },
-  {
-    "name": "fetchCustomers",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 122,
-    "description": ""
-  },
-  {
-    "name": "setLoading",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 123,
-    "description": ""
-  },
-  {
-    "name": "loadData",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 125,
-    "description": ""
-  },
-  {
-    "name": "handlePrevWeek",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 128,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 129,
-    "description": ""
-  },
-  {
-    "name": "setDate",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 130,
-    "description": ""
-  },
-  {
-    "name": "setCurrentWeekStart",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 131,
-    "description": ""
-  },
-  {
-    "name": "setSelectedDate",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 132,
-    "description": ""
-  },
-  {
-    "name": "handleNextWeek",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 135,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 136,
-    "description": ""
-  },
-  {
-    "name": "setDate",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 137,
-    "description": ""
-  },
-  {
-    "name": "setCurrentWeekStart",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 138,
-    "description": ""
-  },
-  {
-    "name": "setSelectedDate",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 139,
-    "description": ""
-  },
-  {
-    "name": "goToCurrentWeek",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 142,
-    "description": ""
-  },
-  {
-    "name": "setCurrentWeekStart",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 143,
-    "description": ""
-  },
-  {
-    "name": "setSelectedDate",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 144,
-    "description": ""
-  },
-  {
-    "name": "isAlreadyBooked",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 147,
-    "description": ""
-  },
-  {
-    "name": "some",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 148,
-    "description": ""
-  },
-  {
-    "name": "isPastClass",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 150,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 151,
-    "description": ""
-  },
-  {
-    "name": "Date",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 152,
+    "line": 98,
     "description": ""
   },
   {
     "name": "if",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 155,
+    "line": 99,
     "description": ""
   },
   {
-    "name": "return",
+    "name": "collection",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 156,
+    "line": 101,
     "description": ""
   },
   {
-    "name": "return",
+    "name": "query",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 163,
+    "line": 102,
     "description": ""
   },
   {
-    "name": "formatDate",
+    "name": "getDocs",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 173,
+    "line": 103,
     "description": ""
   },
   {
-    "name": "from",
+    "name": "setBookings",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 186,
+    "line": 104,
     "description": ""
   },
   {
-    "name": "Date",
+    "name": "catch",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 187,
+    "line": 105,
     "description": ""
   },
   {
-    "name": "setDate",
+    "name": "error",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 188,
+    "line": 106,
     "description": ""
   },
   {
-    "name": "formatDate",
+    "name": "openParticipantsPopup",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 189,
+    "line": 111,
+    "description": "פופאפ משתתפים (נשמר – לא משנה את הזרימה שלך)"
+  },
+  {
+    "name": "query",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 113,
     "description": ""
   },
   {
-    "name": "formatDate",
+    "name": "getDocs",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 191,
+    "line": 114,
     "description": ""
   },
   {
-    "name": "return",
+    "name": "userIds",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 194,
+    "line": 115,
     "description": ""
   },
   {
-    "name": "setSelectedDate",
+    "name": "getDocs",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 197,
+    "line": 117,
     "description": ""
   },
   {
-    "name": "getDay",
+    "name": "forEach",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 207,
+    "line": 119,
     "description": ""
   },
   {
-    "name": "getDate",
+    "name": "data",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 209,
+    "line": 120,
     "description": ""
   },
   {
-    "name": "getMonth",
+    "name": "fullParticipants",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 210,
+    "line": 124,
     "description": ""
   },
   {
-    "name": "filter",
+    "name": "setParticipants",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 221,
-    "description": ""
-  },
-  {
-    "name": "filter",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 228,
-    "description": ""
-  },
-  {
-    "name": "sort",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 229,
-    "description": ""
-  },
-  {
-    "name": "map",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 230,
-    "description": ""
-  },
-  {
-    "name": "isAlreadyBooked",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 236,
-    "description": ""
-  },
-  {
-    "name": "isPastClass",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 238,
-    "description": ""
-  },
-  {
-    "name": "map",
-    "file": "src/pages/SchedulePage.jsx",
-    "line": 251,
+    "line": 130,
     "description": ""
   },
   {
     "name": "setShowParticipantsModal",
     "file": "src/pages/SchedulePage.jsx",
-    "line": 257,
+    "line": 131,
+    "description": ""
+  },
+  {
+    "name": "catch",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 132,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 133,
+    "description": ""
+  },
+  {
+    "name": "error",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 134,
+    "description": ""
+  },
+  {
+    "name": "useEffect",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 138,
+    "description": ""
+  },
+  {
+    "name": "loadData",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 139,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 140,
+    "description": ""
+  },
+  {
+    "name": "employee",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 141,
+    "description": ""
+  },
+  {
+    "name": "if",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 142,
+    "description": "קביעת הרשאות לפי employee (זהה ללוגיקה שלך)"
+  },
+  {
+    "name": "setIsAdmin",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 148,
+    "description": ""
+  },
+  {
+    "name": "all",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 150,
+    "description": ""
+  },
+  {
+    "name": "setLoading",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 151,
+    "description": ""
+  },
+  {
+    "name": "loadData",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 153,
+    "description": ""
+  },
+  {
+    "name": "handlePrevWeek",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 158,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 159,
+    "description": ""
+  },
+  {
+    "name": "setDate",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 160,
+    "description": ""
+  },
+  {
+    "name": "setCurrentWeekStart",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 161,
+    "description": ""
+  },
+  {
+    "name": "setSelectedDate",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 162,
+    "description": ""
+  },
+  {
+    "name": "handleNextWeek",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 165,
+    "description": ""
+  },
+  {
+    "name": "Date",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 166,
+    "description": ""
+  },
+  {
+    "name": "setDate",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 167,
+    "description": ""
+  },
+  {
+    "name": "setCurrentWeekStart",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 168,
+    "description": ""
+  },
+  {
+    "name": "setSelectedDate",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 169,
+    "description": ""
+  },
+  {
+    "name": "goToCurrentWeek",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 172,
+    "description": ""
+  },
+  {
+    "name": "getStartOfWeek",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 173,
+    "description": ""
+  },
+  {
+    "name": "setCurrentWeekStart",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 174,
+    "description": ""
+  },
+  {
+    "name": "setSelectedDate",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 175,
+    "description": ""
+  },
+  {
+    "name": "isAlreadyBooked",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 179,
+    "description": ""
+  },
+  {
+    "name": "dayClasses",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 182,
+    "description": ""
+  },
+  {
+    "name": "filter",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 184,
+    "description": ""
+  },
+  {
+    "name": "sort",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 185,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 190,
+    "description": ""
+  },
+  {
+    "name": "formatDate",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 210,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 233,
+    "description": ""
+  },
+  {
+    "name": "formatDate",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 234,
+    "description": ""
+  },
+  {
+    "name": "formatDate",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 236,
+    "description": ""
+  },
+  {
+    "name": "return",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 237,
+    "description": ""
+  },
+  {
+    "name": "setSelectedDate",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 241,
+    "description": ""
+  },
+  {
+    "name": "join",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 249,
+    "description": ""
+  },
+  {
+    "name": "getDay",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 253,
+    "description": ""
+  },
+  {
+    "name": "String",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 255,
+    "description": ""
+  },
+  {
+    "name": "from",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 271,
+    "description": ""
+  },
+  {
+    "name": "map",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 284,
+    "description": ""
+  },
+  {
+    "name": "isAlreadyBooked",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 290,
+    "description": ""
+  },
+  {
+    "name": "isPastClass",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 292,
+    "description": ""
+  },
+  {
+    "name": "openParticipantsPopup",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 296,
+    "description": "אם תרצה לפתוח מודאל משתתפים מהכרטיס:"
+  },
+  {
+    "name": "map",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 308,
+    "description": ""
+  },
+  {
+    "name": "setShowParticipantsModal",
+    "file": "src/pages/SchedulePage.jsx",
+    "line": 315,
     "description": ""
   },
   {
